@@ -1,0 +1,327 @@
+\babel@toc {english}{}\relax 
+\contentsline {part}{I\hspace {1em}Book I}{17}{part.1}%
+\contentsline {definition}{\numberline {I.1}}{17}{definition.1.1}%
+\contentsline {definition}{\numberline {I.2}}{17}{definition.1.2}%
+\contentsline {definition}{\numberline {I.3}}{17}{definition.1.3}%
+\contentsline {definition}{\numberline {I.4}}{17}{definition.1.4}%
+\contentsline {definition}{\numberline {I.5}}{17}{definition.1.5}%
+\contentsline {definition}{\numberline {I.6}}{17}{definition.1.6}%
+\contentsline {definition}{\numberline {I.7}}{17}{definition.1.7}%
+\contentsline {definition}{\numberline {I.8}}{17}{definition.1.8}%
+\contentsline {definition}{\numberline {I.9}}{18}{definition.1.9}%
+\contentsline {definition}{\numberline {I.10}}{18}{definition.1.10}%
+\contentsline {definition}{\numberline {I.11}}{18}{definition.1.11}%
+\contentsline {definition}{\numberline {I.12}}{18}{definition.1.12}%
+\contentsline {definition}{\numberline {I.13}}{18}{definition.1.13}%
+\contentsline {definition}{\numberline {I.14}}{18}{definition.1.14}%
+\contentsline {definition}{\numberline {I.15}}{18}{definition.1.15}%
+\contentsline {definition}{\numberline {I.16}}{18}{definition.1.16}%
+\contentsline {definition}{\numberline {I.17}}{18}{definition.1.17}%
+\contentsline {definition}{\numberline {I.18}}{19}{definition.1.18}%
+\contentsline {definition}{\numberline {I.19}}{19}{definition.1.19}%
+\contentsline {definition}{\numberline {I.20}}{19}{definition.1.20}%
+\contentsline {definition}{\numberline {I.21}}{19}{definition.1.21}%
+\contentsline {definition}{\numberline {I.22}}{19}{definition.1.22}%
+\contentsline {definition}{\numberline {I.23}}{19}{definition.1.23}%
+\contentsline {definition}{\numberline {I.24}}{19}{definition.1.24}%
+\contentsline {definition}{\numberline {I.25}}{19}{definition.1.25}%
+\contentsline {definition}{\numberline {I.26}}{19}{definition.1.26}%
+\contentsline {definition}{\numberline {I.27}}{20}{definition.1.27}%
+\contentsline {definition}{\numberline {I.28}}{20}{definition.1.28}%
+\contentsline {definition}{\numberline {I.29}}{20}{definition.1.29}%
+\contentsline {definition}{\numberline {I.30}}{20}{definition.1.30}%
+\contentsline {definition}{\numberline {I.31}}{20}{definition.1.31}%
+\contentsline {definition}{\numberline {I.32}}{20}{definition.1.32}%
+\contentsline {definition}{\numberline {I.33}}{20}{definition.1.33}%
+\contentsline {definition}{\numberline {I.34}}{20}{definition.1.34}%
+\contentsline {definition}{\numberline {I.35}}{20}{definition.1.35}%
+\contentsline {postulate}{\numberline {I.1}}{21}{postulate.1.1}%
+\contentsline {postulate}{\numberline {I.2}}{21}{postulate.1.2}%
+\contentsline {postulate}{\numberline {I.3}}{21}{postulate.1.3}%
+\contentsline {axiom}{\numberline {I.1}}{21}{axiom.1.1}%
+\contentsline {axiom}{\numberline {I.2}}{21}{axiom.1.2}%
+\contentsline {axiom}{\numberline {I.3}}{21}{axiom.1.3}%
+\contentsline {axiom}{\numberline {I.4}}{21}{axiom.1.4}%
+\contentsline {axiom}{\numberline {I.5}}{21}{axiom.1.5}%
+\contentsline {axiom}{\numberline {I.6}}{22}{axiom.1.6}%
+\contentsline {axiom}{\numberline {I.7}}{22}{axiom.1.7}%
+\contentsline {axiom}{\numberline {I.8}}{22}{axiom.1.8}%
+\contentsline {axiom}{\numberline {I.9}}{22}{axiom.1.9}%
+\contentsline {axiom}{\numberline {I.10}}{22}{axiom.1.10}%
+\contentsline {axiom}{\numberline {I.11}}{22}{axiom.1.11}%
+\contentsline {axiom}{\numberline {I.12}}{22}{axiom.1.12}%
+\contentsline {proposition}{\numberline {I.1}Prop. I. Prob.}{23}{proposition.1.1}%
+\contentsline {proposition}{\numberline {I.2}Prop. II. Prob.}{24}{proposition.1.2}%
+\contentsline {proposition}{\numberline {I.3}Prop. III. Prob.}{25}{proposition.1.3}%
+\contentsline {proposition}{\numberline {I.4}Prop. IV. Theor.}{26}{proposition.1.4}%
+\contentsline {proposition}{\numberline {I.5}Prop. V. Theor.}{27}{proposition.1.5}%
+\contentsline {proposition}{\numberline {I.6}Prop VI. Theor.}{28}{proposition.1.6}%
+\contentsline {proposition}{\numberline {I.7}Prop VII. Theor.}{29}{proposition.1.7}%
+\contentsline {proposition}{\numberline {I.8}Prop VIII. Theor.}{30}{proposition.1.8}%
+\contentsline {proposition}{\numberline {I.9}Prop IX. Prob.}{31}{proposition.1.9}%
+\contentsline {proposition}{\numberline {I.10}Prop X. Prob.}{32}{proposition.1.10}%
+\contentsline {proposition}{\numberline {I.11}Prop XI. Prob.}{33}{proposition.1.11}%
+\contentsline {proposition}{\numberline {I.12}Prop XII. Prob.}{34}{proposition.1.12}%
+\contentsline {proposition}{\numberline {I.13}Prop XIII. Theor.}{35}{proposition.1.13}%
+\contentsline {proposition}{\numberline {I.14}Prop XIV. Theor.}{36}{proposition.1.14}%
+\contentsline {proposition}{\numberline {I.15}Prop XV. Theor.}{37}{proposition.1.15}%
+\contentsline {proposition}{\numberline {I.16}Prop XVI. Theor.}{38}{proposition.1.16}%
+\contentsline {proposition}{\numberline {I.17}Prop XVII. Theor.}{39}{proposition.1.17}%
+\contentsline {proposition}{\numberline {I.18}Prop XVIII. Theor.}{40}{proposition.1.18}%
+\contentsline {proposition}{\numberline {I.19}Prop XIX. Theor.}{41}{proposition.1.19}%
+\contentsline {proposition}{\numberline {I.20}Prop XX. Theor.}{42}{proposition.1.20}%
+\contentsline {proposition}{\numberline {I.21}Prop XXI. Theor.}{43}{proposition.1.21}%
+\contentsline {proposition}{\numberline {I.22}Prop XXII. Prob.}{44}{proposition.1.22}%
+\contentsline {proposition}{\numberline {I.23}Prop XXIII. Prob.}{45}{proposition.1.23}%
+\contentsline {proposition}{\numberline {I.24}Prop XXIV. Theor.}{46}{proposition.1.24}%
+\contentsline {proposition}{\numberline {I.25}Prop XXV. Theor.}{47}{proposition.1.25}%
+\contentsline {proposition}{\numberline {I.26}Prop XXVI. Theor.}{48}{proposition.1.26}%
+\contentsline {subproposition}{\numberline {}Case I.}{48}{subproposition.1.26.1}%
+\contentsline {subproposition}{\numberline {}Case II.}{49}{subproposition.1.26.2}%
+\contentsline {proposition}{\numberline {I.27}Prop XXVII. Theor.}{50}{proposition.1.27}%
+\contentsline {proposition}{\numberline {I.28}Prop XXVIII. Theor.}{51}{proposition.1.28}%
+\contentsline {proposition}{\numberline {I.29}Prop XXIX. Theor.}{52}{proposition.1.29}%
+\contentsline {proposition}{\numberline {I.30}Prop XXX. Theor.}{53}{proposition.1.30}%
+\contentsline {proposition}{\numberline {I.31}Prop XXXI. Prob.}{54}{proposition.1.31}%
+\contentsline {proposition}{\numberline {I.32}Prop XXXII. Theor.}{55}{proposition.1.32}%
+\contentsline {proposition}{\numberline {I.33}Prop XXXIII. Theor.}{56}{proposition.1.33}%
+\contentsline {proposition}{\numberline {I.34}Prop XXXIV. Theor.}{57}{proposition.1.34}%
+\contentsline {proposition}{\numberline {I.35}Prop XXXV. Theor.}{58}{proposition.1.35}%
+\contentsline {proposition}{\numberline {I.36}Prop XXXVI. Theor.}{59}{proposition.1.36}%
+\contentsline {proposition}{\numberline {I.37}Prop XXXVII. Theor.}{60}{proposition.1.37}%
+\contentsline {proposition}{\numberline {I.38}Prop XXXVIII. Theor.}{61}{proposition.1.38}%
+\contentsline {proposition}{\numberline {I.39}Prop XXXIX. Theor.}{62}{proposition.1.39}%
+\contentsline {proposition}{\numberline {I.40}Prop XL. Theor.}{63}{proposition.1.40}%
+\contentsline {proposition}{\numberline {I.41}Prop XLI. Theor.}{64}{proposition.1.41}%
+\contentsline {proposition}{\numberline {I.42}Prop XLII. Prob.}{65}{proposition.1.42}%
+\contentsline {proposition}{\numberline {I.43}Prop XLIII. Theor.}{66}{proposition.1.43}%
+\contentsline {proposition}{\numberline {I.44}Prop XLIV. Prob.}{67}{proposition.1.44}%
+\contentsline {proposition}{\numberline {I.45}Prop XLV. Prob.}{68}{proposition.1.45}%
+\contentsline {proposition}{\numberline {I.46}Prop XLVI. Prob.}{69}{proposition.1.46}%
+\contentsline {proposition}{\numberline {I.47}Prop XLVII. Theor.}{70}{proposition.1.47}%
+\contentsline {proposition}{\numberline {I.48}Prop XLVIII. Theor.}{72}{proposition.1.48}%
+\contentsline {part}{II\hspace {1em}Book II}{73}{part.2}%
+\contentsline {definition}{\numberline {II.1}Definition I}{73}{definition.2.1}%
+\contentsline {definition}{\numberline {II.2}Definition II}{74}{definition.2.2}%
+\contentsline {proposition}{\numberline {II.1}Prop. I. theor.}{75}{proposition.2.1}%
+\contentsline {proposition}{\numberline {II.2}Prop. II. theor.}{76}{proposition.2.2}%
+\contentsline {proposition}{\numberline {II.3}Prop. III. theor.}{77}{proposition.2.3}%
+\contentsline {proposition}{\numberline {II.4}Prop. IV. theor.}{78}{proposition.2.4}%
+\contentsline {proposition}{\numberline {II.5}Prop. V. theor.}{79}{proposition.2.5}%
+\contentsline {proposition}{\numberline {II.6}Prop. VI. theor.}{80}{proposition.2.6}%
+\contentsline {proposition}{\numberline {II.7}Prop. VII. theor.}{81}{proposition.2.7}%
+\contentsline {proposition}{\numberline {II.8}Prop. VIII. theor.}{82}{proposition.2.8}%
+\contentsline {proposition}{\numberline {II.9}Prop. IX. theor.}{83}{proposition.2.9}%
+\contentsline {proposition}{\numberline {II.10}Prop. X. theor.}{84}{proposition.2.10}%
+\contentsline {proposition}{\numberline {II.11}Prop. XI. prob.}{85}{proposition.2.11}%
+\contentsline {proposition}{\numberline {II.12}Prop. XII. theor.}{86}{proposition.2.12}%
+\contentsline {proposition}{\numberline {II.13}Prop. XIII. theor.}{87}{proposition.2.13}%
+\contentsline {proposition}{\numberline {II.14}Prop. XIV. prob.}{88}{proposition.2.14}%
+\contentsline {part}{III\hspace {1em}Book III}{89}{part.3}%
+\contentsline {definition}{\numberline {III.1}}{89}{definition.3.1}%
+\contentsline {definition}{\numberline {III.2}}{89}{definition.3.2}%
+\contentsline {definition}{\numberline {III.3}}{89}{definition.3.3}%
+\contentsline {definition}{\numberline {III.4}}{89}{definition.3.4}%
+\contentsline {definition}{\numberline {III.5}}{89}{definition.3.5}%
+\contentsline {definition}{\numberline {III.6}}{89}{definition.3.6}%
+\contentsline {definition}{\numberline {III.7}}{90}{definition.3.7}%
+\contentsline {definition}{\numberline {III.8}}{90}{definition.3.8}%
+\contentsline {definition}{\numberline {III.9}}{90}{definition.3.9}%
+\contentsline {definition}{\numberline {III.10}}{90}{definition.3.10}%
+\contentsline {definition}{\numberline {III.11}}{90}{definition.3.11}%
+\contentsline {definition}{\numberline {III.12}}{90}{definition.3.12}%
+\contentsline {proposition}{\numberline {III.1}Prop. I. prob.}{91}{proposition.3.1}%
+\contentsline {proposition}{\numberline {III.2}Prop. II. theor.}{92}{proposition.3.2}%
+\contentsline {proposition}{\numberline {III.3}Prop. III. theor.}{93}{proposition.3.3}%
+\contentsline {proposition}{\numberline {III.4}Prop. IV. theor.}{94}{proposition.3.4}%
+\contentsline {proposition}{\numberline {III.5}Prop. V. theor.}{95}{proposition.3.5}%
+\contentsline {proposition}{\numberline {III.6}Prop. VI. theor.}{96}{proposition.3.6}%
+\contentsline {proposition}{\numberline {III.7}Prop. VII. theor.}{97}{proposition.3.7}%
+\contentsline {subproposition}{\numberline {}Figure I.}{97}{subproposition.3.7.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{98}{subproposition.3.7.2}%
+\contentsline {proposition}{\numberline {III.8}Prop. VIII. theor.}{99}{proposition.3.8}%
+\contentsline {subproposition}{\numberline {}I.}{99}{subproposition.3.8.1}%
+\contentsline {subproposition}{\numberline {}II.}{99}{subproposition.3.8.2}%
+\contentsline {subproposition}{\numberline {}III.}{100}{subproposition.3.8.3}%
+\contentsline {proposition}{\numberline {III.9}Prop. IX. theor.}{101}{proposition.3.9}%
+\contentsline {proposition}{\numberline {III.10}Prop. X. theor.}{102}{proposition.3.10}%
+\contentsline {proposition}{\numberline {III.11}Prop. XI. theor.}{103}{proposition.3.11}%
+\contentsline {proposition}{\numberline {III.12}Prop. XII. theor.}{104}{proposition.3.12}%
+\contentsline {proposition}{\numberline {III.13}Prop. XIII. theor.}{105}{proposition.3.13}%
+\contentsline {subproposition}{\numberline {}Figure I.}{105}{subproposition.3.13.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{105}{subproposition.3.13.2}%
+\contentsline {subproposition}{\numberline {}Figure III.}{106}{subproposition.3.13.3}%
+\contentsline {proposition}{\numberline {III.14}Prop. XIV. theor.}{107}{proposition.3.14}%
+\contentsline {proposition}{\numberline {III.15}Prop. XV. theor.}{108}{proposition.3.15}%
+\contentsline {subproposition}{\numberline {}Figure I.}{108}{subproposition.3.15.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{109}{subproposition.3.15.2}%
+\contentsline {proposition}{\numberline {III.16}Prop. XVI. theor.}{110}{proposition.3.16}%
+\contentsline {subproposition}{\numberline {}Part I.}{110}{subproposition.3.16.1}%
+\contentsline {subproposition}{\numberline {}Part II.}{110}{subproposition.3.16.2}%
+\contentsline {proposition}{\numberline {III.17}Prop. XVII. prob.}{111}{proposition.3.17}%
+\contentsline {proposition}{\numberline {III.18}Prop. XVIII. theor.}{112}{proposition.3.18}%
+\contentsline {proposition}{\numberline {III.19}Prop. XIX. theor.}{113}{proposition.3.19}%
+\contentsline {proposition}{\numberline {III.20}Prop. XX. theor.}{114}{proposition.3.20}%
+\contentsline {subproposition}{\numberline {}Figure I.}{114}{subproposition.3.20.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{114}{subproposition.3.20.2}%
+\contentsline {subproposition}{\numberline {}Figure III.}{115}{subproposition.3.20.3}%
+\contentsline {proposition}{\numberline {III.21}Prop. XXI. theor.}{116}{proposition.3.21}%
+\contentsline {subproposition}{\numberline {}Figure I.}{116}{subproposition.3.21.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{116}{subproposition.3.21.2}%
+\contentsline {proposition}{\numberline {III.22}Prop. XXII. theor.}{117}{proposition.3.22}%
+\contentsline {proposition}{\numberline {III.23}Prop. XXIII. theor.}{118}{proposition.3.23}%
+\contentsline {proposition}{\numberline {III.24}Prop. XXIV. theor.}{119}{proposition.3.24}%
+\contentsline {proposition}{\numberline {III.25}Prop. XXV. prob.}{120}{proposition.3.25}%
+\contentsline {proposition}{\numberline {III.26}Prop. XXVI. theor.}{121}{proposition.3.26}%
+\contentsline {proposition}{\numberline {III.27}Prop. XXVII. theor.}{122}{proposition.3.27}%
+\contentsline {proposition}{\numberline {III.28}Prop. XXVIII. theor.}{123}{proposition.3.28}%
+\contentsline {proposition}{\numberline {III.29}Prop. XXIX. theor.}{124}{proposition.3.29}%
+\contentsline {proposition}{\numberline {III.30}Prop. XXX. prob.}{125}{proposition.3.30}%
+\contentsline {proposition}{\numberline {III.31}Prop. XXXI. theor.}{126}{proposition.3.31}%
+\contentsline {subproposition}{\numberline {}Figure I.}{126}{subproposition.3.31.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{126}{subproposition.3.31.2}%
+\contentsline {subproposition}{\numberline {}Figure III.}{126}{subproposition.3.31.3}%
+\contentsline {proposition}{\numberline {III.32}Prop. XXXII. theor.}{127}{proposition.3.32}%
+\contentsline {proposition}{\numberline {III.33}Prop. XXXIII. prob.}{128}{proposition.3.33}%
+\contentsline {proposition}{\numberline {III.34}Prop. XXXIV. prob.}{129}{proposition.3.34}%
+\contentsline {proposition}{\numberline {III.35}Prop. XXXV. theor.}{130}{proposition.3.35}%
+\contentsline {subproposition}{\numberline {}Figure I.}{130}{subproposition.3.35.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{130}{subproposition.3.35.2}%
+\contentsline {subproposition}{\numberline {}Figure III.}{130}{subproposition.3.35.3}%
+\contentsline {proposition}{\numberline {III.36}Prop. XXXVI. theor.}{131}{proposition.3.36}%
+\contentsline {subproposition}{\numberline {}Figure I.}{131}{subproposition.3.36.1}%
+\contentsline {subproposition}{\numberline {}Figure II.}{131}{subproposition.3.36.2}%
+\contentsline {proposition}{\numberline {III.37}Prop. XXXVII. theor.}{132}{proposition.3.37}%
+\contentsline {part}{IV\hspace {1em}Book IV}{133}{part.4}%
+\contentsline {definition}{\numberline {IV.1}}{133}{definition.4.1}%
+\contentsline {definition}{\numberline {IV.2}}{133}{definition.4.2}%
+\contentsline {definition}{\numberline {IV.3}}{133}{definition.4.3}%
+\contentsline {definition}{\numberline {IV.4}}{133}{definition.4.4}%
+\contentsline {definition}{\numberline {IV.5}}{133}{definition.4.5}%
+\contentsline {definition}{\numberline {IV.6}}{134}{definition.4.6}%
+\contentsline {definition}{\numberline {IV.7}}{134}{definition.4.7}%
+\contentsline {proposition}{\numberline {IV.1}Prop. I. prob.}{135}{proposition.4.1}%
+\contentsline {proposition}{\numberline {IV.2}Prop. II. prob.}{136}{proposition.4.2}%
+\contentsline {proposition}{\numberline {IV.3}Prop. III. prob.}{137}{proposition.4.3}%
+\contentsline {proposition}{\numberline {IV.4}Prop. IV. prob.}{138}{proposition.4.4}%
+\contentsline {proposition}{\numberline {IV.5}Prop. V. prob.}{139}{proposition.4.5}%
+\contentsline {proposition}{\numberline {IV.6}Prop. VI. prob.}{140}{proposition.4.6}%
+\contentsline {proposition}{\numberline {IV.7}Prop. VII. prob.}{141}{proposition.4.7}%
+\contentsline {proposition}{\numberline {IV.8}Prop. VIII. prob.}{142}{proposition.4.8}%
+\contentsline {proposition}{\numberline {IV.9}Prop. IX. prob.}{143}{proposition.4.9}%
+\contentsline {proposition}{\numberline {IV.10}Prop. X. prob.}{144}{proposition.4.10}%
+\contentsline {proposition}{\numberline {IV.11}Prop. XI. prob.}{145}{proposition.4.11}%
+\contentsline {proposition}{\numberline {IV.12}Prop. XII. prob.}{146}{proposition.4.12}%
+\contentsline {proposition}{\numberline {IV.13}Prop. XIII. prob.}{148}{proposition.4.13}%
+\contentsline {proposition}{\numberline {IV.14}Prop. XIV. prob.}{150}{proposition.4.14}%
+\contentsline {proposition}{\numberline {IV.15}Prop. XV. prob.}{151}{proposition.4.15}%
+\contentsline {proposition}{\numberline {IV.16}Prop. XVI. prob.}{152}{proposition.4.16}%
+\contentsline {part}{V\hspace {1em}Book V}{153}{part.5}%
+\contentsline {definition}{\numberline {V.1}}{153}{definition.5.1}%
+\contentsline {definition}{\numberline {V.2}}{153}{definition.5.2}%
+\contentsline {definition}{\numberline {V.3}}{153}{definition.5.3}%
+\contentsline {definition}{\numberline {V.4}}{153}{definition.5.4}%
+\contentsline {axiom}{\numberline {V.1}}{154}{axiom.5.1}%
+\contentsline {axiom}{\numberline {V.2}}{154}{axiom.5.2}%
+\contentsline {axiom}{\numberline {V.3}}{154}{axiom.5.3}%
+\contentsline {proposition}{\numberline {V.1}Prop. I. Theor.}{156}{proposition.5.1}%
+\contentsline {proposition}{\numberline {V.2}Prop. II. Theor.}{157}{proposition.5.2}%
+\contentsline {proposition}{\numberline {V.3}Prop. III. Theor.}{158}{proposition.5.3}%
+\contentsline {definition}{\numberline {V.5}Definition V.}{160}{definition.5.5}%
+\contentsline {proposition}{\numberline {V.4}Prop. IV. Theor.}{164}{proposition.5.4}%
+\contentsline {proposition}{\numberline {V.5}Prop. V. Theor.}{165}{proposition.5.5}%
+\contentsline {proposition}{\numberline {V.6}Prop. VI. Theor.}{166}{proposition.5.6}%
+\contentsline {propositionAZ}{\numberline {V.A}Prop. A. Theor.}{167}{propositionAZ.5.1}%
+\contentsline {definition}{\numberline {V.14}Definition XIV}{167}{definition.5.14}%
+\contentsline {propositionAZ}{\numberline {V.B}Prop. B. Theor.}{168}{propositionAZ.5.2}%
+\contentsline {propositionAZ}{\numberline {V.C}Prop. C. Theor.}{169}{propositionAZ.5.3}%
+\contentsline {propositionAZ}{\numberline {V.D}Prop. D. Theor.}{171}{propositionAZ.5.4}%
+\contentsline {proposition}{\numberline {V.7}Prop. VII. Theor.}{173}{proposition.5.7}%
+\contentsline {definition}{\numberline {V.15}Definition VII.}{174}{definition.5.15}%
+\contentsline {proposition}{\numberline {V.8}Prop. VIII. Theor.}{177}{proposition.5.8}%
+\contentsline {proposition}{\numberline {V.9}Prop. IX. Theor.}{180}{proposition.5.9}%
+\contentsline {proposition}{\numberline {V.10}Prop. X. Theor.}{181}{proposition.5.10}%
+\contentsline {proposition}{\numberline {V.11}Prop. XI. Theor.}{182}{proposition.5.11}%
+\contentsline {proposition}{\numberline {V.12}Prop. XII. Theor.}{183}{proposition.5.12}%
+\contentsline {proposition}{\numberline {V.13}Prop. XIII. Theor.}{184}{proposition.5.13}%
+\contentsline {proposition}{\numberline {V.14}Prop. XIV. Theor.}{185}{proposition.5.14}%
+\contentsline {proposition}{\numberline {V.15}Prop. XV. Theor.}{186}{proposition.5.15}%
+\contentsline {definition}{\numberline {V.8}Definition XIII}{187}{definition.5.8}%
+\contentsline {proposition}{\numberline {V.16}Prop. XVI. Theor.}{188}{proposition.5.16}%
+\contentsline {definition}{\numberline {V.16}Definition XVI}{188}{definition.5.16}%
+\contentsline {proposition}{\numberline {V.17}Prop. XVII. Theor.}{189}{proposition.5.17}%
+\contentsline {definition}{\numberline {V.15}Definition XV}{190}{definition.5.15}%
+\contentsline {proposition}{\numberline {V.18}Prop. XVIII. Theor.}{191}{proposition.5.18}%
+\contentsline {proposition}{\numberline {V.19}Prop. XIX. Theor.}{192}{proposition.5.19}%
+\contentsline {definition}{\numberline {V.17}Definition XVII}{192}{definition.5.17}%
+\contentsline {propositionAZ}{\numberline {V.E}Prop. E. Theor.}{193}{propositionAZ.5.5}%
+\contentsline {definition}{\numberline {V.18}Definition XVIII}{193}{definition.5.18}%
+\contentsline {definition}{\numberline {V.19}Definition XIX}{194}{definition.5.19}%
+\contentsline {definition}{\numberline {V.20}Definition XX}{194}{definition.5.20}%
+\contentsline {proposition}{\numberline {V.20}Prop. XX. Theor.}{195}{proposition.5.20}%
+\contentsline {proposition}{\numberline {V.21}Prop. XXI. Theor.}{196}{proposition.5.21}%
+\contentsline {proposition}{\numberline {V.22}Prop. XXII. Theor.}{197}{proposition.5.22}%
+\contentsline {proposition}{\numberline {V.23}Prop. XXIII. Theor.}{199}{proposition.5.23}%
+\contentsline {proposition}{\numberline {V.24}Prop. XXIV. Theor.}{201}{proposition.5.24}%
+\contentsline {proposition}{\numberline {V.25}Prop. XXV. Theor.}{202}{proposition.5.25}%
+\contentsline {definition}{\numberline {V.10}Definition X}{203}{definition.5.10}%
+\contentsline {definition}{\numberline {V.11}Definition XI}{204}{definition.5.11}%
+\contentsline {definitionAZ}{\numberline {V.A}Definition A}{205}{definitionAZ.5.1}%
+\contentsline {propositionAZ}{\numberline {V.F}Prop. F. Theor.}{207}{propositionAZ.5.6}%
+\contentsline {propositionAZ}{\numberline {V.G}Prop. G. Theor.}{209}{propositionAZ.5.7}%
+\contentsline {propositionAZ}{\numberline {V.H}Prop. H. Theor.}{210}{propositionAZ.5.8}%
+\contentsline {propositionAZ}{\numberline {V.K}Prop. K. Theor.}{212}{propositionAZ.5.11}%
+\contentsline {part}{VI\hspace {1em}Book VI}{215}{part.6}%
+\contentsline {definition}{\numberline {VI.1}}{215}{definition.6.1}%
+\contentsline {definition}{\numberline {VI.2}}{215}{definition.6.2}%
+\contentsline {definition}{\numberline {VI.3}}{215}{definition.6.3}%
+\contentsline {definition}{\numberline {VI.4}}{215}{definition.6.4}%
+\contentsline {proposition}{\numberline {VI.1}Prop. I. theor.}{216}{proposition.6.1}%
+\contentsline {proposition}{\numberline {VI.2}Prop. II. theor.}{218}{proposition.6.2}%
+\contentsline {subproposition}{\numberline {}Part I.}{218}{subproposition.6.2.1}%
+\contentsline {subproposition}{\numberline {}Part II.}{219}{subproposition.6.2.2}%
+\contentsline {proposition}{\numberline {VI.3}Prop. III. theor.}{220}{proposition.6.3}%
+\contentsline {subproposition}{\numberline {}Part I.}{220}{subproposition.6.3.1}%
+\contentsline {subproposition}{\numberline {}Part II.}{221}{subproposition.6.3.2}%
+\contentsline {proposition}{\numberline {VI.4}Prop. IV. theor.}{222}{proposition.6.4}%
+\contentsline {proposition}{\numberline {VI.5}Prop. V. theor.}{223}{proposition.6.5}%
+\contentsline {proposition}{\numberline {VI.6}Prop. VI. theor.}{224}{proposition.6.6}%
+\contentsline {proposition}{\numberline {VI.7}Prop. VII. theor.}{225}{proposition.6.7}%
+\contentsline {proposition}{\numberline {VI.8}Prop. VIII. theor.}{227}{proposition.6.8}%
+\contentsline {proposition}{\numberline {VI.9}Prop. IX. prob.}{228}{proposition.6.9}%
+\contentsline {proposition}{\numberline {VI.10}Prop. X. prob.}{229}{proposition.6.10}%
+\contentsline {proposition}{\numberline {VI.11}Prop. XI. prob.}{230}{proposition.6.11}%
+\contentsline {proposition}{\numberline {VI.12}Prop. XII. prob.}{231}{proposition.6.12}%
+\contentsline {proposition}{\numberline {VI.13}Prop. XIII. prob.}{232}{proposition.6.13}%
+\contentsline {proposition}{\numberline {VI.14}Prop. XIV. theor.}{233}{proposition.6.14}%
+\contentsline {proposition}{\numberline {VI.15}Prop. XV. theor.}{234}{proposition.6.15}%
+\contentsline {subproposition}{\numberline {}I.}{234}{subproposition.6.15.1}%
+\contentsline {subproposition}{\numberline {}II.}{235}{subproposition.6.15.2}%
+\contentsline {proposition}{\numberline {VI.16}Prop. XVI. theor.}{236}{proposition.6.16}%
+\contentsline {subproposition}{\numberline {}Part I.}{236}{subproposition.6.16.1}%
+\contentsline {subproposition}{\numberline {}Part II.}{237}{subproposition.6.16.2}%
+\contentsline {proposition}{\numberline {VI.17}Prop. XVII. theor.}{238}{proposition.6.17}%
+\contentsline {subproposition}{\numberline {}Part I.}{238}{subproposition.6.17.1}%
+\contentsline {subproposition}{\numberline {}Part II.}{238}{subproposition.6.17.2}%
+\contentsline {proposition}{\numberline {VI.18}Prop. XVIII. prob.}{239}{proposition.6.18}%
+\contentsline {proposition}{\numberline {VI.19}Prop. XIX. theor.}{240}{proposition.6.19}%
+\contentsline {proposition}{\numberline {VI.20}Prop. XX. theor.}{241}{proposition.6.20}%
+\contentsline {proposition}{\numberline {VI.21}Prop. XXI. theor.}{243}{proposition.6.21}%
+\contentsline {proposition}{\numberline {VI.22}Prop. XXII. theor.}{244}{proposition.6.22}%
+\contentsline {subproposition}{\numberline {}Part I.}{244}{subproposition.6.22.1}%
+\contentsline {subproposition}{\numberline {}Part II.}{245}{subproposition.6.22.2}%
+\contentsline {proposition}{\numberline {VI.23}Prop. XXIII. theor.}{246}{proposition.6.23}%
+\contentsline {proposition}{\numberline {VI.24}Prop. XXIV. theor.}{247}{proposition.6.24}%
+\contentsline {proposition}{\numberline {VI.25}Prop. XXV. prob.}{248}{proposition.6.25}%
+\contentsline {proposition}{\numberline {VI.26}Prop. XXVI. theor.}{250}{proposition.6.26}%
+\contentsline {proposition}{\numberline {VI.27}Prop. XXVII. theor.}{251}{proposition.6.27}%
+\contentsline {proposition}{\numberline {VI.28}Prop. XXVIII. prob.}{252}{proposition.6.28}%
+\contentsline {proposition}{\numberline {VI.29}Prop. XXIX. prob.}{253}{proposition.6.29}%
+\contentsline {proposition}{\numberline {VI.30}Prop. XXX. prob.}{254}{proposition.6.30}%
+\contentsline {proposition}{\numberline {VI.31}Prop. XXXI. theor.}{255}{proposition.6.31}%
+\contentsline {proposition}{\numberline {VI.32}Prop. XXXII. theor.}{256}{proposition.6.32}%
+\contentsline {proposition}{\numberline {VI.33}Prop. XXXIII. theor.}{257}{proposition.6.33}%
+\contentsline {propositionAZ}{\numberline {VI.A}Prop. A. theor.}{259}{propositionAZ.6.1}%
+\contentsline {propositionAZ}{\numberline {VI.B}Prop. B. theor.}{260}{propositionAZ.6.2}%
+\contentsline {propositionAZ}{\numberline {VI.C}Prop. C. theor.}{261}{propositionAZ.6.3}%
+\contentsline {propositionAZ}{\numberline {VI.D}Prop. D. theor.}{262}{propositionAZ.6.4}%

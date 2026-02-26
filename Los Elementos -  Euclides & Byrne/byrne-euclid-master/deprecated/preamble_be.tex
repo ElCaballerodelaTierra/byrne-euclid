@@ -1,0 +1,494 @@
+% Figure placement it definitions is messy, below we define all the indentation, figure and lettrine placing stuff.
+\newdimen\LettrineSize
+\newcount\LettrineScale
+\newdimen\LettrinePadding
+\newdimen\PlateWidth
+\newdimen\PlateHeight
+\newdimen\pictureIndent
+\newdimen\PcH
+\LettrineSize=1.5cm
+\LettrineScale=300
+\LettrinePadding=2mm
+\PlateHeight=1.5cm
+\PlateWidth=7.6cm
+\def\LettrineTotalWidth{\dimexpr \LettrineSize + \LettrinePadding \relax}
+\def\LettrineTotalHeight{\dimexpr \LettrineSize + \LettrinePadding \relax}
+\def\LettrineTotalHeightMinusLine{\dimexpr \LettrineTotalHeight -0.8\baselineskip}
+\def\defaultLettrineLines{4}
+\pictureIndent=0.5\textwidth
+\newdimen\oddpict
+\oddpict=\backspace
+\advance \oddpict by \textwidth
+\advance \oddpict by -\pictureIndent
+
+\newdimen\evenpict
+\evenpict=\cutspace
+\advance \evenpict by \pictureIndent
+
+\define\drawCurrentPictureWide{
+	\setbox1\vbox{\drawCurrentPicture}
+	\newdimen\pictVOffset
+	\pictVOffset=\topmargin
+	\advance\pictVOffset by \pagetotal
+	\pictureIndent=\wd1
+	\PcH=\ht1
+	\advance\PcH by \pagetotal
+	\advance \pictureIndent by 1cm
+	\advance \pictureIndent by -\cutspace
+	\doifoddpageelse{
+		\oddpict=\backspace
+		\advance \oddpict by \makeupwidth
+		\advance \oddpict by -\pictureIndent
+		\definelayer[curpic]
+			[x=\oddpict,y=\pictVOffset,width=\textwidth,height=\textheight]
+	}{
+		\evenpict=\cutspace
+		\advance \evenpict by \pictureIndent
+		\definelayer[curpic]
+			[x=0cm,y=\pictVOffset,width=\evenpict,height=\textheight]
+	}
+	\setlayer[curpic][voffset=0.5cm]{\hskip 0.5cm\box1\hskip 0.5cm}
+	\setupbackgrounds[page][background=curpic]
+}
+
+% Often it's convenient to skip come lines and continue below main figure, 
+% leaving all the indentation stuff above
+\newdimen\dTB
+\def\skipToPictureBottom{
+\dTB=\PcH
+\advance\dTB by -\pagetotal
+\vskip \dTB
+\resetInitialIndentation
+}
+
+\newdimen\pictureWithLettrineLineLength
+\newdimen\pictureWithLettrineIndent
+\newdimen\pictureOnlyLineLength
+\newdimen\pictureWithLettrineLineLength
+\newcount\Y
+\newcount\Yy
+\newcount\X
+\X=0
+\newcount\numOfIndLines
+
+\newif\ifinsideII
+\insideIIfalse
+
+\def\resetInitialIndentation{\parshape=0\global\numOfIndLines=0\global\def\par{\endgraf}\everypar=\expandafter{\the\toks0}\global\insideIIfalse}
+
+\newcount\linesofar
+
+\toks0=\expandafter{\the\everypar}
+
+\def\initialIndentation{\dosingleempty\initialindentation}
+\def\initialindentation[#1]#2{
+	\global\toks0=\expandafter{\the\everypar}
+	\iffirstargument
+		\def\lettrineLines{#1}
+	\else%
+		\def\lettrineLines{\defaultLettrineLines}
+	\fi
+	\ifinsideII\resetInitialIndentation\fi
+	\global\insideIItrue
+	\ \vskip 0pt
+ %https://books.google.com/books?id=iDb2BwAAQBAJ&pg=PA107&lpg=PA107&dq=tex+parshape+paragraphs&source=bl&ots=GmFvQnIUr7&sig=oJ-mtVEwOttepWpGi2BABemAMWw&hl=en&sa=X&ved=0ahUKEwjxrbPk-uXKAhVClB4KHSxUBqwQ6AEIQTAF#v=onepage&q=tex%20parshape%20paragraphs&f=false
+	\linesofar=0
+	\global\numOfIndLines=#2
+	\def\par{{\endgraf\global\linesofar=\prevgraf}}
+	\everypar={\ifnum\linesofar<\numOfIndLines\prevgraf=\linesofar\else\resetInitialIndentation\fi} %
+	\pictureOnlyLineLength=\textwidth
+	\pictureWithLettrineLineLength=\textwidth
+	\advance \pictureOnlyLineLength by -\pictureIndent
+	\doifoddpageelse{
+		\pictureWithLettrineLineLength=\pictureOnlyLineLength
+		\advance \pictureWithLettrineLineLength by -\LettrineTotalWidth
+		\def\partindent{0cm \pictureOnlyLineLength}
+		\ifnum\textdirection=0
+			\def\doubleindent{\LettrineTotalWidth \pictureWithLettrineLineLength}
+		\fi
+		\ifnum\textdirection=1
+			\def\doubleindent{0cm \pictureWithLettrineLineLength}
+		\fi
+	}{
+		\pictureWithLettrineIndent=\pictureIndent
+		\advance \pictureWithLettrineIndent by \LettrineTotalWidth
+		\pictureWithLettrineLineLength=\pictureOnlyLineLength
+		\advance \pictureWithLettrineLineLength by -\LettrineTotalWidth
+		\def\partindent{\pictureIndent \pictureOnlyLineLength}
+		\ifnum\textdirection=0
+			\def\doubleindent{\pictureWithLettrineIndent \pictureWithLettrineLineLength}
+		\fi
+		\ifnum\textdirection=1
+			\def\doubleindent{0cm \pictureWithLettrineLineLength}
+		\fi
+	}
+	\def\preinitindent{}
+	\Yy=\lettrineLines
+	\advance \Yy by 1 
+	\Y=\lettrineLines
+	\loop 
+	\expandafter\def\expandafter\preinitindent\expandafter{\preinitindent\doubleindent}
+	\advance \Y by -1 
+	\ifnum \Y>0
+	\repeat
+	\def\initindent{\preinitindent}
+	\global\X=#2
+	\ifnum \X>\Yy
+		\advance \X by -\lettrineLines 
+		\loop 
+			\expandafter\def\expandafter\initindent\expandafter{\initindent\partindent}
+		\advance \X by -1 
+		\ifnum \X>1
+		\repeat
+	\fi
+	\parshape=#2
+	\initindent
+	0cm \textwidth
+}
+
+%every lettrine has a counter ltrn#1 that determines which file to pick
+
+\newwrite \lettrineslist
+\openout \lettrineslist = lettrines/lettrineslist.txt\relax
+
+\def\putzero{0}
+
+\def\putLettrine#1{%
+\write \lettrineslist{#1}%
+\expandafter\ifx\csname ltrn#1\endcsname\relax
+	\global\expandafter\newcount\csname ltrn#1\endcsname\relax
+	\global\csname ltrn#1\endcsname 0
+\else
+	\global\expandafter\advance\csname ltrn#1\endcsname by 1
+\fi
+\doifelsefile{lettrines/#1\putzero.mps}
+	{\textdirection 0 \doifelsefile{lettrines/#1\the\csname ltrn#1\endcsname.mps}
+		{\ifx#1\plateName%
+			\externalfigure[lettrines/#1\the\csname ltrn#1\endcsname.mps][width=\PlateWidth]%
+		\else%
+			\externalfigure[lettrines/#1\the\csname ltrn#1\endcsname.mps][height=\LettrineSize]%
+		\fi}
+		{\ifx#1\plateName%
+			\externalfigure[lettrines/#1\putzero.mps][width=\PlateWidth]%
+		\else%
+			\externalfigure[lettrines/#1\putzero.mps][height=\LettrineSize]%
+		\fi}}
+	{\doifelsefile{lettrines/#1.svg}
+		{\externalfigure[lettrines/#1.svg][height=\LettrineSize]%
+}
+		{\doifelsefile{lettrines/#1.pdf}
+			{\externalfigure[lettrines/#1.pdf][width=\LettrineSize,height=\LettrineSize]}
+			{\ifx#1\plateName%
+					\startMPcode
+						input byrne.mp;
+						path plateBG, plateFrame;
+						plateBG := (reverse(fullsquare) xscaled (\the\PlateWidth)) yscaled (\the\PlateHeight);
+						plateFrame := (reverse(fullsquare) xscaled (\the\PlateWidth - 2pt)) yscaled (\the\PlateHeight -2pt);
+						fill plateBG withcolor black;
+						draw plateFrame withcolor white;
+						string pictureContents;
+						pictureContents := "path givenOutline[];";
+						pictureContents := pictureContents & "givenOutline0 := " & pathToString(plateBG) & "; ";
+						pictureContents := pictureContents & "givenOutline1 := " & pathToString(plateFrame) & "; ";
+						pictureContents := pictureContents & "givenOutline2 := " & pathToString((0,0)) & "; ";
+						pictureContents := pictureContents & "numeric totalLines; totalLines := 2;";
+						write pictureContents to "lettrines/lettrine_#1.mp";
+						write EOF to "lettrines/lettrine_#1.mp";
+					\stopMPcode%
+				\else%
+					\startMPcode
+						input byrne.mp;
+						picture lettrineOutline, lettrinePicture;
+						path lettrineFrame, lettrineBG;
+						lettrineBG := reverse(fullsquare) scaled (\the\LettrineSize);
+						lettrineFrame := reverse(fullsquare) scaled (\the\LettrineSize - 2pt);
+						fill lettrineBG withcolor black;
+						draw lettrineFrame withcolor white;
+						lettrineOutline := outlinetext("#1") scaled \the\LettrineScale/100;
+						lettrineOutline := lettrineOutline shifted -1/2[ulcorner(lettrineOutline), lrcorner(lettrineOutline)];
+						lettrinePicture := textext("#1") scaled \the\LettrineScale/100;
+						lettrinePicture := lettrinePicture shifted -1/2[ulcorner(lettrinePicture), lrcorner(lettrinePicture)];
+						draw lettrinePicture withcolor white;
+						string pictureContents;
+						pictureContents := "path givenOutline[];";
+						pictureContents := pictureContents & "givenOutline0 := " & pathToString(lettrineBG) & "; ";
+						pictureContents := pictureContents & "givenOutline1 := " & pathToString(lettrineFrame) & "; ";
+						j := 1;
+						for i within lettrineOutline:
+							j := j + 1;
+							pictureContents := pictureContents & "givenOutline" & decimal(j) & " := " & pathToString(pathpart i) & "; ";
+						endfor;
+						pictureContents := pictureContents & "numeric totalLines; totalLines := " & decimal(j) & ";";
+						write pictureContents to "lettrines/lettrine_#1.mp";
+						write EOF to "lettrines/lettrine_#1.mp";
+					\stopMPcode%
+				\fi}}}}
+				
+
+% This thing removes space between an initial and the letter after it, if no space is needed
+\startluacode
+   formatting = formatting or {}
+   function formatting.dedent (str)
+    if string.sub(str, 0, 1) ==  " " then
+      tex.print(str)
+    else
+      tex.print("\\,\\hskip -\\LettrinePadding " .. str)
+    end
+  end
+\stopluacode
+
+% This one is used standalone, f. e. in the Introduction
+\def\regularLettrine#1#2{\placefigure[left,none]{}{\vskip -5pt\hbox{\putLettrine{#1}\hskip-4pt}\vskip -10pt}\noindent{\sc\ctxlua{formatting.dedent([==[#2]==])}}}
+
+\def\problem#1#2#3{%
+\vskip -\LettrineTotalHeight
+\hskip -\LettrineTotalWidth \hskip -\parindent \offset[y=\LettrineTotalHeightMinusLine,x=0pt]{\hbox{\putLettrine{#1}}}{\sc\hskip\LettrinePadding \ctxlua{formatting.dedent([==[#2]==])}\ \it #3} \vskip \baselineskip
+}
+
+%\setbox0\hbox{\ }
+%\newdimen\spaceWd
+%\spaceWd = \wd0
+
+\newdimen\vPos
+\def\problemNP{\dosingleempty\problemnp}
+\def\problemnp[#1]#2#3#4{%
+\pictureIndent=0cm%
+\vPos=\pagetotal%
+\iffirstargument%
+	\initialIndentation[#1]{7}%
+\else%
+	\initialIndentation{7}%
+\fi%
+\vskip -\LettrineTotalHeight
+\hskip -\LettrineTotalWidth \hskip -\parindent \offset[y=\LettrineTotalHeightMinusLine,x=0pt]{\hbox{\putLettrine{#2}}}{\sc\hskip \LettrinePadding\ctxlua{formatting.dedent([==[#3]==])}\ \it #4}\par%
+\advance\vPos by -\pagetotal
+\advance\vPos by 4\baselineskip
+\ifnum\vPos>0
+\vskip \vPos%
+\fi
+\vskip 0.5\baselineskip
+\resetInitialIndentation}
+
+
+\def\qedstr{Q. E. D.}
+\def\qefstr{Q. E. F.}
+\def\qedNB{\hfill\qedstr\vskip 10pt}
+\def\qed{\qedNB\vfill\pagebreak}
+\def\qefNB{\hfill\qefstr\vskip 10pt}
+\def\qef{\qefNB\vfill\pagebreak}
+
+\def\hypstr{hyp.}
+\def\conststr{const.}
+
+%ConTeXt specific stuff
+
+
+\setupcolors[state=start]
+\setupinterlinespace[line=13pt]
+\setupalign[normal,tolerant]
+
+\setupheadertexts[]
+\setupheadertexts
+	[\hfill\expanded{\uppercase{\fetchmarking[book][][top] \fetchmarking[section][][top]}}\hfill][\pagenumber]
+	[\pagenumber][\hfill\expanded{\uppercase{\fetchmarking[book][][top] \fetchmarking[section][][top]}}\hfill]
+
+\setuppagenumbering[location=]
+
+\newwrite \referencegraph
+\openout \referencegraph = referencegraph.txt\relax
+
+\write\referencegraph{"source","target"}
+
+\def\currentSection{none}
+\def\writereference#1{\ignorespaces\write\referencegraph{"\currentSection","#1"}}
+
+\def\inpropstr{pr.}
+\def\inprop[#1]{\in{(\inpropstr}{)}[#1]\writereference{#1}}
+\def\inpropL[#1]{\in{\inpropstr}{}[#1]\writereference{#1}}
+\def\inpropN[#1]{\in{}{}[#1]\writereference{#1}}
+
+\def\inpoststr{post.}
+\def\inpost[#1]{\in{(\inpoststr}{)}[#1]\writereference{#1}}
+\def\inpostL[#1]{\in{\inpoststr}{}[#1]\writereference{#1}}
+
+\def\indefstr{def.}
+\def\indef[#1]{\in{(\indefstr}{)}[#1]\writereference{#1}}
+\def\indefL[#1]{\in{\indefstr}{}[#1]\writereference{#1}}
+
+\def\inaxstr{ax.}
+\def\inax[#1]{\in{(\inaxstr}{)}[#1]\writereference{#1}}
+\def\inaxL[#1]{\in{\inaxstr}{}[#1]\writereference{#1}}
+
+\def\plateName{plate}
+
+\define[2]\bookTitle{\begingroup\lefttoright\vbox{\vskip -\topspace\hskip0pt\hfill\hbox{\hskip-1pt\putLettrine{\plateName}\hskip-1pt}\hfill\hskip0pt\vskip 5\baselineskip~\hfill\hbox{\tfd #2}\hfill~}\endgroup}
+
+\definehead[intro][coupling=part,default=part,incrementnumber=no,placehead=yes]
+\setuphead[intro][alternative=text,command=\bookTitle,header=empty,footer=none,before={},after={}]
+
+\definehead[book][coupling=part,default=part,incrementnumber=yes,placehead=yes]
+\setuphead[book][alternative=text,command=\bookTitle,header=empty,footer=none,before={},after={}]
+
+\definecounter[book][way=bytext,numberconversion=R]
+\define\startBook{\dodoubleempty\startbookalt}
+\define\stopBook{\stopbook}
+\def\startbookalt[#1][#2]{%
+  \incrementcounter[book]%
+  \startbook[ownnumber={\directconvertedcounter{book}\empty},incrementnumber=no,#1][#2]}
+
+\definehead[supersection][coupling=chapter,default=chapter,incrementnumber=no,placehead=yes,page=no]
+\define[2]\supersectionTitle{\midaligned{\tfb #2}}
+\setuphead[supersection][command=\supersectionTitle,before={\blank[line]},after={\blank[line]}]
+
+\definehead[silentSupersection][coupling=chapter,default=chapter,incrementnumber=no,placehead=yes,page=no]
+\define[2]\noTitle{}
+\setuphead[silentSupersection][alternative=text,command=\noTitle,before={},after={},inbetween={}]
+
+\definehead[subproposition][subsection]
+\define[2]\subpropositionTitle{\midaligned{#2}}
+\setuphead[subproposition][command=\subpropositionTitle,before={\resetInitialIndentation\blank[line]},after={\blank[line]}]
+
+%\definehighlight[emph][style=italic]
+\def\emph#1{{\em #1}}
+
+\setuplines[align=middle]
+
+\setupindenting[yes,medium]
+
+\setupinteraction[state=start,color=black,style=regular]
+
+\setupmargindata[inouter][style=normal] % otherwise text in margins is set in defferent font
+
+\def\marginNote#1{\inouter{~\hfill\framed[frame=off,location=top,width=4cm,align=flushleft,bodyfont=8pt]{#1}\hfill~}}
+
+\def\figureInMargin{\dosingleempty\figureinmargin}
+\def\figureinmargin[#1]#2{%
+	\iffirstargument%
+		\signalrightpage\inouter{~\doifrightpageelse{\hskip 0.5cm}{\hfill}\framed[frame=off,location=top]{#2}\doifrightpageelse{\hfill}{\hskip 0.5cm}~}%
+	\else%
+		\inouter{~\hfill\framed[frame=off,location=top]{#2}\hfill~}%
+	\fi%
+}
+
+\def\drawCurrentPictureInMargin{\dosingleempty\drawcurrentpictureinmargin}
+\def\drawcurrentpictureinmargin[#1]{
+	\iffirstargument%
+		\figureInMargin[#1]{\drawCurrentPicture}%
+	\else%
+		\figureInMargin{\drawCurrentPicture}%
+	\fi%
+}
+
+\def\symb#1{\noindent{#1}\emspace}
+
+% these colors  are duplicates of the colors in byrne.mp
+\definecolor[byred][r=0.85,g=0.3,b=0.1]
+\definecolor[byblue][r=0.15,g=0.35,b=0.6]
+\definecolor[byyellow][r=0.95,g=0.7,b=0.1]
+\definecolor[byblack][r=0,g=0,b=0]
+
+\def\sepSpace{\vskip 0.75\baselineskip}
+
+\definestartstop[CenterAlign][
+before={\resetInitialIndentation\startalignment[middle]\setupwhitespace[big]},
+after={\stopalignment\vskip 0.5\baselineskip}]
+
+% http://tex.stackexchange.com/questions/326108/parallel-section-numberings-in-context
+
+\unprotect
+
+\def\setCurrentSection{\global\edef\currentSection{\currentstructurereference}}
+
+\definehead[silentsection][section]
+\define[2]\noTitle{}
+\setuphead[silentsection][alternative=text,command=\noTitle,before={},after={},inbetween={}]
+
+\definehead[sectiononlyname][section]
+\define[2]\definitionTitle{\midaligned{#2}}
+\setuphead[sectiononlyname][command=\definitionTitle,before={\blank[halfline]},after={\blank[halfline]}]
+
+\definehead[sectiononlynumber][section]
+\define[2]\definitionNumber{\midaligned{#1}}
+\setuphead[sectiononlynumber][command=\definitionNumber,before={\blank[quarterline]},after={\blank[quarterline]}]
+
+\def\preSectionCommand{}
+\def\postSectionCommand{}
+
+\definecounter[proposition][way=bypart]
+\define\startProposition{\dodoubleempty\startproposition}
+\define\stopProposition{\postSectionCommand\stopsilentsection}
+\def\startproposition[#1][#2]{%
+  \incrementcounter[proposition]%
+  \startsilentsection[ownnumber={\directconvertedcounter{proposition}\empty},
+    incrementnumber=no,#1][#2]\setCurrentSection}
+    
+\define\startVerboseProposition{\dodoubleempty\startverboseproposition}
+\define\stopVerboseProposition{\postSectionCommand\stopsectiononlyname}
+\def\startverboseproposition[#1][#2]{%
+  \incrementcounter[proposition]%
+  \startsectiononlyname[ownnumber={\directconvertedcounter{proposition}\empty},
+    incrementnumber=no,#1][#2]\setCurrentSection}
+
+\definecounter[propositionaz][way=bypart,numberconversion=Characters]
+\define\startPropositionAZ{\dodoubleempty\startpropositionaz}
+\define\stopPropositionAZ{\postSectionCommand\stopsilentsection}
+\def\startpropositionaz[#1][#2]{%
+  \incrementcounter[propositionaz]%
+  \startsilentsection[ownnumber={\directconvertedcounter{propositionaz}\empty},
+    incrementnumber=no,#1][#2]\setCurrentSection}
+
+\definecounter[definition][way=bypart]
+\define\startDefinition{\dodoubleempty\startdefinition}
+\define\stopDefinition{\stopsectiononlyname}
+\def\startdefinition[#1][#2]{%
+  \incrementcounter[definition]%
+  \startsectiononlyname[ownnumber={\directconvertedcounter{definition}\empty},
+   incrementnumber=no,#1][#2]\setCurrentSection}
+
+\definecounter[definitionaz][way=bypart,numberconversion=Characters]
+\define\startDefinitionAZ{\dodoubleempty\startdefinitionaz}
+\define\stopDefinitionAZ{\stopsectiononlyname}
+\def\startdefinitionaz[#1][#2]{%
+  \incrementcounter[definitionaz]%
+  \startsectiononlyname[ownnumber={\directconvertedcounter{definitionaz}\empty},
+   incrementnumber=no,#1][#2]\setCurrentSection}
+
+\define\startDefinitionOnlyNumber{\dodoubleempty\startdefinitiononlynumber}
+\define\stopDefinitionOnlyNumber{\stopsectiononlynumber}
+\def\startdefinitiononlynumber[#1][#2]{%
+  \incrementcounter[definition]%
+  \startsectiononlynumber[ownnumber={\directconvertedcounter{definition}\empty},
+   incrementnumber=no,#1][#2]\setCurrentSection}
+
+\definecounter[axiom][way=bypart,numberconversion=R]
+\define\startAxiomOnlyNumber{\dodoubleempty\startaxiomonlynumber}
+\define\stopAxiomOnlyNumber{\stopsectiononlynumber}
+\def\startaxiomonlynumber[#1][#2]{%
+  \incrementcounter[axiom]%
+  \startsectiononlynumber[ownnumber={\directconvertedcounter{axiom}\empty},
+   incrementnumber=no,#1][#2]\setCurrentSection}
+
+\definecounter[postulate][way=bypart,numberconversion=R]
+\define\startPostulateOnlyNumber{\dodoubleempty\startpostulateonlynumber}
+\define\stopPostulateOnlyNumber{\stopsectiononlynumber}
+\def\startpostulateonlynumber[#1][#2]{%
+  \incrementcounter[postulate]%
+  \startsectiononlynumber[ownnumber={\directconvertedcounter{postulate}\empty},
+   incrementnumber=no,#1][#2]\setCurrentSection}
+
+\protect
+
+\def\overText#1#2{\mathop{#1}\limits_{}^{\mbox{#2}}}
+\def\underText#1#2{\mathop{#1}\limits_{\mbox{#2}}^{}}
+
+\definedescription[symblist][location=hanging,headstyle=bold,style=normal,align=left]
+
+% This section is about fonts
+
+\emergencystretch = 3pt
+
+\setupalign[hz,hanging]
+	
+\usesymbols[cc]
+
+\setupmathematics[ampersand=normal] % should fix \eqalign as described here https://mailman.ntg.nl/pipermail/ntg-context/2019/096329.html

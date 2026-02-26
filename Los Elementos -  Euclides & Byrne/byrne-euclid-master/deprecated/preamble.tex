@@ -1,0 +1,342 @@
+\newdimen\topmargin
+\topmargin=\topspace
+\advance \topmargin by \headerdistance
+
+\newcount\mpInst
+\mpInst = 0
+% Every time new proposition is introduced, we define new picture
+% with all its colors and styles, preceded with inclusion of byrne.mp library. 
+% It is done with \startMPinclusions in ConTeXt.
+% Note that every time new MPinstance is defined .
+% Before doing so we clear everything after previous definitions (explained below)
+% In case the picture extends the previous picture, CreateNewInstanceForPicturefalse
+% can be set temporarily
+
+\def\mpPre{}
+\def\mpPost{}
+
+\def\pointlabel#1{\textsf{#1}}
+
+\newif\ifCreateNewInstanceForPicture
+\CreateNewInstanceForPicturetrue
+
+\def\textsf#1{\tf\ss #1} % Used within byrne.mp, for compatibility with LaTeX
+
+\def\defineNewPicture{\dodoubleempty\definenewpicture}
+\def\definenewpicture[#1][#2]#3{%
+	\iffirstargument%
+		\global\def\sfA{#1}%
+	\else%
+		\global\def\sfA{1/3}%
+	\fi%
+	\ifsecondargument%
+		\global\def\sfB{#2}%
+	\else%
+		\global\def\sfB{defaultScaleFactor}%
+	\fi%
+	\ifCreateNewInstanceForPicture%
+		\global\advance \mpInst by 1%
+		\global\def\currentInstance{\the\mpInst}%
+		\defineMPinstance[\currentInstance]%
+	\fi%
+	\startreusableMPgraphic{\currentInstance::currentPicture}
+		\ifCreateNewInstanceForPicture input byrne; \fi
+		\mpPre
+		u := 1cm;
+		startMainPictureMode;
+		projectionAngle := (0, 0, 0);
+		linecap := butt;
+		scaleFactor := \sfB;
+			#3
+		scaleFactor := \sfA;
+		generateAngleSynonyms;
+		generateLineSynonyms;
+		stopMainPictureMode;
+		\mpPost
+	\stopreusableMPgraphic\ignorespaces\setbox0\vbox{\reuseMPgraphic{\currentInstance::currentPicture}}}
+	
+\def\defineNewPictureBasedOnOld{\dodoubleempty\definenewpicturebasedonold}
+\def\definenewpicturebasedonold[#1][#2]#3{%
+	\CreateNewInstanceForPicturefalse
+	\ifsecondargument%
+		\defineNewPicture[#1][#2]{#3}%
+	\else%
+		\iffirstargument%
+			\defineNewPicture[#1]{#3}%
+		\else%
+			\defineNewPicture{#3}
+		\fi%
+	\fi%
+	\CreateNewInstanceForPicturetrue
+	}
+
+% When larger picture is defined, we can visualize its parts with \drawFromCurrentPicture
+% First (optional) argument is for picture's vertical alignment relative to the string
+% Currently only `middle' and anything other (for `top') is working
+% Second (optional) argument is for picture's name for future reuse
+% If picture with the same name exists, it's not defined again.
+% Third argument is MP code for picture itself.
+% To actually define an inline picture \defineFromCurrentPicture is called.
+% The latter can also be called separately, which can be convenient
+% if one wants to define multiple inline pictures in one place.
+% Whenever everything is defined, \drawDefinedPicture macro is called for
+\def\drawFromCurrentPicture{\dodoubleempty\drawfromcurrentpicture}
+\def\drawfromcurrentpicture[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\dfcpl{#1}%
+	\else%
+		\global\def\dfcpl{middle}%
+	\fi%
+	\ifsecondargument%
+		\expandafter\ifx\csname instanceNameFor#2\endcsname\currentInstance%
+			\global\def\lastPict{#2}%
+		\else%
+			\defineFromCurrentPicture{\dfcpl}{#2}{#3}%
+		\fi%
+	\else%
+		\defineFromCurrentPicture{\dfcpl}{lastPicture}{#3}%
+	\fi%
+\csname\lastPict\endcsname}}
+
+\def\defineFromCurrentPicture#1#2#3{%
+		\startreusableMPgraphic{\currentInstance::#2}
+			startOffspringPictureMode;
+			linecap := butt;
+			#3
+			stopOffspringPictureMode;
+		\stopreusableMPgraphic%
+\global\def\lastPict{#2}%
+\global\expandafter\edef\csname\lastPict\endcsname{{\noexpand\drawDefinedPicture{\expandafter\lastPict}{\expandafter#1}}}
+\global\expandafter\edef\csname instanceNameFor\lastPict\endcsname{{\currentInstance}}}
+
+% \drawDefinedPicture draws defined and named picture, aligned as needed and,
+% possibly, with margins modified with \offsetPicture (i. e., if we want picture to act as if it's less tall that it actually is,
+% we put some value as its first argument, if we want picture to be less deep, we use second argument, and place picture
+% itself as third).
+
+\newdimen\pictOffsetTop
+\newdimen\pictOffsetBottom
+
+\pictOffsetTop=0pt
+\pictOffsetBottom=0pt
+
+\def\offsetPicture#1#2#3{{\pictOffsetTop=#1\pictOffsetBottom=#2#3\pictOffsetTop=0pt\pictOffsetBottom=0pt}}
+
+\newdimen\midht
+\newdimen\middp
+\def\drawDefinedPicture#1#2{{%
+	\setbox0\vbox{\reuseMPgraphic{\currentInstance::#1}}%
+	\ifdim\ht0<\baselineskip\advance\pictOffsetTop by 1pt\advance\pictOffsetBottom by 1pt\fi%
+	\setbox0\vbox{\vskip2pt\vskip-\pictOffsetTop\box0\vskip2pt\vskip-\pictOffsetBottom}%
+	\def\tmpmiddle{middle}%
+	\def\tmpalignment{#2}%
+	\ifx\tmpalignment\tmpmiddle%
+		\middp=0.5\ht0
+		\midht=0.5\ht0
+		\advance\middp by -3pt
+		\advance\midht by 3pt
+	\else%
+		\middp=0pt
+		\midht=\ht0
+		\advance\middp by 3pt
+		\advance\midht by -3pt
+	\fi%
+	\advance\middp by 0.5\pictOffsetTop
+	\advance\midht by -0.5\pictOffsetTop
+	\advance\middp by -0.5\pictOffsetBottom
+	\advance\midht by 0.5\pictOffsetBottom
+	\dp0=\middp
+	\ht0=\midht
+	\nobreak\hskip0pt\nobreak\,\nobreak\box0\,%
+}}
+
+
+% Some convenient shorthand macros for commonly used derivations of definition picture are defined below
+\def\drawCurrentPicture{\reuseMPgraphic{\currentInstance::currentPicture}}
+
+\def\drawUnitLine{\dosingleempty\drawunitline}
+\def\drawunitline[#1]#2{{%
+	\iffirstargument%
+		\drawFromCurrentPicture[middle][uline#2#1]{startAutoLabeling;draw byNamedCompoundLine(#1, 0)(#2);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[middle][uline#2]{startAutoLabeling;draw byNamedCompoundLine(1cm, 0)(#2);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawProportionalLine#1{\drawFromCurrentPicture[middle][pline#1]{startAutoLabeling;draw byNamedCompoundLine(1cm, 1)(#1);stopAutoLabeling;}}
+
+\def\drawSizedLine{\dosingleempty\drawsizedline}
+\def\drawsizedline[#1]#2{{%
+	\iffirstargument%
+		\drawFromCurrentPicture[middle][sline#2#1]{startAutoLabeling;draw byNamedCompoundLine(#1, 2)(#2);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[middle][sline#2]{startAutoLabeling;draw byNamedCompoundLine(2cm, 2)(#2);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawUnitRay{\dosingleempty\drawunitray}
+\def\drawunitray[#1]#2{{%
+	\iffirstargument%
+		\drawFromCurrentPicture[middle][uray#2#1]{startAutoLabeling;draw byNamedCompoundRay(#1, 0)(#2);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[middle][uray#2]{startAutoLabeling;draw byNamedCompoundRay(1cm, 0)(#2);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawProportionalRay#1{\drawFromCurrentPicture[middle][rayprop#1]{startAutoLabeling;draw byNamedCompoundRay(1cm, 1)(#1);stopAutoLabeling;}}
+
+\def\drawSizedRay{\dosingleempty\drawsizedray}
+\def\drawsizedray[#1]#2{{%
+	\iffirstargument%
+		\drawFromCurrentPicture[middle][sray#2#1]{startAutoLabeling;draw byNamedCompoundRay(#1, 2)(#2);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[middle][sray#2]{startAutoLabeling;draw byNamedCompoundRay(2cm, 2)(#2);stopAutoLabeling;}%
+	\fi%
+}}
+	
+\def\drawUnitIndLine{\dosingleempty\drawunitindline}
+\def\drawunitindline[#1]#2{{%
+	\iffirstargument%
+		\drawFromCurrentPicture[middle][uindline#2#1]{startAutoLabeling;draw byNamedCompoundIndLine(#1, 0)(#2);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[middle][uindline#2]{startAutoLabeling;draw byNamedCompoundIndLine(1cm, 0)(#2);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawProportionalIndLine#1{\drawFromCurrentPicture[middle][lineindprop#1]{startAutoLabeling;draw byNamedCompoundIndLine(1cm, 1)(#1);stopAutoLabeling;}}
+
+\def\drawSizedIndLine{\dosingleempty\drawsizedindline}
+\def\drawsizedindline[#1]#2{{%
+	\iffirstargument%
+		\drawFromCurrentPicture[middle][lineindsized#2#1]{startAutoLabeling;draw byNamedCompoundIndLine(#1, 2)(#2);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[middle][lineindsized#2]{startAutoLabeling;draw byNamedCompoundIndLine(2cm, 2)(#2);stopAutoLabeling;}%
+	\fi%
+}}
+	
+\def\drawRightAngle{%
+\drawFromCurrentPicture[middle][onerightangle]{draw rightAngle;}}
+
+\def\drawTwoRightAngles{%
+\drawFromCurrentPicture[middle][tworightangles]{draw twoRightAngles;}}
+	
+\def\drawAngle#1{\drawFromCurrentPicture[middle][angle#1]{startAutoLabeling;draw byNamedAngleWithDummySides(#1);stopAutoLabeling;}}
+
+\def\drawAngleWithSides#1{\drawFromCurrentPicture[middle][anglewithsides#1]{startAutoLabeling;draw byNamedAngleSides(#1)();stopAutoLabeling;}}
+
+\def\drawPolygon{\dodoubleempty\drawpolygon}
+\def\drawpolygon[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][#2]{startAutoLabeling;draw byNamedPolygon(#3);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[\plal][polygon#3]{startAutoLabeling;draw byNamedPolygon(#3);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawCircle{\dodoubleempty\drawcircle}
+\def\drawcircle[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][circle#3]{
+		startAutoLabeling;
+		startTempScale(#2);
+		draw byNamedCircle(#3);
+		stopTempScale;
+		stopAutoLabeling;
+		}%
+	\else%
+		\drawFromCurrentPicture[\plal][circle#3]{startAutoLabeling;draw byNamedCircle(#3);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawArc{\dodoubleempty\drawarc}
+\def\drawarc[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][arc#3]{
+		startAutoLabeling;
+		startTempScale(#2);
+		draw byNamedArcSeq(0)(#3);
+		stopTempScale;
+		stopAutoLabeling;
+		}%
+	\else%
+		\drawFromCurrentPicture[\plal][arc#3]{startAutoLabeling;draw byNamedArcSeq(0)(#3);stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawLine{\dodoubleempty\drawline}
+\def\drawline[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][#2]{startAutoLabeling;draw byNamedLineSeq(0)(#3);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[\plal][line#3]{startAutoLabeling;draw byNamedLineSeq(0)(#3);stopAutoLabeling;}%
+	\fi%
+}}
+	
+\def\drawPointM#1{\drawFromCurrentPicture[middle][pointm#1]{startAutoLabeling; draw byNamedPointMark(#1); stopAutoLabeling;}}
+
+\def\drawPointL{\dodoubleempty\drawpointl}
+\def\drawpointl[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][pointl#3Minus#2]{startAutoLabeling; draw byNamedPointLines(#3,"#2"); stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[\plal][pointl#3]{startAutoLabeling; draw byNamedPointLines(#3,""); stopAutoLabeling;}%
+	\fi%
+}}
+
+\def\drawPoint{\dodoubleempty\drawpoint}
+\def\drawpoint[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][point#3Minus#2]{
+		startAutoLabeling; draw byNamedPointLines(#3,"#2"); stopAutoLabeling;
+		draw byNamedPointMark(#3);
+		}%
+	\else%
+		\drawFromCurrentPicture[\plal][point#3]{
+		startAutoLabeling; draw byNamedPointLines(#3,""); stopAutoLabeling;
+		draw byNamedPointMark(#3);}%
+	\fi%
+}}
+
+\def\drawMagnitude{\dodoubleempty\drawmagnitude}
+\def\drawmagnitude[#1][#2]#3{{%
+	\iffirstargument%
+		\global\def\plal{#1}%
+	\else%
+		\global\def\plal{middle}%
+	\fi%
+	\ifsecondargument%
+		\drawFromCurrentPicture[\plal][magnitude#2#3]{startAutoLabeling;draw byNamedMagnitude(#2)(#3);stopAutoLabeling;}%
+	\else%
+		\drawFromCurrentPicture[\plal][magnitude#3]{startAutoLabeling;draw byNamedMagnitude(0)(#3);stopAutoLabeling;}%
+	\fi%
+}}

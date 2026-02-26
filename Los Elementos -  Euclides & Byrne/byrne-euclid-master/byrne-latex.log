@@ -1,0 +1,1126 @@
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  25 FEB 2026 15:26
+ restricted system commands enabled.
+**byrne-latex.tex
+(./byrne-latex.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/texlive/2025/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "c:/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-
+28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2025/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+
+LaTeX Info: File `byrne-latex.bib' already exists on the system.
+            Not generating it from this source.
+
+(c:/texlive/2025/texmf-dist/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2024/02/08 v2.1j Standard LaTeX documentation class
+*************************************
+* Local config file ltxdoc.cfg used
+*************************************
+(c:/texlive/2025/texmf-dist/tex/latex/base/ltxdoc.cfg
+File: ltxdoc.cfg 2022/06/14 v2.0d ltxdoc.cls configuration (LaTeX Project)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2025/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+)
+(c:/texlive/2025/texmf-dist/tex/latex/base/doc.sty
+Package: doc 2024/12/25 v3.0q Standard LaTeX documentation package V3 (FMi)
+\c@StandardModuleDepth=\count281
+\guard@level=\count282
+\MacrocodeTopsep=\skip51
+\MacroIndent=\dimen148
+\macro@cnt=\count283
+\MacroTopsep=\skip52
+\IndexMin=\dimen149
+\c@IndexColumns=\count284
+
+(c:/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count285
+\mult@box=\box53
+\multicol@leftmargin=\dimen150
+\c@unbalance=\count286
+\c@collectmore=\count287
+\doublecol@number=\count288
+\multicoltolerance=\count289
+\multicolpretolerance=\count290
+\full@width=\dimen151
+\page@free=\dimen152
+\premulticols=\dimen153
+\postmulticols=\dimen154
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen155
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count291
+\c@columnbadness=\count292
+\c@finalcolumnbadness=\count293
+\last@try=\dimen156
+\multicolovershoot=\dimen157
+\multicolundershoot=\dimen158
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count294
+\g__mc_curr_col_int=\count295
+)
+\GlossaryMin=\dimen159
+\c@GlossaryColumns=\count296
+\check@sum=\count297
+\bslash@cnt=\count298
+\wrong@table=\toks17
+\c@CodelineNo=\count299
+\@temptokenb=\toks18
+)) (./byrne.sty
+Package: byrne 2025/12/05 Byrne
+
+(c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count300
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+(c:/texlive/2025/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)
+(c:/texlive/2025/texmf-dist/tex/luatex/luamplib/luamplib.sty
+Package: luamplib 2026/02/09 v2.39.0 mplib package for LuaTeX
+Lua module: luamplib 2026/02/09 v2.39.0 Lua package to typeset Metapost with Lua
+TeX's MPLib.
+\luamplibcctabexplat=\catcodetable14
+\mplibtmptoks=\toks19
+\mplibscratchbox=\box99
+)
+\mpInst=\count301
+\mpLastInst=\count302
+\pictOffsetTop=\dimen160
+\pictOffsetBottom=\dimen161
+\pictVMargins=\dimen162
+\midht=\dimen163
+\middp=\dimen164
+)
+(c:/texlive/2025/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+
+(c:/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+\XKV@tempb@toks=\toks22
+
+(c:/texlive/2025/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count303
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(c:/texlive/2025/texmf-dist/tex/latex/bxtexlogo/bxtexlogo.sty
+Package: bxtexlogo 2022/05/05 v0.6
+
+(c:/texlive/2025/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2025-11-11 v1.16 A logo collection with bookmark support (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks23
+)
+(c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+)
+Package hologo Info: Using driver `pdftex'.
+)
+\bxlg@g@height=\dimen165
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count304
+\lst@gtempboxa=\box100
+\lst@token=\toks24
+\lst@length=\count305
+\lst@currlwidth=\dimen166
+\lst@column=\count306
+\lst@pos=\count307
+\lst@lostspace=\dimen167
+\lst@width=\dimen168
+\lst@newlines=\count308
+\lst@lineno=\count309
+\lst@maxwidth=\dimen169
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count310
+\lst@skipnumbers=\count311
+\lst@framebox=\box101
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(c:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count312
+)
+(c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count313
+)
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen170
+\Hy@linkcounter=\count314
+\Hy@pagecounter=\count315
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count316
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count317
+
+(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen171
+
+(c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count318
+\Field@Width=\dimen172
+\Fld@charsize=\dimen173
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count319
+\c@Item=\count320
+\c@Hfootnote=\count321
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2026-01-29 v7.01p Hyperref driver for luaTeX
+\Fld@listcount=\count322
+\c@bookmark@seq@number=\count323
+
+(c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip55
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hypdoc/hypdoc.sty
+Package: hypdoc 2023-10-26 v1.19 Hyper extensions for doc.sty (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+
+Package hypdoc Warning: hyperref has been loaded before with option 'hyperindex
+' enabled.
+(hypdoc)                The index will not work properly. on input line 65.
+
+Package hypdoc Info: hyperref has been loaded before with option 'pdfusetitle' 
+disabled. on input line 65.
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+Package hyperref Info: Option `plainpages' set `false' on input line 75.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 75.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 75.
+\c@HD@unique=\count324
+\c@HD@hypercount=\count325
+\HD@helplength=\skip56
+) (./byrne-latex.aux)
+\openout1 = byrne-latex.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+Package doc Info: Made | a short reference for \verb on input line 58.
+\c@lstlisting=\count326
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count327
+\scratchdimen=\dimen174
+\scratchbox=\box102
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen175
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks26
+)) (c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 58.
+
+(./byrne-latex.out) (./byrne-latex.out)
+\@outlinefile=\write3
+
+\openout3 = byrne-latex.out
+ (./byrne-latex.hd)
+\HD@savedest@out=\write4
+
+\openout4 = byrne-latex.hd
+LaTeX Font Info:    Trying to load font information for U+logo on input line 60
+.
+
+(c:/texlive/2025/texmf-dist/tex/latex/mflogo/ulogo.fd
+File: ulogo.fd 1999/03/10 v2.0 LaTeX font defs for Metafont and MetaPost logos
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 62.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 62.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.0pt on input line 69.
+
+
+LaTeX Warning: Citation `Byrne1847' on page 1 undefined on input line 76.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 78.
+
+LaTeX Warning: Citation `Slyusarev2017' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Rougeux2018' on page 1 undefined on input line 78.
+
+\luamplib.box.1=\box103
+\luamplib.box.2=\box104
+\luamplib.box.3=\box105
+\luamplib.box.4=\box106
+\luamplib.box.5=\box107
+Module luamplib Info: flushing figure 1 on input line 105
+Module luamplib Info: flushing figure 1 on input line 106
+\luamplib.box.6=\box108
+\luamplib.box.7=\box109
+\luamplib.box.8=\box110
+Module luamplib Info: flushing figure 1 on input line 114
+Module luamplib Info: flushing figure 1 on input line 114
+\luamplib.box.9=\box111
+\luamplib.box.10=\box112
+\luamplib.box.11=\box113
+Module luamplib Info: flushing figure 1 on input line 115
+Module luamplib Info: flushing figure 1 on input line 115
+Module luamplib Info: flushing figure 1 on input line 116
+\luamplib.box.12=\box114
+\luamplib.box.13=\box115
+Module luamplib Info: flushing figure 1 on input line 118
+Module luamplib Info: flushing figure 1 on input line 118
+\luamplib.box.14=\box116
+\luamplib.box.15=\box117
+Module luamplib Info: flushing figure 1 on input line 118
+Module luamplib Info: flushing figure 1 on input line 118
+\luamplib.box.16=\box118
+\luamplib.box.17=\box119
+Module luamplib Info: flushing figure 1 on input line 119
+Module luamplib Info: flushing figure 1 on input line 119
+\luamplib.box.18=\box120
+\luamplib.box.19=\box121
+Module luamplib Info: flushing figure 1 on input line 119
+Module luamplib Info: flushing figure 1 on input line 119
+[1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 130.
+
+
+LaTeX Warning: Reference `textlabels' on page 2 undefined on input line 163.
+
+[2]
+LaTeX Font Info:    Font shape `U/logo/bx/n' in size <14.4> not available
+(Font)              Font shape `U/logo/b/n' tried instead on input line 172.
+ [3]
+\luamplib.box.20=\box122
+\luamplib.box.21=\box123
+Module luamplib Info: flushing figure 1 on input line 240
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+
+
+LaTeX Warning: Citation `Okabe2008' on page 4 undefined on input line 247.
+
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+Module luamplib Info: flushing figure 1 on input line 247
+
+LaTeX Warning: Reference `textlabels' on page 4 undefined on input line 247.
+
+LaTeX Font Info:    Font shape `U/logo/bx/n' in size <10> not available
+(Font)              Font shape `U/logo/b/n' tried instead on input line 257.
+[4]
+
+LaTeX Warning: Reference `lineWidth' on page 5 undefined on input line 306.
+
+\luamplib.box.22=\box124
+\luamplib.box.23=\box125
+Module luamplib Info: flushing figure 1 on input line 316
+\luamplib.box.24=\box126
+\luamplib.box.25=\box127
+Module luamplib Info: flushing figure 1 on input line 317
+Module luamplib Info: flushing figure 1 on input line 317
+\luamplib.box.26=\box128
+\luamplib.box.27=\box129
+Module luamplib Info: flushing figure 1 on input line 317
+Module luamplib Info: flushing figure 1 on input line 317
+
+LaTeX Warning: Reference `byLineDefine' on page 5 undefined on input line 325.
+
+\luamplib.box.28=\box130
+\luamplib.box.29=\box131
+Module luamplib Info: flushing figure 1 on input line 347
+Module luamplib Info: flushing figure 1 on input line 349
+Module luamplib Info: flushing figure 1 on input line 355
+Module luamplib Info: flushing figure 1 on input line 355
+Module luamplib Info: flushing figure 1 on input line 360
+Module luamplib Info: flushing figure 1 on input line 360
+\luamplib.box.30=\box132
+\luamplib.box.31=\box133
+Module luamplib Info: flushing figure 1 on input line 381
+\luamplib.box.32=\box134
+\luamplib.box.33=\box135
+Module luamplib Info: flushing figure 1 on input line 397
+Module luamplib Info: flushing figure 1 on input line 397
+[5]
+\luamplib.box.34=\box136
+\luamplib.box.35=\box137
+Module luamplib Info: flushing figure 1 on input line 439
+Module luamplib Info: flushing figure 1 on input line 445
+Module luamplib Info: flushing figure 1 on input line 445
+Module luamplib Info: flushing figure 1 on input line 445
+Module luamplib Info: flushing figure 1 on input line 445
+
+
+LaTeX Warning: Reference `pointMarkSize' on page 6 undefined on input line 445.
+
+
+\luamplib.box.36=\box138
+\luamplib.box.37=\box139
+Module luamplib Info: flushing figure 1 on input line 470
+Module luamplib Info: flushing figure 1 on input line 479
+Module luamplib Info: flushing figure 1 on input line 479
+Module luamplib Info: flushing figure 1 on input line 483
+Module luamplib Info: flushing figure 1 on input line 483
+
+LaTeX Warning: Reference `lineWidth' on page 6 undefined on input line 492.
+
+Module luamplib Info: flushing figure 1 on input line 498
+Module luamplib Info: flushing figure 1 on input line 498
+Module luamplib Info: flushing figure 1 on input line 502
+Module luamplib Info: flushing figure 1 on input line 502
+Module luamplib Info: flushing figure 1 on input line 507
+Module luamplib Info: flushing figure 1 on input line 507
+Module luamplib Info: flushing figure 1 on input line 511
+Module luamplib Info: flushing figure 1 on input line 511
+[6]
+
+LaTeX Warning: Reference `byArcDefineBE' on page 7 undefined on input line 517.
+
+
+
+LaTeX Warning: Reference `byArcDefineBE' on page 7 undefined on input line 523.
+
+
+
+LaTeX Warning: Reference `byArcDefine' on page 7 undefined on input line 531.
+
+\luamplib.box.38=\box140
+\luamplib.box.39=\box141
+Module luamplib Info: flushing figure 1 on input line 558
+
+LaTeX Warning: Reference `lineWidth' on page 7 undefined on input line 570.
+
+[7]
+Module luamplib Info: flushing figure 1 on input line 577
+Module luamplib Info: flushing figure 1 on input line 577
+Module luamplib Info: flushing figure 1 on input line 582
+Module luamplib Info: flushing figure 1 on input line 582
+
+
+LaTeX Warning: Reference `byCircleDefineFree' on page 8 undefined on input line
+ 588.
+
+
+LaTeX Warning: Reference `byCircleDefineR' on page 8 undefined on input line 59
+8.
+
+
+LaTeX Warning: Reference `byCircleDefineR' on page 8 undefined on input line 60
+4.
+
+
+LaTeX Warning: Reference `byCircleDefine' on page 8 undefined on input line 614
+.
+
+
+LaTeX Warning: Reference `byCircleDefineR' on page 8 undefined on input line 61
+8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 636.
+
+[8]
+
+LaTeX Warning: Reference `lineWidth' on page 9 undefined on input line 648.
+
+
+Overfull \hbox (6.07744pt too wide) in paragraph at lines 650--650
+[]\TU/lmr/bx/n/10 byArbi-trary-Fig-ure.Ar-bi-trary-Fig-ure-Name(fig-urePath, col
+or, dash-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 650.
+
+
+LaTeX Warning: Reference `byArbitraryFigure' on page 9 undefined on input line 
+654.
+
+
+LaTeX Warning: Reference `byPolygonDefine' on page 9 undefined on input line 69
+1.
+
+\luamplib.box.40=\box142
+\luamplib.box.41=\box143
+Module luamplib Info: flushing figure 1 on input line 723
+Module luamplib Info: flushing figure 1 on input line 733
+Module luamplib Info: flushing figure 1 on input line 733
+Module luamplib Info: flushing figure 1 on input line 733
+Module luamplib Info: flushing figure 1 on input line 733
+Module luamplib Info: flushing figure 1 on input line 733
+Module luamplib Info: flushing figure 1 on input line 733
+
+LaTeX Warning: Reference `angleSize' on page 9 undefined on input line 733.
+
+
+LaTeX Warning: Reference `angleScale' on page 9 undefined on input line 733.
+
+
+LaTeX Warning: Reference `AngleStyles' on page 9 undefined on input line 733.
+
+[9]
+\luamplib.box.42=\box144
+\luamplib.box.43=\box145
+Module luamplib Info: flushing figure 1 on input line 749
+Module luamplib Info: flushing figure 1 on input line 750
+Module luamplib Info: flushing figure 1 on input line 750
+Module luamplib Info: flushing figure 1 on input line 750
+Module luamplib Info: flushing figure 1 on input line 750
+
+
+LaTeX Warning: Reference `autoRightAngles' on page 10 undefined on input line 7
+50.
+
+
+LaTeX Warning: Reference `byAngleDefine' on page 10 undefined on input line 762
+.
+
+
+LaTeX Warning: Reference `byAngleDefine' on page 10 undefined on input line 768
+.
+
+
+LaTeX Warning: Reference `AngleStyles' on page 10 undefined on input line 770.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 772.
+
+
+LaTeX Warning: Reference `byAngleDefineExtended' on page 10 undefined on input 
+line 776.
+
+
+LaTeX Warning: Reference `byAngleDefineExtended' on page 10 undefined on input 
+line 819.
+
+
+Overfull \hbox (0.37pt too wide) in paragraph at lines 819--820
+\TU/lmtt/m/n/10 byAngleDefineExtended [] \TU/lmr/m/n/10 and can be ac-cessed us-
+ing \TU/lmtt/m/n/10 AngleOptionalColors[0]\TU/lmr/m/n/10 ,
+ []
+
+[10]
+
+LaTeX Warning: Reference `byAngleDefine' on page 11 undefined on input line 827
+.
+
+\luamplib.box.44=\box146
+\luamplib.box.45=\box147
+Module luamplib Info: flushing figure 1 on input line 857
+
+LaTeX Warning: Reference `byAngleDefine' on page 11 undefined on input line 881
+.
+
+
+LaTeX Warning: Reference `byAngleDefineExtended' on page 11 undefined on input 
+line 881.
+
+Module luamplib Info: flushing figure 1 on input line 881
+Module luamplib Info: flushing figure 1 on input line 881
+
+LaTeX Warning: Citation `Tufte90' on page 11 undefined on input line 904.
+
+
+LaTeX Warning: Reference `defineNewPicture' on page 11 undefined on input line 
+906.
+
+
+LaTeX Warning: Reference `startAutoLabeling' on page 11 undefined on input line
+ 906.
+
+[11]
+\luamplib.box.46=\box148
+\luamplib.box.47=\box149
+Module luamplib Info: flushing figure 1 on input line 958
+\luamplib.box.48=\box150
+\luamplib.box.49=\box151
+\luamplib.box.50=\box152
+\luamplib.box.51=\box153
+Module luamplib Info: flushing figure 1 on input line 966
+Module luamplib Info: flushing figure 1 on input line 966
+\luamplib.box.52=\box154
+\luamplib.box.53=\box155
+\luamplib.box.54=\box156
+Module luamplib Info: flushing figure 1 on input line 970
+Module luamplib Info: flushing figure 1 on input line 970
+\luamplib.box.55=\box157
+\luamplib.box.56=\box158
+Module luamplib Info: flushing figure 1 on input line 974
+Module luamplib Info: flushing figure 1 on input line 974
+\luamplib.box.57=\box159
+\luamplib.box.58=\box160
+\luamplib.box.59=\box161
+Module luamplib Info: flushing figure 1 on input line 978
+Module luamplib Info: flushing figure 1 on input line 978
+\luamplib.box.60=\box162
+\luamplib.box.61=\box163
+\luamplib.box.62=\box164
+Module luamplib Info: flushing figure 1 on input line 982
+Module luamplib Info: flushing figure 1 on input line 982
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 996.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1002.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1002.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1002.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1002.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1002.
+
+[12]
+Overfull \hbox (18.15671pt too wide) in paragraph at lines 1019--1019
+[]\TU/lmr/bx/n/10 \de-fine-New-Pic-ture-Base-dOnOld [offspringPicture-Sca-leFact
+or] [main-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1019.
+
+
+LaTeX Warning: Reference `defineNewPicture' on page 13 undefined on input line 
+1021.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1035
+[]\TU/lmr/bx/n/10 \de-fine-From-Cur-rent-Pic-ture {ver-ti-calAlign-ment} {Pic-tu
+re-
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 1051--1051
+[]\TU/lmr/bx/n/10 \drawFrom-Cur-rent-Pic-ture [ver-ti-calAlign-ment] [Pic-ture-N
+ame]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\kernel@ifnextchar' on input line 1051.
+
+[13]
+\luamplib.box.63=\box165
+\luamplib.box.64=\box166
+Module luamplib Info: flushing figure 1 on input line 1124
+Module luamplib Info: flushing figure 1 on input line 1125
+Module luamplib Info: flushing figure 1 on input line 1125
+Module luamplib Info: flushing figure 1 on input line 1125
+Module luamplib Info: flushing figure 1 on input line 1125
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+Module luamplib Info: flushing figure 1 on input line 1127
+
+
+LaTeX Warning: Reference `autoRightAngles' on page 14 undefined on input line 1
+129.
+
+
+LaTeX Warning: Reference `byConsiderAngleRight' on page 14 undefined on input l
+ine 1129.
+
+
+LaTeX Warning: Reference `defineNewPicture' on page 14 undefined on input line 
+1129.
+
+
+LaTeX Warning: Reference `byConsiderAngleRight' on page 14 undefined on input l
+ine 1129.
+
+\luamplib.box.65=\box167
+\luamplib.box.66=\box168
+Module luamplib Info: flushing figure 1 on input line 1149
+Module luamplib Info: flushing figure 1 on input line 1152
+Module luamplib Info: flushing figure 1 on input line 1152
+\luamplib.box.67=\box169
+\luamplib.box.68=\box170
+\luamplib.box.69=\box171
+Module luamplib Info: flushing figure 1 on input line 1153
+Module luamplib Info: flushing figure 1 on input line 1153
+\luamplib.box.70=\box172
+\luamplib.box.71=\box173
+\luamplib.box.72=\box174
+Module luamplib Info:
+>> "A, O, D"
+>> "A, O, D"
+[0]
+(luamplib)      on input line 1155
+Module luamplib Info: flushing figure 1 on input line 1155
+Module luamplib Info: flushing figure 1 on input line 1155
+\luamplib.box.73=\box175
+\luamplib.box.74=\box176
+\luamplib.box.75=\box177
+Module luamplib Info:
+>> "D, O, A"
+>> "D, O, A"
+[0]
+(luamplib)      on input line 1155
+Module luamplib Info: flushing figure 1 on input line 1155
+Module luamplib Info: flushing figure 1 on input line 1155
+[14]
+\luamplib.box.76=\box178
+\luamplib.box.77=\box179
+Module luamplib Info: flushing figure 1 on input line 1173
+\luamplib.box.78=\box180
+\luamplib.box.79=\box181
+\luamplib.box.80=\box182
+Module luamplib Info: flushing figure 1 on input line 1175
+Module luamplib Info: flushing figure 1 on input line 1175
+\luamplib.box.81=\box183
+\luamplib.box.82=\box184
+\luamplib.box.83=\box185
+Module luamplib Info: flushing figure 1 on input line 1175
+Module luamplib Info: flushing figure 1 on input line 1175
+
+
+LaTeX Warning: Reference `drawAngle' on page 15 undefined on input line 1177.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1181.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1181.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\-' on input line 1181.
+
+
+Overfull \hbox (31.38pt too wide) in paragraph at lines 1229--1229
+[]\TU/lmr/bx/n/10 \draw-LineBy-Points[ver-ti-calAlign-ment][Line-New-Name]{Point
+-Names} 
+ []
+
+[15]
+\luamplib.box.84=\box186
+\luamplib.box.85=\box187
+Module luamplib Info: flushing figure 1 on input line 1255
+\luamplib.box.86=\box188
+Module luamplib Info: flushing figure 1 on input line 1257
+Module luamplib Info: flushing figure 1 on input line 1257
+\luamplib.box.87=\box189
+Module luamplib Info: flushing figure 1 on input line 1265
+Module luamplib Info: flushing figure 1 on input line 1265
+
+
+LaTeX Warning: Reference `pointLinesSize' on page 16 undefined on input line 12
+65.
+
+\luamplib.box.88=\box190
+Module luamplib Info: flushing figure 1 on input line 1277
+Module luamplib Info: flushing figure 1 on input line 1277
+
+LaTeX Warning: Reference `drawPointL' on page 16 undefined on input line 1279.
+
+No file byrne-latex.bbl.
+[16] (./byrne-latex.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `byrne-latex.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `byrne-latex.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  F3999CD0E56BCE3D57B79ECE63A0BEBC;27134.
+Package rerunfilecheck Info: File `byrne-latex.hd' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 13880 strings out of 476076
+ 125007,953878 words of node,token memory allocated
+ 3020 words of node memory still in use:
+   91 hlist, 2 vlist, 1 rule, 2 glue, 91 kern, 89 glyph, 183 attribute, 55 glue_
+spec, 183 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:1,2:1910,3:1573,4:62,5:756,6:89,7:8376,8:5,9:2980,10:14,11:340
+
+ 35892 multiletter control sequences out of 65536+600000
+ 66 fonts using 4852831 bytes
+ 73i,10n,134p,1062b,1687s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/te
+xlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/texlive/2
+025/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf><c:/texlive/2025/tex
+mf-dist/fonts/opentype/public/lm/lmmono8-regular.otf><c:/texlive/2025/texmf-dist
+/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2025/texmf-dist/fonts
+/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opent
+ype/public/lm/lmroman7-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/pu
+blic/lm/lmroman10-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/
+lmroman12-bold.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman1
+0-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman6-regu
+lar.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.ot
+f><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/tex
+live/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/
+2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2025/
+texmf-dist/fonts/type1/public/ccicons/ccicons.pfb><c:/texlive/2025/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/
+hoekwater/mflogo-font/logo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/hoekwat
+er/mflogo-font/logo9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/hoekwater/mflog
+o-font/logod10.pfb>
+Output written on byrne-latex.pdf (16 pages, 146876 bytes).
+
+PDF statistics: 368 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 166 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

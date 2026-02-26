@@ -1,0 +1,226 @@
+// Smooth scrolling
+$(document).on('click', 'a[href^="#"]:not(#nav-toggle, .nav-secondary-toggle)', function (event) {
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 67
+    }, 500);
+});
+
+$(function(){
+    // Primary nav toggle
+    $("#nav-toggle").on("touch click", function(){
+        if ($("body").hasClass("locked"))
+            $("body").removeClass("locked");
+        else
+            $("body").addClass("locked");
+        
+        $("#nav-primary").toggleClass("open");
+        $("#nav-secondary").removeClass("open");
+        return false;
+    });
+    
+    // Secondary nav toggle
+    $("#nav-secondary-toggle").on("touch click", function(){
+        if ($("body").hasClass("locked"))
+            $("body").removeClass("locked");
+        else
+            $("body").addClass("locked");
+        $("#nav-secondary").toggleClass("open");
+        $("#nav-primary").removeClass("open");
+        return false;
+    });
+    
+    $("#nav-secondary a").on("touch click", function(){
+        $("body").removeClass("locked");
+        $("#nav-secondary").removeClass("open");
+    });
+    
+    // Wrap parenthesis in problem statements to reverse italicization
+    $(".problem").each(function(){
+        $(this).html($(this).html().trim().replace(/([\(\){}])/gi, "<span class='norm'>$1</span>"));
+    });
+    
+    // Wrap first words
+    $(".dropcap").each(function(){
+        if ($(this).html().trim().length > 0) {
+            if (new RegExp(/^(\w+)/).test($(this).html().trim())) {
+                var firstWord = $(this).html().trim().match(/^(\w+)/);
+                
+                if (firstWord.length > 1) {
+                    // Wrap first word
+                    $(this).html($(this).html().trim().replace(/^(\w+)/, "<span class='first-word'>$1</span>"));
+                } else {
+                    // Wrap first two words
+                    $(this).html($(this).html().trim().replace(/^([^\s]*) ([^\s]*)/, "<span class='first-word'>$1 $2</span>"));
+                }
+            }
+        }
+    });
+    
+    // Interactive references
+    $(".fs").on("touch click", function(){
+        var fs = $(this);
+        var figureName = fs.data("fig");
+        var figure = $("#" + figureName);
+        var targets = $(this).data("targets").split("|");
+        var context = fs.parents(".figure-context");
+        
+        if (figure.hasClass("focused")) {
+            if (fs.hasClass("active")) {
+                context.find("figure").removeClass("focused");
+                context.find("*").removeClass("focus");
+                fs.removeClass("active");
+            } else {
+                context.find("*").removeClass("focus");
+                for (var i = 0; i < targets.length; i++) {
+                    figure.find("[data-name='" + targets[i] + "']").addClass("focus");
+                }
+                context.find(".fs").removeClass("active");
+                fs.addClass("active");
+            }
+        } else {
+            context.find("figure").addClass("focused");
+            for (var i = 0; i < targets.length; i++) {
+                figure.find("[data-name='" + targets[i] + "']").addClass("focus");
+            }
+            context.find(".fs").removeClass("active");
+            fs.addClass("active");
+        }
+    });
+    
+    // Reset figure shapes
+    $("figure").on("touch click", function(){
+        var context = $(this).parents(".figure-context");
+        context.find("figure").removeClass("focused");
+        context.find(".fs").removeClass("active");
+        context.find("*").removeClass("focus");
+    });
+    
+    // SVGs
+    $("svg:not(.ignore)").each(function(i){
+        var svg = $(this);
+        svg.wrap("<span class='svg'></span>");
+        svg.attr("xmlns", "http://www.w3.org/2000/svg");
+        svg.attr("preserveAspectRatio", "xMidYMid meet");
+        svg.attr("role", "img");
+        svg.attr("aria-labelledby", "svg" + i);
+        svg.find("title").attr("id", "svg" + i);
+    });
+    
+    // Prevent wrapping when oversized punctuation immediately follows a figure shape
+    $(".fs").each(function(){
+        var next = $(this)[0].nextSibling;
+        if (next != null) {
+            if (next.nodeType == 1 && ($(next).hasClass("os") || next.nodeName == "SUP")) {
+                // Only wrap .fs + .os and not .fs + [text] + .os
+                $(this).next(".os").addBack().wrapAll("<span class='nb'></span>");
+            }
+        }
+    });
+    
+    // Copy figures into secondary nav
+    $(".nav-secondary-grid a[data-figure]").each(function(){
+        var link = $(this);
+        var fig = $("#" + link.data("figure")).html();
+        link.prepend("<span class='thumb'>" + fig + "</span>");
+        link.find("text, figcaption").remove();
+    });
+    
+    /* Fences */
+    $(".fence").each(function(){
+        var t = $(this).text().trim();
+        
+        var parts = {
+            upper: '<span class="fence-upper-hook"><svg preserveAspectRatio="none" viewBox="0 0 10 9.84"><path d="M10,0v0.75C8.47,0.95,7.4,1.44,6.78,2.24c-0.62,0.8-0.93,2.18-0.93,4.15v3.45H4.29V6.11c0-2.13,0.44-3.66,1.32-4.58C6.48,0.61,7.95,0.1,10,0z"/></svg></span>',
+            middle: '<span class="fence-middle"><svg preserveAspectRatio="none" viewBox="0 0 10 17.97"><path d="M0,9.54V8.38C1.55,8.2,2.66,7.71,3.31,6.91s0.98-2.07,0.98-3.82V0h1.56v2.99c0,2.08-0.41,3.55-1.24,4.42S2.38,8.78,0.38,8.87v0.21c2.02,0.1,3.43,0.58,4.25,1.45s1.22,2.34,1.22,4.41v3.04H4.29v-3.11c0-1.76-0.33-3.04-0.99-3.85C2.65,10.21,1.55,9.72,0,9.54z"/></svg></span>',
+            lower: '<span class="fence-lower-hook"><svg preserveAspectRatio="none" viewBox="0 0 10 9.84"><path d="M10,9.84V9.09C8.47,8.89,7.4,8.4,6.78,7.6c-0.62-0.8-0.93-2.18-0.93-4.15V0H4.29v3.73c0,2.13,0.44,3.66,1.32,4.58C6.48,9.23,7.95,9.74,10,9.84z"/></svg></spa>',
+            extension: '<span class="fence-extension"><svg preserveAspectRatio="none" viewBox="0 0 10 1"><path d="M5.85,0v1H4.29V0H5.85z"/></svg></span>'
+        };
+        
+        if (t == "{" || t == "}") {
+            var fclass = (t == "}") ? "flipped" : "";
+            $(this).html(parts.upper + parts.extension + parts.middle + parts.extension + parts.lower);
+        }
+        
+        if (t == "(" || t == ")") {
+            var fclass = (t == ")") ? "flipped" : "";
+            $(this).html(parts.upper + parts.extension + parts.lower);
+        }
+        
+        $(this).addClass(fclass);
+    });
+    
+    /* Special character enhancements */
+    $(".os").each(function(){
+        var t = $(this).text().trim();
+        if (t == "::") $(this).attr("title", "as").addClass("os-punc");
+        if (t == ":") $(this).attr("title", "is to").addClass("os-punc");
+        if (t == ">") $(this).attr("title", "greater than").addClass("os-gt");
+        if (t == "≯") $(this).attr("title", "not greater than").addClass("os-ngt");
+        if (t == "<") $(this).attr("title", "less than").addClass("os-lt");
+        if (t == "≮") $(this).attr("title", "not less than").addClass("os-nlt");
+        if (t == "≠") $(this).attr("title", "not equal to").addClass("os-ne");
+        if (t == "∦") $(this).attr("title", "not parallel to").addClass("os-npar");
+        if (t == "∥") $(this).attr("title", "parallel to").addClass("os-par");
+        if (t == "⊥") $(this).attr("title", "perpendicular to");
+        if (t == "∴") $(this).attr("title", "therefore").addClass("os-t4");
+        if (t == "×") $(this).addClass("os-times");
+        if (t == "=") $(this).addClass("os-equals");
+        if (t == "+") $(this).addClass("os-plus");
+        if (t == ";" || t == "," || t == "·") $(this).addClass("os-punc");
+    });
+    
+    // Align groups
+    $(".group.aligned").each(function(){
+        var group = $(this);
+        var center = group[0].offsetWidth / 2;
+        var rows = group.find(".group-row");
+        var maxOffset = 0;
+        
+        // Find max offset
+        for (var i = 0; i < rows.length; i++) {
+            if ($(rows[i]).find(".group-row").length == 0) {
+                var align = $(rows[i]).find(".align");
+                var alignOffset = (align.length > 0) ? align.position().left : 0;
+                if (alignOffset > maxOffset) maxOffset = alignOffset;
+            }
+        }
+        
+        // Align
+        for (var i = 0; i < rows.length; i++) {
+            if ($(rows[i]).find(".group-row").length == 0) {
+                var align = $(rows[i]).find(".align");
+                if (align.length > 0) {
+                    var offset = align.position().left;
+                    
+                    $(rows[i]).css("padding-left", maxOffset - offset + "px");
+                }
+            }
+        }
+    });
+    
+    // Theme toggle
+    var btn = document.querySelector(".theme-toggle");
+    var prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+    var currentTheme = localStorage.getItem("theme");
+    
+    if (currentTheme != null) {
+        if (currentTheme == "dark") {
+            $("html").addClass("dark-mode");
+        } else {
+            $("html").removeClass("dark-mode");
+        }
+    } else {
+        if (prefersDarkScheme.matches) {
+            $("html").addClass("dark-mode");
+        } else {
+            $("html").removeClass("dark-mode");
+        }
+    }
+    
+    btn.addEventListener("click", function() {
+        $("html").toggleClass("dark-mode");
+        var theme = $("html").hasClass("dark-mode") ? "dark" : "light";
+        localStorage.setItem("theme", theme);
+        currentTheme = theme;
+    });
+});
