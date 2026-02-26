@@ -2944,40 +2944,43 @@ draw byLabelsOnPolygon(C, A, B, E, F, D)(ALL_LABELS, 0);
 \problem{P}{aralelogramos}{ en la misma base, y entre las mismos paralelas, son (en área) iguales.}
 
 \begin{center}
-A causa de las paralelas,
-                    
+A causa de las paralelas,\\
+$\left.
+	\begin{aligned}
+		\drawAngle{A} &= \drawAngle{B};\\
+		\drawAngle{E} &= \drawAngle{F};\\
+		\mbox{y } \drawUnitLine{AC} &= \drawUnitLine{BD}\\
+	\end{aligned}
+	\right\}
+	\begin{aligned}
+	&\mbox{\byref{prop:I.XXIX}}\\
+	&\mbox{\byref{prop:I.XXIX}}\\
+	&\mbox{\byref{prop:I.XXXIV}.}\\
+	\end{aligned}
+	$
 
-
-\drawAngle{A} $=$ \drawAngle{B};
-\drawAngle{E} $=$ \drawAngle{F};
-\drawUnitLine{AC} $=$ \drawUnitLine{BD}
-
-
-
-
-
-\byref{prop:I.XXIX}
-\byref{prop:I.XXIX}
-\byref{prop:I.XXXIV}
-
-Pero, \drawFromCurrentPicture[middle][polygonABC]{
+Pero
+$\drawFromCurrentPicture[middle][polygonABC]{
 startAutoLabeling;
 draw byNamedPolygon (ABGC, BEG);
 stopAutoLabeling;
 draw byNamedLine (AC);
-} $=$ \drawFromCurrentPicture[middle][polygonEFD]{
+}
+=
+\drawFromCurrentPicture[middle][polygonEFD]{
 startAutoLabeling;
 draw byNamedPolygon (EFDG, BEG);
 stopAutoLabeling;
 draw byNamedLine (BD);
-} \byref{prop:I.VIII}
-                     \\ $\therefore$ \drawFromCurrentPicture[middle][polygonAFDC]{
+}$ \byref{prop:I.VIII}
+
+$\therefore
+\drawFromCurrentPicture[middle][polygonAFDC]{
 startAutoLabeling;
 draw byNamedPolygon (ABGC, EFDG, BEG, CDG);
 stopAutoLabeling;
 draw byNamedLine (AC);
-} - \polygonEFD = \drawPolygon{ABGC, CDG}$,
-
+} - \polygonEFD = \drawPolygon{ABGC, CDG}$,\\
 y $\polygonAFDC - \polygonABC = \drawPolygon{EFDG, CDG}$;
 
 $\therefore \drawPolygon{ABGC, CDG} = \drawPolygon{EFDG, CDG}$.
