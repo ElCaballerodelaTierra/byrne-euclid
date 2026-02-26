@@ -3025,17 +3025,19 @@ draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(E, F, H, G)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{P}{aralelogramos}{ (\drawUnitLine{CE} and \drawUnitLine{DF}) en bases iguales, y entre las mismas paralelas, son iguales.}
+\problem{P}{aralelogramos}{ (\drawPolygon[bottom][polygonABDC]{ABIC, CDI}~and~\drawPolygon[bottom][polygonEFHG]{EFJ, JFHG}) en bases iguales, y entre las mismas paralelas, son iguales.}
 
 \begin{center}
-Dibuja \drawUnitLine{CD} y \drawUnitLine{GH},
- \\ \drawUnitLine{EF} $=$ \drawUnitLine{CD} $=$ \drawUnitLine{EF}, por \byref{prop:I.XXXIV,\hypref};
-                     \\ $\therefore$ \drawUnitLine{CE}$=$ y ∥ \drawUnitLine{DF};
- \\ $\therefore$ \polygon $=$ y ∥ \polygon \byref{prop:I.XXXIII}
+Dibuja \drawUnitLine{CE} y \drawUnitLine{DF},
+ \\ $\drawUnitLine{CD} = \drawUnitLine{GH} = \drawUnitLine{EF}$, por \byref{prop:I.XXXIV,\hypref};
+                     \\ $\therefore \drawUnitLine{CD} = \mbox{ y } \parallel \drawUnitLine{EF}$;
+ \\ $\therefore \drawUnitLine{CE} = \mbox{ y } \parallel \drawUnitLine{DF}$ \byref{prop:I.XXXIII}
 
-Y por lo tanto \polygon es un paralelogramo:
-                     \\ pero \polygon $=$ \polygon $=$  \byref{prop:I.XXXV}
-                     \\ $\therefore$  $=$  \byref{ax:I.I}.
+Y por lo tanto 
+\drawPolygon[bottom][polygonCDFE]{CDI, IDJE, EFJ}
+es un paralelogramo:
+                     \\ pero $\polygonABDC = \polygonCDFE = \polygonEFHG$  \byref{prop:I.XXXV}
+                     \\ $\therefore \polygonABDC = \polygonEFHG$ \byref{ax:I.I}.
 
 Q. E. D.
 \end{center}
@@ -3074,32 +3076,33 @@ draw byLabelsOnPolygon(H, A, B, E, F, I, noPoint)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, D, C, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riángulos}{ \drawUnitLine{CD} y \drawUnitLine{AC} en la misma base (\drawUnitLine{BD}) y entre las mismas paralelas son iguales.}
+\problem{T}{riángulos}{
+\drawPolygon[bottom][polygonBCD]{BCG, CDG} y~\drawPolygon[bottom][polygonCDE]{DGE, CDG}
+en la misma base (\drawUnitLine{CD}) y entre las mismas paralelas son iguales.
+}
 
 \begin{center}
-Dibuja \drawUnitLine{FD} ∥ \drawUnitLine{EC}
-\drawUnitLine{HI} ∥ \polygon
+$\left.
+	\begin{aligned}
+		\mbox{Dibuja } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
+		\drawUnitLine{FD} &\parallel \drawUnitLine{EC}\\
+	\end{aligned}
+\right\}\mbox{\byref{prop:I.XXXI}}$
 
+Prolonga \drawUnitLine{HI}.
 
+\drawPolygon[bottom][polygonABDC]{ABC, BCG, CDG}
+y
+\drawPolygon[bottom][polygonEFDC]{DGE, CDG, EFD}
+son paralelogramos en la misma base y entre las mismas paralelas, y por lo tanto iguales. \byref{prop:I.XXXV}
 
-                \byref{prop:I.XXXI}
-
-Prolonga \polygon.
-
-\polygon y \polygon son paralelogramos en la misma base y entre las mismas paralelas, y por lo tanto iguales. \byref{prop:I.XXXV}
-
-$\therefore$
-
-
-
-\polygon $=$ dos veces \polygon
- $=$ dos veces 
-
-
-
-                \byref{prop:I.XXXIV}
-
-$\therefore$  $=$  .
+$\therefore \left\{
+	\begin{aligned}
+		\polygonABDC &= \mbox{ dos veces } \polygonBCD\\
+		\polygonEFDC &= \mbox{ dos veces } \polygonCDE\\
+	\end{aligned}
+	\right\}$ \byref{prop:I.XXXIV}
+$\therefore \polygonBCD = \polygonCDE$.
 
 Q. E. D.
 \end{center}
@@ -3141,20 +3144,24 @@ draw byLabelsOnPolygon(A, B, E, F, noPoint)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(H, G, D, C, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riángulos}{ \drawUnitLine{AC} y \drawUnitLine{BD} en bases iguales y entre las mismas paralelas son iguales.}
+\problem{T}{riángulos}{(\drawPolygon[bottom][polygonBCD]{BCD} y \drawPolygon[bottom][polygonEGH]{EGH}) en bases iguales y entre las mismas paralelas son iguales.}
 
 \begin{center}
-Dibuja \drawUnitLine{FH} ∥ \drawUnitLine{EG}
-\polygon ∥ \polygon
+$\left.
+	\begin{aligned}
+		\mbox{Dibuja } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
+		\mbox{y } \drawUnitLine{FH} &\parallel \drawUnitLine{EG}\\
+	\end{aligned}
+	\right\}\mbox{\byref{prop:I.XXXI}}$
+
+\drawPolygon[bottom][polygonABDC]{ABC, BCD} = \drawPolygon[bottom][polygonEFHG]{EFH, EGH} \byref{prop:I.XXXVI};
 
 
 
-                \byref{prop:I.XXXI}
+pero $\polygonABDC = \mbox{ dos veces } \polygonBCD$ \byref{prop:I.XXXIV},\\
+y $\polygonEFHG = \mbox{ dos veces } \polygonEGH$ \byref{prop:I.XXXIV},
 
-\polygon $=$ \polygon \byref{prop:I.XXXVI};
-                 \\ \polygon $=$ dos veces \polygon \byref{prop:I.XXXIV},
-                 \\ y  $=$ dos veces  \byref{prop:I.XXXIV},
-                 \\ $\therefore$  $=$  \byref{ax:I.VII}.
+$\therefore \polygonBCD = \polygonEGH$ \byref{ax:I.VII}.
 
 Q. E. D.
 \end{center}
@@ -3188,21 +3195,22 @@ draw byLabelsOnPolygon(A, B, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(A, F, G, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{ \drawUnitLine{AF}, que une los vértices de los triángulos, no sea ∥ \drawUnitLine{CD}, dibuja \drawUnitLine{CG} ∥ \drawUnitLine{DF} \byref{prop:I.XXXI}, encontrando \drawUnitLine{AF}.}
+\problem{T}{riángulos}{ iguales (\drawPolygon[bottom][polygonADC]{AEC, ECD} y~\drawPolygon[bottom][polygonBDC]{BED, ECD}) sobre la misma base (\drawUnitLine{CD}) y en el mismo lado, están entre las mismas paralelas.}
 
 \begin{center}
-Dibuja \drawUnitLine{CD}.
+Si \drawUnitLine{AB}, que une los vértices de los triángulos, no sea $\parallel \drawUnitLine{CD}$, dibuja $\drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXXI}, encontrando \drawUnitLine{CG}.
 
-Porque \polygon ∥ \polygon (const.)
-                     \\ \polygon $=$ \polygon \byref{\constref}:
-                     \\ Pero \polygon $=$ \drawUnitLine{AF} (hip.);
+Dibuja \drawUnitLine{DF}.
 
-$\therefore$ \drawUnitLine{CD} $=$ \drawUnitLine{AB}, una parte igual al todo, lo cual es absurdo.
+$\because \drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{\constref}\\
+$\polygonADC = \drawPolygon[bottom][polygonFDC]{BED, ECD, FBD}$ \byref{prop:I.XXXVII};\\
+pero $\polygonADC = \polygonBDC$ \byref{\hypref};
 
-$\therefore$ \drawUnitLine{CD} ∦ \drawUnitLine{AB}; y de la misma manera se puede demostrar que ninguna otra línea excepto
-                     \\ \drawUnitLine{CD} es ∥ ; $\therefore$  ∥ .
+$\therefore \polygonBDC = \polygonFDC$, una parte igual al todo, lo cual es absurdo.
 
-Q. E. D. \byref{prop:I.XXXVII} \byref{\hypref}
+$\therefore \drawUnitLine{AF} \nparallel \drawUnitLine{CD}$; y de la misma manera se puede demostrar que ninguna otra línea excepto \drawUnitLine{AB} es $\parallel \drawUnitLine{CD}$; $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$.
+
+Q. E. D.
 \end{center}
 
 \qed
@@ -3249,13 +3257,23 @@ draw byNamedLineFull(B, B, 1, 1,  0, 0)(EF);
 }) y en el mismo lado, están entre las mismas paralelas.}
 
 \begin{center}
-Dibuja \polygon.
- \\ Porque  ∥  (const.)
-                     \\  $=$  pero  $=$   \\ $\therefore$  $=$ , una parte igual al todo, lo cual es absurdo.
-                     \\ $\therefore$  ∦ : y de la misma manera se puede demostrar que ninguna otra línea excepto
-                     \\  es ∥ : $\therefore$  ∥ .
+Si \drawSizedLine{AB} que une los vértices de los triángulos no sea $\parallel \drawSizedLine{CD,DE,EF}$,\\
+dibuja \drawSizedLine{AG} $\parallel \drawSizedLine{CD,DE,EF}$ \byref{prop:I.XXXI}, encontrando \drawSizedLine{EH}.\\
+Dibuja \drawSizedLine{FG}.
 
-Q. E. D. \byref{\constref}
+$\because \drawSizedLine{AG} \parallel \drawSizedLine{CD,DE,EF}$ \byref{\constref}\\
+$\polygonACD = \drawFromCurrentPicture[bottom][polygonGEF]{
+    startAutoLabeling;
+    draw byNamedPolygon (BEF, GBF);
+    stopAutoLabeling;
+    draw byNamedLineFull(G, G, 1, 1,  0, 0)(EF);
+}$ pero $\polygonACD = \polygonBEF$
+
+$\therefore \polygonBEF = \polygonGEF$, una parte igual al todo, lo cual es absurdo.
+
+$\therefore \drawSizedLine{AG} \nparallel \drawSizedLine{CD,DE,EF}$: y de la misma manera se puede demostrar que ninguna otra línea excepto \drawSizedLine{AB} es $\parallel \drawSizedLine{CD,DE,EF}$: $\therefore \drawSizedLine{AB} \parallel \drawSizedLine{CD,DE,EF}$.
+
+Q. E. D.
 \end{center}
 
 \qed
@@ -3283,13 +3301,15 @@ draw byLineFull(D, E, byblack, 0, 0)(A, C, 1, 1, 0);
 draw byLabelsOnPolygon(E, D, A, B, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{ un paralelogramo \drawUnitLine{DE} y un triángulo \drawUnitLine{AC} están sobre la misma base \drawUnitLine{DE} y entre las mismas paralelas \drawUnitLine{AE} y \polygon, el paralelogramo es el doble del triángulo.}
+\problem{S}{i}{ un paralelogramo \drawPolygon[bottom][polygonABED]{ABFG,GFE,AGD,DEG} y un triángulo \drawPolygon[bottom][polygonCED]{GFE,DEG,CFE} están sobre la misma base \drawUnitLine{DE} y entre las mismas paralelas \drawUnitLine{AC} y \drawUnitLine{DE}, el paralelogramo es el doble del triángulo.}
 
 \begin{center}
-Dibuja la diagonal \polygon;
-                 \\ Entonces \polygon $=$ \polygon \byref{prop:I.XXXVII}
-                 \\ \polygon $=$ dos veces  \byref{prop:I.XXXIV}
-                 \\ $\therefore$  $=$ dos veces .
+Dibuja la diagonal \drawUnitLine{AE}.
+
+Entonces $\drawPolygon[bottom][polygonAED]{AGD,DEG} = \polygonCED$ \byref{prop:I.XXXVII}\\
+$\polygonABED = \mbox{ dos veces } \polygonAED$ \byref{prop:I.XXXIV}
+
+$\therefore \polygonABED = \mbox{ dos veces } \polygonCED$.
 
 Q. E. D.
 \end{center}
@@ -3383,12 +3403,13 @@ draw byLabelsOnPolygon(C, F, A, H, B, G, D, I)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, E, H)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{L}{os}{complementos de los paralelogramos que están alrededor de la diagonal de cualquier paralelogramo, son iguales entre sí.}
+\problem{L}{os}{complementos (\drawPolygon[bottom][polygonHBGE]{HBGE} y \drawPolygon[bottom][polygonFCIE]{FCIE}) de los paralelogramos que están alrededor de la diagonal de cualquier paralelogramo, son iguales entre sí.}
 
 \begin{center}
-$\drawPolygon[bottom][polygonHBEG]{HBEG} = \drawPolygon[bottom][polygonCIFE]{CIFE}$ \byref{prop:I.XXXIV}\\
-y $\drawPolygon[bottom][polygonAEH]{AEH} = \drawPolygon[bottom][polygonAEF]{AEF}$ \byref{prop:I.XXXIV}\\
-$\therefore \drawPolygon[bottom][polygonHBEG]{HBEG} = \drawPolygon[bottom][polygonCIFE]{CIFE}$ \byref{ax:I.III}.
+$\drawPolygon[bottom][polygonADC]{AEF,FCIE,IDE} = \drawPolygon[bottom][polygonABD]{AEH,HBGE,GDE}$ \byref{prop:I.XXXIV}\\
+y $\drawPolygon[bottom][polygonAEFpIDE]{AEF,IDE} = \drawPolygon[bottom][polygonAEHpGDE]{AEH,GDE}$ \byref{prop:I.XXXIV}
+
+$\therefore \polygonFCIE = \polygonHBGE$ \byref{ax:I.III}.
 
 Q. E. D.
 \end{center}
@@ -3450,17 +3471,24 @@ draw byNamedAngleSidesFull(MNO)();
 stopAutoLabeling;
 }
 \drawCurrentPictureInMargin
-\problem{A}{}{ una línea recta dada (\drawUnitLine{EG}) para aplicar un paralelogramo igual a un triángulo dado (\drawAngle{N}) y que tenga un ángulo igual a un ángulo rectilíneo dado (\polygon).}
+\problem{A}{}{ una línea recta dada (\drawUnitLine{EG}) para aplicar un paralelogramo igual a un triángulo dado (\drawPolygon[middle][polygonJKL]{JKL}), y teniendo un ángulo igual a un ángulo rectilíneo dado (\drawAngle{N}).}
 
 \begin{center}
-Haz \drawAngle{F} $=$ \drawAngle{N} con \drawUnitLine{FE} $=$ \drawUnitLine{EG} \byref{prop:I.XLII} y teniendo uno de sus lados \drawUnitLine{AH} limítrofe y en continuación de \drawUnitLine{BG}. Prolonga \drawUnitLine{HE} hasta que se encuentre \drawUnitLine{BE} ∥ \drawUnitLine{AF} dibuja \drawUnitLine{CD} y prolonga hasta que se encuentre \drawUnitLine{FE,EG} continuada; dibuja \drawUnitLine{BG} ∥ \drawUnitLine{HE} encuentra \polygon prolongada, y prolonga \polygon.
+Haz $\drawPolygon[middle][polygonAHEF]{AHEF} = \polygonJKL$ con $\drawAngle{F} = \drawAngle{N}$ \byref{prop:I.XLII}\\
+y teniendo uno de sus lados \drawUnitLine{FE} limítrofe y en continuación de \drawUnitLine{EG}.
 
-\polygon $=$ \polygon \byref{prop:I.XLIII}
-                     \\ pero \polygon $=$ \drawAngle{F} (const.)
-                     \\ $\therefore$ \drawAngle{E} $=$ \drawAngle{I}; y
-                     \\ \drawAngle{N} $=$  $=$  $=$  \byref{\constref}
+Prolonga \drawUnitLine{AH} hasta que se encuentre con $\drawUnitLine{BG} \parallel \drawUnitLine{HE}$;\\
+dibuja \drawUnitLine{BE} prolóngala hasta que se encuentre con \drawUnitLine{AF} continuada;\\
+dibuja $\drawUnitLine{CD} \parallel \drawUnitLine{FE,EG}$ encontrándose con \drawUnitLine{BG} prolongada y prolonga \drawUnitLine{HE}.
 
-Q. E. D. \byref{prop:I.XXIX,\constref}
+$\polygonAHEF = \drawPolygon[middle][polygonEGDI]{EGDI}$ \byref{prop:I.XLIII}\\
+pero $\polygonAHEF = \polygonJKL$ \byref{\constref}
+
+$\therefore \polygonEGDI = \polygonJKL$;
+
+y $\drawAngle{F} = \drawAngle{E} = \drawAngle{I} = \drawAngle{N}$ \byref{prop:I.XXIX,\constref}.
+
+Q. E. D.
 \end{center}
 
 \qed
@@ -3527,15 +3555,22 @@ stopAutoLabeling;
 }
 \drawCurrentPictureInMargin
 
-\problem{P}{ara}{ construir un paralelogramo igual a una figura rectilínea dada (\drawAngle{O}) y que tenga un ángulo igual a un ángulo rectilíneo dado (\drawUnitLine{AD}).}
+\problem{P}{ara}{ construir un paralelogramo igual a una figura rectilínea dada (\drawPolygon[middle][polygonABCDE]{ABC,ACD,ADE}) y que tenga un ángulo igual a un ángulo rectilíneo dado (\drawAngle{O}).}
 
 \begin{center}
-Dibuja \drawUnitLine{AC} y \drawAngle{I} dividiendo la figura rectilínea en triángulos.
+Dibuja \drawUnitLine{AD} y \drawUnitLine{AC}, dividiendo la figura rectilínea en triángulos.
 
-Construye \drawAngle{O} $=$ \drawUnitLine{GI}  \\ teniendo \drawAngle{K} $=$ \drawAngle{O}  \\ teniendo \polygon $=$ \polygon \byref{prop:I.XLIV}
-                     \\ para \drawAngle{M} aplica \drawAngle{O} $=$   \\ teniendo  $=$  \byref{prop:I.XLIV}
-                     \\ $\therefore$  $=$   \\ y  es un paralelogramo \byref{prop:I.XXIX,prop:I.XIV,prop:I.XXX}
-                     \\ teniendo  $=$ .
+Construye el paralelogramo $\drawPolygon{FGIH} = \drawPolygon{ADE}$ \byref{prop:I.XLII}\\
+teniendo $\drawAngle{I} = \drawAngle{O}$;\\
+para \drawUnitLine{GI} aplica el paralelogramo $\drawPolygon{GJKI} = \drawPolygon{ACD}$ \byref{prop:I.XLIV}\\
+teniendo $\drawAngle{K} = \drawAngle{O}$;\\
+y para \drawUnitLine{JK} aplica el paralelogramo $\drawPolygon{JLMK} = \drawPolygon{ABC}$ \byref{prop:I.XLIV}\\
+teniendo $\drawAngle{M} = \drawAngle{O}$.
+
+$\therefore \drawPolygon[middle][polygonFLMH]{FGIH,GJKI,JLMK} = \polygonABCDE$
+
+y \polygonFLMH es un paralelogramo. \byref{prop:I.XXIX,prop:I.XIV,prop:I.XXX}\\
+teniendo $\drawAngle{M} = \drawAngle{O}$ y es igual a la figura rectilínea dada.
 
 Q. E. D.
 \end{center}
@@ -3582,7 +3617,7 @@ stopTempAngleScale;
                      \\ \drawAngle{C} $=$ un ángulo recto (const.)
                      \\ $\therefore$ \drawAngle{D} $=$ \drawAngle{C} $=$ un ángulo recto \byref{\constref},
                      \\ y los lados y ángulos restantes deben ser iguales. \byref{\constref}
-                     \\ y $\therefore$ \polygon es un cuadrado. \byref{prop:I.XXIX}
+                     \\ y $\therefore \polygonABDC$ es un cuadrado. \byref{def:I.XXX}
 
 Q. E. D. \byref{prop:I.XXXIV} \byref{def:I.XXX}
 \end{center}
@@ -3658,37 +3693,43 @@ draw byLabelsOnPolygon(B, E, D, A, G, F, C, I, K, H)(ALL_LABELS, -1);
 draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 }
 \drawCurrentPictureInMargin
-\problem{E}{n}{ un triángulo rectángulo \drawLine[bottom][triangleABC]{CA,BC,AB} el cuadrado de la hipotenusa \drawUnitLine{BC} es igual a la suma de los cuadrados de los lados, (\drawUnitLine{CA} y \drawUnitLine{AB}).}
+\problem{E}{n}{ un triángulo rectángulo \drawLine[bottom][triangleABC]{CA,BC,AB} el cuadrado de la hipotenusa \drawUnitLine{BC} es igual a la suma de los cuadrados de los lados (\drawUnitLine{CA} y \drawUnitLine{AB}).}
 
 \begin{center}
-En \drawUnitLine{BC}, \drawUnitLine{CA} y \drawUnitLine{AB} dibuja cuadrados, \byref{prop:I.XLVI}
+Sobre \drawUnitLine{BC}, \drawUnitLine{CA}, \drawUnitLine{AB} describe cuadrados, \byref{prop:I.XLVI}
 
-Dibuja \drawUnitLine{AK} ∥ \drawUnitLine{CI} \byref{prop:I.XXXI} tambien dibuja \drawUnitLine{BF} y \drawUnitLine{AI}.
+Dibuja $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$ \byref{prop:I.XXXI}\\
+también dibuja \drawUnitLine{BF} y \drawUnitLine{AI}.\\
+$\drawAngle{BCI} = \drawAngle{FCA}$.
 
-\drawAngle{BCI} $=$ \drawAngle{FCA},
+A cada uno añade \drawAngle{ACB} $\therefore \drawAngle{BCI,ACB} = \drawAngle{FCA,ACB}$,\\
+$\drawUnitLine{BC} = \drawUnitLine{CI}$ y $\drawUnitLine{CA} = \drawUnitLine{CF}$;
 
-A cada uno agrega \drawAngle{ACB} $\therefore$ \drawAngle{BCI,ACB} $=$ \drawAngle{FCA,ACB},
- \\ \drawUnitLine{BC} $=$ \drawUnitLine{CI} y \drawUnitLine{CA} $=$ \drawUnitLine{CF};
-
-$\therefore$ \drawFromCurrentPicture[middle][polygonAFC]{
+$\therefore
+\drawFromCurrentPicture[middle][polygonAFC]{
 draw byNamedPolygon(MCI);
 draw byNamedAngle(ACB);
 draw byNamedLine(CAb,AMb);
 draw byLabelsOnPolygon(I,A,C)(OMIT_LABELS_AT_STRAIGHT_ANGLES, -1);
-} $=$ \drawFromCurrentPicture[middle][polygonBLC]{
+}
+=
+\drawFromCurrentPicture[middle][polygonBLC]{
 draw byNamedPolygon(CLF);
 draw byNamedAngle(ACB);
 draw byNamedLine(BCb,BLb);
 draw byLabelsOnPolygon(B,F,C)(OMIT_LABELS_AT_STRAIGHT_ANGLES, -1);
-}.
+}
+$.
 
-De nuevo, porque \drawUnitLine{AB} ∥ \drawUnitLine{CF}  \\ \polygon $=$ dos veces \polygon,
- \\ y \polygon $=$ dos veces \polygon;
- \\ $\therefore$  $=$ .
+De nuevo, $\because \drawUnitLine{AB} \parallel \drawUnitLine{CF}$\\
+$\drawPolygon[middle][polygonACFG]{LAGF,CLF} = \mbox{ dos veces } \polygonBLC$,\\
+y $\drawPolygon[middle][polygonJMCK]{JMIK,MCI} = \mbox{ dos veces } \polygonAFC$;
 
-De la misma manera se puede mostrar
-                     \\ que  $=$ ;
- \\ por lo tanto  $=$ .
+$\therefore \polygonACFG = \polygonJMCK$.
+
+De la misma manera se puede mostrar que $\drawPolygon[middle][polygonABED]{ABED} = \drawPolygon[middle][polygonBJKH]{BJKH}$;
+
+por lo tanto $\drawPolygon[middle][polygonABEDpACFG]{ABED,LAGF,CLF} = \drawPolygon[middle][polygonBCIH]{JMIK,MCI,BJKH}$.
 
 Q. E. D.
 \end{center}
@@ -3720,24 +3761,26 @@ draw byLabelsOnPolygon(D, B, C, A)(ALL_LABELS, 0);
 \problem{S}{i}{ el cuadrado de un lado (\drawUnitLine{BC}) de un triángulo es igual a los cuadrados de los otros dos lados (\drawUnitLine{AB} y \drawUnitLine{AC}), el ángulo (\drawAngle{BAC}) subtendido por ese lado es un ángulo recto.}
 
 \begin{center}
-Dibuja \drawUnitLine{AD} ⊥ \drawUnitLine{AB} y $=$ \drawUnitLine{AC} (prs. 11. 3.)
- \\ y dibuja \drawUnitLine{BD} también.
+Dibuja $\drawUnitLine{AD} \perp \drawUnitLine{AB}$ e $= \drawUnitLine{AC}$ \byref{prop:I.XI,prop:I.III}\\
+y dibuja \drawUnitLine{BD} también.
 
-Ya que \drawUnitLine{AD} $=$ \drawUnitLine{AC} (const.)
-                     \\ \drawUnitLine{AD}2 $=$ \drawUnitLine{AC}2;
- \\ $\therefore$ \drawUnitLine{AD}2 + \drawUnitLine{AB}2 $=$ \drawUnitLine{AC}2 + \drawUnitLine{AB}2,
- \\ pero \drawUnitLine{AD}2 + \drawUnitLine{AB}2 $=$ \drawUnitLine{BD}2 \byref{prop:I.XI,prop:I.III},
-                     \\ y \drawUnitLine{AC}2 + \drawUnitLine{AB}2 $=$ \drawUnitLine{BC}2 (hip.)
-                     \\ $\therefore$ \drawUnitLine{BD}2 $=$ \drawUnitLine{BC}2,
- \\ $\therefore$ \drawUnitLine{BD} $=$ \drawUnitLine{BC};
- \\ y $\therefore$ \drawAngle{DAB} $=$ \drawAngle{BAC} \byref{\constref},
-                     \\ por consiguiente \drawAngle{BAC} es un ángulo recto.
+Como $\drawUnitLine{AD} = \drawUnitLine{AC}$ \byref{\constref}\\
+$\drawUnitLine{AD}^2 = \drawUnitLine{AC}^2$;
+
+$\therefore \drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{AC}^2 + \drawUnitLine{AB}^2$
+
+pero $\drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BD}^2$ \byref{prop:I.XLVII},\\
+y $\drawUnitLine{AC}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BC}^2$ \byref{\hypref}
+
+$\therefore \drawUnitLine{BD}^2 = \drawUnitLine{BC}^2$,
+
+$\therefore \drawUnitLine{BD} = \drawUnitLine{BC}$;
+
+y $\therefore \drawAngle{DAB} = \drawAngle{BAC}$ \byref{prop:I.VIII},
+
+consecuentemente \drawAngle{BAC} es un ángulo recto.
 
 Q. E. D.
-
-Un proyecto de Nicholas Rougeux     Licencia
-
-¿Problemas de visualización? ¿Errores ortográficos? \byref{prop:I.XLVII} \byref{\hypref} \byref{prop:I.VIII}
 \end{center}
 
 \qed
