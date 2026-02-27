@@ -460,7 +460,7 @@ expresa la palabra \emph{por lo tanto}.
  expresa la palabra \emph{igual}. Este signo de igualdad puede leerse \emph{igual a}, o \emph{es igual a}, o \emph{son iguales a}; pero la discrepancia con respecto a la introducción de los verbos auxiliares \emph{es}, \emph{son}, etc. no puede afectar el rigor geométrico.
 
 \symb{$\neq$}
- significa lo mismo que si se escribieran las palabras \emph{‘not equal’}.
+ significa lo mismo que si se escribieran las palabras \emph{‘no igual’}.
 
 \symb{$>$}
  significa \emph{mayor que}.
@@ -538,15 +538,15 @@ o A es a B, como C es a D.
 draw byNamedLine(AD);
 draw byNamedLineSeq(0)(BD,CD);
 }
-or
+o
 \drawFromCurrentPicture{
 draw byNamedLineSeq(0)(AD,BD);
 }}
-briefly designates a \emph{punto}.
+designa brevemente un \emph{punto}.
 
-The square described on a line is concisely written thus, $\drawUnitLine{AD}^2$.
+El cuadrado descrito sobre una línea se escribe concisamente así, $\drawUnitLine{AD}^2$.
 
-In the same manner twice the square of, is expressed by $2 \cdot \drawUnitLine{AD}^2$.
+En la misma manera, el doble del cuadrado de, se expresa por $2 \cdot \drawUnitLine{AD}^2$.
 
 \symb{\indefstr}
  significa \emph{definición}.
@@ -703,7 +703,7 @@ Una figura es una superficie encerrada en todos los lados por una línea o líne
 }
 \startdefinition{}\label{def:I.XV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un  es una figura plana, delimitada por una línea continua, llamada circunferencia o periferia; y tiene un cierto punto dentro de él, desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
+\drawCurrentPictureInMargin[inside] Un círculo es una figura plana, delimitada por una línea continua, llamada circunferencia o periferia; y tiene un cierto punto dentro de él, desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
 \end{center}
 
 \startdefinition{}\label{def:I.XVI}
@@ -723,7 +723,7 @@ Una figura es una superficie encerrada en todos los lados por una línea o líne
 }
 \startdefinition{}\label{def:I.XVII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] El  es una línea recta dibujada a través del centro, terminada en ambos sentidos en la circunferencia.
+\drawCurrentPictureInMargin[inside] El diámetro es una línea recta dibujada a través del centro, terminada en ambos sentidos en la circunferencia.
 \end{center}
 
 \defineNewPicture{
@@ -807,7 +807,7 @@ Un polígono es una figura rectilínea delimitada por más de cuatro lados.
 }
 \startdefinition{}\label{def:I.XXIV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un polígono es una figura rectilínea delimitada por más de cuatro lados.
+\drawCurrentPictureInMargin[inside] Un triángulo equilátero es el que tiene todos sus lados iguales.
 \end{center}
 
 \defineNewPicture{
@@ -822,7 +822,7 @@ Un polígono es una figura rectilínea delimitada por más de cuatro lados.
 }
 \startdefinition{}\label{def:I.XXV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo cuyos tres lados son iguales, se dice ser equilátero.
+\drawCurrentPictureInMargin[inside] Un triángulo isósceles es el que tiene dos lados iguales.
 \end{center}
 
 \startdefinition{}\label{def:I.XXVI}
@@ -842,19 +842,10 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXVII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo escaleno es uno que no tiene dos lados iguales.
+\drawCurrentPictureInMargin[inside] Un triángulo rectángulo es el que tiene un ángulo recto.
 \end{center}
 
 \vskip \baselineskip
-
-
-\begin{center}
-Un triángulo rectángulo es el que tiene un .
-\end{center}
-
-\vskip \baselineskip
-
-\startdefinition{}\label{def:I.XXVIII}
 
 \defineNewPicture{
 	pair A, B, C;
@@ -866,12 +857,10 @@ Un triángulo rectángulo es el que tiene un .
 		byLineDefine(C, A, byyellow, SOLID_LINE, REGULAR_WIDTH);
 		draw byNamedLineSeq(0)(AB,BC,CA);
 }
-\drawCurrentPictureInMargin
+\startdefinition{}\label{def:I.XXVIII}
 \begin{center}
-Un triángulo obtusángulo es aquel que tiene un .
+\drawCurrentPictureInMargin[inside] Un triángulo obtusángulo es aquel que tiene un ángulo obtuso.
 \end{center}
-
-\startdefinition{}\label{def:I.XXIX}
 
 \defineNewPicture{
 	pair A, B, C;
@@ -883,33 +872,10 @@ Un triángulo obtusángulo es aquel que tiene un .
 		byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
 		draw byNamedLineSeq(0)(AB,BC,CA);
 }
-\drawCurrentPictureInMargin
+\startdefinition{}\label{def:I.XXIX}
 \begin{center}
-Un triángulo acutángulo es aquel que tiene tres ángulos agudos.
+\drawCurrentPictureInMargin[inside] Un triángulo acutángulo es aquel que tiene tres ángulos agudos.
 \end{center}
-
-\startdefinition{}\label{def:I.XXX}
-
-\defineNewPicture{
-	pair A, B, C, D;
-	numeric s;
-	s := u;
-	A := (0, 0);
-	B := (s, 0);
-	C := (0, s);
-	D := (s, s);
-		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
-		draw byNamedLineSeq(0)(AB,AC,CD,BD);
-}
-\drawCurrentPictureInMargin
-\begin{center}
-De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados iguales y todos sus ángulos, ángulos rectos.
-\end{center}
-
-\startdefinition{}\label{def:I.XXXI}
 
 \defineNewPicture{
 	pair A, B, C, D;
@@ -925,12 +891,48 @@ De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados i
 		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
 		draw byNamedLineSeq(0)(AB,AC,CD,BD);
 }
-\drawCurrentPictureInMargin
+\startdefinition{}\label{def:I.XXX}
 \begin{center}
-Un rombo es aquel que tiene todos sus lados iguales, pero sus ángulos no son ángulos rectos.
+\drawCurrentPictureInMargin[inside] De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados iguales y todos sus ángulos rectos.
 \end{center}
 
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (0, s);
+	D := (s, s);
+		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
+\startdefinition{}\label{def:I.XXXI}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un rombo es aquel que tiene todos sus lados iguales, pero sus ángulos no son ángulos rectos.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (s, 0);
+	C := A shifted (dir(80) scaled s);
+	D := B shifted (dir(80) scaled s);
+		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
 \startdefinition{}\label{def:I.XXXII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
+\end{center}
 
 \defineNewPicture{
 	pair A,B,C,D;
@@ -946,33 +948,15 @@ Un rombo es aquel que tiene todos sus lados iguales, pero sus ángulos no son á
 		byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
 		draw byNamedLineSeq(0)(AB,AC,CD,BD);
 }
-\drawCurrentPictureInMargin
-\begin{center}
-Un oblongo es aquel que tiene todos sus ángulos, ángulos rectos, pero no tiene todos sus lados iguales.
-\end{center}
-
 \startdefinition{}\label{def:I.XXXIII}
-
-\defineNewPicture{
-	pair A, B, C, D;
-	numeric s;
-	s := u;
-	A := (0, 0);
-	B := (s, 0);
-	C := (1/4s, 3/4s);
-	D := (s + 1/4s, 3/4s);
-		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
-		draw byNamedLineSeq(0)(AB,AC,CD,BD);
-}
-\drawCurrentPictureInMargin
 \begin{center}
-Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
+\drawCurrentPictureInMargin[inside] Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
 \end{center}
 
 \startdefinition{}\label{def:I.XXXIV}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Todas las demás figuras cuadriláteras se llaman trapecios.
+\end{center}
 
 \defineNewPicture{
 	pair A, B, C, D;
@@ -985,103 +969,56 @@ Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos 
 		draw byLine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
 		draw byLine(C, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
 }
-\drawCurrentPictureInMargin
-\begin{center}
-Todas las demás figuras cuadriláteras se llaman trapecios.
-\end{center}
 \startdefinition{}\label{def:I.XXXV}
-
 \begin{center}
-Las líneas rectas paralelas son como las que se encuentran en el mismo plano, y que prolongadas continuamente en ambas direcciones, nunca se encontrarán.
+\drawCurrentPictureInMargin[inside] Las líneas rectas paralelas son aquellas que están en el mismo plano, y que prolongadas continuamente en ambas direcciones, nunca se encontrarán.
 \end{center}
 
 \chapter*{Postulados}
 
 \startpostulate{}\label{post:I.I}
-
-\begin{center}
-Deje que sea aceptado que una línea recta puede ser dibujada desde cualquier punto a cualquier otro punto.
-\end{center}
+Se puede trazar una línea recta desde cualquier punto a cualquier otro punto.
 
 \startpostulate{}\label{post:I.II}
-
-\begin{center}
-Deje que sea aceptado que una línea recta finita puede ser prolongada a cualquier longitud en una línea recta.
-\end{center}
+Se puede prolongar una línea recta indefinidamente.
 
 \startpostulate{}\label{post:I.III}
-
-\begin{center}
-Deje que sea aceptado que un círculo puede ser trazado con cualquier centro a cualquier distancia de ese centro.
-\end{center}
+Se puede trazar un círculo con cualquier centro y radio.
 
 \chapter*{Axiomas}
 
 \startaxiom{}\label{ax:I.I}
-
-\begin{center}
-Las magnitudes que son iguales a lo mismo son iguales entre sí.
-\end{center}
+Las magnitudes iguales a una misma magnitud son iguales entre sí.
 
 \startaxiom{}\label{ax:I.II}
-
-\begin{center}
-Si se suma igual a igual, las sumas serán iguales.
-\end{center}
+Si se suman iguales, las sumas serán iguales.
 
 \startaxiom{}\label{ax:I.III}
-
-\begin{center}
-Si se quita igual a igual, el residuo será igual.
-\end{center}
+Si se restan iguales, el residuo será igual.
 
 \startaxiom{}\label{ax:I.IV}
-
-\begin{center}
-Si se agregan iguales a desiguales, las sumas serán desiguales.
-\end{center}
+Si se suman iguales a desiguales, las sumas serán desiguales.
 
 \startaxiom{}\label{ax:I.V}
-
-\begin{center}
-Si se eliminan iguales de desiguales, el residuo será desigual.
-\end{center}
+Si se restan iguales a desiguales, el residuo será desigual.
 
 \startaxiom{}\label{ax:I.VI}
-
-\begin{center}
-Los dobles de lo mismo o magnitudes iguales son iguales.
-\end{center}
+Magnitudes iguales a una misma magnitud son iguales entre sí.
 
 \startaxiom{}\label{ax:I.VII}
-
-\begin{center}
-Las mitades de lo mismo o magnitudes iguales son iguales.
-\end{center}
+Magnitudes que son la mitad de la misma magnitud son iguales entre sí.
 
 \startaxiom{}\label{ax:I.VIII}
-
-\begin{center}
-Las magnitudes que coinciden entre sí, o que llenan exactamente el mismo espacio, son iguales.
-\end{center}
+Magnitudes que coinciden entre sí, o que llenan exactamente el mismo espacio, son iguales.
 
 \startaxiom{}\label{ax:I.IX}
-
-\begin{center}
-El todo es mayor que su parte.
-\end{center}
+El todo es mayor que sus partes.
 
 \startaxiom{}\label{ax:I.X}
-
-\begin{center}
 Dos líneas rectas no pueden contener un espacio.
-\end{center}
 
 \startaxiom{}\label{ax:I.XI}
-
-\begin{center}
 Todos los ángulos rectos son iguales.
-\end{center}
 
 \startaxiom{}\label{ax:I.XII}
 \defineNewPicture{
@@ -1106,9 +1043,8 @@ Todos los ángulos rectos son iguales.
 		draw byLabelsOnPolygon(E, H, D)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 		draw byLabelsOnPolygon(B, G, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
-\drawCurrentPictureInMargin
-\begin{center}
-Si dos líneas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}) se encuentran con una tercera línea recta (\drawUnitLine{EF}) para hacer que los dos ángulos interiores (\drawAngle{H} y \drawAngle{G}) en el mismo lado sean menores que dos ángulos rectos, estas dos líneas rectas se encontrarán si se prolongan en el lado en el que los ángulos son menores que dos ángulos rectos.
+\drawCurrentPictureInMargin[inside]
+Si dos líneas rectas $\left(\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}}\right)$ se encuentran con una tercera línea recta (\drawUnitLine{EF}) para hacer que los dos ángulos interiores (\drawAngle{H} y \drawAngle{G}) en el mismo lado sean menores que dos ángulos rectos, estas dos líneas rectas se encontrarán si se prolongan en el lado en el que los ángulos son menores que dos ángulos rectos.
 
 El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras:
 \begin{enumerate}
@@ -1116,7 +1052,6 @@ El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras
 \item Si una línea recta corta una de dos líneas rectas paralelas, debe también cortar la otra.
 \item Solo se puede trazar una línea recta a través de un punto dado, paralela a una línea recta dada.
 \end{enumerate}
-\end{center}
 
 \chapter*{Proposiciones}
 
