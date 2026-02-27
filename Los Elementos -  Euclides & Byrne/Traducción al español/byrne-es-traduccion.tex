@@ -12,14 +12,6 @@
 
 \LARGE \uppercase{Los elementos de Euclides}
 
-\vskip 0.5\baselineskip
-
-\normalsize \uppercase{en el que se utilizan diagramas y símbolos coloreados en lugar de letras para facilitar el aprendizaje}
-
-\vskip 0.75\baselineskip
-
-\Large \uppercase{Por Oliver Byrne}
-
 %{\uppercase{SURVEYOR OF HER MAJESTY'S SETTLEMENTS IN THE FALKLAND ISLANDS AND AUTHOR OF NUMEROUS MATHEMATICAL WORKS}}
 
 \defineNewPicture{
@@ -85,22 +77,50 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 
 \vfill\vfill\vfill
 
-\large github.com/jemmybutton
-\vskip 0.25\baselineskip
+\vskip 0.5\baselineskip
 
-\Large 2025 ed.\,0.8-latex-alpha
-\vskip \baselineskip
+\normalsize \uppercase{en el que se utilizan diagramas y símbolos coloreados en lugar de letras para facilitar el aprendizaje}
 
+\vskip 0.75\baselineskip
+
+\Large \uppercase{Por Oliver Byrne}
+
+\end{center}
+
+\pagebreak
+
+\begin{flushleft}
+\section*{Créditos y atribución}
+
+\small
+\textit{Los Elementos} fueron escritos por 
+Euclides aproximadamente hace 2300 años en la antigua Grecia, probablemente en Alejandría.
+
+La edición visual en color fue realizada por 
+Oliver Byrne en 1847, bajo el título 
+\textit{The First Six Books of the Elements of Euclid}.
+
+La edición digital en \LaTeX\ fue realizada por Slyusarev Sergey en 2017, se encuentra disponible en inglés y ruso:
+\url{https://github.com/jemmybutton/byrne-euclid}
+
+La traducción al español fue realizada por Carlos Villarreal en 2026.
+\end{flushleft}
+
+\begin{center}
 \ccbysa 
+\end{center}
+
 \vskip 0.25\baselineskip
 
-\footnotesize Esta traducción de \emph{Los primeros seis libros de los elementos de Euclides} de Oliver Byrne es realizada por Slyusarev Sergey y se distribuye bajo licencia CC-BY-SA~4.0
+\footnotesize Esta traducción de \emph{Los primeros seis libros de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
 
 \vskip -\baselineskip
 
 \normalsize
-\end{center}
+
+
 \pagebreak
+
 \restoregeometry
 
 \part*{Introducción}
@@ -108,8 +128,10 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su adquisición es de tanta importancia como extender sus límites. La ilustración, si no acorta el tiempo de estudio, al menos lo hará más agradable. Este trabajo tiene un objetivo mayor que la mera ilustración; no introducimos colores con el propósito de entretener, o para entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
 pero para ayudar a la mente en sus investigaciones de la verdad, para aumentar las facilidades de introducción y para difundir el conocimiento permanente. Si quisiéramos autoridades para probar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos, en la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, los Elementos de Euclides se han convertido, por consentimiento común, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parecerá extraordinario, si consideramos que esta ciencia sublime no solo está mejor calculada que cualquier otra para despertar el espíritu de investigación, elevar la mente y fortalecer las facultades de razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
 
+\pagebreak
+
 \charspacing{-1}{Mucho sin embargo depende de la primera comunicación de cualquier ciencia a un alumno, aunque los métodos mejores y más fáciles rara vez se adoptan. Se presentan proposiciones a un estudiante, a quien, aunque tenga una comprensión suficiente, se le dice tan poco sobre ellas al entrar en el umbral mismo de la ciencia, que se le da una predisposición muy desfavorable para su futuro estudio de este tema delicioso; o \enquote{las formalidades y parafernalia del rigor se presentan de manera tan ostentosa, que casi ocultan la realidad. Las repeticiones interminables y desconcertantes, que no confieren mayor exactitud al razonamiento, hacen que las demostraciones sean complejas y oscuras, y ocultan a la vista del estudiante la sucesión de la evidencia.} % la cita parece ser de The First Six Books of the Elements of Euclid de Dionysius Lardner https://books.google.ru/books?id=YnkAAAAAMAAJ
-Así se crea una aversión en la mente del alumno, y un tema tan calculado para mejorar las facultades de razonamiento y dar el hábito de pensar con atención se degrada por un curso de instrucción seco y rígido en un ejercicio poco interesante de la memoria. Despertar la curiosidad y despertar las facultades letárgicas y latentes de las mentes jóvenes debería ser el objetivo de todo maestro; pero donde faltan ejemplos de excelencia, los intentos de alcanzarla son pocos, mientras que la eminencia excita la atención y produce imitación. El objetivo de esta obra es introducir un método de enseñanza de la geometría que ha sido muy aprobado por muchos hombres de ciencia en este país, así como en Francia y América. El plan aquí adoptado apela fuertemente al ojo, el más sensible y el más completo de nuestros órganos externos, y su preeminencia para grabar su tema en la mente está respaldada por el axioma incontrovertible expresado en las conocidas palabras de Horacio:—}
+ Así se crea una aversión en la mente del alumno, y un tema tan calculado para mejorar las facultades de razonamiento y dar el hábito de pensar con atención se degrada por un curso de instrucción seco y rígido en un ejercicio poco interesante de la memoria. Despertar la curiosidad y despertar las facultades letárgicas y latentes de las mentes jóvenes debería ser el objetivo de todo maestro; pero donde faltan ejemplos de excelencia, los intentos de alcanzarla son pocos, mientras que la eminencia excita la atención y produce imitación. El objetivo de esta obra es introducir un método de enseñanza de la geometría que ha sido muy aprobado por muchos hombres de ciencia en este país, así como en Francia y América. El plan aquí adoptado apela fuertemente al ojo, el más sensible y el más completo de nuestros órganos externos, y su preeminencia para grabar su tema en la mente está respaldada por el axioma incontrovertible expresado en las conocidas palabras de Horacio:}
 
 \begin{center}
 \emph{Segnius irritant animos demissa per aurem\\
@@ -124,6 +146,8 @@ que la que transmite el ojo fiel.
 La expedición de este modo tan atractivo de comunicar conocimientos es tal, que los Elementos de Euclides pueden adquirirse en menos de un tercio del tiempo habitualmente empleado, y la retención por la memoria es mucho más duradera; estos hechos han sido comprobados por numerosos experimentos realizados por el inventor y varios otros que han adoptado sus planes. Los detalles de los cuales son pocos y obvios; las letras anexas a puntos, líneas u otras partes de un diagrama son en realidad meros nombres arbitrarios y los representan en la demostración; en lugar de estos, las partes, al estar coloreadas de manera diferente, se nombran a sí mismas, ya que sus formas en colores correspondientes las representan en la demostración.
 
 Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su adopción, tomemos un triángulo rectángulo y expresemos algunas de sus propiedades tanto con colores como con el método generalmente empleado.
+
+\pagebreak
 
 \defineNewPicture{
 	pair A, B, C;
@@ -156,7 +180,7 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 \item El angulo ABC es mayor que cualquiera de los angulos BAC o BCA.
 \item El angulo BCA o el angulo CAB es menor que el angulo ABC.
 \item Si del angulo ABC se toma el angulo BAC, el residuo sera igual al angulo ACB.
-\item The square of AC is equal to the sum of the squares of AB and BC.
+\item El cuadrado de AC es igual a la suma de los cuadrados de AB y BC.
 \end{enumerate}
 
 \vskip 0.5\baselineskip
@@ -708,7 +732,7 @@ Una figura es una superficie encerrada en todos los lados por una línea o líne
 
 \startdefinition{}\label{def:I.XVI}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Este punto (desde el cual se dibujan las líneas iguales) se llama el centro del círculo.
+Este punto (desde el cual se dibujan las líneas iguales) se llama el centro del círculo.
 \end{center}
 
 \defineNewPicture{
@@ -916,25 +940,6 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 \end{center}
 
 \defineNewPicture{
-	pair A, B, C, D;
-	numeric s;
-	s := u;
-	A := (0, 0);
-	B := (s, 0);
-	C := A shifted (dir(80) scaled s);
-	D := B shifted (dir(80) scaled s);
-		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
-		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
-		draw byNamedLineSeq(0)(AB,AC,CD,BD);
-}
-\startdefinition{}\label{def:I.XXXII}
-\begin{center}
-\drawCurrentPictureInMargin[inside] Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
-\end{center}
-
-\defineNewPicture{
 	pair A,B,C,D;
 	numeric s;
 	s := u;
@@ -948,6 +953,25 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 		byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
 		draw byNamedLineSeq(0)(AB,AC,CD,BD);
 }
+\startdefinition{}\label{def:I.XXXII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (1/4s, 3/4s);
+	D := (s + 1/4s, 3/4s);
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
 \startdefinition{}\label{def:I.XXXIII}
 \begin{center}
 \drawCurrentPictureInMargin[inside] Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
@@ -955,7 +979,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 
 \startdefinition{}\label{def:I.XXXIV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Todas las demás figuras cuadriláteras se llaman trapecios.
+Todas las demás figuras cuadriláteras se llaman trapecios.
 \end{center}
 
 \defineNewPicture{
@@ -1052,6 +1076,8 @@ El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras
 \item Si una línea recta corta una de dos líneas rectas paralelas, debe también cortar la otra.
 \item Solo se puede trazar una línea recta a través de un punto dado, paralela a una línea recta dada.
 \end{enumerate}
+
+\pagebreak
 
 \chapter*{Proposiciones}
 
