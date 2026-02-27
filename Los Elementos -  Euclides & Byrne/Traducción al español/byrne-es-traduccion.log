@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  26 FEB 2026 18:44
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  26 FEB 2026 19:01
  restricted system commands enabled.
 **byrne-es-traduccion.tex
 (./byrne-es-traduccion.tex
@@ -1498,9 +1498,9 @@ Underfull \hbox (badness 1755) in paragraph at lines 107--108
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 107--108
-\TU/EBGaramond(2)/m/n/10 mente y for-t-ale-cer las fac-ul-tades de ra-zon-amient
-o, sino
+Underfull \hbox (badness 1132) in paragraph at lines 107--108
+\TU/EBGaramond(2)/m/n/10 óp-tica, la as-tronomía física, etc. de-pen-den to-d
+as de las
  []
 
 
@@ -3315,9 +3315,9 @@ Underfull \hbox (badness 4859) in paragraph at lines 356--357
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 356--357
-\TU/EBGaramond(14)/m/n/10 di-a-gra-mas, &c. para uso pri-vado los lápices de co
-l-ores
+Underfull \hbox (badness 1902) in paragraph at lines 356--357
+\TU/EBGaramond(14)/m/n/10 di-a-gra-mas, etc. para uso pri-vado los lápices de 
+col-ores
  []
 
 [11]
@@ -5328,6 +5328,12 @@ c-ción\TU/EBGaramond(27)/m/n/10 . La \TU/EBGaramond(27)/m/it/10 con-struc-ci
  []
 
 
+Underfull \hbox (badness 5460) in paragraph at lines 561--563
+\TU/EBGaramond(27)/m/n/10 ha-ciendo án-gu-los, de-scri-bi-endo cír-cu-los, etc
+. para
+ []
+
+
 Underfull \hbox (badness 1466) in paragraph at lines 561--563
 \TU/EBGaramond(27)/m/n/10 a un án-gulo dado, es-tos dos án-gu-los son iguales por
  []
@@ -5695,7 +5701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--683
 
 Module luamplib Info: flushing figure 1 on input line 1203
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 25 moved.
 
 \ltrnD=\count377
 \luamplib.box.97=\box159
@@ -5773,7 +5779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--407
 
 Module luamplib Info: flushing figure 1 on input line 1262
 
-LaTeX Warning: Marginpar on page 28 moved.
+LaTeX Warning: Marginpar on page 26 moved.
 
 \ltrnF=\count378
 \luamplib.box.103=\box165
@@ -5832,7 +5838,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--464
 
 Module luamplib Info: flushing figure 1 on input line 1313
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
 \ltrnI=\count379
 \luamplib.box.109=\box171
@@ -5916,7 +5922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--524
 
 Module luamplib Info: flushing figure 1 on input line 1348
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 \luamplib.box.115=\box177
 \luamplib.box.116=\box178
@@ -6013,7 +6019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--350
 
 Module luamplib Info: flushing figure 1 on input line 1402
 
-LaTeX Warning: Marginpar on page 31 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
 \luamplib.box.121=\box183
 \luamplib.box.122=\box184
@@ -6081,7 +6087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1064
 
 Module luamplib Info: flushing figure 1 on input line 1462
 
-LaTeX Warning: Marginpar on page 32 moved.
+LaTeX Warning: Marginpar on page 30 moved.
 
 \ltrnO=\count380
 \luamplib.box.127=\box189
@@ -6154,7 +6160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--374
 
 Module luamplib Info: flushing figure 1 on input line 1517
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 31 moved.
 
 \luamplib.box.133=\box195
 \luamplib.box.134=\box196
@@ -6243,7 +6249,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--542
 
 Module luamplib Info: flushing figure 1 on input line 1565
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 \ltrnT=\count381
 \luamplib.box.139=\box257
@@ -6295,7 +6301,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--350
 
 Module luamplib Info: flushing figure 1 on input line 1601
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
 \luamplib.box.145=\box263
 \luamplib.box.146=\box264
@@ -6346,7 +6352,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--488
 
 Module luamplib Info: flushing figure 1 on input line 1642
 
-LaTeX Warning: Marginpar on page 36 moved.
+LaTeX Warning: Marginpar on page 34 moved.
 
 \luamplib.box.151=\box269
 \luamplib.box.152=\box270
@@ -6418,7 +6424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--797
 
 Module luamplib Info: flushing figure 1 on input line 1697
 
-LaTeX Warning: Marginpar on page 37 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
 \luamplib.box.157=\box275
 \luamplib.box.158=\box276
@@ -6495,7 +6501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--233
 
 Module luamplib Info: flushing figure 1 on input line 1737
 
-LaTeX Warning: Marginpar on page 38 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
 \ltrnW=\count382
 \luamplib.box.163=\box281
@@ -6573,7 +6579,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--290
 
 Module luamplib Info: flushing figure 1 on input line 1776
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
 \luamplib.box.169=\box287
 \luamplib.box.170=\box288
@@ -6644,7 +6650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--212
 
 Module luamplib Info: flushing figure 1 on input line 1812
 
-LaTeX Warning: Marginpar on page 40 moved.
+LaTeX Warning: Marginpar on page 38 moved.
 
 \luamplib.box.175=\box293
 \luamplib.box.176=\box294
@@ -6706,7 +6712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--833
 
 Module luamplib Info: flushing figure 1 on input line 1860
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 39 moved.
 
 \luamplib.box.181=\box299
 \luamplib.box.182=\box300
@@ -6785,7 +6791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--311
 
 Module luamplib Info: flushing figure 1 on input line 1903
 
-LaTeX Warning: Marginpar on page 42 moved.
+LaTeX Warning: Marginpar on page 40 moved.
 
 \ltrnA=\count383
 \luamplib.box.187=\box305
@@ -6838,7 +6844,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--392
 
 Module luamplib Info: flushing figure 1 on input line 1944
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 41 moved.
 
 \luamplib.box.193=\box311
 \luamplib.box.194=\box312
@@ -6894,7 +6900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--215
 
 Module luamplib Info: flushing figure 1 on input line 1975
 
-LaTeX Warning: Marginpar on page 44 moved.
+LaTeX Warning: Marginpar on page 42 moved.
 
 \luamplib.box.199=\box317
 \luamplib.box.200=\box318
@@ -6958,7 +6964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--371
 
 Module luamplib Info: flushing figure 1 on input line 2015
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 43 moved.
 
 \luamplib.box.205=\box323
 \luamplib.box.206=\box324
@@ -7025,7 +7031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--557
 
 Module luamplib Info: flushing figure 1 on input line 2060
 
-LaTeX Warning: Marginpar on page 46 moved.
+LaTeX Warning: Marginpar on page 44 moved.
 
 \luamplib.box.211=\box329
 \luamplib.box.212=\box330
@@ -7107,7 +7113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--926
 
 Module luamplib Info: flushing figure 1 on input line 2123
 
-LaTeX Warning: Marginpar on page 47 moved.
+LaTeX Warning: Marginpar on page 45 moved.
 
 \ltrnG=\count384
 \luamplib.box.217=\box335
@@ -7184,7 +7190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--620
 
 Module luamplib Info: flushing figure 1 on input line 2195
 
-LaTeX Warning: Marginpar on page 48 moved.
+LaTeX Warning: Marginpar on page 46 moved.
 
 \luamplib.box.223=\box341
 \luamplib.box.224=\box342
@@ -7240,7 +7246,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--929
 
 Module luamplib Info: flushing figure 1 on input line 2254
 
-LaTeX Warning: Marginpar on page 49 moved.
+LaTeX Warning: Marginpar on page 47 moved.
 
 \luamplib.box.229=\box347
 \luamplib.box.230=\box348
@@ -7326,7 +7332,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--374
 
 Module luamplib Info: flushing figure 1 on input line 2317
 
-LaTeX Warning: Marginpar on page 50 moved.
+LaTeX Warning: Marginpar on page 48 moved.
 
 \luamplib.box.235=\box353
 \luamplib.box.236=\box354
@@ -7508,7 +7514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--578
 
 Module luamplib Info: flushing figure 1 on input line 2425
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 50 moved.
 
 Module luamplib Info: flushing figure 1 on input line 2427
 Module luamplib Info: flushing figure 1 on input line 2427
@@ -7575,7 +7581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--371
 
 Module luamplib Info: flushing figure 1 on input line 2471
 
-LaTeX Warning: Marginpar on page 53 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 \luamplib.box.249=\box367
 \luamplib.box.250=\box368
@@ -7637,7 +7643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--311
 
 Module luamplib Info: flushing figure 1 on input line 2506
 
-LaTeX Warning: Marginpar on page 54 moved.
+LaTeX Warning: Marginpar on page 52 moved.
 
 \luamplib.box.255=\box373
 \luamplib.box.256=\box374
@@ -7729,7 +7735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--434
 
 Module luamplib Info: flushing figure 1 on input line 2556
 
-LaTeX Warning: Marginpar on page 55 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
 \luamplib.box.261=\box379
 \luamplib.box.262=\box380
@@ -7801,7 +7807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--287
 
 Module luamplib Info: flushing figure 1 on input line 2595
 
-LaTeX Warning: Marginpar on page 56 moved.
+LaTeX Warning: Marginpar on page 54 moved.
 
 \ltrnS=\count385
 \luamplib.box.267=\box385
@@ -7860,7 +7866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--350
 
 Module luamplib Info: flushing figure 1 on input line 2632
 
-LaTeX Warning: Marginpar on page 57 moved.
+LaTeX Warning: Marginpar on page 55 moved.
 
 \luamplib.box.273=\box391
 \luamplib.box.274=\box392
@@ -7906,7 +7912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--419
 
 Module luamplib Info: flushing figure 1 on input line 2667
 
-LaTeX Warning: Marginpar on page 58 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
 \luamplib.box.279=\box397
 \luamplib.box.280=\box398
@@ -7970,7 +7976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--407
 
 Module luamplib Info: flushing figure 1 on input line 2711
 
-LaTeX Warning: Marginpar on page 59 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
 \luamplib.box.285=\box403
 \luamplib.box.286=\box404
@@ -8038,7 +8044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--455
 
 Module luamplib Info: flushing figure 1 on input line 2752
 
-LaTeX Warning: Marginpar on page 60 moved.
+LaTeX Warning: Marginpar on page 58 moved.
 
 \luamplib.box.291=\box409
 \luamplib.box.292=\box410
@@ -8100,7 +8106,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--839
 
 Module luamplib Info: flushing figure 1 on input line 2808
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 59 moved.
 
 \ltrnP=\count386
 \luamplib.box.297=\box415
@@ -8160,7 +8166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--923
 
 Module luamplib Info: flushing figure 1 on input line 2891
 
-LaTeX Warning: Marginpar on page 62 moved.
+LaTeX Warning: Marginpar on page 60 moved.
 
 \luamplib.box.303=\box421
 \luamplib.box.304=\box422
@@ -8226,7 +8232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1022
 
 Module luamplib Info: flushing figure 1 on input line 2943
 
-LaTeX Warning: Marginpar on page 63 moved.
+LaTeX Warning: Marginpar on page 61 moved.
 
 \luamplib.box.309=\box427
 \luamplib.box.310=\box428
@@ -8282,7 +8288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--914
 
 Module luamplib Info: flushing figure 1 on input line 3008
 
-LaTeX Warning: Marginpar on page 64 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
 \luamplib.box.315=\box433
 \luamplib.box.316=\box434
@@ -8334,7 +8340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--878
 
 Module luamplib Info: flushing figure 1 on input line 3053
 
-LaTeX Warning: Marginpar on page 65 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
 \luamplib.box.321=\box439
 \luamplib.box.322=\box440
@@ -8404,7 +8410,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--713
 
 Module luamplib Info: flushing figure 1 on input line 3102
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 64 moved.
 
 \luamplib.box.327=\box445
 \luamplib.box.328=\box446
@@ -8472,7 +8478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--791
 
 Module luamplib Info: flushing figure 1 on input line 3161
 
-LaTeX Warning: Marginpar on page 67 moved.
+LaTeX Warning: Marginpar on page 65 moved.
 
 \luamplib.box.333=\box451
 \luamplib.box.334=\box452
@@ -8526,7 +8532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--899
 
 Module luamplib Info: flushing figure 1 on input line 3215
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 66 moved.
 
 \luamplib.box.339=\box457
 \luamplib.box.340=\box458
@@ -8586,7 +8592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--770
 
 Module luamplib Info: flushing figure 1 on input line 3268
 
-LaTeX Warning: Marginpar on page 69 moved.
+LaTeX Warning: Marginpar on page 67 moved.
 
 \luamplib.box.345=\box463
 \luamplib.box.346=\box464
@@ -8632,7 +8638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1151
 
 Module luamplib Info: flushing figure 1 on input line 3337
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 \luamplib.box.351=\box469
 \luamplib.box.352=\box470
@@ -8733,7 +8739,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1436
 
 Module luamplib Info: flushing figure 1 on input line 3417
 
-LaTeX Warning: Marginpar on page 72 moved.
+LaTeX Warning: Marginpar on page 69 moved.
 
 \luamplib.box.357=\box475
 \luamplib.box.358=\box476
@@ -8802,7 +8808,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--308
 
 Module luamplib Info: flushing figure 1 on input line 3461
 
-LaTeX Warning: Marginpar on page 73 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 \ltrnU=\count387
 \luamplib.box.363=\box481
@@ -8871,7 +8877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1439
 
 Module luamplib Info: flushing figure 1 on input line 3556
 
-LaTeX Warning: Marginpar on page 74 moved.
+LaTeX Warning: Marginpar on page 71 moved.
 
 \luamplib.box.369=\box487
 \luamplib.box.370=\box488
@@ -8967,7 +8973,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--395
 
 Module luamplib Info: flushing figure 1 on input line 3619
 
-LaTeX Warning: Marginpar on page 75 moved.
+LaTeX Warning: Marginpar on page 73 moved.
 
 \luamplib.box.375=\box493
 \luamplib.box.376=\box494
@@ -9155,7 +9161,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1148
 
 Module luamplib Info: flushing figure 1 on input line 3742
 
-LaTeX Warning: Marginpar on page 78 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 \luamplib.box.395=\box513
 \luamplib.box.396=\box514
@@ -9267,7 +9273,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--548
 
 Module luamplib Info: flushing figure 1 on input line 3804
 
-LaTeX Warning: Marginpar on page 79 moved.
+LaTeX Warning: Marginpar on page 78 moved.
 
 \luamplib.box.401=\box519
 \luamplib.box.402=\box520
@@ -9349,7 +9355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--458
 
 Module luamplib Info: flushing figure 1 on input line 3854
 
-LaTeX Warning: Marginpar on page 80 moved.
+LaTeX Warning: Marginpar on page 79 moved.
 
 \luamplib.box.407=\box525
 \luamplib.box.408=\box526
@@ -9449,7 +9455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1175
 
 Module luamplib Info: flushing figure 1 on input line 3916
 
-LaTeX Warning: Marginpar on page 81 moved.
+LaTeX Warning: Marginpar on page 80 moved.
 
 \luamplib.box.413=\box531
 \luamplib.box.414=\box532
@@ -9553,7 +9559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1382
 
 Module luamplib Info: flushing figure 1 on input line 4002
 
-LaTeX Warning: Marginpar on page 82 moved.
+LaTeX Warning: Marginpar on page 81 moved.
 
 \luamplib.box.419=\box537
 \luamplib.box.420=\box538
@@ -9657,7 +9663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1382
 
 Module luamplib Info: flushing figure 1 on input line 4070
 
-LaTeX Warning: Marginpar on page 83 moved.
+LaTeX Warning: Marginpar on page 82 moved.
 
 \luamplib.box.425=\box543
 \luamplib.box.426=\box544
@@ -9762,7 +9768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--986
 
 Module luamplib Info: flushing figure 1 on input line 4127
 
-LaTeX Warning: Marginpar on page 84 moved.
+LaTeX Warning: Marginpar on page 83 moved.
 
 \luamplib.box.431=\box549
 \luamplib.box.432=\box550
@@ -9863,7 +9869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1106
 
 Module luamplib Info: flushing figure 1 on input line 4199
 
-LaTeX Warning: Marginpar on page 85 moved.
+LaTeX Warning: Marginpar on page 84 moved.
 
 \luamplib.box.437=\box555
 \luamplib.box.438=\box556
@@ -9954,7 +9960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--965
 
 Module luamplib Info: flushing figure 1 on input line 4278
 
-LaTeX Warning: Marginpar on page 86 moved.
+LaTeX Warning: Marginpar on page 85 moved.
 
 \luamplib.box.443=\box561
 \luamplib.box.444=\box562
@@ -10082,7 +10088,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--899
 
 Module luamplib Info: flushing figure 1 on input line 4347
 
-LaTeX Warning: Marginpar on page 87 moved.
+LaTeX Warning: Marginpar on page 86 moved.
 
 \luamplib.box.449=\box567
 \luamplib.box.450=\box568
@@ -10197,7 +10203,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--797
 
 Module luamplib Info: flushing figure 1 on input line 4417
 
-LaTeX Warning: Marginpar on page 88 moved.
+LaTeX Warning: Marginpar on page 87 moved.
 
 \luamplib.box.455=\box573
 \luamplib.box.456=\box574
@@ -10282,7 +10288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--308
 
 Module luamplib Info: flushing figure 1 on input line 4458
 
-LaTeX Warning: Marginpar on page 89 moved.
+LaTeX Warning: Marginpar on page 88 moved.
 
 \luamplib.box.461=\box579
 \luamplib.box.462=\box580
@@ -10728,7 +10734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--701
 
 Module luamplib Info: flushing figure 1 on input line 4840
 
-LaTeX Warning: Marginpar on page 94 moved.
+LaTeX Warning: Marginpar on page 93 moved.
 
 \luamplib.box.501=\box619
 \luamplib.box.502=\box620
@@ -10813,7 +10819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--542
 
 Module luamplib Info: flushing figure 1 on input line 4875
 
-LaTeX Warning: Marginpar on page 95 moved.
+LaTeX Warning: Marginpar on page 94 moved.
 
 \luamplib.box.507=\box625
 \luamplib.box.508=\box626
@@ -10883,7 +10889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--740
 
 Module luamplib Info: flushing figure 1 on input line 4928
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 95 moved.
 
 \luamplib.box.513=\box631
 \luamplib.box.514=\box632
@@ -10972,7 +10978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--410
 
 Module luamplib Info: flushing figure 1 on input line 4975
 
-LaTeX Warning: Marginpar on page 97 moved.
+LaTeX Warning: Marginpar on page 96 moved.
 
 \luamplib.box.519=\box637
 \luamplib.box.520=\box638
@@ -11032,7 +11038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--668
 
 Module luamplib Info: flushing figure 1 on input line 5025
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 97 moved.
 
 \luamplib.box.525=\box643
 \luamplib.box.526=\box644
@@ -11082,7 +11088,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--506
 
 Module luamplib Info: flushing figure 1 on input line 5069
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 98 moved.
 
 \luamplib.box.531=\box649
 \luamplib.box.532=\box650
@@ -11138,7 +11144,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1558
 
 Module luamplib Info: flushing figure 1 on input line 5138
 
-LaTeX Warning: Marginpar on page 100 moved.
+LaTeX Warning: Marginpar on page 99 moved.
 
 \luamplib.box.539=\box657
 \luamplib.box.540=\box658
@@ -11543,7 +11549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--560
 
 Module luamplib Info: flushing figure 1 on input line 5330
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 103 moved.
 
 \luamplib.box.555=\box673
 \luamplib.box.556=\box674
@@ -11612,7 +11618,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--491
 
 Module luamplib Info: flushing figure 1 on input line 5396
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 104 moved.
 
 \luamplib.box.561=\box679
 \luamplib.box.562=\box680
@@ -11938,7 +11944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--848
 
 Module luamplib Info: flushing figure 1 on input line 5671
 
-LaTeX Warning: Marginpar on page 110 moved.
+LaTeX Warning: Marginpar on page 109 moved.
 
 \luamplib.box.589=\box707
 \luamplib.box.590=\box708
@@ -12236,7 +12242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1028
 
 Module luamplib Info: flushing figure 1 on input line 5869
 
-LaTeX Warning: Marginpar on page 113 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
 \luamplib.box.603=\box721
 \luamplib.box.604=\box722
@@ -12339,7 +12345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--809
 
 Module luamplib Info: flushing figure 1 on input line 5940
 
-LaTeX Warning: Marginpar on page 114 moved.
+LaTeX Warning: Marginpar on page 113 moved.
 
 \luamplib.box.609=\box727
 \luamplib.box.610=\box728
@@ -12735,7 +12741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--647
 
 Module luamplib Info: flushing figure 1 on input line 6264
 
-LaTeX Warning: Marginpar on page 120 moved.
+LaTeX Warning: Marginpar on page 119 moved.
 
 \luamplib.box.645=\box763
 \luamplib.box.646=\box764
@@ -12800,7 +12806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--536
 
 Module luamplib Info: flushing figure 1 on input line 6314
 
-LaTeX Warning: Marginpar on page 121 moved.
+LaTeX Warning: Marginpar on page 120 moved.
 
 \luamplib.box.651=\box769
 \luamplib.box.652=\box770
@@ -12843,7 +12849,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--356
 
 Module luamplib Info: flushing figure 1 on input line 6373
 
-LaTeX Warning: Marginpar on page 122 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
 \luamplib.box.657=\box775
 \luamplib.box.658=\box776
@@ -12906,7 +12912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--368
 
 Module luamplib Info: flushing figure 1 on input line 6434
 
-LaTeX Warning: Marginpar on page 123 moved.
+LaTeX Warning: Marginpar on page 122 moved.
 
 \luamplib.box.663=\box781
 \luamplib.box.664=\box782
@@ -12957,7 +12963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1271
 
 Module luamplib Info: flushing figure 1 on input line 6499
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 123 moved.
 
 \luamplib.box.669=\box787
 \luamplib.box.670=\box788
@@ -13049,7 +13055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1247
 
 Module luamplib Info: flushing figure 1 on input line 6610
 
-LaTeX Warning: Marginpar on page 125 moved.
+LaTeX Warning: Marginpar on page 124 moved.
 
 \luamplib.box.675=\box793
 \luamplib.box.676=\box794
@@ -13108,7 +13114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--977
 
 Module luamplib Info: flushing figure 1 on input line 6670
 
-LaTeX Warning: Marginpar on page 126 moved.
+LaTeX Warning: Marginpar on page 125 moved.
 
 \luamplib.box.681=\box799
 \luamplib.box.682=\box800
@@ -13416,7 +13422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--740
 
 Module luamplib Info: flushing figure 1 on input line 6942
 
-LaTeX Warning: Marginpar on page 130 moved.
+LaTeX Warning: Marginpar on page 129 moved.
 
 \luamplib.box.709=\box827
 \luamplib.box.710=\box828
@@ -14003,7 +14009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--575
 
 Module luamplib Info: flushing figure 1 on input line 7460
 
-LaTeX Warning: Marginpar on page 138 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
 \luamplib.box.765=\box883
 \luamplib.box.766=\box884
@@ -14066,7 +14072,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--539
 
 Module luamplib Info: flushing figure 1 on input line 7518
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 138 moved.
 
 \luamplib.box.771=\box889
 \luamplib.box.772=\box890
@@ -14131,7 +14137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--956
 
 Module luamplib Info: flushing figure 1 on input line 7601
 
-LaTeX Warning: Marginpar on page 140 moved.
+LaTeX Warning: Marginpar on page 139 moved.
 
 \luamplib.box.777=\box895
 \luamplib.box.778=\box896
@@ -14214,7 +14220,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1037
 
 Module luamplib Info: flushing figure 1 on input line 7676
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
 \luamplib.box.783=\box901
 \luamplib.box.784=\box902
@@ -14321,7 +14327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2567
 
 Module luamplib Info: flushing figure 1 on input line 7760
 
-LaTeX Warning: Marginpar on page 142 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 \luamplib.box.789=\box907
 \luamplib.box.790=\box908
@@ -14405,7 +14411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--797
 
 Module luamplib Info: flushing figure 1 on input line 7824
 
-LaTeX Warning: Marginpar on page 143 moved.
+LaTeX Warning: Marginpar on page 142 moved.
 
 \luamplib.box.795=\box913
 \luamplib.box.796=\box914
@@ -14479,7 +14485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--701
 
 Module luamplib Info: flushing figure 1 on input line 7881
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 143 moved.
 
 \luamplib.box.801=\box919
 \luamplib.box.802=\box920
@@ -14565,7 +14571,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1103
 
 Module luamplib Info: flushing figure 1 on input line 7937
 
-LaTeX Warning: Marginpar on page 145 moved.
+LaTeX Warning: Marginpar on page 144 moved.
 
 \luamplib.box.807=\box925
 \luamplib.box.808=\box926
@@ -14632,7 +14638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--683
 
 Module luamplib Info: flushing figure 1 on input line 7989
 
-LaTeX Warning: Marginpar on page 146 moved.
+LaTeX Warning: Marginpar on page 145 moved.
 
 \luamplib.box.813=\box931
 \luamplib.box.814=\box932
@@ -14716,7 +14722,7 @@ Overfull \hbox (5.91191pt too wide) in paragraph at lines 8049--8049
  []
 
 
-LaTeX Warning: Marginpar on page 148 moved.
+LaTeX Warning: Marginpar on page 146 moved.
 
 \luamplib.box.819=\box937
 \luamplib.box.820=\box938
@@ -14844,7 +14850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1040
 
 Module luamplib Info: flushing figure 1 on input line 8117
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 147 moved.
 
 \luamplib.box.825=\box943
 \luamplib.box.826=\box944
@@ -14919,7 +14925,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1385
 
 Module luamplib Info: flushing figure 1 on input line 8175
 
-LaTeX Warning: Marginpar on page 151 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
 \luamplib.box.831=\box949
 \luamplib.box.832=\box950
@@ -15071,7 +15077,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1538
 
 Module luamplib Info: flushing figure 1 on input line 8282
 
-LaTeX Warning: Marginpar on page 152 moved.
+LaTeX Warning: Marginpar on page 150 moved.
 
 \luamplib.box.837=\box955
 \luamplib.box.838=\box956
@@ -15183,7 +15189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1061
 
 Module luamplib Info: flushing figure 1 on input line 8388
 
-LaTeX Warning: Marginpar on page 205 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
 \luamplib.box.843=\box961
 \luamplib.box.844=\box962
@@ -15275,7 +15281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1169
 
 Module luamplib Info: flushing figure 1 on input line 8469
 
-LaTeX Warning: Marginpar on page 207 moved.
+LaTeX Warning: Marginpar on page 153 moved.
 
 \luamplib.box.849=\box967
 \luamplib.box.850=\box968
@@ -15308,6 +15314,11 @@ Module luamplib Info: flushing figure 1 on input line 8471
 Module luamplib Info: flushing figure 1 on input line 8471
 Module luamplib Info: flushing figure 1 on input line 8471
 Module luamplib Info: flushing figure 1 on input line 8471
+
+Underfull \hbox (badness 4328) in paragraph at lines 8471--8472
+\TU/EBGaramond(27)/m/n/10 draw the di-am-e-ters [], [] and [];
+ []
+
 Module luamplib Info: flushing figure 1 on input line 8473
 Module luamplib Info: flushing figure 1 on input line 8473
 Module luamplib Info: flushing figure 1 on input line 8479
@@ -15349,7 +15360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--692
 
 Module luamplib Info: flushing figure 1 on input line 8521
 
-LaTeX Warning: Marginpar on page 210 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
 \luamplib.box.855=\box973
 \luamplib.box.856=\box974
@@ -17881,7 +17892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1148
 
 Module luamplib Info: flushing figure 1 on input line 10785
 
-LaTeX Warning: Marginpar on page 222 moved.
+LaTeX Warning: Marginpar on page 218 moved.
 
 \luamplib.box.1071=\box1189
 \luamplib.box.1072=\box1190
@@ -17972,7 +17983,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1784
 
 Module luamplib Info: flushing figure 1 on input line 10884
 
-LaTeX Warning: Marginpar on page 223 moved.
+LaTeX Warning: Marginpar on page 220 moved.
 
 \luamplib.box.1077=\box1195
 \luamplib.box.1078=\box1196
@@ -18097,7 +18108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--656
 
 Module luamplib Info: flushing figure 1 on input line 10955
 
-LaTeX Warning: Marginpar on page 224 moved.
+LaTeX Warning: Marginpar on page 222 moved.
 
 \luamplib.box.1083=\box1201
 \luamplib.box.1084=\box1202
@@ -18255,7 +18266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--821
 
 Module luamplib Info: flushing figure 1 on input line 11021
 
-LaTeX Warning: Marginpar on page 225 moved.
+LaTeX Warning: Marginpar on page 224 moved.
 
 \luamplib.box.1089=\box1207
 \luamplib.box.1090=\box1208
@@ -18389,7 +18400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--860
 
 Module luamplib Info: flushing figure 1 on input line 11103
 
-LaTeX Warning: Marginpar on page 227 moved.
+LaTeX Warning: Marginpar on page 225 moved.
 
 \luamplib.box.1095=\box1213
 \luamplib.box.1096=\box1214
@@ -18512,7 +18523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--974
 
 Module luamplib Info: flushing figure 1 on input line 11167
 
-LaTeX Warning: Marginpar on page 228 moved.
+LaTeX Warning: Marginpar on page 226 moved.
 
 \luamplib.box.1101=\box1219
 \luamplib.box.1102=\box1220
@@ -18620,7 +18631,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--938
 
 Module luamplib Info: flushing figure 1 on input line 11226
 
-LaTeX Warning: Marginpar on page 229 moved.
+LaTeX Warning: Marginpar on page 227 moved.
 
 \luamplib.box.1107=\box1225
 \luamplib.box.1108=\box1226
@@ -18765,7 +18776,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--509
 
 Module luamplib Info: flushing figure 1 on input line 11273
 
-LaTeX Warning: Marginpar on page 230 moved.
+LaTeX Warning: Marginpar on page 229 moved.
 
 \luamplib.box.1113=\box1231
 \luamplib.box.1114=\box1232
@@ -18820,7 +18831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--572
 
 Module luamplib Info: flushing figure 1 on input line 11314
 
-LaTeX Warning: Marginpar on page 231 moved.
+LaTeX Warning: Marginpar on page 230 moved.
 
 \luamplib.box.1119=\box1237
 \luamplib.box.1120=\box1238
@@ -18902,7 +18913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--842
 
 Module luamplib Info: flushing figure 1 on input line 11375
 
-LaTeX Warning: Marginpar on page 232 moved.
+LaTeX Warning: Marginpar on page 231 moved.
 
 \luamplib.box.1125=\box1243
 \luamplib.box.1126=\box1244
@@ -19002,7 +19013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--491
 
 Module luamplib Info: flushing figure 1 on input line 11428
 
-LaTeX Warning: Marginpar on page 233 moved.
+LaTeX Warning: Marginpar on page 232 moved.
 
 \luamplib.box.1131=\box1249
 \luamplib.box.1132=\box1250
@@ -19088,7 +19099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--377
 
 Module luamplib Info: flushing figure 1 on input line 11477
 
-LaTeX Warning: Marginpar on page 234 moved.
+LaTeX Warning: Marginpar on page 233 moved.
 
 \luamplib.box.1137=\box1255
 \luamplib.box.1138=\box1256
@@ -19173,7 +19184,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--479
 
 Module luamplib Info: flushing figure 1 on input line 11548
 
-LaTeX Warning: Marginpar on page 236 moved.
+LaTeX Warning: Marginpar on page 234 moved.
 
 \luamplib.box.1143=\box1261
 \luamplib.box.1144=\box1262
@@ -19242,7 +19253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--530
 
 Module luamplib Info: flushing figure 1 on input line 11600
 
-LaTeX Warning: Marginpar on page 238 moved.
+LaTeX Warning: Marginpar on page 235 moved.
 
 \luamplib.box.1149=\box1267
 \luamplib.box.1150=\box1268
@@ -19355,7 +19366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--641
 
 Module luamplib Info: flushing figure 1 on input line 11652
 
-LaTeX Warning: Marginpar on page 239 moved.
+LaTeX Warning: Marginpar on page 236 moved.
 
 \luamplib.box.1155=\box1273
 \luamplib.box.1156=\box1274
@@ -19470,7 +19481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--602
 
 Module luamplib Info: flushing figure 1 on input line 11724
 
-LaTeX Warning: Marginpar on page 240 moved.
+LaTeX Warning: Marginpar on page 238 moved.
 
 \luamplib.box.1161=\box1279
 \luamplib.box.1162=\box1280
@@ -19588,7 +19599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--728
 
 Module luamplib Info: flushing figure 1 on input line 11791
 
-LaTeX Warning: Marginpar on page 241 moved.
+LaTeX Warning: Marginpar on page 240 moved.
 
 \luamplib.box.1167=\box1285
 \luamplib.box.1168=\box1286
@@ -19722,7 +19733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--3290
 
 Module luamplib Info: flushing figure 1 on input line 11871
 
-LaTeX Warning: Marginpar on page 243 moved.
+LaTeX Warning: Marginpar on page 241 moved.
 
 \luamplib.box.1173=\box1291
 \luamplib.box.1174=\box1292
@@ -19841,7 +19852,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1010
 
 Module luamplib Info: flushing figure 1 on input line 11935
 
-LaTeX Warning: Marginpar on page 244 moved.
+LaTeX Warning: Marginpar on page 242 moved.
 
 \luamplib.box.1179=\box1297
 \luamplib.box.1180=\box1298
@@ -19974,7 +19985,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2840
 
 Module luamplib Info: flushing figure 1 on input line 12003
 
-LaTeX Warning: Marginpar on page 246 moved.
+LaTeX Warning: Marginpar on page 243 moved.
 
 \luamplib.box.1185=\box1303
 \luamplib.box.1186=\box1304
@@ -20146,7 +20157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--278
 
 Module luamplib Info: flushing figure 1 on input line 12061
 
-LaTeX Warning: Marginpar on page 247 moved.
+LaTeX Warning: Marginpar on page 245 moved.
 
 \luamplib.box.1191=\box1309
 \luamplib.box.1192=\box1310
@@ -20198,7 +20209,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--818
 
 Module luamplib Info: flushing figure 1 on input line 12109
 
-LaTeX Warning: Marginpar on page 248 moved.
+LaTeX Warning: Marginpar on page 246 moved.
 
 \luamplib.box.1197=\box1315
 \luamplib.box.1198=\box1316
@@ -20319,7 +20330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--596
 
 Module luamplib Info: flushing figure 1 on input line 12173
 
-LaTeX Warning: Marginpar on page 250 moved.
+LaTeX Warning: Marginpar on page 248 moved.
 
 \luamplib.box.1203=\box1321
 \luamplib.box.1204=\box1322
@@ -20415,7 +20426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1271
 
 Module luamplib Info: flushing figure 1 on input line 12227
 
-LaTeX Warning: Marginpar on page 251 moved.
+LaTeX Warning: Marginpar on page 249 moved.
 
 \luamplib.box.1209=\box1327
 \luamplib.box.1210=\box1328
@@ -20477,7 +20488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1034
 
 Module luamplib Info: flushing figure 1 on input line 12331
 
-LaTeX Warning: Marginpar on page 252 moved.
+LaTeX Warning: Marginpar on page 250 moved.
 
 \luamplib.box.1215=\box1333
 \luamplib.box.1216=\box1334
@@ -20588,7 +20599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--818
 
 Module luamplib Info: flushing figure 1 on input line 12407
 
-LaTeX Warning: Marginpar on page 253 moved.
+LaTeX Warning: Marginpar on page 252 moved.
 
 \luamplib.box.1221=\box1339
 \luamplib.box.1222=\box1340
@@ -20680,7 +20691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--506
 
 Module luamplib Info: flushing figure 1 on input line 12469
 
-LaTeX Warning: Marginpar on page 254 moved.
+LaTeX Warning: Marginpar on page 253 moved.
 
 \luamplib.box.1227=\box1345
 \luamplib.box.1228=\box1346
@@ -20721,7 +20732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--539
 
 Module luamplib Info: flushing figure 1 on input line 12516
 
-LaTeX Warning: Marginpar on page 255 moved.
+LaTeX Warning: Marginpar on page 254 moved.
 
 \luamplib.box.1233=\box1351
 \luamplib.box.1234=\box1352
@@ -20832,7 +20843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--590
 
 Module luamplib Info: flushing figure 1 on input line 12572
 
-LaTeX Warning: Marginpar on page 256 moved.
+LaTeX Warning: Marginpar on page 255 moved.
 
 \luamplib.box.1239=\box1357
 \luamplib.box.1240=\box1358
@@ -20919,7 +20930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--572
 
 Module luamplib Info: flushing figure 1 on input line 12625
 
-LaTeX Warning: Marginpar on page 257 moved.
+LaTeX Warning: Marginpar on page 256 moved.
 
 \luamplib.box.1245=\box1363
 \luamplib.box.1246=\box1364
@@ -21008,7 +21019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--614
 
 Module luamplib Info: flushing figure 1 on input line 12683
 
-LaTeX Warning: Marginpar on page 259 moved.
+LaTeX Warning: Marginpar on page 257 moved.
 
 \luamplib.box.1251=\box1369
 \luamplib.box.1252=\box1370
@@ -21085,7 +21096,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--629
 
 Module luamplib Info: flushing figure 1 on input line 12753
 
-LaTeX Warning: Marginpar on page 260 moved.
+LaTeX Warning: Marginpar on page 258 moved.
 
 \luamplib.box.1257=\box1375
 \luamplib.box.1258=\box1376
@@ -21204,7 +21215,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1877
 
 Module luamplib Info: flushing figure 1 on input line 12854
 
-LaTeX Warning: Marginpar on page 261 moved.
+LaTeX Warning: Marginpar on page 259 moved.
 
 \luamplib.box.1263=\box1381
 \luamplib.box.1264=\box1382
@@ -21263,9 +21274,14 @@ Module luamplib Info: flushing figure 1 on input line 12911
 Module luamplib Info: flushing figure 1 on input line 12911
 Module luamplib Info: flushing figure 1 on input line 12911
 
-Underfull \hbox (badness 1874) in paragraph at lines 12899--12912
-\U/msa/m/n/10 )$ [] \TU/EBGaramond(27)/m/n/10 is the same mul-ti-ple of [] which
- the arc
+Underfull \hbox (badness 2277) in paragraph at lines 12899--12912
+[]\TU/EBGaramond(27)/m/n/10 The since the arcs [], [], [], etc. are
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 12899--12912
+\TU/EBGaramond(27)/m/n/10 ([]prop. III.󰋖󰋛[]); $\U/msa/m/n/10 )$ [] \TU/EB
+Garamond(27)/m/n/10 is the same mul-ti-ple of []
  []
 
 Module luamplib Info: flushing figure 1 on input line 12915
@@ -21305,7 +21321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--872
 
 Module luamplib Info: flushing figure 1 on input line 12955
 
-LaTeX Warning: Marginpar on page 262 moved.
+LaTeX Warning: Marginpar on page 261 moved.
 
 \luamplib.box.1269=\box1387
 \luamplib.box.1270=\box1388
@@ -21536,12 +21552,6 @@ Module luamplib Info: flushing figure 1 on input line 13067
 Module luamplib Info: flushing figure 1 on input line 13067
 Module luamplib Info: flushing figure 1 on input line 13067
 Module luamplib Info: flushing figure 1 on input line 13067
-
-LaTeX Warning: Reference `construction211' on page 263 undefined on input line 
-13067.
-
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 13067.
 Module luamplib Info: flushing figure 1 on input line 13068
 Module luamplib Info: flushing figure 1 on input line 13068
 Module luamplib Info: flushing figure 1 on input line 13068
@@ -21649,10 +21659,6 @@ Module luamplib Info: flushing figure 1 on input line 13125
 Module luamplib Info: flushing figure 1 on input line 13125
 Module luamplib Info: flushing figure 1 on input line 13125
 Module luamplib Info: flushing figure 1 on input line 13125
-
-LaTeX Warning: Reference `construction212' on page 264 undefined on input line 
-13125.
-
 Module luamplib Info: flushing figure 1 on input line 13126
 Module luamplib Info: flushing figure 1 on input line 13126
 Module luamplib Info: flushing figure 1 on input line 13126
@@ -21703,38 +21709,26 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(27)/b/n' will be
 \tf@toc=\write5
 
 \openout5 = byrne-es-traduccion.toc
- [273] (./byrne-es-traduccion.aux
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
+ [273] (./byrne-es-traduccion.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `byrne-es-traduccion.out' has not changed.
 (rerunfilecheck)             Checksum: EADA6AEEC29FD05FA57F415463973318;37581.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28773 strings out of 476076
- 156792,1648299 words of node,token memory allocated
- 55547 words of node memory still in use:
-   1368 hlist, 64 vlist, 2 rule, 17 disc, 25 local_par, 164 glue, 922 kern, 48 p
-enalty, 1456 glyph, 4736 attribute, 63 glue_spec, 2369 attribute_list, 3 write, 
-3870 pdf_literal nodes
-   avail lists: 1:55,2:1839,3:6832,4:628,5:2773,6:287,7:5151,8:80,9:1574,10:22,1
+ 28724 strings out of 476076
+ 196007,1648299 words of node,token memory allocated
+ 58212 words of node memory still in use:
+   1373 hlist, 69 vlist, 2 rule, 17 disc, 27 local_par, 174 glue, 922 kern, 52 p
+enalty, 1456 glyph, 4758 attribute, 63 glue_spec, 2380 attribute_list, 3 write, 
+4675 pdf_literal nodes
+   avail lists: 1:58,2:1839,3:6688,4:648,5:2775,6:283,7:5177,8:80,9:1554,10:22,1
 1:417
- 49756 multiletter control sequences out of 65536+600000
- 82 fonts using 18944031 bytes
+ 49707 multiletter control sequences out of 65536+600000
+ 81 fonts using 18428663 bytes
  105i,21n,141p,2174b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf
 >{c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.e
@@ -21750,10 +21744,10 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on byrne-es-traduccion.pdf (273 pages, 1115539 bytes).
+Output written on byrne-es-traduccion.pdf (273 pages, 1114941 bytes).
 
-PDF statistics: 4231 PDF objects out of 4296 (max. 8388607)
- 3896 compressed objects within 39 object streams
+PDF statistics: 4233 PDF objects out of 4296 (max. 8388607)
+ 3898 compressed objects within 39 object streams
  1014 named destinations out of 1200 (max. 131072)
  2609 words of extra memory for PDF output out of 10000 (max. 100000000)
 
