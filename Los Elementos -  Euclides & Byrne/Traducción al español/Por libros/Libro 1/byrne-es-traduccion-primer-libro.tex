@@ -88,6 +88,7 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \end{center}
 
 \pagebreak
+\thispagestyle{empty}
 
 \begin{flushleft}
 \section*{Créditos y atribución}
@@ -95,15 +96,15 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \small
 \textit{Los Elementos} fueron escritos por 
 Euclides aproximadamente hace 2300 años en Alejandría.
-\\
-La edición visual en color fue publicada por 
+\\[\baselineskip]
+La edición visual en color fue publicada en Londres por 
 Oliver Byrne en 1847, bajo el título 
-\textit{The First Six Books of the Elements of Euclid}. en Londres
-\\
-La edición digital en \LaTeX\ fue realizada por Slyusarev Sergey en 2017, se encuentra disponible en inglés y ruso en Github.
+\textit{The First Six Books of the Elements of Euclid}. 
+\\[\baselineskip]
+La edición digital en \LaTeX\ fue realizada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
 \url{https://github.com/jemmybutton/byrne-euclid}
-\\
-La traducción al español fue realizada por Carlos Villarreal en 2026 en México.
+\\[\baselineskip]
+La traducción al español y pequeñas modificaciones al formato original fue realizada por Carlos Villarreal en 2026 en México.
 \end{flushleft}
 
 \begin{center}
@@ -112,16 +113,17 @@ La traducción al español fue realizada por Carlos Villarreal en 2026 en Méxic
 
 \vskip 0.25\baselineskip
 
-\footnotesize Esta traducción de \emph{Los primeros seis libros de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
+\noindent \footnotesize Esta traducción de \emph{Los primeros seis libros de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
 
 \vskip -\baselineskip
 
 \normalsize
 
-
 \pagebreak
 
 \restoregeometry
+\setcounter{page}{1} %Se inicia la numeración de página con la introducción
+\fancyhead[CO,CE]{} %Se oculta la leyenda "Book" en la cabecera en todas las páginas anteriores a esta
 
 \part*{Introducción}
 
@@ -168,6 +170,8 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 	angleScale := 4/5;
 }
 
+\pagebreak
+
 \begin{center}
 \drawCurrentPictureInMargin \emph{Algunas de las propiedades del triángulo rectángulo ABC, expresadas por el método generalmente empleado:}
 \end{center}
@@ -185,6 +189,8 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 
 \vskip 0.5\baselineskip
 
+\pagebreak
+
 \begin{center}
 \emph{Las mismas propiedades expresadas coloreando las diferentes partes:}
 \end{center}
@@ -199,6 +205,8 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 \item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\ En otros términos, el ángulo amarillo menos el ángulo azul es igual al ángulo rojo.
 \item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\ Es decir, el cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.
 \end{enumerate}
+
+\pagebreak
 
 En las demostraciones orales obtenemos con los colores esta importante ventaja: el ojo y el oído pueden ser atendidos al mismo tiempo, por lo que para enseñar geometría y otras artes y ciencias lineales en clases, el sistema es el mejor que se ha propuesto jamás, esto es evidente por los ejemplos dados.
 
@@ -227,9 +235,9 @@ Graba el conocimiento con un rayo de luz.
 
 Esto quizás pueda considerarse la única mejora que ha recibido la geometría plana desde los días de Euclides, y si hubo algún geómetra de renombre antes de esa época, el éxito de Euclides ha eclipsado por completo su memoria, e incluso ha hecho que todas las cosas buenas de ese tipo se le atribuyan a él; como \AE sop entre los escritores de fábulas. También cabe señalar que, dado que los diagramas tangibles proporcionan el único medio a través del cual la geometría y otras artes lineales pueden enseñarse a los ciegos, el sistema visible es igualmente adecuado para las exigencias de los sordomudos.
 
-\pagebreak
-
 \charspacing{-1}{Se debe tener cuidado de mostrar que el color no tiene nada que ver con las líneas, ángulos o magnitudes, excepto meramente para nombrarlos. Una línea matemática, que es longitud sin anchura, no puede poseer color, sin embargo, la unión de dos colores en el mismo plano da una buena idea de lo que se entiende por una línea matemática; recordemos que estamos hablando familiarmente, dicha unión debe entenderse y no el color, cuando decimos la línea negra, la línea roja o las líneas, etc.}
+
+\pagebreak
 
 Los colores y los diagramas coloreados pueden parecer al principio un método torpe para transmitir nociones adecuadas de las propiedades y partes de las figuras y magnitudes matemáticas, sin embargo, se encontrarán que ofrecen un medio más refinado y extenso que cualquiera que se haya propuesto hasta ahora.
 
@@ -266,6 +274,10 @@ Una línea es longitud sin anchura. Con la ayuda de colores, casi de la misma ma
 \drawCurrentPictureInMargin
 Que dos colores se encuentren y cubran una porción del papel; donde se encuentran no es rojo, ni es azul; por lo tanto, la unión no ocupa ninguna porción del plano, y por lo tanto no puede tener anchura, sino solo longitud: de lo que podemos formarnos fácilmente una idea de lo que se entiende por una línea matemática. A efectos de ilustración, un color que difiera del color del papel, o del plano sobre el que está dibujado, habría sido suficiente; de ahí en adelante, si decimos la línea roja, la línea azul o las líneas, etc. se entiende que son las uniones con el plano sobre el que están dibujadas.
 
+\pagebreak
+
+Una superficie es aquello que tiene longitud y anchura sin grosor.
+
 \defineNewPicture{
 	pair A', A'', A''', B', B'', B''', C', C'', C''', D', D'', D''', d[];
 	d1 := (3/2u, 0);
@@ -298,11 +310,12 @@ Que dos colores se encuentren y cubran una porción del papel; donde se encuentr
 		label.rt(btex Q etex, B''');
 }
 \drawCurrentPictureInMargin
-Una superficie es aquello que tiene longitud y anchura sin grosor.
 
 Cuando consideramos un cuerpo sólido (PQ), percibimos de inmediato que tiene tres dimensiones, a saber: longitud, anchura y grosor; supongamos que una parte de este sólido (PS) es roja, y la otra parte (QR) amarilla, y que los colores son distintos sin mezclarse, la superficie azul (RS) que separa estas partes, o que es lo mismo, que divide el sólido sin pérdida de material, debe carecer de grosor, y solo posee longitud y anchura; esto aparece claramente por un razonamiento similar al que se acaba de emplear para definir, o más bien describir, un punto y una línea.
 
 La proposición que hemos seleccionado para elucidar la manera en que se aplican los principios, es la quinta del primer Libro.
+
+\pagebreak
 
 \defineNewPicture[1/4]{
 angleScale := 5/6;
@@ -597,6 +610,8 @@ significa \emph{Quod erat demonstrandum}. Lo que se quería demostrar.
 \pagebreak
 
 \part{Libro I}
+\fancyhead[CO,CE]{\bookString\ \thepart.~\rightmark} % Se muestra la leyenda "Book I." en la cabecera a partir de esta página
+
 
 \chapter*{Definiciones}
 
