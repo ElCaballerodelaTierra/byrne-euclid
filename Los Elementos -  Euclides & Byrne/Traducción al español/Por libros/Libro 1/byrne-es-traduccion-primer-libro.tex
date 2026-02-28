@@ -1,0 +1,3609 @@
+﻿\documentclass[booklanguage=english]{byrnebook}
+%\usepackage{lua-visual-debug}
+
+\begin{document}
+
+\newgeometry{top=20mm, bottom=20mm, left=36mm, right=36mm}
+\thispagestyle{empty}
+
+\begin{center}
+
+\Large \uppercase{Los primeros seis libros de}
+
+\LARGE \uppercase{Los elementos de Euclides}
+
+%{\uppercase{SURVEYOR OF HER MAJESTY'S SETTLEMENTS IN THE FALKLAND ISLANDS AND AUTHOR OF NUMEROUS MATHEMATICAL WORKS}}
+
+\defineNewPicture{
+textLabels := false;
+scaleFactor := 7/6;
+angleScale := 4/3;
+pair A, B, C, D, E, F, G, H, I, J, K, L, M, d[];
+A := (0, 0);
+B := A shifted (-7/10u, -8/7u);
+C = whatever[A, A shifted ((A-B) rotated 90)] = whatever[B, B shifted dir(0)];
+d1 := (B-A) rotated -90;
+D := A shifted d1;
+E := B shifted d1;
+d2 := (A-C) rotated -90;
+F := C shifted d2;
+G := A shifted d2;
+d3 := (C-B) rotated -90;
+H := B shifted d3;
+I := C shifted d3;
+J = whatever[A, A shifted dir(90)];
+J = whatever[B, C];
+K = whatever[A, A shifted dir(90)];
+K = whatever[H, I];
+L = whatever[B, F];
+L = whatever[A, C];
+M = whatever[A, I];
+M = whatever[B, C];
+draw byPolygon(A,B,E,D)(byblack);
+draw byPolygon(L,A,G,F)(byred);
+draw byPolygon(C,L,F)(byred);
+draw byPolygon(J,M,I,K)(byyellow);
+draw byPolygon (M,C,I)(byyellow);
+draw byPolygon(B,J,K,H)(byblue);
+byAngleDefine(F, C, A, byyellow, SOLID_SECTOR);
+byAngleDefine(B, C, I, byblue, SOLID_SECTOR);
+byAngleDefine(A, C, B, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLineFull(A, K, byred, 1, 0)(I, I, 1, 1, -1);
+draw byLineFull(B, F, byblack, 0, 0)(G, G, 1, 1, -1);
+draw byLineFull(A, I, byblack, 0, 0)(K, K, 1, 1, 1);
+byLineDefine(C, F, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, I, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CF,CI);
+byLineDefine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(1)(AB,BC,CA);
+byLineDefine.CAb(C, A, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (M, M, 1, 0, -1) (CAb);
+byLineDefine.AMb(A, M, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (C, C, 0, 1, -1) (AMb);
+byLineDefine.BCb(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (L, L, 0, 1, -1) (BCb);
+byLineDefine.BLb(L, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (C, C, 1, 0, -1) (BLb);
+draw byLabelsOnPolygon(B, E, D, A, G, F, C, I, K, H)(ALL_LABELS, -1);
+draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
+}
+
+\vfill\vfill
+
+~\hfill\drawCurrentPicture\hfill~
+
+\vfill\vfill\vfill
+
+\vskip 0.5\baselineskip
+
+\normalsize \uppercase{en el que se utilizan diagramas y símbolos coloreados en lugar de letras para facilitar el aprendizaje}
+
+\vskip 0.75\baselineskip
+
+\Large \uppercase{Por Oliver Byrne}
+
+\end{center}
+
+\pagebreak
+
+\begin{flushleft}
+\section*{Créditos y atribución}
+
+\small
+\textit{Los Elementos} fueron escritos por 
+Euclides aproximadamente hace 2300 años en Alejandría.
+\\
+La edición visual en color fue publicada por 
+Oliver Byrne en 1847, bajo el título 
+\textit{The First Six Books of the Elements of Euclid}. en Londres
+\\
+La edición digital en \LaTeX\ fue realizada por Slyusarev Sergey en 2017, se encuentra disponible en inglés y ruso en Github.
+\url{https://github.com/jemmybutton/byrne-euclid}
+\\
+La traducción al español fue realizada por Carlos Villarreal en 2026 en México.
+\end{flushleft}
+
+\begin{center}
+\ccbysa 
+\end{center}
+
+\vskip 0.25\baselineskip
+
+\footnotesize Esta traducción de \emph{Los primeros seis libros de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
+
+\vskip -\baselineskip
+
+\normalsize
+
+
+\pagebreak
+
+\restoregeometry
+
+\part*{Introducción}
+
+\charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su adquisición es de tanta importancia como extender sus límites. La ilustración, si no acorta el tiempo de estudio, al menos lo hará más agradable. Este trabajo tiene un objetivo mayor que la mera ilustración; no introducimos colores con el propósito de entretener, o para entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
+pero para ayudar a la mente en sus investigaciones de la verdad, para aumentar las facilidades de introducción y para difundir el conocimiento permanente. Si quisiéramos autoridades para probar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos, en la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, los Elementos de Euclides se han convertido, por consentimiento común, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parecerá extraordinario, si consideramos que esta ciencia sublime no solo está mejor calculada que cualquier otra para despertar el espíritu de investigación, elevar la mente y fortalecer las facultades de razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
+
+\pagebreak
+
+\charspacing{-1}{Mucho sin embargo depende de la primera comunicación de cualquier ciencia a un alumno, aunque los métodos mejores y más fáciles rara vez se adoptan. Se presentan proposiciones a un estudiante, a quien, aunque tenga una comprensión suficiente, se le dice tan poco sobre ellas al entrar en el umbral mismo de la ciencia, que se le da una predisposición muy desfavorable para su futuro estudio de este tema delicioso; o \enquote{las formalidades y parafernalia del rigor se presentan de manera tan ostentosa, que casi ocultan la realidad. Las repeticiones interminables y desconcertantes, que no confieren mayor exactitud al razonamiento, hacen que las demostraciones sean complejas y oscuras, y ocultan a la vista del estudiante la sucesión de la evidencia.} % la cita parece ser de The First Six Books of the Elements of Euclid de Dionysius Lardner https://books.google.ru/books?id=YnkAAAAAMAAJ
+ Así se crea una aversión en la mente del alumno, y un tema tan calculado para mejorar las facultades de razonamiento y dar el hábito de pensar con atención se degrada por un curso de instrucción seco y rígido en un ejercicio poco interesante de la memoria. Despertar la curiosidad y despertar las facultades letárgicas y latentes de las mentes jóvenes debería ser el objetivo de todo maestro; pero donde faltan ejemplos de excelencia, los intentos de alcanzarla son pocos, mientras que la eminencia excita la atención y produce imitación. El objetivo de esta obra es introducir un método de enseñanza de la geometría que ha sido muy aprobado por muchos hombres de ciencia en este país, así como en Francia y América. El plan aquí adoptado apela fuertemente al ojo, el más sensible y el más completo de nuestros órganos externos, y su preeminencia para grabar su tema en la mente está respaldada por el axioma incontrovertible expresado en las conocidas palabras de Horacio:}
+
+\begin{center}
+\emph{Segnius irritant animos demissa per aurem\\
+Quam quae sunt oculis subjecta fidelibus}\\
+\vskip 0.5\baselineskip
+La impresión que llega al oído es más débil \\
+que la que transmite el ojo fiel.
+\end{center}
+
+\charspacing{-1}{Todo el lenguaje consiste en signos representativos, y los mejores signos son aquellos que cumplen sus propósitos con la mayor precisión y rapidez. Tales, para todos los propósitos comunes, son los signos audibles llamados palabras, que todavía se consideran audibles, ya sea que se dirijan inmediatamente al oído o a través del medio de las letras al ojo. Los diagramas geométricos no son signos, sino los materiales de la ciencia geométrica, cuyo objeto es mostrar las cantidades relativas de sus partes mediante un proceso de razonamiento llamado Demostración. Este razonamiento se ha llevado a cabo generalmente con palabras, letras y diagramas negros o incoloros; pero como el uso de símbolos, signos y diagramas coloreados en las artes y ciencias lineales hace que el proceso de razonamiento sea más preciso y la adquisición más rápida, se han adoptado en este caso en consecuencia.}
+
+La expedición de este modo tan atractivo de comunicar conocimientos es tal, que los Elementos de Euclides pueden adquirirse en menos de un tercio del tiempo habitualmente empleado, y la retención por la memoria es mucho más duradera; estos hechos han sido comprobados por numerosos experimentos realizados por el inventor y varios otros que han adoptado sus planes. Los detalles de los cuales son pocos y obvios; las letras anexas a puntos, líneas u otras partes de un diagrama son en realidad meros nombres arbitrarios y los representan en la demostración; en lugar de estos, las partes, al estar coloreadas de manera diferente, se nombran a sí mismas, ya que sus formas en colores correspondientes las representan en la demostración.
+
+Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su adopción, tomemos un triángulo rectángulo y expresemos algunas de sus propiedades tanto con colores como con el método generalmente empleado.
+
+\pagebreak
+
+\defineNewPicture{
+	pair A, B, C;
+	B := (0, 0);
+	A := B shifted (dir(-145)*3u);
+	C = whatever[A, A shifted (1,0)] = whatever[B, B shifted dir(-145+90)];
+		byAngleDefine(A, B, C, byyellow, SOLID_SECTOR);
+		byAngleDefine(B, C, A, byblue, SOLID_SECTOR);
+		byAngleDefine(C, A, B, byred, SOLID_SECTOR);
+		draw byNamedAngleResized();
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,BC,CA);
+		label.top(btex B etex, B);
+		label.rt(btex C etex, C);
+		label.lft(btex A etex, A);
+	angleScale := 4/5;
+}
+
+\begin{center}
+\drawCurrentPictureInMargin \emph{Algunas de las propiedades del triángulo rectángulo ABC, expresadas por el método generalmente empleado:}
+\end{center}
+
+\vskip 0.5\baselineskip
+
+\begin{enumerate}
+\item El angulo BAC, junto con los angulos BCA y ABC son iguales a dos angulos rectos, o al doble del angulo ABC.
+\item El angulo CAB sumado al angulo ACB sera igual al angulo ABC.
+\item El angulo ABC es mayor que cualquiera de los angulos BAC o BCA.
+\item El angulo BCA o el angulo CAB es menor que el angulo ABC.
+\item Si del angulo ABC se toma el angulo BAC, el residuo sera igual al angulo ACB.
+\item El cuadrado de AC es igual a la suma de los cuadrados de AB y BC.
+\end{enumerate}
+
+\vskip 0.5\baselineskip
+
+\begin{center}
+\emph{Las mismas propiedades expresadas coloreando las diferentes partes:}
+\end{center}
+
+\vskip 0.5\baselineskip
+
+\begin{enumerate}
+\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\ Es decir, el ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo, igual a dos ángulos rectos.
+\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\ O en otras palabras, el ángulo rojo sumado al ángulo azul, es igual al ángulo amarillo.
+\item $\drawAngle{B} > \drawAngle{A} \mbox{ or } > \drawAngle{C}$. \\ El ángulo amarillo es mayor que cualquiera de los ángulos rojo o azul.
+\item $\drawAngle{A} \mbox{ or } \drawAngle{C} < \drawAngle{B}$. \\ El ángulo rojo o azul es menor que el ángulo amarillo.
+\item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\ En otros términos, el ángulo amarillo menos el ángulo azul es igual al ángulo rojo.
+\item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\ Es decir, el cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.
+\end{enumerate}
+
+En las demostraciones orales obtenemos con los colores esta importante ventaja: el ojo y el oído pueden ser atendidos al mismo tiempo, por lo que para enseñar geometría y otras artes y ciencias lineales en clases, el sistema es el mejor que se ha propuesto jamás, esto es evidente por los ejemplos dados.
+
+\charspacing{-2}{De donde se deduce que una referencia del texto al diagrama es más rápida y segura, al dar las formas y colores de las partes, o al nombrar las partes y sus colores, que al nombrar las partes y las letras en el diagrama. Además de la simplicidad superior, este sistema también se destaca por su concentración y excluye por completo la práctica perjudicial, aunque frecuente, de permitir que el alumno memorice la demostración; hasta que la razón, el hecho y la prueba solamente dejen impresiones en el entendimiento.}
+
+De nuevo, al dar una conferencia sobre los principios o propiedades de las figuras, si mencionamos el color de la parte o partes a las que se hace referencia, como al decir, el ángulo rojo, la línea azul o líneas, etc., la parte o partes así nombradas serán vistas inmediatamente por toda la clase al mismo instante; no así si decimos el ángulo ABC, el triángulo PFQ, la figura EG Kt, y así sucesivamente; porque las letras deben trazarse una por una antes de que los estudiantes organicen en sus mentes la magnitud particular a la que se refieren, lo que a menudo ocasiona confusión y error, así como pérdida de tiempo. Además, si las partes que se dan como iguales tienen los mismos colores en cualquier diagrama, la mente no se desviará del objeto que tiene ante sí; es decir, tal disposición presenta una demostración ocular de las partes que deben probarse como iguales, y el alumno retiene los datos durante todo el razonamiento. Pero cualesquiera que sean las ventajas del plan actual, si no se sustituye, siempre puede ser un poderoso auxiliar de los otros métodos, con el propósito de introducción, o de una reminiscencia más rápida, o de una retención más permanente por la memoria.
+
+\charspacing{-2.5}{La experiencia de todos los que han formado sistemas para impresionar hechos en la comprensión, concuerda en probar que las representaciones coloreadas, como imágenes, grabados, diagramas, etc. son más fáciles de fijar en la mente que las meras oraciones sin ninguna peculiaridad. Curioso como pueda parecer, los poetas parecen ser más conscientes de este hecho que los matemáticos; muchos poetas modernos aluden a este sistema visible de comunicar conocimiento, uno de ellos se ha expresado así:}
+
+\vskip 0.5\baselineskip
+
+\begin{center} % De nuevo, el mismo verso de Horacio, esta vez traducido por Isaac Watts https://archive.org/stream/improvementofmin00wattuoft#page/198/mode/2up
+Los sonidos que se dirigen al oído se pierden y mueren\\
+En una hora corta, pero estos que golpean el ojo,\\
+Viven mucho en la mente, la vista fiel\\
+Graba el conocimiento con un rayo de luz.
+% Yo pondría algo como esto en su lugar:
+% Porque el hombre ama el conocimiento, y los rayos de la Verdad
+% son más bienvenidos a los ojos de su entendimiento,
+% que todos los halagos del sonido a sus oídos,
+% que todos los sabores a su lengua...
+% De Los placeres de la imaginación, de Mark Akenside. (1721–1770) https://archive.org/stream/pleasuresofimagi00aken#page/50/mode/2up
+\end{center}
+
+\vskip 0.5\baselineskip
+
+Esto quizás pueda considerarse la única mejora que ha recibido la geometría plana desde los días de Euclides, y si hubo algún geómetra de renombre antes de esa época, el éxito de Euclides ha eclipsado por completo su memoria, e incluso ha hecho que todas las cosas buenas de ese tipo se le atribuyan a él; como \AE sop entre los escritores de fábulas. También cabe señalar que, dado que los diagramas tangibles proporcionan el único medio a través del cual la geometría y otras artes lineales pueden enseñarse a los ciegos, el sistema visible es igualmente adecuado para las exigencias de los sordomudos.
+
+\charspacing{-1}{Se debe tener cuidado de mostrar que el color no tiene nada que ver con las líneas, ángulos o magnitudes, excepto meramente para nombrarlos. Una línea matemática, que es longitud sin anchura, no puede poseer color, sin embargo, la unión de dos colores en el mismo plano da una buena idea de lo que se entiende por una línea matemática; recordemos que estamos hablando familiarmente, dicha unión debe entenderse y no el color, cuando decimos la línea negra, la línea roja o las líneas, etc.}
+
+Los colores y los diagramas coloreados pueden parecer al principio un método torpe para transmitir nociones adecuadas de las propiedades y partes de las figuras y magnitudes matemáticas, sin embargo, se encontrarán que ofrecen un medio más refinado y extenso que cualquiera que se haya propuesto hasta ahora.
+
+Aquí definiremos un punto, una línea y una superficie, y demostraremos una proposición para mostrar la verdad de esta afirmación.
+
+Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo posición, abstraído de la consideración de longitud, anchura y grosor. Quizás la siguiente descripción esté mejor calculada para explicar la naturaleza del punto matemático a aquellos que no han adquirido la idea, que la definición anterior, aunque especiosa.
+
+\defineNewPicture{
+	angleScale := 2;
+	pair O, A, B, C;
+	O := (0, 0);
+	A := dir(0) scaled 3u;
+	B := dir(120) scaled 3u;
+	C := dir(240) scaled 3u;
+		draw byAngle(A, O, B, byred, SOLID_SECTOR);
+		draw byAngle(B, O, C, byblue, SOLID_SECTOR);
+		draw byAngle(C, O, A, byyellow, SOLID_SECTOR);
+}
+Que tres colores \drawCurrentPictureInMargin se encuentren y cubran una porción del papel, donde se encuentran no es azul, ni es amarillo, ni es rojo, ya que no ocupa ninguna porción del plano, porque si lo hiciera, pertenecería a la parte azul, roja o amarilla; sin embargo, existe y tiene posición sin magnitud, de modo que con un poco de reflexión, esta unión de tres colores en un plano da una buena idea de un punto matemático.
+
+Una línea es longitud sin anchura. Con la ayuda de colores, casi de la misma manera que antes, se puede dar así una idea de una línea:—
+
+\defineNewPicture{
+	pair A, B, C, D, E, F;
+	A := (0, 0);
+	B := (5/2u, ypart(A));
+	C := (xpart(A), -2u);
+	D := (xpart(B), ypart(C));
+	E := 1/2[A, C];
+	F := 1/2[B, D];
+		draw byPolygon(A,B,F,E)(byred);
+		draw byPolygon(C,D,F,E)(byblue);
+}
+\drawCurrentPictureInMargin
+Que dos colores se encuentren y cubran una porción del papel; donde se encuentran no es rojo, ni es azul; por lo tanto, la unión no ocupa ninguna porción del plano, y por lo tanto no puede tener anchura, sino solo longitud: de lo que podemos formarnos fácilmente una idea de lo que se entiende por una línea matemática. A efectos de ilustración, un color que difiera del color del papel, o del plano sobre el que está dibujado, habría sido suficiente; de ahí en adelante, si decimos la línea roja, la línea azul o las líneas, etc. se entiende que son las uniones con el plano sobre el que están dibujadas.
+
+\defineNewPicture{
+	pair A', A'', A''', B', B'', B''', C', C'', C''', D', D'', D''', d[];
+	d1 := (3/2u, 0);
+	d2 := (-3/4u, -2/3u);
+	d3 := (0, -3/2u);
+	A' := (0, 0);
+	B' := A' shifted d1;
+	C' := A' shifted d2;
+	D' := C' shifted d1;
+	A'' := A' shifted d3;
+	B'' := B' shifted d3;
+	C'' := C' shifted d3;
+	D'' := D' shifted d3;
+	A''' := A'' shifted d3;
+	B''' := B'' shifted d3;
+	C''' := C'' shifted d3;
+	D''' := D'' shifted d3;
+		draw byPolygon(A',B',B'',A'',C'',C')(byred);
+		draw byPolygon(A'',B'',D'',C'')(byblue);
+		draw byPolygon(C'',D'',B'',B''',D''',C''')(byyellow);
+		draw byLine(A''', B''', white, SOLID_LINE, 2);
+		draw byLine(A''', C''', white, SOLID_LINE, 2);
+		draw byLine(A''', A', white, SOLID_LINE, 2);
+		draw byLine(D', C', white, SOLID_LINE, THIN_WIDTH);
+		draw byLine(D', B', white, SOLID_LINE, THIN_WIDTH);
+		draw byLine(D', D''', white, SOLID_LINE, THIN_WIDTH);
+		label.lft(btex P etex, C');
+		label.lft(btex R etex, C'');
+		label.rt(btex S etex, B'');
+		label.rt(btex Q etex, B''');
+}
+\drawCurrentPictureInMargin
+Una superficie es aquello que tiene longitud y anchura sin grosor.
+
+Cuando consideramos un cuerpo sólido (PQ), percibimos de inmediato que tiene tres dimensiones, a saber: longitud, anchura y grosor; supongamos que una parte de este sólido (PS) es roja, y la otra parte (QR) amarilla, y que los colores son distintos sin mezclarse, la superficie azul (RS) que separa estas partes, o que es lo mismo, que divide el sólido sin pérdida de material, debe carecer de grosor, y solo posee longitud y anchura; esto aparece claramente por un razonamiento similar al que se acaba de emplear para definir, o más bien describir, un punto y una línea.
+
+La proposición que hemos seleccionado para elucidar la manera en que se aplican los principios, es la quinta del primer Libro.
+
+\defineNewPicture[1/4]{
+angleScale := 5/6;
+pair A, B, C, D, E;
+A := (0, 0);
+B := A shifted (u, -2u);
+C := B xscaled -1;
+D := 9/5[A,B];
+E := 9/5[A,C];
+byAngleDefine(B, A, C, byblack, SOLID_SECTOR);
+byAngleDefine(A, B, C, byblue, SOLID_SECTOR);
+byAngleDefine(B, C, A, byblue, SOLID_SECTOR);
+byAngleDefine(C, B, E, byyellow, SOLID_SECTOR);
+byAngleDefine(D, C, B, byyellow, SOLID_SECTOR);
+byAngleDefine(B, D, C, byred, SOLID_SECTOR);
+byAngleDefine(C, E, B, byred, SOLID_SECTOR);
+byAngleDefine(E, B, D, byblack, ARC_SECTOR);
+byAngleDefine(D, C, E, byblack, ARC_SECTOR);
+draw byNamedAngleResized(BAC,ABC,BCA,CBE,DCB,BDC,CEB);
+byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, E, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CD,noLine,BC,noLine,BE,CE,AC,AB,BD);
+label.top(btex A etex, A);
+label.lft(btex C etex, C);
+label.rt(btex B etex, B);
+label.lft(btex E etex, E);
+label.rt(btex D etex, D);
+}
+En un triángulo isósceles ABC, los ángulos internos en la base ABC, ACB son iguales, y cuando los lados AB, AC se prolongan, los ángulos externos en la base BCE, CBD también son iguales.
+
+\begin{center}
+\drawCurrentPictureInMargin Produce \drawUnitLine{AB} y \drawUnitLine{AC},\\
+haz $\drawUnitLine{BD} = \drawUnitLine{CE}$, dibuja \drawUnitLine{BE} y \drawUnitLine{CD}.\\
+En
+\drawFromCurrentPicture{
+draw byNamedAngle(BAC);
+startAutoLabeling;
+draw byNamedLineSeq(0)(BE,CE,AC,AB);
+stopAutoLabeling;
+}
+y
+\drawFromCurrentPicture{
+draw byNamedAngle(BAC);
+startAutoLabeling;
+draw byNamedLineSeq(0)(BD,CD,AC,AB);
+stopAutoLabeling;
+}\\
+tenemos $\drawUnitLine{AB,BD} = \drawUnitLine{AC,CE}$,\\
+\drawAngle{BAC} común y $\drawUnitLine{AB} = \drawUnitLine{AC}$:\\
+$\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$\\
+y $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.\\
+De nuevo en \drawLine{BC,BE,CE} y \drawLine{BC,BD,CD},\\
+$\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$\\
+y $\drawUnitLine{BE} = \drawUnitLine{CD}$;\\
+$\therefore \drawAngle{DCE,DCB} = \drawAngle{EBD,CBE}$
+y $\drawAngle{DCB} = \drawAngle{CBE}$ \byref{prop:I.IV}\\
+Pero $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$.
+\end{center}
+
+\qedNB
+
+\begin{center}
+\emph{Anexando las letras al diagrama.}
+\end{center}
+
+Sean los lados iguales AB y AC producidos a través de los extremos BC, del tercer lado, y en la parte producida BD de cualquiera, sea asumido cualquier punto D, y del otro sea cortado AE igual a AD \byref{prop:I.III}. Sean los puntos E y D, así tomados en los lados producidos, conectados por líneas rectas DC y BE con los extremos alternos del tercer lado del triángulo.
+
+En los triángulos DAC y EAB los lados DA y AC son respectivamente iguales a EA y AB, y el ángulo incluido A es común a ambos triángulos. Por lo tanto \byref{prop:I.IV} la línea DC es igual a BE, el ángulo ADC al ángulo AEB, y el ángulo ACD al ángulo ABE; si de las líneas iguales AD y AE se toman los lados iguales AB y AC, los residuos BD y CE serán iguales. Por lo tanto en los triángulos BDC y CEB, los lados BD y DC son respectivamente iguales a CE y EB, y los ángulos D y E incluidos por esos lados también son iguales. Por lo tanto \byref{prop:I.IV} los ángulos DBC y ECB, que son los incluidos por el tercer lado BC y las producciones de los lados iguales AB y AC son iguales. También los ángulos DCB y EBC son iguales si esos iguales se toman de los ángulos DCA y EBA antes probados iguales, los residuos, que son los ángulos ABC y ACB opuestos a los lados iguales, serán iguales.
+
+\emph{Por lo tanto en un triángulo isósceles,} etc.
+
+\qedNB
+
+\charspacing{-2}{Nuestro objeto en este lugar es introducir el sistema en lugar de enseñar cualquier conjunto particular de proposiciones, por lo tanto hemos seleccionado las anteriores del curso regular. Para escuelas y otros lugares públicos de instrucción, las tizas teñidas servirán para describir los diagramas, etc. para uso privado los lápices de colores resultarán muy convenientes.}
+
+Estamos felices de encontrar que los Elementos de las Matemáticas ahora forman una parte considerable de toda educación femenina sólida, por lo tanto llamamos la atención de aquellos interesados o comprometidos en la educación de las damas a este modo muy atractivo de comunicar conocimiento, y al trabajo sucesivo para su futuro desarrollo.
+
+\charspacing{-2.5}{Nosotros concluiremos por el momento observando, ya que los sentidos de la vista y el oído pueden ser tan fuertemente e instantáneamente abordados por igual con mil como con uno, \emph{el millón} podría ser enseñado geometría y otras ramas de las matemáticas con gran facilidad, esto avanzaría el propósito de la educación más que cualquier cosa \emph{podría} ser nombrada, porque enseñaría a la gente cómo pensar, y no qué pensar; es en este particular donde se origina el gran error de la educación.}
+
+\chapter*{Elucidaciones}
+
+La geometría tiene como objetos principales la exposición y explicación de las propiedades de la \emph{figura}, y la figura se define como la relación que existe entre los límites del espacio. El espacio o la magnitud es de tres clases, \emph{lineal}, \emph{superficial} y \emph{sólido}.
+
+\defineNewPicture{
+	pair A, B, C;
+	numeric s;
+	s := 3/2u;
+	A := (0, s);
+	B := (1/2s, 0);
+	C := B xscaled -1;
+		draw byAngle.A(B, A, C, byyellow, SOLID_SECTOR);
+		byLineDefine(B, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(CA,BA);
+		label.urt(btex A etex, A);
+}\drawCurrentPictureInMargin
+Los ángulos podrían considerarse apropiadamente como una cuarta especie de magnitud. La magnitud angular evidentemente consta de partes, y por lo tanto debe admitirse que es una especie de cantidad. El estudiante no debe suponer que la magnitud de un ángulo es afectada por la longitud de las líneas rectas que lo incluyen y de cuya divergencia mutua es la medida. El \emph{vértice} de un ángulo es el punto donde se encuentran los \emph{lados} de las \emph{patas} del ángulo, como A.
+
+\defineNewPicture{
+	pair B, C, D, E, F, G, H;
+	numeric s;
+	s := 5/4u;
+	C := (0, 0);
+	B := dir(0)*s;
+	D := dir(50)*s;
+	E := dir(-30)*s;
+	F := E scaled -1;
+	G := D scaled -1;
+	H := B scaled -1;
+	angleScale := 4/3;
+		draw byAngle(E, C, B, byyellow, SOLID_SECTOR);
+		draw byAngle(B, C, D, byblack, SOLID_SECTOR);
+		draw byAngle(D, C, F, byblue, SOLID_SECTOR);
+		draw byAngle(F, C, H, byred, SOLID_SECTOR);
+		draw byAngle(H, C, G, byyellow, ARC_SECTOR);
+		draw byAngle(G, C, E, byblue, ARC_SECTOR);
+		draw byLine(B, H, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(D, G, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(E, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+		label.bot(btex C etex, C shifted (0, -3pt));
+		label.bot(btex B etex, B);
+		label.lrt(btex D etex, D);
+		label.llft(btex F etex, F);
+		label.bot(btex H etex, H);
+		label.lrt(btex G etex, G);
+		label.llft(btex E etex, E);
+}
+\drawCurrentPictureInMargin
+\charspacing{-2}{Un ángulo se designa a menudo por una sola letra cuando sus lados son las únicas líneas que se encuentran en su vértice. Así, las líneas roja y azul forman el ángulo amarillo, que en otros sistemas se llamaría ángulo A. Pero cuando más de dos líneas se encuentran en el mismo punto, era necesario por métodos anteriores, para evitar confusiones, emplear tres letras para designar un ángulo alrededor de ese punto, la letra que marcaba el vértice del ángulo se colocaba siempre en el medio. Así, las líneas negra y roja que se encuentran en C, forman el ángulo azul, y ha sido usualmente denominado el ángulo FCD o DCF. Las líneas FC y CD son los lados del ángulo; el punto C es su vértice. De manera similar, el ángulo negro se designaría el ángulo DCB o BCD. Los ángulos rojo y azul sumados, o el ángulo HCF sumado a FCD, forman el ángulo HCD; y así de otros ángulos.}
+
+Cuando los lados de un ángulo se producen o prolongan más allá de su vértice, los ángulos formados por ellos en ambos lados del vértice se dicen que son \emph{opuestos por el vértice} entre sí: así, los ángulos rojo y amarillo se dicen que son ángulos opuestos por el vértice.
+
+\charspacing{-2}{\emph{La superposición} es el proceso por el cual una magnitud puede concebirse colocada sobre otra, de modo que la cubra exactamente, o de modo que cada parte de cada una coincida exactamente.}
+
+Una línea se dice que es \emph{producida}, cuando es extendida, prolongada, o tiene su longitud aumentada, y el aumento de longitud que recibe se llama \emph{parte producida}, o su \emph{producción}.
+
+\charspacing{-2.5}{La longitud total de la línea o líneas que encierran una figura, se llama su \emph{perímetro}. Los primeros seis libros de Euclides tratan solo de figuras planas. Una línea trazada desde el centro de un círculo hasta su circunferencia, se llama \emph{radio}. El lado de un triángulo rectángulo, que es opuesto al ángulo recto, se llama \emph{hipotenusa}. Un oblongo se define en el segundo libro, y se llama \emph{rectángulo}. Se supone que todas las líneas consideradas en los primeros seis libros de los Elementos están en el mismo plano.}
+
+\charspacing{-3}{La \emph{regla} y el \emph{compás} son los únicos instrumentos cuyo uso está permitido en Euclides, o en la Geometría plana. Declarar esta restricción es el objeto de los \emph{postulados.}}
+
+Los \emph{axiomas} de la geometría son ciertas proposiciones generales, cuya verdad se toma como autoevidente e incapaz de ser establecida por demostración.
+
+Las \emph{proposiciones} son aquellos resultados que se obtienen en geometría por un proceso de razonamiento. Hay dos especies de proposiciones en geometría, \emph{problemas} y \emph{teoremas}.
+
+Un \emph{problema} es una proposición en la que se propone hacer algo; como una línea que se va a trazar bajo algunas condiciones dadas, un círculo que se va a describir, alguna figura que se va a construir, etc.
+
+La \emph{solución} del problema consiste en mostrar cómo se puede hacer la cosa requerida con la ayuda de la regla o straight-edge y el compás.
+
+La \emph{demostración} consiste en probar que el proceso indicado en la solución alcanza el fin requerido.
+
+Un \emph{teorema} es una proposición en la que se afirma la verdad de algún principio. Este principio debe deducirse de los axiomas y definiciones, u otras verdades previamente y de forma independiente establecidas. Mostrar esto es el objeto de la demostración.
+
+Un \emph{problema} es análogo a un postulado.
+
+Un \emph{teorema} se asemeja a un axioma.
+
+Un \emph{postulado} es un problema, cuya solución se asume.
+
+Un \emph{axioma} es un teorema, cuya verdad se concede sin demostración.
+
+Un \emph{corolario} es una inferencia deducida inmediatamente de una proposición.
+
+Un \emph{escolio} es una nota u observación sobre una proposición que no contiene una inferencia de importancia suficiente para merecer el nombre de \emph{corolario}.
+
+\charspacing{-2}{Un \emph{lema} es una proposición introducida meramente con el propósito de establecer una proposición más importante.}
+
+\chapter*{Símbolos y abreviaturas}
+
+\symb{$\therefore$}
+expresa la palabra \emph{por lo tanto}.
+
+\symb{$\because$}
+ expresa la palabra \emph{porque}.
+
+\symb{$=$}
+ expresa la palabra \emph{igual}. Este signo de igualdad puede leerse \emph{igual a}, o \emph{es igual a}, o \emph{son iguales a}; pero la discrepancia con respecto a la introducción de los verbos auxiliares \emph{es}, \emph{son}, etc. no puede afectar el rigor geométrico.
+
+\symb{$\neq$}
+ significa lo mismo que si se escribieran las palabras \emph{‘no igual’}.
+
+\symb{$>$}
+ significa \emph{mayor que}.
+
+\symb{$<$}
+ significa \emph{menor que}.
+
+\symb{$\ngtr$}
+ significa \emph{no mayor que}.
+
+\symb{$\nless$}
+ significa \emph{no menor que}.
+
+\symb{$+$}
+ se lee \emph{más}, el signo de adición; cuando se interpone entre dos o más magnitudes, significa su suma.
+
+\symb{$-$}
+ se lee \emph{menos}, significa la resta; y cuando se coloca entre dos cantidades, denota que la última se toma de la primera.
+
+\symb{$\times$}
+ este signo expresa el producto de dos o más números cuando se coloca entre ellos en aritmética y álgebra; pero en geometría se usa generalmente para expresar un \emph{rectángulo}, cuando se coloca entre \enquote{dos líneas rectas que contienen uno de sus ángulos rectos.} Un \emph{rectángulo} también puede representarse colocando un punto entre dos de sus lados contiguos.
+
+\symb{$:\ ::\ :$}
+ expresa una \emph{analogía} o \emph{proporción}; así, si A, B, C y D representan cuatro magnitudes, y A tiene con B la misma razón que C tiene con D, la proporción se escribe brevemente así
+
+$A : B :: C : D$, $A : B = C : D$, or $\dfrac{A}{B} = \dfrac{C}{D}$.
+
+Esta igualdad o semejanza de razón se lee,
+
+como A es a B, así es C a D;
+
+o A es a B, como C es a D.
+
+\symb{$\parallel$}
+ significa \emph{paralelo a}.
+
+\symb{$\perp$}
+ significa \emph{perpendicular a}.
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := 3/2u;
+	A := (0, 0);
+	B := dir(0)*s;
+	C := dir(50)*s;
+	D := dir(90)*s;
+	byAngleDefine(B, A, C, byblack, ARC_SECTOR);
+	byAngleDefine(B, A, D, byblack, ARC_SECTOR);
+	byPointLabelRemove(A,B,C,D);
+}
+
+\symb{\drawAngle{BAC}}
+ significa \emph{ángulo}.
+
+\symb{\drawAngle{BAD}}
+ significa \emph{ángulo recto}.
+
+\symb{\drawTwoRightAngles}
+ significa \emph{dos ángulos rectos}.
+
+\defineNewPicture{
+	pair A, B, C, D;
+	A := (0, -1/4u);
+	B := (u, 0);
+	C := (-u, 0);
+	D := (0, u);
+		byLineDefine (A, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine (B, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine (C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byPointLabelRemove(A,D);
+}
+
+\symb{\drawFromCurrentPicture{
+draw byNamedLine(AD);
+draw byNamedLineSeq(0)(BD,CD);
+}
+o
+\drawFromCurrentPicture{
+draw byNamedLineSeq(0)(AD,BD);
+}}
+designa brevemente un \emph{punto}.
+
+El cuadrado descrito sobre una línea se escribe concisamente así, $\drawUnitLine{AD}^2$.
+
+En la misma manera, el doble del cuadrado de, se expresa por $2 \cdot \drawUnitLine{AD}^2$.
+
+\symb{\indefstr}
+ significa \emph{definición}.
+
+\symb{\inpoststr}
+ significa \emph{postulado}.
+
+\symb{\inaxstr}
+ significa \emph{axioma}.
+
+\symb{hyp.}
+ significa \emph{hipótesis}. Puede ser necesario aquí señalar que \emph{hipótesis} es la condición asumida o dada por sentada. Así, la hipótesis de la proposición dada en la Introducción, es que el triángulo es isósceles, o que sus lados son iguales.
+
+\symb{\conststr}
+ significa \emph{construcción}. La \emph{construcción} es el cambio realizado en la figura original, dibujando líneas, haciendo ángulos, describiendo círculos, etc. para adaptarla al argumento de la demostración o a la solución del problema. Las condiciones bajo las cuales se realizan estos cambios, son tan indiscutibles como las contenidas en la hipótesis. Por ejemplo, si hacemos un ángulo igual a un ángulo dado, estos dos ángulos son iguales por construcción.
+
+\symb{\qedstr}
+significa \emph{Quod erat demonstrandum}. Lo que se quería demostrar.
+
+\part{Libro I}
+
+\chapter*{Definiciones}
+
+\startdefinition{}\label{def:I.I}
+\begin{center}
+Un \emph{punto} es el que no tiene partes.
+\end{center}
+
+\startdefinition{}\label{def:I.II}
+\begin{center}
+Una \emph{línea} es longitud sin ancho.
+\end{center}
+
+\startdefinition{}\label{def:I.III}
+\begin{center}
+Los extremos de una línea son puntos.
+\end{center}
+
+\startdefinition{}\label{def:I.IV}
+\begin{center}
+Una línea recta o recta es la que se encuentra uniformemente entre sus extremos.
+\end{center}
+
+\startdefinition{}\label{def:I.V}
+\begin{center}
+Una superficie es aquella que sólo tiene longitud y ancho.
+\end{center}
+
+\startdefinition{}\label{def:I.VI}
+\begin{center}
+Los extremos de una superficie son líneas.
+\end{center}
+
+\startdefinition{}\label{def:I.VII}
+\begin{center}
+Una superficie plana es la que se encuentra uniformemente entre sus extremos.
+\end{center}
+
+\startdefinition{}\label{def:I.VIII}
+\begin{center}
+Un ángulo plano es la inclinación de dos líneas entre sí, que se encuentran en un plano, pero no están en la misma dirección.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := (0, 0);
+	B := (2/3u, 2/3u);
+	C := (u, ypart(A));
+		byAngleDefine(B, A, C, byyellow, SOLID_SECTOR);
+		draw byNamedAngleResized();
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AC,AB);
+}
+\startdefinition{}\label{def:I.IX}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un ángulo rectilíneo plano es la inclinación de dos líneas rectas entre sí, que se encuentran, pero no están en la misma línea recta.
+\end{center}
+	
+\defineNewPicture{
+	pair A, B, C, D;
+	A := (0, 0);
+	B := (u, 0);
+	C := (0, 2/3u);
+	D := (-u, 0);
+		byAngleDefine(B, A, C, byblack, ARC_SECTOR);
+		byAngleDefine(D, A, C, byblack, ARC_SECTOR);
+		draw byNamedAngleResized();
+		draw byLine(D, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+}
+\startdefinition{}\label{def:I.X}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Cuando una línea recta parada sobre otra línea recta hace iguales los ángulos adyacentes, cada uno de estos ángulos es llamado \emph{ángulo recto}, y se dice que cada una de estas líneas es \emph{perpendicular} a la otra.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := (0, 0);
+	B := (-2/3u, 2/3u);
+	C := (u, ypart(A));
+		byAngleDefine(B, A, C, byred, SOLID_SECTOR);
+		draw byNamedAngleResized();
+		byLineDefine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AC,AB);
+}
+\startdefinition{}\label{def:I.XI}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un ángulo obtuso es un ángulo mayor que un ángulo recto.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := (0, 0);
+	B := (2/3u, 2/3u);
+	C := (u, ypart(A));
+		byAngleDefine(B, A, C, byblue, SOLID_SECTOR);
+		draw byNamedAngleResized();
+		byLineDefine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AC,AB);
+}
+\startdefinition{}\label{def:I.XII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un ángulo agudo es menor que un ángulo recto.
+\end{center}
+
+\startdefinition{}\label{def:I.XIII}
+\begin{center}
+Un borde o límite es el extremo de cualquier cosa.
+\end{center}
+
+\startdefinition{}\label{def:I.XIV}
+\begin{center}
+Una figura es una superficie encerrada en todos los lados por una línea o líneas.
+\end{center}
+
+\defineNewPicture{
+	pair O, A, B, C, D, E;
+	numeric r;
+	r := 1/2u;
+	O := (0, 0);
+	A := dir(0) scaled r;
+	B := dir(60) scaled r;
+	C := dir(130) scaled r;
+	D := dir(180) scaled r;
+	E := dir(-60) scaled r;
+		draw byLine(O, B)(byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(O, C)(byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(O, E)(byyellow, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(D, A)(byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byCircleR(O, r, byred, 0, 0, 0);
+}
+\startdefinition{}\label{def:I.XV}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un círculo es una figura plana, delimitada por una línea continua, llamada circunferencia o periferia; y tiene un cierto punto dentro de él, desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
+\end{center}
+
+\startdefinition{}\label{def:I.XVI}
+\begin{center}
+Este punto (desde el cual se dibujan las líneas iguales) se llama el centro del círculo.
+\end{center}
+
+\defineNewPicture{
+	pair O, A, B;
+	numeric r;
+	r := 1/2u;
+	O := (0, 0);
+	A := dir(0) scaled r;
+	B := dir(180) scaled r;
+		draw byLine(A, B)(byyellow, SOLID_LINE, REGULAR_WIDTH);
+		draw byCircleR(O, r, byred, 0, 0, 0);
+}
+\startdefinition{}\label{def:I.XVII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] El diámetro es una línea recta dibujada a través del centro, terminada en ambos sentidos en la circunferencia.
+\end{center}
+
+\defineNewPicture{
+	pair O, A, B;
+	numeric r;
+	r := 1/2u;
+	O := (0, 0);
+	A := dir(0) scaled r;
+	B := dir(180) scaled r;
+		draw byLine(A, B)(byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byArc(O, A, B)(r, byyellow, 0, 0, 0, 0);
+		draw byArc(O, B, A)(r, byyellow, 1, 0, 0, 0);
+}
+\startdefinition{}\label{def:I.XVIII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un semicírculo es la figura contenida por el diámetro, y la parte del círculo cortada por el diámetro.
+\end{center}
+
+\defineNewPicture{
+	pair O, A, B;
+	path P;
+	numeric r;
+	r := 1/2u;
+	P := fullcircle scaled 2r;
+	O := (0, 0);
+	A := point 1 of P;
+	B := point 3 of P;
+		draw byLine(A, B)(byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byArc(O, A, B)(r, byblue, 0, 0, 0, 0);
+		draw byArc(O, B, A)(r, byblue, 1, 0, 0, 0);
+}
+\startdefinition{}\label{def:I.XIX}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un segmento circular es una figura contenida por una línea recta y la parte de la circunferencia que corta.
+\end{center}
+
+\startdefinition{}\label{def:I.XX}
+\begin{center}
+Una figura contenida solo por líneas rectas, se llama figura rectilínea.
+\end{center}
+
+\startdefinition{}\label{def:I.XXI}
+\begin{center}
+Un triángulo es una figura rectilínea contenida por tres lados.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	A := (0, 0);
+	B := (u, 1/2u);
+	C := (-1/2u, -4/3u);
+	D := (4/3u, -u);
+		draw byLine(C, B)(byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(A, D)(byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(BD,CD,AC,AB);
+		draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
+}
+\startdefinition{}\label{def:I.XXII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Una figura cuadrilátera es aquella que está limitada por cuatro lados. Las líneas rectas \drawUnitLine{AD} y \drawUnitLine{CB} que conectan los vértices de los ángulos opuestos de una figura cuadrilátera, son denominadas sus diagonales.
+\end{center}
+
+\startdefinition{}\label{def:I.XXIII}
+\begin{center}
+Un polígono es una figura rectilínea delimitada por más de cuatro lados.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := dir(-30) scaled 1/2u;
+	B := dir(-150) scaled 1/2u;
+	C := dir(90) scaled 1/2u;
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,BC,CA);
+}
+\startdefinition{}\label{def:I.XXIV}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un triángulo equilátero es el que tiene todos sus lados iguales.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := dir(-60) scaled 1/2u;
+	B := dir(-120) scaled 1/2u;
+	C := dir(90) scaled 1/2u;
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,BC,CA);
+}
+\startdefinition{}\label{def:I.XXV}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un triángulo isósceles es el que tiene dos lados iguales.
+\end{center}
+
+\startdefinition{}\label{def:I.XXVI}
+\begin{center}
+Un triángulo escaleno es uno que no tiene dos lados iguales.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := (0, 0);
+	B := (-u, 0);
+	C := (0, 3/4u);
+		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,BC,CA);
+}
+\startdefinition{}\label{def:I.XXVII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un triángulo rectángulo es el que tiene un ángulo recto.
+\end{center}
+
+\vskip \baselineskip
+
+\defineNewPicture{
+	pair A, B, C;
+	A := (-1/4u, 0);
+	B := (-u, 0);
+	C := (0, 3/4u);
+		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,BC,CA);
+}
+\startdefinition{}\label{def:I.XXVIII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un triángulo obtusángulo es aquel que tiene un ángulo obtuso.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C;
+	A := (0, 0);
+	B := (-u, 0);
+	C := (-1/4u, 3/4u);
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,BC,CA);
+}
+\startdefinition{}\label{def:I.XXIX}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un triángulo acutángulo es aquel que tiene tres ángulos agudos.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (s, 0);
+	C := A shifted (dir(80) scaled s);
+	D := B shifted (dir(80) scaled s);
+		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
+\startdefinition{}\label{def:I.XXX}
+\begin{center}
+\drawCurrentPictureInMargin[inside] De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados iguales y todos sus ángulos rectos.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (0, s);
+	D := (s, s);
+		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
+\startdefinition{}\label{def:I.XXXI}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un rombo es aquel que tiene todos sus lados iguales, pero sus ángulos no son ángulos rectos.
+\end{center}
+
+\defineNewPicture{
+	pair A,B,C,D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (4/3s, 0);
+	C := (0, 3/4s);
+	D := (4/3s, 3/4s);
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
+\startdefinition{}\label{def:I.XXXII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (1/4s, 3/4s);
+	D := (s + 1/4s, 3/4s);
+		byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(0)(AB,AC,CD,BD);
+}
+\startdefinition{}\label{def:I.XXXIII}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
+\end{center}
+
+\startdefinition{}\label{def:I.XXXIV}
+\begin{center}
+Todas las demás figuras cuadriláteras se llaman trapecios.
+\end{center}
+
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s;
+	s := u;
+	A := (0, 0);
+	B := (4/3s, 0);
+	C := (0, 1/2s);
+	D := (4/3s, 1/2s);
+		draw byLine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(C, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+}
+\startdefinition{}\label{def:I.XXXV}
+\begin{center}
+\drawCurrentPictureInMargin[inside] Las líneas rectas paralelas son aquellas que están en el mismo plano, y que prolongadas continuamente en ambas direcciones, nunca se encontrarán.
+\end{center}
+
+\chapter*{Postulados}
+
+\startpostulate{}\label{post:I.I}
+Se puede trazar una línea recta desde cualquier punto a cualquier otro punto.
+
+\startpostulate{}\label{post:I.II}
+Se puede prolongar una línea recta indefinidamente.
+
+\startpostulate{}\label{post:I.III}
+Se puede trazar un círculo con cualquier centro y radio.
+
+\chapter*{Axiomas}
+
+\startaxiom{}\label{ax:I.I}
+Las magnitudes iguales a una misma magnitud son iguales entre sí.
+
+\startaxiom{}\label{ax:I.II}
+Si se suman iguales, las sumas serán iguales.
+
+\startaxiom{}\label{ax:I.III}
+Si se restan iguales, el residuo será igual.
+
+\startaxiom{}\label{ax:I.IV}
+Si se suman iguales a desiguales, las sumas serán desiguales.
+
+\startaxiom{}\label{ax:I.V}
+Si se restan iguales a desiguales, el residuo será desigual.
+
+\startaxiom{}\label{ax:I.VI}
+Magnitudes iguales a una misma magnitud son iguales entre sí.
+
+\startaxiom{}\label{ax:I.VII}
+Magnitudes que son la mitad de la misma magnitud son iguales entre sí.
+
+\startaxiom{}\label{ax:I.VIII}
+Magnitudes que coinciden entre sí, o que llenan exactamente el mismo espacio, son iguales.
+
+\startaxiom{}\label{ax:I.IX}
+El todo es mayor que sus partes.
+
+\startaxiom{}\label{ax:I.X}
+Dos líneas rectas no pueden contener un espacio.
+
+\startaxiom{}\label{ax:I.XI}
+Todos los ángulos rectos son iguales.
+
+\startaxiom{}\label{ax:I.XII}
+\defineNewPicture{
+	pair A, B, C, D, E, F, G, H;
+	numeric s;
+	s := 3/2u;
+	A := (0, 0);
+	B := (4/3s, 0);
+	C := (0, s);
+	D := (4/3s, s);
+	E := (1/3s, 8/6s);
+	F := (xpart(E), -2/6s);
+	G = whatever[A, B] = whatever[E, F];
+	H = whatever[C, D] = whatever[E, F];
+		byAngleDefine(B, G, E, byred, SOLID_SECTOR);
+		byAngleDefine(D, H, F, byyellow, SOLID_SECTOR);
+		draw byNamedAngleResized();
+		draw byLine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+		draw byLine(E, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+		draw byLabelLine(0)(AB, CD, EF);
+		draw byLabelsOnPolygon(E, H, D)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+		draw byLabelsOnPolygon(B, G, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin[inside]
+Si dos líneas rectas $\left(\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}}\right)$ se encuentran con una tercera línea recta (\drawUnitLine{EF}) para hacer que los dos ángulos interiores (\drawAngle{H} y \drawAngle{G}) en el mismo lado sean menores que dos ángulos rectos, estas dos líneas rectas se encontrarán si se prolongan en el lado en el que los ángulos son menores que dos ángulos rectos.
+
+El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras:
+\begin{enumerate}
+\item Dos líneas rectas divergentes no pueden ser ambas paralelas a la misma línea recta.
+\item Si una línea recta corta una de dos líneas rectas paralelas, debe también cortar la otra.
+\item Solo se puede trazar una línea recta a través de un punto dado, paralela a una línea recta dada.
+\end{enumerate}
+
+\pagebreak
+
+\chapter*{Proposiciones}
+
+\startproblem{Prop. I. Prob.}\label{prop:I.I}
+
+\defineNewPicture[1/2]{
+	pair A, B, C;
+	path P[];
+	numeric r;
+	r := 3/2u;
+	A := (0, 0);
+	B := (r, 0);
+	P1 := fullcircle scaled 2r;
+	P2 := fullcircle scaled 2r shifted B;
+	C := P1 intersectionpoint P2;
+		byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+		byLineDefine(C, A, byyellow, SOLID_LINE, REGULAR_WIDTH);
+		draw byNamedLineSeq(-1)(AB,CA,BC);
+		draw byCircle.A(A, B, byblue, 0, 0, 1/2);
+		draw byCircle.B(B, A, byred, 0, 0, 1/2);
+		draw byLabelsOnPolygon(A, C, B)(ALL_LABELS, 1);
+}
+\drawCurrentPictureInMargin
+\problem{E}{n}{ una línea recta finita dada (\drawUnitLine{AB}) para trazar un triángulo equilátero.}
+
+\begin{center}
+Traza \offsetPicture{15pt}{0pt}{\drawFromCurrentPicture{
+draw byNamedLine(AB);
+draw byNamedCircle(A);
+draw byLabelLineEnd(A, B, 0);
+draw byLabelLineEnd(B, A, 1);
+}} y \offsetPicture{15pt}{0pt}{\drawFromCurrentPicture{
+draw byNamedLine(AB);
+draw byNamedCircle(B);
+draw byLabelLineEnd(A, B, 1);
+draw byLabelLineEnd(B, A, 0);
+}} \byref{post:I.III};\\
+dibuja \drawUnitLine{CA} y \drawUnitLine{BC} \byref{post:I.I}.\\
+Entonces \drawLine[bottom][triangleABC]{AB,CA,BC} será equilátero.
+
+Para \drawUnitLine{BC} $=$ \drawLine[bottom][triangleABC]{AB,CA,BC} \byref{def:I.XV};
+y \drawUnitLine{AB} $=$ \drawUnitLine{CA} \byref{def:I.XV},
+$\therefore$ \drawUnitLine{AB} $=$ \drawUnitLine{BC} \byref{ax:I.I};
+
+y por lo tanto \drawUnitLine{CA} es el triángulo equilátero requerido.
+
+Q. E. D. \drawUnitLine{BC} \triangleABC
+\end{center}
+
+\qed
+
+\startproblem{Prop. II. Prob.}\label{prop:I.II}
+
+\defineNewPicture{
+pair A, B, C, D, E, F;
+path P[];
+numeric r[];
+A := (0, 0);
+B := (-3/5u, -3/5u);
+C := (-2u, -1/3u);
+r1 := abs(A-B);
+D := (fullcircle scaled 2r1 shifted A) intersectionpoint (fullcircle scaled 2r1 shifted B);
+r2 := abs(B-C);
+r3 := r1 + r2;
+P1 := fullcircle scaled 2r2 shifted B;
+P2 := fullcircle scaled 2r3 shifted D;
+E := (D -- 10[D, B]) intersectionpoint P1;
+F := (D -- 10[D, A]) intersectionpoint P2;
+byLineDefine(A, B, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, A, byred, SOLID_LINE, REGULAR_WIDTH); % improvement: change style of either BD or DA
+byLineDefine(B, E, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, F, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,BC);
+draw byNamedLineSeq(0)(BE,BD,DA,AF);
+draw byCircle.A(D, E, byred, 0, 0, 1/2);
+draw byCircle.B(B, C, byblue, 0, 0, -1/2);
+draw byLabelsOnPolygon(E, D, A, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
+draw byLabelsOnPolygon(E, B, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
+draw byLabelsOnCircle(C)(B);
+draw byLabelsOnCircle(E, F)(A);
+}
+\drawCurrentPictureInMargin
+\problem{D}{e}{un punto dado (\drawFromCurrentPicture[middle][pointA]{
+startGlobalRotation(-lineAngle.DA);
+draw byNamedPointLines(A,"AB");
+stopGlobalRotation;
+}), dibujar una línea recta igual a una línea recta finita dada (\drawUnitLine{BC}).}
+
+\begin{center}
+Dibuja \drawUnitLine{AB} \byref{post:I.I}, traza \drawFromCurrentPicture[bottom]{
+startAutoLabeling;
+startTempScale(scaleFactor*3);
+startGlobalRotation(180-lineAngle.AB);
+draw byNamedLineSeq(0)(AB,BD,DA);
+stopGlobalRotation;
+stopTempScale;
+stopAutoLabeling;
+} \byref{prop:I.I}, prolonga \drawUnitLine{BD} \byref{post:I.II}, traza \drawFromCurrentPicture{
+draw byNamedLine (BC);
+draw byNamedCircle(B);
+draw byLabelLineEnd(B, C, 0);
+draw byLabelLineEnd(C, B, 0);
+} \byref{post:I.III}, y \drawFromCurrentPicture{
+draw byNamedLineSeq(0)(BD, BE);
+draw byNamedCircle(A);
+draw byLabelLineEnd(D, E, 0);
+draw byLabelLineEnd(E, D, 1);
+} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, entonces \drawUnitLine{AF} es la línea requerida.
+
+Para \drawUnitLine{BE,BD} $=$ \drawUnitLine{DA,AF} \byref{def:I.XV}, y \drawUnitLine{BD} $=$ \drawUnitLine{DA} (conſt.), $\therefore$ \drawUnitLine{BE} $=$ \drawUnitLine{AF} \byref{\constref}, pero \byref{post:I.III} \drawUnitLine{BC} $=$ \drawUnitLine{BE} $=$ \drawUnitLine{AF}; $\therefore$ \drawUnitLine{AF} dibujada de un punto dado (\pointA), es igual a la línea dada \drawUnitLine{BC}.
+
+Q. E. D. \byref{def:I.XV}
+\end{center}
+
+\qed
+
+\startproblem{Prop. III. Prob.}\label{prop:I.III}
+\defineNewPicture{
+pair A, B, C, D, E, F;
+path P;
+numeric r;
+A := (0, 0);
+r := 7/4u;
+B := A shifted (r, 0);
+C := A shifted (4/3r, 0);
+D := A shifted dir(30)*r;
+E := A shifted (7/6r, -1/6r);
+F := A shifted (7/6r, -7/6r);
+byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(BC,AB,AD);
+draw byLine(E, F, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byCircle.A(A, D, byblue, 0, 0, 0);
+draw byLabelsOnPolygon(B, A, D)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
+draw byLabelLineEnd(D, A, 0);
+draw byLabelLineEnd(C, A, 0);
+draw byLabelPoint(B, angle(B-A) + 45, 2);
+draw byLabelsOnPolygon(E, F)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{F}{rom}{the greater (\drawUnitLine{AB,BC}) of two given straight lines, to cut off a part equal to the less (\drawUnitLine{EF}).}
+
+\begin{center}
+Draw $\drawUnitLine{AD} = \drawUnitLine{EF}$ \byref{prop:I.II};\\
+describe
+\drawFromCurrentPicture{
+draw byNamedLine (AD);
+draw byNamedCircle(A);
+draw byLabelLineEnd(D, A, 0);
+draw byLabelLineEnd(A, D, 0);
+} \byref{post:I.III},\\
+then $\drawUnitLine{EF} = \drawUnitLine{AB}$
+
+For $\drawUnitLine{AD} = \drawUnitLine{AB}$ \byref{def:I.XV},\\
+and $\drawUnitLine{EF} = \drawUnitLine{AD}$ \byref{\constref};
+
+$\therefore \drawUnitLine{EF} = \drawUnitLine{AB}$ \byref{ax:I.I}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop. IV. Theor.}\label{prop:I.IV}
+\defineNewPicture[1/5]{
+pair A, B, C, D, E, F, d;
+A := (0, 0);
+B := A shifted (-5/2u, -7/2u);
+C := A shifted (1/2u, -3u);
+d := (0, -4u);
+D := A shifted d;
+E := B shifted d;
+F := C shifted d;
+byAngleDefine(B, A, C, byyellow, SOLID_SECTOR);
+byAngleDefine(A, B, C, byblue, SOLID_SECTOR);
+byAngleDefine(B, C, A, byred, SOLID_SECTOR);
+draw byNamedAngleResized(BAC, ABC, BCA);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CA,BC,AB);
+byAngleDefine(E, D, F, byyellow, SOLID_SECTOR);
+byAngleDefine(D, E, F, byblue, SOLID_SECTOR);
+byAngleDefine(E, F, D, byred, SOLID_SECTOR);
+draw byNamedAngleResized(EDF, DEF, EFD);
+byLineDefine(D, E, byred, SOLID_LINE, THIN_WIDTH);
+byLineDefine(E, F, byblack, SOLID_LINE, THIN_WIDTH);
+byLineDefine(F, D, byblue, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(FD,EF,DE);
+draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 1);
+}
+\drawCurrentPictureInMargin
+\problem[4]{I}{f}{two triangles have two sides of the one respectively equal to two sides of the other, (\drawUnitLine{AB} to \drawUnitLine{DE} and \drawUnitLine{CA} to \drawUnitLine{FD}) and the angles (\drawAngle{A} and \drawAngle{D}) contained by those equal sides also equal; then their bases or their sides (\drawUnitLine{BC} and \drawUnitLine{EF}) are also equal: and the remaining angles opposite to equal sides are respectively equal ($\drawAngle{B} = \drawAngle{E}$ and $\drawAngle{C} = \drawAngle{F}$): and the triangles are equal in every respect.}
+
+Let two triangles be conceived, to be so placed, that the vertex of the one of the equal angles, \drawAngle{A} or \drawAngle{D}; shall fall upon that of the other, and \drawUnitLine{AB} to coincide with \drawUnitLine{DE}, then will \drawUnitLine{CA} coincide with \drawUnitLine{FD} if applied: consequently \drawUnitLine{BC} will coincide with \drawUnitLine{EF}, or two straight lines will enclose a space, which is impossible \byref{ax:I.X}, therefore $\drawUnitLine{BC} = \drawUnitLine{EF}$, $\drawAngle{B} = \drawAngle{E}$ and $\drawAngle{C} = \drawAngle{F}$, and as the triangles \drawLine{CA,BC,AB} and \drawLine{FD,EF,DE} coincide, when applied, they are equal in every respect.
+
+\qed
+
+\starttheorem{Prop. V. Theor.}\label{prop:I.V}
+\defineNewPicture{
+pair A, B, C, D, E;
+A := (0, 0);
+B := A shifted (u, -2u);
+C := B xscaled -1;
+D := 9/5[A,B];
+E := 9/5[A,C];
+byAngleDefine(B, A, C, byblack, SOLID_SECTOR);
+byAngleDefine(A, B, C, byblue, SOLID_SECTOR);
+byAngleDefine(B, C, A, byblue, SOLID_SECTOR);
+byAngleDefine(C, B, E, byyellow, SOLID_SECTOR);
+byAngleDefine(D, C, B, byyellow, SOLID_SECTOR);
+byAngleDefine(B, D, C, byred, SOLID_SECTOR);
+byAngleDefine(C, E, B, byred, SOLID_SECTOR);
+byAngleDefine(E, B, D, byblack, ARC_SECTOR);
+byAngleDefine(D, C, E, byblack, ARC_SECTOR);
+draw byNamedAngleResized(BAC,ABC,BCA,CBE,DCB,BDC,CEB);
+byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, E, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CD,noLine,BC,noLine,BE,CE,AC,AB,BD);
+draw byLabelsOnPolygon(E, C, A, B, D, C, B)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem[4]{I}{n}{any isosceles triangle \drawLine[bottom]{BC,AC,AB} if the equal sides be produced, the external angles at the base are equal, and the internal angles at the base are also equal.}
+
+\begin{center}
+Produce \drawUnitLine{AB} and \drawUnitLine{AC} \byref{post:I.II},\\
+take $\drawUnitLine{BD} = \drawUnitLine{CE}$ \byref{prop:I.III};\\
+draw \drawUnitLine{BE} and \drawUnitLine{CD}.
+
+Then in
+\drawFromCurrentPicture{
+startAutoLabeling;
+draw byNamedAngle(BAC);
+draw byNamedLineSeq(0)(BE,CE,AC,AB);
+stopAutoLabeling;
+}
+and
+\drawFromCurrentPicture{
+startAutoLabeling;
+draw byNamedAngle(BAC);
+draw byNamedLineSeq(0)(BD,CD,AC,AB);
+stopAutoLabeling;
+}\\
+we have $\drawUnitLine{AB,BD} = \drawUnitLine{AC,CE}$ \byref{\constref},\\
+\drawAngle{BAC} common to both,\\
+and $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\hypref}\\
+$\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$ and $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.
+
+Again in \drawLine{BE,CE,BC} and \drawLine{BD,CD,BC}\\
+we have $\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$ and $\drawUnitLine{BE} = \drawUnitLine{CD}$,\\
+$\therefore \drawAngle{DCE,DCB} = \drawAngle{EBD,CBE}$ and $\drawAngle{DCB} = \drawAngle{CBE}$ \byref{prop:I.IV}\\
+but $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$ \byref{ax:I.III}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop VI. Theor.}\label{prop:I.VI}
+\defineNewPicture[1/4]{
+pair A, B, C, D;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+D := 1/2[A,B] shifted (0, 3u);
+C := 2/3[A, D];
+byAngleDefine(B, A, D, byyellow, SOLID_SECTOR);
+byAngleDefine(A, B, D, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(B, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLine(BC);
+draw byNamedLineSeq(0)(CA,CD,BD,AB);
+draw byLabelsOnPolygon(A, C, D, B)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{n}{any triangle (\drawLine[bottom][triangleABD]{CA,CD,BD,AB}) if two angles (\drawAngle{A} and \drawAngle{B}) are equal, the sides (\drawUnitLine{CA,CD} and \drawUnitLine{BD}) opposite to them are also equal.}
+
+For if the sides be not equal, let one of them \drawUnitLine{CA,CD} be greater than the other \drawUnitLine{BD}, and from it to cut off $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{prop:I.III}, draw \drawUnitLine{BC}.
+
+\begin{center}
+Then in \drawLine[bottom]{BC,AB,CA} and \triangleABD,\\
+$\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{\constref},\\
+$\drawAngle{A} = \drawAngle{B}$ \byref{\hypref}\\
+and \drawUnitLine{AB} common,\\
+$\therefore$ the triangles are equal \byref{prop:I.IV}\\
+a part equal to the whole, which is absurd;\\
+$\therefore$ neither of the sides \drawUnitLine{CA,CD} or \drawUnitLine{BD} is greater than the other,\\
+hence they are equal.
+\end{center}
+
+\qed
+
+\starttheorem{Prop VII. Theor.}\label{prop:I.VII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H;
+A := (0, 0);
+B := A shifted (4u, 0);
+C := A shifted (u, 3u);
+D := C shifted (7/4u, 0);
+E := 1/2[C, D] yscaled -0.7;
+F := E shifted (0, -2u);
+G := 5/4[A, E];
+H := 5/4[A, F];
+byAngleDefine.C(B, C, A, byblack, SOLID_SECTOR);
+byAngleDefine(D, C, B, byred, SOLID_SECTOR);
+byAngleDefine.D(A, D, B, byyellow, SOLID_SECTOR);
+byAngleDefine(C, D, A, byblue, SOLID_SECTOR);
+byAngleDefine(B, F, H, byblack, SOLID_SECTOR);
+byAngleDefine(B, F, E, byred, SOLID_SECTOR);
+byAngleDefine(B, E, G, byyellow, SOLID_SECTOR);
+byAngleDefine(G, E, F, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(C, D, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byLine(E, F, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byLine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, A, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, A, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, F, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(F, A, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, G, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(F, H, byred, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLine(EG,FH);
+draw byNamedLineSeq(0)(BC,CA,EA,BE);
+draw byNamedLineSeq(0)(BD,DA,FA,BF);
+byPointLabelDefine(F, "C");
+byPointLabelDefine(E, "D");
+draw byLabelsOnPolygon(F, A, C, D, B, F, noPoint)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(A, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(H, F, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{O}{n}{the same base (\drawUnitLine{AB}), and on the same side of it there cannot be two triangles having their conterminous sides (\drawUnitLine{CA} and \drawUnitLine{DA}, \drawUnitLine{BC} and \drawUnitLine{BD}) at both extremities of the base, equal to each other.}
+
+When two triangles stand on the same base, and on the same side of it, the vertex of the one shall either fall outside of the other triangle, or within it; or, lastly, on one of its sides.
+
+If it be possible let the two triangles be constructed so that 
+$\left\{
+	\begin{aligned}
+		\drawUnitLine{CA}&=\drawUnitLine{DA}\\
+		\drawUnitLine{BC}&=\drawUnitLine{BD}\\
+	\end{aligned}
+	\right\}$
+, then draw \drawUnitLine{CD} and,
+
+\begin{center}
+$\drawAngle{C,DCB} = \drawAngle{CDA}$ \byref{prop:I.V}
+
+$\therefore \drawAngle{DCB} < \drawAngle{CDA}$ and
+
+$\left.
+	\begin{aligned}
+		\therefore\drawAngle{DCB} &< \drawAngle{CDA,D}\\
+		\mbox{but \byref{prop:I.V}} \drawAngle{DCB} &= \drawAngle{CDA,D}\\
+	\end{aligned}
+	\right\}\mbox{which is absurd,}$
+\end{center}
+
+\noindent therefore the two triangles cannot have their conterminous sides equal at both extremities of the base.
+
+\qed
+
+\starttheorem{Prop VIII. Theor.}\label{prop:I.VIII}
+\defineNewPicture{
+pair A, B, C, D, E, F, d;
+A := (0, 0);
+B := A shifted (-u, -4u);
+C := A shifted (3/2u, -3u);
+d := (0, -9/2u);
+D := A shifted d;
+E := B shifted d;
+F := C shifted d;
+byAngleDefine(F, D, E, byblack, SOLID_SECTOR);
+byAngleDefine(C, A, B, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, E, byred, SOLID_LINE, THIN_WIDTH);
+byLineDefine(E, F, byblack, SOLID_LINE, THIN_WIDTH);
+byLineDefine(F, D, byblue, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(CA,BC,AB);
+draw byNamedLineSeq(0)(FD,EF,DE);
+draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{two triangles have two sides of the one respectively equal to two sides of the other ($\drawUnitLine{CA} = \drawUnitLine{FD}$ and $\drawUnitLine{AB} = \drawUnitLine{DE}$) and also their bases ($\drawUnitLine{BC} = \drawUnitLine{EF}$), equal; then the angles
+(\drawFromCurrentPicture{
+startAutoLabeling;
+startGlobalRotation(-getAttribute("angle","Direction","A"));
+draw byNamedAngleWithDummySides(A);
+stopGlobalRotation;
+stopAutoLabeling;
+} and
+\drawFromCurrentPicture{
+startAutoLabeling;
+startGlobalRotation(-getAttribute("angle","Direction","D"));
+draw byNamedAngleWithDummySides(D);
+stopGlobalRotation;
+stopAutoLabeling;
+}) contained by their equal sides are also equal.}
+
+If the equal bases \drawUnitLine{BC} and \drawUnitLine{EF} be conceived to be placed one upon the other, so that the triangles shall lie at the same side of them, and that the equal sides \drawUnitLine{AB} and \drawUnitLine{DE}, \drawUnitLine{CA} and \drawUnitLine{FD} be conterminous, the vertex of the one must fall on the vertex of the other; for to suppose them not coincident would contradict the last proposition.
+
+Therefore sides \drawUnitLine{AB} and \drawUnitLine{CA}, being coincident with \drawUnitLine{DE} and \drawUnitLine{FD}, $\therefore \drawAngle{A} = \drawAngle{D}$.
+
+\qed
+
+\startproblem{Prop IX. Prob.}\label{prop:I.IX}
+\defineNewPicture{
+pair A, B, C, D, E, F;
+A := (0, 5/3u);
+B := (-4/3u, 0);
+C := B xscaled -1;
+D = whatever[B, B shifted ((C-B) rotated -60)] = whatever[C, C shifted ((B-C) rotated 60)];
+E := 5/4[A, B];
+F := 5/4[A, C];
+byAngleDefine(B, A, D, byblue, SOLID_SECTOR);
+byAngleDefine(C, A, D, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(B, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, F, byred, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLine(BC,AD);
+draw byNamedLineSeq(0)(DB,CD);
+draw byNamedLineSeq(0)(BE,AB,CA,CF);
+draw byLabelsOnPolygon(D, B, A, C)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{o}{bisect a given rectilinear angle (\drawAngle{BAD,CAD}).}
+
+\begin{center}
+Take $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
+
+draw \drawUnitLine{BC}, upon which describe \drawLine{CD,DB,BC} \byref{prop:I.I},\\
+draw \drawUnitLine{AD}.
+
+$\because \drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\ %Because
+and \drawUnitLine{AD} common to the two triangles\\  % what triangles?
+and $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref},
+
+$\therefore \drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.VIII}.
+\end{center}
+
+\qed
+
+\startproblem{Prop X. Prob.}\label{prop:I.X}
+\defineNewPicture{
+pair A, B, C, D;
+A := (0, 3u);
+B := (-ypart(A)/sqrt(3), 0);
+C := B xscaled -1;
+D := 1/2[B, C];
+byAngleDefine(B, A, D, byblue, SOLID_SECTOR);
+byAngleDefine(C, A, D, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,CA,CD,DB);
+draw byLabelsOnPolygon(B, A, C, D)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{o}{bisect a given finite straight line (\drawUnitLine{DB,CD}).}
+
+\begin{center}
+Construct \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
+draw \drawUnitLine{AD}, making $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}.
+
+Then $\drawUnitLine{BD} = \drawUnitLine{DC}$ by \byref{prop:I.IV},
+
+for~$\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref} $\drawAngle{BAD} = \drawAngle{CAD}$\\
+and \drawUnitLine{AD} common to the two triangles. % what triangles? obviously DBA and DAC
+
+Therefore the given line is bisected.
+\end{center}
+
+\qed
+
+\startproblem{Prop XI. Prob.}\label{prop:I.XI}
+\defineNewPicture{
+pair A, B, C, D, E, F;
+A := (0, 5/2u);
+B := (-ypart(A)/sqrt(3), 0);
+C := B xscaled -1;
+D := 1/2[B, C];
+E := 3/2[D, B];
+F := 3/2[D, C];
+byAngleDefine(A, D, B, byred, SOLID_SECTOR);
+byAngleDefine(C, D, A, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,CA);
+byLineDefine(D, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(F, C, byred, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(BE,DB,CD,FC);
+draw byLabelsOnPolygon(F, C, D, B, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(B, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{F}{rom}{a given point (\drawPointL[middle][AD]{D}), in a given straight line (\drawUnitLine[3/2cm]{BD,DC}), to draw a perpendicular.}
+
+\begin{center}
+Take any point (\drawPointL[middle][CA]{C}) in the given line,\\
+cut off $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
+construct \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
+draw \drawUnitLine{AD} and it shall be perpendicular to the given line.
+
+For $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\
+$\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref}\\
+and \drawUnitLine{AD} common to the two triangles. % what triangles? obviously DBA and DAC
+
+Therefore $\drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
+
+$\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
+\end{center}
+
+\qed
+
+\startproblem{Prop XII. Prob.}\label{prop:I.XII}
+\defineNewPicture{
+pair A, B, C, D, E, F;
+path c;
+numeric r, a[];
+A := (0, 2u);
+B := (-7/4u, 0);
+C := B xscaled -1;
+D := 1/2[B, C];
+E := 4/3[D, B];
+F := 4/3[D, C];
+r := abs(A-B);
+c := fullcircle scaled 2r shifted A;
+a1 := xpart(c intersectiontimes (F--1/2[B, C]));
+a2 := xpart(c intersectiontimes (E--1/2[B, C]));
+byAngleDefine(A, D, B, byyellow, SOLID_SECTOR);
+byAngleDefine(C, D, A, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,CA);
+draw byArc.O(A, B, C)(r, byred, 0, 0, 0, 0);
+draw byArcBE.Ol(A, a2-1/4, a2, r, byred, 1, 0, 0, 0);
+draw byArcBE.Or(A, a1, a1+1/4, r, byred, 1, 0, 0, 0);
+byLineDefine(D, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(F, C, byyellow, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(1)(BE, DB, CD,FC);
+draw byLabelsOnPolygon(B, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelLineEnd(B, A, 0);
+draw byLabelLineEnd(D, A, 0);
+draw byLabelLineEnd(C, A, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{o}{draw a straight line perpendicular to a given indefinite straight line (\drawUnitLine[1.2cm]{DB,CD}) from a~given point (\drawPointL{A}) without.}
+
+\begin{center}
+With the given point \drawPointL{A} as centre, at one side of the line, and any distance \drawUnitLine{DB} capable of extending to the other side, describe \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB
+
+Make $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.X},\\
+draw \drawUnitLine{AB}, \drawUnitLine{CA} and \drawUnitLine{AD},\\
+then $\drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$.
+
+For \byref{prop:I.VIII} since $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{\constref},\\
+\drawUnitLine{AD} common to both,\\ % to both what? obviously DBA and DAC
+and $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV},
+
+$\therefore \drawAngle{ADB} = \drawAngle{CDA}$, and
+
+$\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XIII. Theor.}\label{prop:I.XIII}
+\defineNewPicture{
+pair A, B, C, D, E;
+A := (0, 5/2u);
+B := (-7/4u, 0);
+C := B xscaled -1;
+D := (xpart(A), ypart(B));
+E := (2/3xpart(C), 2/3ypart(A));
+byAngleDefine(A, D, B, byyellow, SOLID_SECTOR);
+byAngleDefine(E, D, A, byred, SOLID_SECTOR);
+byAngleDefine(C, D, E, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelsOnPolygon(C, D, B, noPoint)(ALL_LABELS, 0);
+draw byLabelLineEnd(E, D, 0);
+draw byLabelLineEnd(A, D, 0);
+}
+\drawCurrentPictureInMargin
+\problem{W}{hen}{a straight line (\drawUnitLine{ED}) standing upon another straight line (\drawUnitLine{BC}) makes angles with it; they are either two right angles or together equal to two right angles.}
+
+\begin{center}
+If \drawUnitLine{ED} be $\perp$ to \drawUnitLine{BC} then,\\
+\drawAngle{ADB,EDA} and $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}, % improvement: def. 7 in the original is likely to be a mistake
+
+but if \drawUnitLine{ED} be not $\perp$ to \drawUnitLine{BC},\\
+draw $\drawUnitLine{AD} \perp \drawUnitLine{BC}$ \byref{prop:I.XI};\\
+$\drawAngle{ADB} +\drawAngle{CDE,EDA} = \drawTwoRightAngles$ \byref{\constref},\\
+$\drawAngle{ADB} = \drawAngle{CDE,EDA} = \drawAngle{EDA} + \drawAngle{CDE}$
+
+$\therefore \drawAngle{ADB} + \drawAngle{CDE,EDA} = \drawAngle{ADB} + \drawAngle{EDA} + \drawAngle{CDE}$ \byref{ax:I.II}
+
+$= \drawAngle{ADB,EDA} + \drawAngle{CDE} = \drawTwoRightAngles$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XIV. Theor.}\label{prop:I.XIV}
+\defineNewPicture[1/4]{
+pair A, B, C, D, E;
+A := (u, 5/2u);
+B := (-7/4u, 0);
+C := B xscaled -1;
+D := (0, 0);
+E := (xpart(C), -1/2ypart(A));
+byAngleDefine(B, D, A, byyellow, SOLID_SECTOR);
+byAngleDefine(C, D, A, byblue, SOLID_SECTOR);
+byAngleDefine(E, D, C, byred, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(B, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelsOnPolygon(E, D, B, noPoint)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(C, B, noPoint)(OMIT_LAST_LABEL, 0);
+draw byLabelLineEnd(A, D, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{two straight lines (\drawUnitLine{BD} and \drawUnitLine{DC}), meeting a third straight line (\drawUnitLine{AD}), at the same point, and at opposite sides of it, make with it adjacent angles (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} and \drawAngle{CDA}) equal to two right angles; these straight lines lie in one continuous straight line.}
+
+\begin{center}
+For, if possible let \drawUnitLine{ED}, and not \drawUnitLine{DC},\\
+be the continuation of \drawUnitLine{BD},\\
+then $\drawAngle{BDA} + \drawAngle{CDA,EDC} = \drawTwoRightAngles$
+
+but by the hypothesis $\drawAngle{BDA} + \drawAngle{CDA} = \drawTwoRightAngles$
+
+$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III}; which is absurd \byref{ax:I.IX}.
+
+$\therefore \drawUnitLine{ED}$ is not the continuation of \drawUnitLine{BD}, and the like may be demonstrated of any other straight line except \drawUnitLine{DC}, $\therefore \drawUnitLine{DC}$ is the continuation of \drawUnitLine{BD}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XV. Theor.}\label{prop:I.XV}
+\defineNewPicture{
+pair A, B, C, D, E;
+A := (7/4u, 3/2u);
+B := A scaled -1;
+C := A xscaled -1;
+D := C scaled -1;
+E := (A--B) intersectionpoint (C--D);
+byAngleDefine(B, E, C, byyellow, SOLID_SECTOR);
+byAngleDefine(C, E, A, byred, SOLID_SECTOR);
+byAngleDefine(A, E, D, byblack, SOLID_SECTOR);
+byAngleDefine(D, E, B, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelsOnPolygon(C, E, A, noPoint)(ALL_LABELS, 0);
+draw byLabelPoint(B, lineAngle.AB + 90, 1);
+draw byLabelPoint(D, lineAngle.CD - 90, 1);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{two right lines (\drawUnitLine{AB} and \drawUnitLine{CD}) intersect one another, the vertical angles \drawAngle{BEC} and \drawAngle{AED}, \drawAngle{CEA} and \drawAngle{DEB} are equal.}
+
+\begin{center}
+$\drawAngle{BEC} + \drawAngle{CEA} = \drawTwoRightAngles$ % Here and in the next line should be a link to prop I.XIII
+
+$\drawAngle{AED} + \drawAngle{CEA} = \drawTwoRightAngles$ %
+
+$\therefore \drawAngle{BEC} = \drawAngle{AED}$. % And this is according to \byref{ax:I.III}
+
+In the same manner it may be shown that\\
+$\drawAngle{CEA} = \drawAngle{DEB}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XVI. Theor.}\label{prop:I.XVI}
+\defineNewPicture[1/4]{
+pair A, B, C, D, E, F, G;
+A := (0, 0);
+B := A shifted (u, 7/2u);
+C := A shifted (3u, 0);
+D := B shifted (3u, 0);
+E = whatever[A, D] = whatever[B, C];
+F := (xpart(D), ypart(A));
+G := 4/3[B, C];
+byAngleDefine(B, A, C, byblue, SOLID_SECTOR);
+byAngleDefine(C, B, A, byblack, SOLID_SECTOR);
+byAngleDefine(A, E, B, byyellow, SOLID_SECTOR);
+byAngleDefine(D, E, C, byyellow, SOLID_SECTOR);
+byAngleDefine(E, C, D, byblack, SOLID_SECTOR);
+byAngleDefine(G, C, A, byred, SOLID_SECTOR);
+byAngleDefine(D, C, F, byblack, ARC_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(C, F, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, G, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, C, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, E, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, D, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byyellow, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AE,ED,CD);
+draw byNamedLineSeq(0)(EC,CG,noLine,CF,AC,AB,BE);
+draw byLabelsOnPolygon(F, A, B, E, D, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(F, C, G, noPoint)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{a side of a triangle (\drawLine[bottom]{BE,EC,AC,AB}) is produced, the external angle (\drawFromCurrentPicture[middle][anglesECDpDCF]{
+startAutoLabeling;
+draw byNamedAngleSides(ECD,DCF)(CF);
+stopAutoLabeling;
+}) is greater than either of the internal remote angles (\drawAngle{B} or \drawAngle{A}).
+}
+
+\begin{center}
+Make $\drawUnitLine{BE} = \drawUnitLine{EC}$ \byref{prop:I.X};\\
+Draw \drawUnitLine{AE} and produce it until $\drawUnitLine{ED} = \drawUnitLine{AE}$;\\
+draw \drawUnitLine{CD}.
+
+In \drawLine{BE,AE,AB} and \drawLine{EC,ED,CD};\\
+$\drawUnitLine{BE} = \drawUnitLine{EC}$, $\drawAngle{AEB} = \drawAngle{DEC}$ and $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref,prop:I.XV},\\
+$\therefore \drawAngle{B} = \drawAngle{ECD}$ \byref{prop:I.IV},\\
+$\therefore \anglesECDpDCF\ > \drawAngle{B}$.
+
+In like manner it can be shown, that if \drawUnitLine{BC} be produced, $\drawAngle{GCA} > \drawAngle{A}$ \\
+and therefore \anglesECDpDCF\ which is $= \drawAngle{GCA}$ is $> \drawAngle{A}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XVII. Theor.}\label{prop:I.XVII}
+\defineNewPicture{
+pair A, B, C, D;
+A := (0, 0);
+B := A shifted (2u, 5/2u);
+C := A shifted (5/2u, 0);
+D := C shifted (3/4u, 0);
+byAngleDefine(B, A, C, byblue, SOLID_SECTOR);
+byAngleDefine(A, B, C, byblack, SOLID_SECTOR);
+byAngleDefine(A, C, B, byred, SOLID_SECTOR);
+byAngleDefine(B, C, D, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(noLine,BC,AB,AC,CD);
+draw byLabelsOnPolygon(D, C, A, B)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{A}{ny}{two angles of a triangle \drawLine[bottom]{AB,BC,AC} are together less than two right angles.}
+
+\begin{center}
+Produce \drawUnitLine{AC}, then will\\
+$\drawAngle{ACB} + \drawAngle{BCD} = \drawTwoRightAngles$.
+
+But $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
+
+$\therefore \drawAngle{ACB} + \drawAngle{A} < \drawTwoRightAngles$,
+\end{center}
+
+\noindent and in the same manner it may be shown that any other two angles of the triangle taken together are less than two right angles.
+
+\qed
+
+\starttheorem{Prop XVIII. Theor.}\label{prop:I.XVIII}
+\defineNewPicture[1/4]{
+pair A, B, C, D;
+numeric a;
+A := (0, 0);
+B := A shifted (5/2u, 2u);
+C := B shifted (-3/2u, 2u);
+D := C shifted (unitvector(A-C) scaled abs(B-C));
+a := angle(B-D);
+forsuffixes i=A, B, C, D:
+i := i rotated -a;
+endfor;
+byAngleDefine(C, D, B, byblue, SOLID_SECTOR);
+byAngleDefine(D, B, C, byblack, SOLID_SECTOR);
+byAngleDefine(A, B, D, byred, SOLID_SECTOR);
+byAngleDefine(B, A, D, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(D, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, A, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byred, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(DC,BC,BA,AD);
+draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem[3]{I}{n}{any triangle \drawLine{DC,BC,BA,AD} if one side \drawUnitLine{AD,DC} be greater than another \drawUnitLine{BC}, the angle opposite to the greater side is greater than the angle opposite to the less. I.\ e.\ $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
+
+\begin{center}
+Make $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, draw \drawUnitLine{DB}.
+
+Then will $\drawAngle{D} = \drawAngle{DBC}$ \byref{prop:I.V};
+
+but $\drawAngle{D} > \drawAngle{A}$ \byref{prop:I.XVI}
+
+$\therefore \drawAngle{DBC} > \drawAngle{A}$ and much more\\
+is $\drawAngle{DBC,ABD} > \drawAngle{A}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XIX. Theor.}\label{prop:I.XIX}
+\defineNewPicture[1/4]{
+pair A, B, C;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+C := A shifted (u, 3u);
+byAngleDefine(C, A, B, byblue, SOLID_SECTOR);
+byAngleDefine(A, B, C, byred, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CA,BC,AB);
+draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{in any triangle \drawLine[bottom]{CA,BC,AB} one angle \drawAngle{A} be greater than another \drawAngle{B} the side \drawUnitLine{BC} which is opposite to the greater angle, is greater than the side \drawUnitLine{CA} opposite the less.}
+
+\begin{center}
+If \drawUnitLine{BC} be not greater than \drawUnitLine{CA} then must\\
+$\drawUnitLine{BC} =$ or $< \drawUnitLine{CA}$.
+
+If $\drawUnitLine{BC} = \drawUnitLine{CA}$ then\\
+$\drawAngle{A} = \drawAngle{B}$ \byref{prop:I.V};\\
+which is contrary to the hypothesis.
+
+\drawUnitLine{BC} is not less than \drawUnitLine{CA}; for if it were,\\
+$\drawAngle{A} < \drawAngle{B}$ \byref{prop:I.XVIII}\\
+which is contrary to the hypothesis:
+
+$\therefore \drawUnitLine{BC} > \drawUnitLine{CA}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XX. Theor.}\label{prop:I.XX}
+\defineNewPicture{
+pair A, B, C, D;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+D := A shifted (4/3u, 3/2u);
+C := ((fullcircle scaled 2arclength(D--B)) shifted D) intersectionpoint (D--10[A, D]);
+byAngleDefine(B, C, A, byred, SOLID_SECTOR);
+byAngleDefine(C, B, D, byblue, SOLID_SECTOR);
+byAngleDefine(D, B, A, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(D, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(BD);
+draw byNamedLineSeq(0)(DA,CD,BC,AB);
+draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{A}{ny}{two sides \drawUnitLine{DA} and \drawUnitLine{BD} of a triangle \drawLine[bottom]{DA,BD,AB} taken together are greater than the third side (\drawUnitLine{AB}).}
+
+\begin{center}
+Produce \drawUnitLine{DA}, and\\
+make $\drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{prop:I.III};\\
+draw \drawUnitLine{BC}.
+
+Then $\because \drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{\constref},\\ %because
+$\drawAngle{CBD} = \drawAngle{C}$ \byref{prop:I.V}
+
+$\therefore \drawAngle{CBD,DBA} > \drawAngle{C}$ \byref{ax:I.IX}
+
+$\therefore \drawUnitLine{DA} + \drawUnitLine{CD} > \drawUnitLine{AB}$ \byref{prop:I.XIX}
+
+and $\therefore \drawUnitLine{DA} + \drawUnitLine{BD} > \drawUnitLine{AB}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXI. Theor.}\label{prop:I.XXI}
+\defineNewPicture[1/5]{
+pair A, B, C, D, E;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+C := A shifted (3u, 4u);
+D := 1/2[1/2[A, B], C];
+E = whatever[A, D] = whatever[B, C];
+byAngleDefine(B, D, A, byred, SOLID_SECTOR);
+byAngleDefine(B, E, D, byblue, SOLID_SECTOR);
+byAngleDefine(B, C, A, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, E, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(E, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLine(BD);
+draw byNamedLineSeq(0)(AD,DE);
+draw byNamedLineSeq(0)(CA,EC,BE,AB);
+draw byLabelsOnPolygon(A, C, E, B)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(A, D, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem[2]{I}{f}{from any point (\drawPointL[middle][DE]{D}) within a triangle \drawLine[bottom]{CA,EC,BE,AB} straight lines be drawn to the extremities of one side (\drawSizedLine{AB}), these lines must be together less than the other two sides, but must contain a greater angle.}
+
+\begin{center}
+Produce \drawSizedLine{AD},\\
+$\drawSizedLine{CA} + \drawSizedLine{EC} > \drawSizedLine{AD,DE}$ \byref{prop:I.XX},\\
+add \drawSizedLine{BE} to each,\\
+$\drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD,DE} + \drawSizedLine{BE}$ \byref{ax:I.IV}
+
+in the same manner it may be shown that\\
+$\drawSizedLine{AD,DE} + \drawSizedLine{BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
+$\therefore \drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
+which was to be proved.
+
+Again $\drawAngle{E} > \drawAngle{C}$ \byref{prop:I.XVI},\\
+and also $\drawAngle{D} > \drawAngle{E}$ \byref{prop:I.XVI},
+
+$\therefore \drawAngle{D} > \drawAngle{C}$.
+\end{center}
+
+\qed
+
+\startproblem{Prop XXII. Prob.}\label{prop:I.XXII}
+\defineNewPicture[1/2]{
+numeric r[], d;
+pair A, B, C, D, E, LI, LII, LIII, LIV, LV, LVI;
+path q[];
+r1 := 2u;
+r2 := 4/3u;
+r3 := (1/2)*(r1+r2);
+d := 1/3u;
+A := (0, 0);
+B := A shifted (r3, 0);
+q1 := (fullcircle scaled 2r1) shifted A;
+q2 := (fullcircle scaled 2r2) shifted B;
+C := q1 intersectionpoint q2;
+D := point 11/2 of q1;
+E := point 3/4 of q2;
+LI := (xpart(point 0 of q2), ypart(point 6 of q1) - 1/2d);
+LII := LI shifted (-r3, 0);
+LIII := LI shifted (0, -d);
+LIV := LIII shifted (-r2, 0);
+LV := LIII shifted (0, -d);
+LVI := LV shifted (-r1, 0);
+draw byCircle.A(A, D, byblue, 0, 0, 0);
+byLineDefine(A, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, E, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byyellow, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(BC,CA);
+draw byNamedLineSeq(0)(AD,AB,BE);
+draw byLineWithName (LII, LI, byblack, 1, 0)(L');
+draw byLineWithName (LIV, LIII, byred, 1, 0)(L'');
+draw byLineWithName (LVI, LV, byblue, 1, 0)(L''');
+draw byCircle.B(B, E, byred, 0, 0, 0);
+draw byLabelsOnPolygon(D, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(E, B, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(A, C, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnCircle(D)(A);
+draw byLabelsOnCircle(E)(B);
+draw byLabelLine(0)(L', L'', L''');
+}
+\drawCurrentPictureInMargin
+\problem[4]{G}{iven}{three right lines $\left\{\vcenter{
+\nointerlineskip\hbox{\drawSizedLine{L'}}
+\nointerlineskip\hbox{\drawSizedLine{L''}}
+\nointerlineskip\hbox{\drawSizedLine{L'''}}}\right.$
+the sum of any two greater than the third, to construct a triangle whose sides shall be respectively equal to the given lines.}
+
+\begin{center}
+Assume $\drawSizedLine{AB} = \drawSizedLine{L'}$ \byref{prop:I.III}.
+
+$\left.
+	\begin{aligned}
+		\mbox{Draw } \drawSizedLine{BE} &= \drawSizedLine{L''}\\
+		\mbox{and } \drawSizedLine{AD} &= \drawSizedLine{L'''}\\
+	\end{aligned}
+	\right\}\mbox{\byref{prop:I.II}.}$
+
+With \drawSizedLine{AD} and \drawSizedLine{BE} as radii, describe
+\drawFromCurrentPicture{
+draw byNamedLine(AD); draw byNamedCircle(A);
+draw byLabelLineEnd(A, D, 0);
+draw byLabelLineEnd(D, A, 0);
+} and
+\offsetPicture{12pt}{0pt}{\drawFromCurrentPicture{
+draw byNamedLine(BE); draw byNamedCircle(B);
+draw byLabelLineEnd(B, E, 0);
+draw byLabelLineEnd(E, B, 0);
+}} \byref{post:I.III};\\
+draw \drawSizedLine{CA} and \drawSizedLine{BC},\\
+then will \drawLine[bottom]{CA,BC,AB} be the triangle required.
+
+$\left.
+	\begin{aligned}
+		\mbox{For } \drawSizedLine{AB} &= \drawSizedLine{L'} \mbox{,} \\
+		\drawSizedLine{BC} &= \drawSizedLine{BE} = \drawSizedLine{L''} \mbox{,} \\
+		\mbox{and } \drawSizedLine{CA} &= \drawSizedLine{AD} = \drawSizedLine{L'''} \mbox{.} \\
+	\end{aligned}
+	\right\}\mbox{\byref{\constref}}$
+\end{center}
+
+\qed
+
+\startproblem{Prop XXIII. Prob.}\label{prop:I.XXIII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, J, d;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+C := A shifted (3u, 11/5u);
+D := 5/4[A, B];
+E := 7/6[A, C];
+d := (0, -3u);
+F := A shifted d;
+G := B shifted d;
+H := C shifted d;
+J := D shifted d;
+byAngleDefine(B, A, C, byred, SOLID_SECTOR);
+byAngleDefine(G, F, H, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(B, D, byblack, DASHED_LINE, THIN_WIDTH);
+byLineDefine(C, E, byblue, DASHED_LINE, THIN_WIDTH);
+byLineDefine(A, B, byblack, SOLID_LINE, THIN_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, THIN_WIDTH);
+draw byLine(B, C, byred, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(CE,CA,AB,BD);
+byLineDefine(G, J, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(F, G, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(G, H, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(H, F, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(noLine,GH,HF,FG,GJ);
+draw byLabelsOnPolygon(D, B, A, C, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(noPoint,J, G, F, H, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{A}{t}{a given point (\drawPointL{F}) in a given straight line (\drawUnitLine{FG,GJ}), to make an angle equal to a given rectilinear angle (\drawAngle{A}).}
+
+Draw \drawUnitLine{BC} between any two points in the legs of the given angle.
+
+\begin{center}
+Construct \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
+so that $\drawUnitLine{FG} = \drawUnitLine{AB}$, $\drawUnitLine{HF} = \drawUnitLine{CA}$\\
+and $\drawUnitLine{GH} = \drawUnitLine{BC}$.
+
+Then $\drawAngle{A} = \drawAngle{F}$ \byref{prop:I.VIII}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXIV. Theor.}\label{prop:I.XXIV}
+\defineNewPicture{
+byAngleMacroName[3] := "byAngleMArcs";
+vardef byAngleMArcs (expr angleArc, angleColor)(suffix angleOptionalColors) =
+    save p;
+    path p;
+    p := angleArc scaled ((angleSize*angleScale) - lineWidthThin);
+    image(
+        for i := 1 step -1/floor((angleSize*angleScale)/2mm) until (2mm/(angleSize*angleScale)):
+            draw (p scaled i) withpen pencircle scaled lineWidthThin withcolor angleColor;
+        endfor;
+    )
+enddef;
+pair A, B, C, D, E, F, G, d;
+A := (0, 0);
+B := A shifted (u, -5/2u);
+C := A shifted (-u, -7/2u);
+D := ((fullcircle scaled 2abs(C-A)) shifted A) intersectionpoint (B--B shifted (-2abs(C-A), 0));
+d := (0, -4u);
+E := A shifted d;
+F := B shifted d;
+G := C shifted d;
+byAngleDefine(B, A, C, byblack, DASHED_ARC_SECTOR);
+byAngleDefine(C, A, D, byblack, 3);
+byAngleDefine(F, E, G, byblack, DASHED_ARC_SECTOR);
+byAngleDefine(B, D, A, byblue, SOLID_SECTOR);
+byAngleDefine(C, D, B, byred, SOLID_SECTOR);
+byAngleDefine(D, C, A, byyellow, SOLID_SECTOR);
+byAngleDefine(A, C, B, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byLine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(B, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblue, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,AD,CD,BC);
+byLineDefine(E, F, byblue, SOLID_LINE, THIN_WIDTH);
+byLineDefine(F, G, byyellow, SOLID_LINE, THIN_WIDTH);
+byLineDefine(G, E, byred, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(EF,FG,GE);
+draw byLabelsOnPolygon(D, A, B, C)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(G, E, F)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{two triangles have two sides of the one respectively equal to two sides of the other (\drawUnitLine{AB} to \drawUnitLine{EF} and \drawUnitLine{AD} to \drawUnitLine{GE}), and if one of the angles
+(\drawFromCurrentPicture[bottom]{
+startAutoLabeling;
+draw byNamedAngleSides(BAC,CAD)(AB,CA,AD);
+stopAutoLabeling;
+})
+contained by the equal sides be greater than the other
+(\drawFromCurrentPicture[bottom][angleFEG]{
+startAutoLabeling;
+draw byNamedAngleSides(FEG)(EF, GE);
+stopAutoLabeling;
+}),
+the side (\drawUnitLine{DB}) which is opposite to the greater angle is greater than the side (\drawUnitLine{FG}) which is opposite to the less angle.
+}
+
+\begin{center}
+Make $\drawFromCurrentPicture[bottom][angleBAC]{
+startAutoLabeling;
+draw byNamedAngleSides(BAC)(AB, CA);
+stopAutoLabeling;
+} = \angleFEG$ \byref{prop:I.XXIII},\\
+and $\drawUnitLine{CA} = \drawUnitLine{GE}$ \byref{prop:I.III},\\
+draw \drawUnitLine{CD} and \drawUnitLine{BC}.
+
+$\because \drawUnitLine{CA} = \drawUnitLine{AD}$ \byref{ax:I.I,\hypref,\constref}\\ %because
+$\therefore \drawAngle{BDA,CDB} = \drawAngle{DCA}$ \byref{prop:I.V}\\
+but $\drawAngle{CDB} < \drawAngle{DCA}$,\\
+and $\therefore \drawAngle{CDB} < \drawAngle{DCA,ACB}$,
+
+$\therefore \drawUnitLine{DB} > \drawUnitLine{BC}$ \byref{prop:I.XIX}
+
+but $\drawUnitLine{BC} = \drawUnitLine{FG}$ \byref{prop:I.IV}
+
+$\therefore \drawUnitLine{DB} > \drawUnitLine{FG}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXV. Theor.}\label{prop:I.XXV}
+\defineNewPicture{
+pair A, B, C, D, E, F, d;
+A := (0, 0);
+B := A shifted (u, -3u);
+C := A shifted (-7/4u, -4u);
+d := (0, -9/2u);
+D := A shifted d;
+E := ((B shifted -A) rotated -10) shifted d;
+F := C shifted d;
+byAngleDefine(B, A, C, byyellow, SOLID_SECTOR);
+byAngleDefine(E, D, F, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,BC,CA);
+byLineDefine(D, E, byblue, SOLID_LINE, THIN_WIDTH);
+byLineDefine(E, F, byyellow, SOLID_LINE, THIN_WIDTH);
+byLineDefine(F, D, byred, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(DE,EF,FD);
+draw byLabelsOnPolygon(A, B, C)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(D, E, F)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{two triangles have two sides (\drawUnitLine[0.7cm]{AB} and \drawUnitLine[0.7cm]{CA}) of the one respectively equal to two sides (\drawUnitLine{DE} and \drawUnitLine{FD}) of the other, but their bases unequal, the angle subtended by the greater base (\drawUnitLine{BC}) of the one, must be greater than the angle subtended by the less base (\drawUnitLine{EF}) of the other.}
+
+\begin{center}
+$\drawAngle{A} =\mbox{, } > \mbox{ or } < \drawAngle{D}$
+
+\drawAngle{A} is not equal to \drawAngle{D}\\
+for if $\drawAngle{A} = \drawAngle{D}$ then $\drawUnitLine{CB} = \drawUnitLine{FE}$ \byref{prop:I.IV}\\
+which is contrary to the hypothesis;
+
+\drawAngle{A} is not less than \drawAngle{D}\\
+for if $\drawAngle{A} < \drawAngle{D}$\\
+then $\drawUnitLine{CB} < \drawUnitLine{FE}$ \byref{prop:I.XXIV},\\
+which is also contrary to the hypothesis:
+
+$\therefore \drawAngle{A} > \drawAngle{D}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXVI. Theor.}\label{prop:I.XXVI}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, d;
+A := (0, 0);
+B := A shifted (3u, 0);
+C := A shifted (5/2u, 3u);
+d := (0, -4u);
+D := A shifted d;
+E := B shifted d;
+F := C shifted d;
+G := 3/4[D, F];
+byAngleDefine(B, A, C, byyellow, SOLID_SECTOR);
+byAngleDefine(C, B, A, byred, SOLID_SECTOR);
+byAngleDefine(A, C, B, byblack, ARC_SECTOR);
+draw byNamedAngleResized(BAC, CBA, ACB);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CA,BC,AB);
+byAngleDefine(E, D, F, byyellow, SOLID_SECTOR);
+byAngleDefine(G, E, D, byblack, SOLID_SECTOR);
+byAngleDefine(F, E, G, byblue, SOLID_SECTOR);
+byAngleDefine(D, F, E, byblack, ARC_SECTOR);
+draw byNamedAngleResized(EDF, GED, FEG, DFE);
+draw byLine(E, G, byyellow, SOLID_LINE, THIN_WIDTH);
+byLineDefine(D, E, byblue, SOLID_LINE, THIN_WIDTH);
+byLineDefine(E, F, byblack, SOLID_LINE, THIN_WIDTH);
+byLineDefine(F, G, byred, DASHED_LINE, THIN_WIDTH);
+byLineDefine(G, D, byred, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(GD,FG,EF,DE);
+draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(D, G, F, E)(ALL_LABELS, 0);
+}
+\problem{I}{f}{two triangles have two angles of the one respectively equal to two angles of the other ($\drawAngle{A} = \drawAngle{D}$ and $\drawAngle{B} = \drawAngle{GED,FEG}$), and a side of the one equal to a side of the other similarly placed with respect to the equal angles, the remaining sides and angles are respectively equal to one another.}
+\drawCurrentPictureInMargin
+\startsubproposition{Case I.}
+\begin{center}
+Let \drawUnitLine{AB} and \drawUnitLine{DE} which lie between the equal angles be equal,\\
+then $\drawUnitLine{CA} = \drawUnitLine{GD,FG}$.
+
+For if it be possible, let one of them \drawUnitLine{GD,FG} be greater than the other;\\
+make $\drawUnitLine{CA} = \drawUnitLine{GD}$, draw \drawUnitLine{EG}.
+
+In \drawLine[bottom]{CA,BC,AB} and
+\drawLine[bottom]{GD,EG,DE} we have\\
+$\drawUnitLine{CA} = \drawUnitLine{GD}$, $\drawAngle{A} = \drawAngle{D}$, $\drawUnitLine{AB} = \drawUnitLine{DE}$;\\
+$\therefore \drawAngle{B} = \drawAngle{GED}$ (pr. 4.)\\
+but $\drawAngle{B} = \drawAngle{GED,FEG}$ \byref{\hypref}
+
+and therefore $\drawAngle{GED} = \drawAngle{GED,FEG}$, which is absurd;\\
+hence neither of the sides \drawUnitLine{CA} and \drawUnitLine{GD,FG} is greater than the other;\\
+and $\therefore$ they are equal;
+
+$\therefore \drawUnitLine{BC} = \drawUnitLine{EF}$, and $\drawAngle{C} = \drawAngle{F}$, \byref{prop:I.IV}.
+\end{center}
+
+\vfill\pagebreak
+
+\defineNewPicture{
+pair A, B, C, D, E, F, G, d;
+d := (0, -4u);
+A := (0, 0);
+B := A shifted (3u, 0);
+C := A shifted (1/2u, 3u);
+D := A shifted d;
+E := B shifted d;
+F := C shifted d;
+G := 3/4[D, E];
+byAngleDefine(B, A, C, byyellow, SOLID_SECTOR);
+byAngleDefine(C, B, A, byred, SOLID_SECTOR);
+draw byNamedAngleResized(BAC, CBA);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CA,AB,BC);
+byAngleDefine(F, D, E, byyellow, SOLID_SECTOR);
+byAngleDefine(F, G, D, byblack, SOLID_SECTOR);
+byAngleDefine(F, E, D, byred, SOLID_SECTOR);
+draw byNamedAngleResized(FDE, FGD, FED);
+draw byLine(F, G, byyellow, SOLID_LINE, THIN_WIDTH);
+byLineDefine(D, G, byblue, SOLID_LINE, THIN_WIDTH);
+byLineDefine(G, E, byblue, DASHED_LINE, THIN_WIDTH);
+byLineDefine(E, F, byblack, SOLID_LINE, THIN_WIDTH);
+byLineDefine(F, D, byred, SOLID_LINE, THIN_WIDTH);
+draw byNamedLineSeq(0)(FD,EF,GE,DG);
+draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(D, F, E, G)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\startsubproposition{Case II.}
+\begin{center}
+Again, let $\drawUnitLine{CA} = \drawUnitLine{FD}$, which lie opposite the equal angles \drawAngle{B} and \drawAngle{E}.\\
+If it be possible, let $\drawUnitLine{DG,GE} > \drawUnitLine{AB}$, then take $\drawUnitLine{DG} = \drawUnitLine{AB}$, draw \drawUnitLine{FG}.
+
+Then in \drawLine[bottom]{CA,BC,AB} and \drawLine[bottom]{FD,FG,DG} we have $\drawUnitLine{CA} = \drawUnitLine{FD}$, $\drawUnitLine{AB} = \drawUnitLine{DG}$ and $\drawAngle{A} = \drawAngle{D}$,
+
+$\therefore \drawAngle{B} = \drawAngle{G}$ \byref{prop:I.IV}\\
+but $\drawAngle{B} = \drawAngle{E}$ \byref{\hypref}
+
+$\therefore \drawAngle{G} = \drawAngle{E}$ which is absurd \byref{prop:I.XVI}.
+
+Consequently, neither of the sides \drawUnitLine{AB} or \drawUnitLine{DG,GE} is greater than the other, hence they must be equal. It follows (by \byref{prop:I.IV}) that the triangles are equal in all respects.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXVII. Theor.}\label{prop:I.XXVII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, d;
+A := (0, 0);
+B := A shifted (8/3u, 0);
+d := (0, -7/4u);
+C := A shifted d;
+D := B shifted d;
+E := 1/3[A, B];
+F := 2/3[C, D];
+G := 3/2[F, E];
+H := 3/2[E, F];
+I := 1/2[A, C] shifted (-2u, 0);
+byAngleDefine(A, E, H, byyellow, SOLID_SECTOR);
+byAngleDefine(H, E, B, byred, SOLID_SECTOR);
+byAngleDefine(C, F, G, byblue, SOLID_SECTOR);
+byAngleDefine(G, F, D, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(I, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(I, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CD,IC,IA,AB);
+draw byLine(G, H, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelLine(0)(AB, CD, GH);
+draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{a straight line (\drawUnitLine{GH}) meeting two other straight lines (\drawUnitLine{CD} and \drawUnitLine{AB}) makes with them the alternate angles (\drawAngle{CFG} and \drawAngle{HEB}; \drawAngle{GFD} and \drawAngle{AEH}) equal, these two straight lines are parallel.}
+
+If \drawUnitLine{CD} be not parallel to \drawUnitLine{AB} they shall meet when produced.
+
+If it be possible, let those lines be not parallel, but meet when produced; then the external angle \drawAngle{HEB} is greater than \drawAngle{CFG} \byref{prop:I.XVI}, but they are also equal \byref{\hypref}, which is absurd: in the same manner it may be shown that they cannot meet on the other side; $\therefore$ they are parallel.
+
+\qed
+
+\starttheorem{Prop XXVIII. Theor.}\label{prop:I.XXVIII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, d;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+d := (0, -3/2u);
+C := A shifted d;
+D := B shifted d;
+E := 9/20[A, B];
+F := 11/20[C, D];
+G := 7/4[F, E];
+H := 4/3[E, F];
+byAngleDefine(G, E, A, byblack, SOLID_SECTOR);
+byAngleDefine(B, E, G, byyellow, SOLID_SECTOR);
+byAngleDefine(A, E, H, byred, SOLID_SECTOR);
+byAngleDefine(H, E, B, byblue, SOLID_SECTOR);
+byAngleDefine(C, F, G, byblue, SOLID_SECTOR);
+byAngleDefine(G, F, D, byred, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(C, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(G, H, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelLine(0)(AB, CD, GH);
+draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{a straight line (\drawUnitLine{GH}), cutting two other straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), makes the external equal to the internal and opposite angle, at the same side of the cutting line (namely $\drawAngle{GEA} = \drawAngle{CFG}$ or $\drawAngle{BEG} = \drawAngle{GFD}$), or if it makes the two internal angles at the same side (\drawAngle{GFD} and \drawAngle{HEB}, or \drawAngle{CFG} and \drawAngle{AEH}) together equal to two right angles, those two straight lines are parallel.}
+
+\begin{center}
+First, if $\drawAngle{GEA} = \drawAngle{CFG}$, then $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV},\\
+$\therefore \drawAngle{CFG} = \drawAngle{HEB} \therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
+
+Secondly, if $\drawAngle{CFG} + \drawAngle{AEH} = \drawTwoRightAngles$,\\
+then $\drawAngle{AEH} + \drawAngle{HEB} = \drawTwoRightAngles$ \byref{prop:I.XIII},\\
+$\therefore \drawAngle{CFG} + \drawAngle{AEH} = \drawAngle{AEH} + \drawAngle{HEB}$ \byref{ax:I.III}
+
+$\therefore \drawAngle{CFG} = \drawAngle{HEB}$
+
+$\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXIX. Theor.}\label{prop:I.XXIX}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, J, d[];
+A := (0, 0);
+B := A shifted (7/2u, 0);
+d1 := (0, -2u);
+C := A shifted d1;
+D := B shifted d1;
+E := 11/20[A, B];
+F := 9/20[C, D];
+G := 7/4[F, E];
+H := 4/3[E, F];
+d2 := (3/2u, 1/2u);
+I := E shifted -d2;
+J := E shifted d2;
+byAngleDefine(I, E, A, byblue, SOLID_SECTOR);
+byAngleDefine(H, E, I, byyellow, SOLID_SECTOR);
+byAngleDefine(B, E, H, byblack, SOLID_SECTOR);
+byAngleDefine(G, E, B, byred, SOLID_SECTOR);
+byAngleDefine(G, F, D, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(I, E, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, J, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byLine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(G, H, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelLine(0)(AB, CD, GH);
+draw byLabelsOnPolygon(A, E, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelPoint(I, lineAngle.IE - 90, 1);
+draw byLabelPoint(J, lineAngle.EJ + 90, 1);
+}
+\drawCurrentPictureInMargin
+\problem{A}{ straight}{line (\drawUnitLine{GH}) falling on two parallel straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), makes the alternate angles equal to one another; and also the external equal to the internal and opposite angle on the same side; and the two internal angles on the same side together equal to two right angles.}
+
+For if the alternate angles \drawAngle{IEA,HEI} and \drawAngle{GFD} be not equal, draw \drawUnitLine{IE}, making $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.
+
+Therefore $\drawUnitLine{IE,EJ} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII} and therefore two straight lines which intersect are parallel to the same straight line, which is impossible \byref{ax:I.XII}.
+
+Hence \drawAngle{IEA,HEI} and \drawAngle{GFD} are not unequal, that is, they are equal: $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; $\therefore \drawAngle{GEB} = \drawAngle{GFD}$, the external angle equal to the internal and opposite on the same side: if \drawAngle{BEH} be added to both, then $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. That is to say, the two internal angles at the same side of the cutting line are equal to two right angles.
+
+\qed
+
+\starttheorem{Prop XXX. Theor.}\label{prop:I.XXX}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, J, K, d;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+d := (0, -u);
+C := A shifted d;
+D := B shifted d;
+E := C shifted d;
+F := D shifted d;
+G := 13/20[A, B];
+H := 7/20[E, F];
+I := (G--H) intersectionpoint (C--D);
+J := 3/2[H, G];
+K := 5/4[G, H];
+byAngleDefine(B, G, J, byyellow, SOLID_SECTOR);
+byAngleDefine(D, I, J, byblue, SOLID_SECTOR);
+byAngleDefine(F, H, J, byred, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(C, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, F, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(J, K, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelLine(0)(AB, CD, EF, JK);
+draw byLabelsOnPolygon(J, G, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(J, I, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(J, H, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{S}{traight}{lines (\drawUnitLine{AB} and \drawUnitLine{EF}) which are parallel to the same straight line (\drawUnitLine{CD}), are parallel to one another.}
+
+\begin{center}
+Let \drawUnitLine{JK} intersect $\left\{\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}\nointerlineskip\hbox{\drawUnitLine{EF}}}\right\}$;
+
+Then, $\drawAngle{G} = \drawAngle{I} = \drawAngle{H}$ \byref{prop:I.XXIX},
+
+$\therefore \drawAngle{G} = \drawAngle{H}$
+
+$\therefore \drawUnitLine{AB} \parallel \drawUnitLine{EF}$ \byref{prop:I.XXVIII}. % improvement: byrne references I.XXVII here, which is wrong https://github.com/jemmybutton/byrne-euclid/issues/27#issuecomment-507012558
+\end{center}
+
+\qed
+
+\startproblem{Prop XXXI. Prob.}\label{prop:I.XXXI}
+\defineNewPicture[1/6]{
+pair A, B, C, D, E, F, d;
+A := (0, 0);
+B := A shifted (7/2u, 0);
+d := (0, -3u);
+C := A shifted d;
+D := B shifted d;
+E := 4/5[A, B];
+F := 1/5[C, D];
+byAngleDefine(F, E, A, byyellow, SOLID_SECTOR);
+byAngleDefine(E, F, D, byred, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(E, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, E, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, B, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, F, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(F, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AE, EB);
+draw byNamedLineSeq(0)(CF, FD);
+draw byLabelsOnPolygon(A, E, B, noPoint, D, F, C, noPoint)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{F}{rom}{a given point \drawPointL[middle][EB]{E} to draw a straight line parallel to a given straight line (\drawUnitLine{CF,FD}).}
+
+\begin{center}
+Draw \drawUnitLine{EF} from the point \drawPointL[middle][EB]{E} to any point  \drawPointL[middle][CF]{F} in \drawUnitLine{CF,FD},
+
+make $\drawAngle{E} = \drawAngle{F}$ \byref{prop:I.XXIII},
+
+then $\drawUnitLine{AE,EB} \parallel \drawUnitLine{CF,FD}$ \byref{prop:I.XXVII}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXII. Theor.}\label{prop:I.XXXII}
+\defineNewPicture[1/6]{
+pair A, B, C, D, E;
+A := (0, 0);
+B := A shifted (-1u, -3u);
+C := A shifted (5/2u, -3u);
+D := 4/3[B, A];
+E := A shifted (unitvector(C-B) scaled 3/2u);
+byAngleDefine(D, A, E, byred, SOLID_SECTOR);
+byAngleDefine(E, A, C, byblack, SOLID_SECTOR);
+byAngleDefine(C, A, B, byblue, SOLID_SECTOR);
+byAngleDefine(A, B, C, byyellow, SOLID_SECTOR);
+byAngleDefine(B, C, A, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, E, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CA,noLine,AD,AB,BC);
+draw byLabelsOnPolygon(C, B, A, D, noPoint, E, A)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem[3]{I}{f}{any side (\drawUnitLine{AB}) of a triangle be produced, the external angle (\drawAngle{DAE,EAC}) is equal to the sum of the two internal and opposite angles (\drawAngle{B} and \drawAngle{C}), and the three internal angles of any triangle taken together are equal to two right angles.}
+
+\begin{center}
+Through the point \drawPointL[middle][AD,AE]{A} draw\\
+$\drawUnitLine{AE} \parallel \drawUnitLine{BC}$ \byref{prop:I.XXXI}.
+
+Then $\left\{
+	\begin{aligned}
+		\drawAngle{DAE} &= \drawAngle{B}\\
+		\drawAngle{EAC} &= \drawAngle{C}\\
+	\end{aligned}
+	\right\}$ \byref{prop:I.XXIX},
+
+$\therefore \drawAngle{B} + \drawAngle{C} = \drawAngle{DAE,EAC}$ \byref{ax:I.II},
+
+and therefore\\
+$\drawAngle{B} + \drawAngle{CAB} + \drawAngle{C} = \drawAngle{DAE,EAC,CAB} = \drawTwoRightAngles$ \byref{prop:I.XIII}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXIII. Theor.}\label{prop:I.XXXIII}
+\defineNewPicture[1/4]{
+pair A, B, C, D, d[];
+d1 := (5/2u, 0);
+d2 := (-7/8u, -3u);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+byAngleDefine(B, A, D, byyellow, SOLID_SECTOR);
+byAngleDefine(D, A, C, byred, SOLID_SECTOR);
+byAngleDefine(C, D, A, byblack, SOLID_SECTOR);
+byAngleDefine(A, D, B, byblue, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,BD,CD,AC);
+draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{S}{traight}{lines (\drawUnitLine{AC} and \drawUnitLine{BD}) which join the adjacent extremities of two equal and parallel straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), are themselves equal and parallel.}
+
+\begin{center}
+Draw \drawUnitLine{AD} the diagonal.
+
+$\drawUnitLine{AB} = \drawUnitLine{CD}$ \byref{\hypref}\\
+$\drawAngle{BAD} = \drawAngle{CDA}$ \byref{prop:I.XXIX}\\
+and \drawUnitLine{AD} common to the two triangles; % what triangles?
+
+$\therefore \drawUnitLine{AC} = \drawUnitLine{BD}$, and $\drawAngle{ADB} = \drawAngle{DAC}$ \byref{prop:I.IV};
+
+and $\therefore \drawUnitLine{AC} \parallel \drawUnitLine{BD}$ \byref{prop:I.XXVII}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXIV. Theor.}\label{prop:I.XXXIV}
+\defineNewPicture{
+pair A, B, C, D, d[];
+d1 := (5/2u, 0);
+d2 := (-7/8u, -3u);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+byAngleDefine(B, A, D, byblue, SOLID_SECTOR);
+byAngleDefine(D, A, C, byred, SOLID_SECTOR);
+byAngleDefine(C, D, A, byyellow, SOLID_SECTOR);
+byAngleDefine(A, D, B, byred, SOLID_SECTOR);
+byAngleDefine(A, C, D, byblack, SOLID_SECTOR);
+byAngleDefine(D, B, A, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,BD,CD,AC);
+draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{he}{opposite sides and angles of any parallelogram are equal, and the diagonal (\drawUnitLine{AD}) divides it into two equal parts.}
+
+\begin{center}
+Since $\left\{
+	\begin{aligned}
+		\drawAngle{BAD} &= \drawAngle{CDA}\\
+		\drawAngle{DAC} &= \drawAngle{ADB}\\
+	\end{aligned}
+	\right\}$ \byref{prop:I.XXIX}
+
+and \drawUnitLine{AD} common to the two triangles.
+
+$\therefore \left\{
+	\begin{aligned}
+		\drawUnitLine{AB} &= \drawUnitLine{CD}\\
+		\drawUnitLine{AC} &= \drawUnitLine{BD}\\ 
+		\drawAngle{B} &= \drawAngle{C}\\
+	\end{aligned}
+	\right\}$ \byref{prop:I.XXVI}\\
+and $\drawAngle{BAD,DAC} = \drawAngle{CDA,ADB}$ \byref{ax:I.II}.
+\end{center}
+
+Therefore the opposite sides and angles of the parallelogram are equal: and as the triangles \drawLine{AD,CD,AC} and \drawLine{AB,BD,AD} are equal in every respect \byref{prop:I.IV}, the diagonal divides the parallelogram into two equal parts.
+
+\qed
+
+\starttheorem{Prop XXXV. Theor.}\label{prop:I.XXXV}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, d[];
+d1 := (7/4u, 0);
+d2 := (u, -3u);
+d3 := (-2u, -3u);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+E := C shifted -d3;
+F := D shifted -d3;
+G := (B--D) intersectionpoint (C--E);
+draw byPolygon(A,B,G,C)(byyellow);
+draw byPolygon(E,F,D,G)(byyellow);
+draw byPolygon(B,E,G)(byyellow);
+draw byPolygon(C,D,G)(byblue);
+byAngleDefine(E, A, C, byred, SOLID_SECTOR);
+byAngleDefine(F, B, D, byblue, SOLID_SECTOR);
+byAngleDefine(A, E, C, byblack, SOLID_SECTOR);
+byAngleDefine(B, F, D, white, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byNamedAngleDummySides(BFD);
+byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AC,CD,BD);
+draw byLabelsOnPolygon(C, A, B, E, F, D)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{P}{arallelograms}{on the same base, and between the same parallels, are (in area) equal.}
+
+\begin{center}
+On account of the parallels,\\
+$\left.
+	\begin{aligned}
+		\drawAngle{A} &= \drawAngle{B};\\
+		\drawAngle{E} &= \drawAngle{F};\\
+		\mbox{and } \drawUnitLine{AC} &= \drawUnitLine{BD}\\
+	\end{aligned}
+	\right\}
+	\begin{aligned}
+	&\mbox{\byref{prop:I.XXIX}}\\
+	&\mbox{\byref{prop:I.XXIX}}\\
+	&\mbox{\byref{prop:I.XXXIV}.}\\
+	\end{aligned}
+	$
+
+But
+$\drawFromCurrentPicture[middle][polygonABC]{
+startAutoLabeling;
+draw byNamedPolygon (ABGC, BEG);
+stopAutoLabeling;
+draw byNamedLine (AC);
+}
+=
+\drawFromCurrentPicture[middle][polygonEFD]{
+startAutoLabeling;
+draw byNamedPolygon (EFDG, BEG);
+stopAutoLabeling;
+draw byNamedLine (BD);
+}$ \byref{prop:I.VIII}
+
+$\therefore
+\drawFromCurrentPicture[middle][polygonAFDC]{
+startAutoLabeling;
+draw byNamedPolygon (ABGC, EFDG, BEG, CDG);
+stopAutoLabeling;
+draw byNamedLine (AC);
+} - \polygonEFD =
+\drawPolygon{ABGC, CDG}$,\\
+and $\polygonAFDC - \polygonABC =
+\drawPolygon{EFDG, CDG}$;
+
+$\therefore \drawPolygon{ABGC, CDG} = \drawPolygon{EFDG, CDG}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXVI. Theor.}\label{prop:I.XXXVI}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, J, I, d[];
+numeric h;
+h := 3u;
+d1 := (3/2u, 0);
+d2 := (2/3u, -h);
+d3 := (-8/3u, -h);
+d4 := (-1/2u, -h);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+E := C shifted -d3;
+F := D shifted -d3;
+G := E shifted d4;
+H := F shifted d4;
+I := (B--D) intersectionpoint (C--E);
+J := (E--G) intersectionpoint (D--F);
+draw byPolygon(A,B,I,C)(byred);
+draw byPolygon(C,D,I)(byred);
+draw byPolygon(I,D,J,E)(byblue);
+draw byPolygon(E,F,J)(byyellow);
+draw byPolygon(J,F,H,G)(byyellow);
+byLineDefine(C, E, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, F, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, F, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CE,EF,DF,CD);
+draw byLineFull(G, H, byblue, 0, 0)(E, F, 1, 1, 0);
+draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(E, F, H, G)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{P}{arallelograms}{(\drawPolygon[bottom][polygonABDC]{ABIC, CDI}~and~\drawPolygon[bottom][polygonEFHG]{EFJ, JFHG}) on equal bases, and between the same parallels, are equal.}
+
+\begin{center}
+Draw \drawUnitLine{CE} and \drawUnitLine{DF}\\
+$\drawUnitLine{CD} = \drawUnitLine{GH} = \drawUnitLine{EF}$ by \byref{prop:I.XXXIV,\hypref};
+
+$\therefore \drawUnitLine{CD} = \mbox{ and } \parallel \drawUnitLine{EF}$;
+
+$\therefore \drawUnitLine{CE} = \mbox{ and } \parallel \drawUnitLine{DF}$ \byref{prop:I.XXXIII}
+
+And therefore
+\drawPolygon[bottom][polygonCDFE]{CDI, IDJE, EFJ}
+is a parallelogram:
+
+but $\polygonABDC = \polygonCDFE = \polygonEFHG$ \byref{prop:I.XXXV}
+
+$\therefore \polygonABDC = \polygonEFHG$ \byref{ax:I.I}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXVII. Theor.}\label{prop:I.XXXVII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, d[];
+d1 := (3/2u, 0);
+d2 := (1/2u, -3u);
+d3 := (-7/4u, -3u);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+E := C shifted -d3;
+F := D shifted -d3;
+G := (B--D) intersectionpoint (C--E);
+H := 11/10[F, A];
+I := 11/10[A, F];
+draw byPolygon(A,B,C)(byblue);
+draw byPolygon(B,C,G)(byyellow);
+draw byPolygon(C,D,G)(byyellow);
+draw byPolygon(D,G,E)(byblack);
+draw byPolygon(E,F,D)(byred);
+draw byLine(B, D, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(F, D, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AC,CD,FD);
+draw byLine(H, I, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byLabelsOnPolygon(H, A, B, E, F, I, noPoint)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(F, D, C, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{riangles}{
+\drawPolygon[bottom][polygonBCD]{BCG, CDG} and~\drawPolygon[bottom][polygonCDE]{DGE, CDG}
+on the same base (\drawUnitLine{CD}) and between the same parallels are equal.
+}
+
+\begin{center}
+$\left.
+	\begin{aligned}
+		\mbox{Draw } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
+		\drawUnitLine{FD} &\parallel \drawUnitLine{EC}\\
+	\end{aligned}
+\right\}\mbox{\byref{prop:I.XXXI}}$
+
+Produce \drawUnitLine{HI}.
+
+\drawPolygon[bottom][polygonABDC]{ABC, BCG, CDG}
+and
+\drawPolygon[bottom][polygonEFDC]{DGE, CDG, EFD}
+are parallelograms on the same base and between the same parallels, and therefore equal. \byref{prop:I.XXXV}
+
+$\therefore \left\{
+	\begin{aligned}
+		\polygonABDC &= \mbox{ twice } \polygonBCD\\
+		\polygonEFDC &= \mbox{ twice } \polygonCDE\\
+	\end{aligned}
+	\right\}$ \byref{prop:I.XXXIV}
+$\therefore \polygonBCD = \polygonCDE$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXVIII. Theor.}\label{prop:I.XXXVIII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, J, I, d[];
+numeric h;
+h := 5/2u;
+d1 := (3/2u, 0);
+d2 := (3/4u, -h);
+d3 := (7/3u, h);
+d4 := (-1/4u, -h);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+E := C shifted d3;
+F := D shifted d3;
+G := E shifted d4;
+H := F shifted d4;
+I := (xpart(A), ypart(C));
+J := (xpart(F), ypart(C));
+draw byPolygon(A,B,C)(byyellow);
+draw byPolygon(B,C,D)(byred);
+draw byPolygon(E,F,H)(byblack);
+draw byPolygon(E,G,H)(byblue);
+draw byLine(B, D, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, G, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(F, H, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, F, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AC,AF,FH);
+draw byLine(I, J, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byLabelsOnPolygon(A, B, E, F, noPoint)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(H, G, D, C, noPoint)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{riangles}{(\drawPolygon[bottom][polygonBCD]{BCD} and \drawPolygon[bottom][polygonEGH]{EGH}) on equal bases and between the same parallels are equal.}
+
+\begin{center}
+$\left.
+	\begin{aligned}
+		\mbox{Draw } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
+		\mbox{and } \drawUnitLine{FH} &\parallel \drawUnitLine{EG}\\
+	\end{aligned}
+	\right\}\mbox{\byref{prop:I.XXXI}}$\\
+$\drawPolygon[bottom][polygonABDC]{ABC, BCD} = \drawPolygon[bottom][polygonEFHG]{EFH, EGH}$ \byref{prop:I.XXXVI};
+
+but $\polygonABDC = \mbox{ twice } \polygonBCD$ \byref{prop:I.XXXIV},\\
+and $\polygonEFHG = \mbox{ twice } \polygonEGH$ \byref{prop:I.XXXIV},
+
+$\therefore \polygonBCD = \polygonEGH$ \byref{ax:I.VII}.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XXXIX. Theor.}\label{prop:I.XXXIX}
+\defineNewPicture{
+pair A, B, C, D, E, F, G;
+A := (0, 0);
+B := A shifted (5/2u, 0);
+C := A shifted (3/4u, -5/2u);
+D := C shifted (3u, 0);
+E = whatever[A, D] = whatever[B, C];
+F := 11/8[C, B];
+G := 13/8[C, B];
+draw byPolygon(A,B,E)(byred);
+draw byPolygon(A,E,C)(byyellow);
+draw byPolygon(B,E,D)(byblack);
+draw byPolygon(E,C,D)(byyellow);
+draw byPolygon(F,B,D)(byblue);
+byLineDefine(A, F, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, F, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, G, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(-4/5)(AB,AF,DF,CD,CG);
+draw byLabelsOnPolygon(F, D, C, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(A, B, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(A, F, G, noPoint)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{E}{qual}{triangles
+\drawPolygon[bottom][polygonADC]{AEC, ECD} and~\drawPolygon[bottom][polygonBDC]{BED, ECD}
+on the same base (\drawUnitLine{CD}) and on the same side of it, are between the same parallels.}
+
+\begin{center}
+If \drawUnitLine{AB}, which joins the vertices of the triangles, be not $\parallel \drawUnitLine{CD}$, draw $\drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXXI}, meeting \drawUnitLine{CG}.
+
+Draw \drawUnitLine{DF}.
+
+$\because \drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{\constref}\\ %Because
+$\polygonADC =
+\drawPolygon[bottom][polygonFDC]{BED, ECD, FBD}$ \byref{prop:I.XXXVII};\\
+but $\polygonADC = \polygonBDC$ \byref{\hypref};
+
+$\therefore \polygonBDC = \polygonFDC$, a part equal to the whole, which is absurd.
+
+$\therefore \drawUnitLine{AF} \nparallel \drawUnitLine{CD}$; and in the same manner it can be demonstrated, that no other line except \drawUnitLine{AB} is $\parallel \drawUnitLine{CD}$; $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XL. Theor.}\label{prop:I.XL}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, d;
+A := (0, 0);
+B := A shifted (3/2u, 0);
+C := A shifted (-3/2u, -9/4u);
+d := (7/4u, 0);
+D := C shifted d;
+E := B shifted (-2/3u, -9/4u);
+F := E shifted d;
+G := 5/4[E, B];
+H := 2[B, G];
+draw byPolygon(A,C,D)(byyellow);
+draw byPolygon(B,E,F)(byred);
+draw byPolygon(G,B,F)(byblue);
+draw byLine(E, H, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(A, G, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(F, G, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, E, byblue, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(-4/5)(AB,AG,FG,EF,DE,CD);
+draw byLabelsOnPolygon(G, F, E, D, C, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(A, B, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+draw byLabelsOnPolygon(A, G, H, noPoint)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{E}{qual}{triangles
+(\drawFromCurrentPicture[bottom][polygonACD]{
+startAutoLabeling;
+draw byNamedPolygon (ACD);
+stopAutoLabeling;
+draw byNamedLineFull(A, A, 1, 1, 0, 0)(CD);
+}
+and
+\drawFromCurrentPicture[bottom][polygonBEF]{
+startAutoLabeling;
+draw byNamedPolygon (BEF);
+stopAutoLabeling;
+draw byNamedLineFull(B, B, 1, 1,  0, 0)(EF);
+}) on equal bases, and on the same side, are between the same parallels.}
+
+\begin{center}
+If \drawSizedLine{AB} which joins the vertices of triangles be not $\parallel \drawSizedLine{CD,DE,EF}$,\\
+draw \drawSizedLine{AG} $\parallel \drawSizedLine{CD,DE,EF}$ \byref{prop:I.XXXI},\\
+meeting \drawSizedLine{EH}.\\
+Draw \drawSizedLine{FG}.
+
+$\because \drawSizedLine{AG} \parallel \drawSizedLine{CD,DE,EF}$ \byref{\constref}\\ %Because
+$\polygonACD =
+\drawFromCurrentPicture[bottom][polygonGEF]{
+startAutoLabeling;
+draw byNamedPolygon (BEF, GBF);
+stopAutoLabeling;
+draw byNamedLineFull(G, G, 1, 1,  0, 0)(EF);
+}$ but $\polygonACD = \polygonBEF$
+
+$\therefore \polygonBEF = \polygonGEF$, a part equal to the whole, which is absurd.
+
+$\therefore \drawSizedLine{AG} \nparallel \drawSizedLine{CD,DE,EF}$: and in the same manner it can be demonstrated, that no other line except \drawSizedLine{AB} is $\parallel \drawSizedLine{CD,DE,EF}$: $\therefore \drawSizedLine{AB} \parallel \drawSizedLine{CD,DE,EF}$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XLI. Theor.}\label{prop:I.XLI}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, d;
+A := (0, 0);
+d := (2u, 0);
+B := A shifted d;
+C := B shifted (2u, 0);
+D := A shifted (4/3u, -5/2u);
+E := D shifted d;
+F = whatever[B, E] = whatever[D, C];
+G = whatever[A, E] = whatever[D, C];
+draw byPolygon(A,B,F,G)(byyellow);
+draw byPolygon(G,F,E)(byyellow);
+draw byPolygon(A,G,D)(byblue);
+draw byPolygon(D,E,G)(byblue);
+draw byPolygon(C,F,E)(byred);
+draw byLine(A, E, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLineFull(A, C, byblack, 1, 0)(D, E, 1, 1, 0);
+draw byLineFull(D, E, byblack, 0, 0)(A, C, 1, 1, 0);
+draw byLabelsOnPolygon(E, D, A, B, C)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem[3]{I}{f}{a parallelogram
+\drawPolygon[bottom][polygonABED]{ABFG,GFE,AGD,DEG}
+and a triangle
+\drawPolygon[bottom][polygonCED]{GFE,DEG,CFE}
+are upon the same base \drawUnitLine{DE} and between the same parallels \drawUnitLine{AC} and \drawUnitLine{DE}, the parallelogram is double the triangle.}
+
+\begin{center}
+Draw \drawUnitLine{AE} the diagonal.
+
+Then
+$\drawPolygon[bottom][polygonAED]{AGD,DEG} = \polygonCED$ \byref{prop:I.XXXVII}\\
+$\polygonABED = \mbox{ twice } \polygonAED$ \byref{prop:I.XXXIV}
+
+$\therefore \polygonABED = \mbox{ twice } \polygonCED$.
+\end{center}
+
+\qed
+
+\startproblem{Prop XLII. Prob.}\label{prop:I.XLII}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, J, d[];
+A := (0, 0);
+d1 := (8/5u, 0);
+B := A shifted d1;
+C := B shifted (3/2u, 0);
+D := A shifted (u, -13/5u);
+E := D shifted d1;
+F := (B--E) intersectionpoint (D--C);
+G := 2[D, E];
+d2 := (-xpart(E)+xpart(D)-1/2u, 0);
+H := B shifted d2;
+I := E shifted d2;
+J := D shifted d2;
+draw byPolygon(A,B,F,D)(byyellow);
+draw byPolygon(D,E,F)(byyellow);
+draw byPolygon(C,F,E)(byblue);
+draw byPolygon(E,C,G)(byblack);
+byAngleDefine(B, E, D, byblue, SOLID_SECTOR);
+byAngleDefine(H, I, J, byyellow, SOLID_SECTOR);
+setAttribute("angle", "Standalone", "HIJ", 1);
+draw byNamedAngleResized();
+draw byLine(B, E, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, E, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, E, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(E, G, byblack, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CE,AC,AD,DE,EG,noLine);
+draw byLabelsOnPolygon(G, E, D, A, B, C)(ALL_LABELS, 0);
+startAutoLabeling;
+draw byNamedAngleSidesFull(HIJ)();
+stopAutoLabeling;
+}
+\drawCurrentPictureInMargin
+\problem[3]{T}{o}{construct a parallelogram equal to a given triangle
+\drawPolygon[bottom][polygonCDG]{DEF,CFE,ECG} and having an angle equal to a given rectilinear angle \drawAngle{I}.}
+
+\begin{center}
+Make $\drawUnitLine{DE} = \drawUnitLine{EG}$ \byref{prop:I.X}\\
+Draw \drawUnitLine{CE}.
+
+Make $\drawAngle{E} = \drawAngle{I}$ \byref{prop:I.XXIII}\\
+Draw $\left\{
+	\begin{aligned}
+		\drawUnitLine{AD} &\parallel \drawUnitLine{BE}\\
+		\drawUnitLine{AC} &\parallel \drawUnitLine{DE}\\
+	\end{aligned}
+	\right\}$ \byref{prop:I.XXXI}
+
+$\drawPolygon[bottom][polygonABED]{ABFD,DEF}
+= \mbox{ twice }
+\drawPolygon[bottom][polygonCED]{DEF,CFE}$ \byref{prop:I.XLI}\\
+but $\polygonCED =
+\drawPolygon[bottom][polygonDCG]{ECG}$ \byref{prop:I.XXXVIII}
+
+$\therefore \polygonABED = \polygonCDG$.
+\end{center}
+
+\qed
+
+\starttheorem{Prop XLIII. Theor.}\label{prop:I.XLIII}
+\defineNewPicture[1/2]{
+pair A, B, C, D, E, F, G, H, I, d[];
+path q[];
+d1 := (5/2u, 0);
+d2 := (-u, -3u);
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+E := 2/5[A, D];
+q1 := (E shifted d1) -- (E shifted -d1);
+q2 := (E shifted d2) -- (E shifted -d2);
+F := q1 intersectionpoint (A--C);
+G := q1 intersectionpoint (B--D);
+H := q2 intersectionpoint (A--B);
+I := q2 intersectionpoint (C--D);
+draw byPolygon(A,E,H)(byyellow);
+draw byPolygon(A,E,F)(byyellow);
+draw byPolygon(H,B,G,E)(byblue);
+draw byPolygon(F,C,I,E)(byblack);
+draw byPolygon(I,D,E)(byred);
+draw byPolygon(G,D,E)(byred);
+draw byLabelsOnPolygon(C, F, A, H, B, G, D, I)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(F, E, H)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+}
+\drawCurrentPictureInMargin
+\problem{T}{he}{complements
+\drawPolygon[bottom][polygonHBGE]{HBGE}
+and
+\drawPolygon[bottom][polygonFCIE]{FCIE}
+of the parallelograms which are about the diagonal of a parallelogram are equal.}
+
+\begin{center}
+$\drawPolygon[bottom][polygonADC]{AEF,FCIE,IDE} = \drawPolygon[bottom][polygonABD]{AEH,HBGE,GDE}$ \byref{prop:I.XXXIV}\\
+and $\drawPolygon[bottom][polygonAEFpIDE]{AEF,IDE} = \drawPolygon[bottom][polygonAEHpGDE]{AEH,GDE}$ \byref{prop:I.XXXIV}
+
+$\therefore \polygonFCIE = \polygonHBGE$ \byref{ax:I.III}.
+\end{center}
+
+\qed
+
+\startproblem{Prop XLIV. Prob.}\label{prop:I.XLIV}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, d[];
+path q[];
+d1 := (3u, 0);
+d2 := (-3/2u, -3u);
+d3 := (3/2u, 5/2u);
+d4 := -d2 +1/2d1;
+A := (0, 0);
+B := A shifted d1;
+C := A shifted d2;
+D := C shifted d1;
+E := 2/5[C, B];
+q1 := (E shifted d1) -- (E shifted -d1);
+q2 := (E shifted d2) -- (E shifted -d2);
+F := q1 intersectionpoint (A--C);
+G := q1 intersectionpoint (B--D);
+H := q2 intersectionpoint (A--B);
+I := q2 intersectionpoint (C--D);
+J := A shifted d3;
+K := J shifted (2(xpart(A)-xpart(H)), 0);
+L := (xpart(1/3[J, K]), ypart(F)-ypart(A)+ypart(J));
+M := A shifted d4;
+N := F shifted d4;
+O := E shifted d4;
+draw byPolygon(J,K,L)(byred);
+draw byPolygon(A,H,E,F)(byyellow);
+draw byPolygon(E,G,D,I)(byblue);
+byAngleDefine(A, F, E, byblue, SOLID_SECTOR);
+byAngleDefine(F, E, I, byred, SOLID_SECTOR);
+byAngleDefine(E, I, D, byblack, SOLID_SECTOR);
+byAngleDefine(M, N, O, byyellow, SOLID_SECTOR);
+setAttribute("angle", "Standalone", "MNO", 1);
+draw byNamedAngleResized();
+draw byLine(B, E, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(E, C, byblack, SOLID_LINE, THIN_WIDTH);
+byLineDefine(A, F, byred, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(F, C, byblack, SOLID_LINE, THIN_WIDTH);
+draw byLine(H, E, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(B, G, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, H, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(H, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(F, E, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(E, G, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, D, byyellow, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(FE,EG,BG,HB,AH,AF,FC,CD);
+draw byLabelsOnPolygon(K, J, L)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(F, A, H, B, G, D, I, C)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(F, E, H)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
+startAutoLabeling;
+draw byNamedAngleSidesFull(MNO)();
+stopAutoLabeling;
+}
+\drawCurrentPictureInMargin
+\problem[4]{T}{o}{a given straight line (\drawUnitLine{EG}) to apply a parallelogram equal to a given triangle (\drawPolygon[middle][polygonJKL]{JKL}), and having an angle equal to a given rectilinear angle (\drawAngle{N}).}
+
+\begin{center}
+Make $\drawPolygon[middle][polygonAHEF]{AHEF} = \polygonJKL$ with $\drawAngle{F} = \drawAngle{N}$ \byref{prop:I.XLII}\\
+and having one of its sides \drawUnitLine{FE} conterminous with and in continuation of \drawUnitLine{EG}.
+
+Produce \drawUnitLine{AH} till it meets $\drawUnitLine{BG} \parallel \drawUnitLine{HE}$\\
+draw \drawUnitLine{BE} produce it till it meets \drawUnitLine{AF} continued;\\
+draw $\drawUnitLine{CD} \parallel \drawUnitLine{FE,EG}$ meeting \drawUnitLine{BG} produced and produce \drawUnitLine{HE}.
+
+$\polygonAHEF = \drawPolygon[middle][polygonEGDI]{EGDI}$ \byref{prop:I.XLIII}\\
+but $\polygonAHEF = \polygonJKL$ \byref{\constref}
+
+$\therefore \polygonEGDI = \polygonJKL$;
+
+and $\drawAngle{F} = \drawAngle{E} =\drawAngle{I} = \drawAngle{N}$ \byref{prop:I.XXIX,\constref}. % improvement: proposition 19 in the original seems to be a typo
+\end{center}
+
+\qed
+
+\startproblem{Prop XLV. Prob.}\label{prop:I.XLV}
+\defineNewPicture{
+pair A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, d[];
+numeric a, h[], b[], s[];
+a := 15;
+A := (0, 0);
+B := A shifted (0, 2u);
+C := A shifted (4/3u, u);
+D := A shifted (2u, -3/2u);
+E := A shifted (-6/5u, -u);
+b1 := arclength(B--C);
+h1 := distanceToLine(A, B--C);
+s1 := (b1 * h1)/2;
+b2 := arclength(C--D);
+h2 := distanceToLine(A, C--D);
+s2 := (b2 * h2)/2;
+b3 := arclength(D--E);
+h3 := distanceToLine(A, D--E);
+s3 := (b3 * h3)/2;
+d1 := (0, ypart(D)-u);
+d2 := (0, -b3/2) rotated -a;
+d3 := (h3*(1/cosd(a)), 0);
+d6 := (u, 0);
+F := (-u, 0) shifted d1;
+G := F shifted d3;
+H := F shifted d2;
+I := G shifted d2;
+d4 := (2*(s2/b3)*(1/cosd(a)), 0);
+J := G shifted d4;
+K := J shifted d2;
+d5 := (2*(s1/b3)*(1/cosd(a)), 0);
+L := J shifted d5;
+M := L shifted d2;
+N := L shifted d6;
+O := M shifted d6;
+P := K shifted d6;
+draw byPolygon(A,B,C)(byred);
+draw byPolygon(A,C,D)(byyellow);
+draw byPolygon(A,D,E)(byblue);
+byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AC,AD);
+draw byPolygon(F,G,I,H)(byblue);
+draw byPolygon(G,J,K,I)(byyellow);
+draw byPolygon(J,L,M,K)(byred);
+byAngleDefine(G, I, H, byyellow, SOLID_SECTOR);
+byAngleDefine(J, K, I, byblack, SOLID_SECTOR);
+byAngleDefine(L, M, K, byblue, SOLID_SECTOR);
+byAngleDefine(N, O, P, byred, SOLID_SECTOR);
+setAttribute("angle", "Standalone", "NOP", 1);
+draw byNamedAngleResized();
+draw byLine(G, I, byred, SOLID_LINE, REGULAR_WIDTH);
+draw byLine(J, K, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byLabelsOnPolygon(A, B, C, D, E)(ALL_LABELS, 0);
+draw byLabelsOnPolygon(F, G, J, L, M, K, I, H)(ALL_LABELS, 0);
+startAutoLabeling;
+draw byNamedAngleSidesFull(NOP)();
+stopAutoLabeling;
+}
+\drawCurrentPictureInMargin
+\problem[2]{T}{o}{construct a parallelogram equal to a given rectilinear figure (\drawPolygon[middle][polygonABCDE]{ABC,ACD,ADE}) and having an angle equal to a given rectilinear angle (\drawAngle{O}).}
+
+\begin{center}
+Draw \drawUnitLine{AD} and \drawUnitLine{AC} dividing the rectilinear figure into triangles.
+
+Construct $\drawPolygon{FGIH} = \drawPolygon{ADE}$\\
+having $\drawAngle{I} = \drawAngle{O}$ \byref{prop:I.XLII}
+
+to \drawUnitLine{GI} apply $\drawPolygon{GJKI} = \drawPolygon{ACD}$\\
+having $\drawAngle{K} = \drawAngle{O}$ \byref{prop:I.XLIV}
+
+to \drawUnitLine{JK} apply $\drawPolygon{JLMK} = \drawPolygon{ABC}$\\
+having $\drawAngle{M} = \drawAngle{O}$ \byref{prop:I.XLIV}
+
+$\therefore \drawPolygon[middle][polygonFLMH]{FGIH,GJKI,JLMK} = \polygonABCDE$
+
+and \polygonFLMH is a parallelogram. \byref{prop:I.XXIX,prop:I.XIV,prop:I.XXX}\\
+having $\drawAngle{M} = \drawAngle{O}$.
+\end{center}
+
+\qed
+
+\startproblem{Prop XLVI. Prob.}\label{prop:I.XLVI}
+\defineNewPicture{
+pair A, B, C, D;
+numeric d;
+d := 7/2u;
+A := (0, 0);
+B := A shifted (d, 0);
+C := A shifted (0, -d);
+D := A shifted (d, -d);
+byAngleDefine(B, A, C, byblack, SOLID_SECTOR);
+byAngleDefine(D, B, A, byblue, SOLID_SECTOR);
+byAngleDefine(C, D, B, byred, SOLID_SECTOR);
+byAngleDefine(A, C, D, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(D, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AB,BD,DC,CA);
+draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{U}{pon}{a given straight line (\drawUnitLine{DC}) to construct a square.}
+
+\begin{center}
+Draw $\drawUnitLine{CA} \perp \mbox{ and } = \drawUnitLine{DC}$ \byref{prop:I.XI,prop:I.III}
+
+Draw $\drawUnitLine{AB} \parallel \drawUnitLine{DC}$,\\
+and meeting \drawUnitLine{BD} drawn $\parallel \drawUnitLine{CA}$.
+
+In
+\drawFromCurrentPicture[bottom][polygonABDC]{
+startTempAngleScale(angleScale*3/4);
+draw byNamedAngle(A,B,C,D);
+draw byNamedLineSeq(0)(AB,BD,DC,CA);
+draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
+stopTempAngleScale;
+}
+$\drawUnitLine{CA} = \drawUnitLine{DC}$ \byref{\constref}\\
+$\drawAngle{C} = \mbox{a right angle}$ \byref{\constref}
+
+$\therefore \drawAngle{D} = \drawAngle{C} = \mbox{a right angle}$ \byref{prop:I.XXIX},\\
+and~the~remaining sides and~angles must be equal \byref{prop:I.XXXIV}.
+
+And $\therefore \polygonABDC$ is a square \byref{def:I.XXX}. % improvement: in the original definition 27 was wrongly referenced
+\end{center}
+
+\qed
+
+\starttheorem{Prop XLVII. Theor.}\label{prop:I.XLVII}
+\defineNewPicture[1/2]{
+pair A, B, C, D, E, F, G, H, I, J, K, L, M, d[];
+%byPointLabelDefine(A, "α");
+%byPointLabelDefine(B, "β");
+%byPointLabelDefine(C, "γ");
+%byPointLabelDefine(D, "δ");
+%byPointLabelDefine(E, "ε");
+%byPointLabelDefine(F, "ζ");
+%byPointLabelDefine(G, "η");
+%byPointLabelDefine(H, "θ");
+%byPointLabelDefine(I, "ι");
+%byPointLabelDefine(J, "κ");
+%byPointLabelDefine(K, "λ");
+%byPointLabelDefine(L, "μ");
+%byPointLabelDefine(M, "ν");
+A := (0, 0);
+B := A shifted (-7/10u, -8/7u);
+C = whatever[A, A shifted ((A-B) rotated 90)] = whatever[B, B shifted dir(0)];
+d1 := (B-A) rotated -90;
+D := A shifted d1;
+E := B shifted d1;
+d2 := (A-C) rotated -90;
+F := C shifted d2;
+G := A shifted d2;
+d3 := (C-B) rotated -90;
+H := B shifted d3;
+I := C shifted d3;
+J = whatever[A, A shifted dir(90)];
+J = whatever[B, C];
+K = whatever[A, A shifted dir(90)];
+K = whatever[H, I];
+L = whatever[B, F];
+L = whatever[A, C];
+M = whatever[A, I];
+M = whatever[B, C];
+draw byPolygon(A,B,E,D)(byblack);
+draw byPolygon(L,A,G,F)(byred);
+draw byPolygon(C,L,F)(byred);
+draw byPolygon(J,M,I,K)(byblue);
+draw byPolygon (M,C,I)(byblue);
+draw byPolygon(B,J,K,H)(byyellow);
+byAngleDefine(F, C, A, byyellow, SOLID_SECTOR);
+byAngleDefine(B, C, I, byyellow, SOLID_SECTOR);
+byAngleDefine(A, C, B, byblack, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLineFull(A, K, byblack, 1, 0)(I, I, 1, 1, -1);
+draw byLineFull(B, F, byblack, 0, 0)(G, G, 1, 1, -1);
+draw byLineFull(A, I, byblack, 0, 0)(K, K, 1, 1, 1);
+byLineDefine(C, F, byblue, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(C, I, byred, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(CF,CI);
+byLineDefine(A, B, byyellow, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(C, A, byblue, SOLID_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(1)(AB,BC,CA);
+byLineDefine.CAb(C, A, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (M, M, 1, 0, -1) (CAb);
+byLineDefine.AMb(A, M, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (C, C, 0, 1, -1) (AMb);
+byLineDefine.BCb(B, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (L, L, 0, 1, -1) (BCb);
+byLineDefine.BLb(L, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineStylize (C, C, 1, 0, -1) (BLb);
+draw byLabelsOnPolygon(B, E, D, A, G, F, C, I, K, H)(ALL_LABELS, -1);
+draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
+}
+\drawCurrentPictureInMargin
+\problem[4]{I}{n}{a right angled triangle \drawLine[bottom][triangleABC]{CA,BC,AB} the square on the hypotenuse \drawUnitLine{BC} is equal to the sum of the squares of the sides (\drawUnitLine{CA} and \drawUnitLine{AB}).}
+
+\begin{center}
+On \drawUnitLine{BC}, \drawUnitLine{CA}, \drawUnitLine{AB} describe squares, \byref{prop:I.XLVI}
+
+Draw $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$ \byref{prop:I.XXXI}\\
+also draw \drawUnitLine{BF} and \drawUnitLine{AI}.\\
+$\drawAngle{BCI} = \drawAngle{FCA}$.
+
+To each add \drawAngle{ACB} $\therefore \drawAngle{BCI,ACB} = \drawAngle{FCA,ACB}$,\\
+$\drawUnitLine{BC} = \drawUnitLine{CI}$ and $\drawUnitLine{CA} = \drawUnitLine{CF}$;
+
+$\therefore
+\drawFromCurrentPicture[middle][polygonAFC]{
+draw byNamedPolygon(MCI);
+draw byNamedAngle(ACB);
+draw byNamedLine(CAb,AMb);
+draw byLabelsOnPolygon(I,A,C)(OMIT_LABELS_AT_STRAIGHT_ANGLES, -1);
+}
+=
+\drawFromCurrentPicture[middle][polygonBLC]{
+draw byNamedPolygon(CLF);
+draw byNamedAngle(ACB);
+draw byNamedLine(BCb,BLb);
+draw byLabelsOnPolygon(B,F,C)(OMIT_LABELS_AT_STRAIGHT_ANGLES, -1);
+}
+$.
+
+Again, $\because \drawUnitLine{AB} \parallel \drawUnitLine{CF}$\\ %because
+$\drawPolygon[middle][polygonACFG]{LAGF,CLF} = \mbox{ twice } \polygonBLC$,\\
+and $\drawPolygon[middle][polygonJMCK]{JMIK,MCI} = \mbox{ twice } \polygonAFC$;
+
+$\therefore \polygonACFG = \polygonJMCK$.
+
+In the same manner it may be shown that $\drawPolygon[middle][polygonABED]{ABED} = \drawPolygon[middle][polygonBJKH]{BJKH}$;
+
+hence $\drawPolygon[middle][polygonABEDpACFG]{ABED,LAGF,CLF} = \drawPolygon[middle][polygonBCIH]{JMIK,MCI,BJKH}$.
+
+\end{center}
+
+\qed
+
+\starttheorem{Prop XLVIII. Theor.}\label{prop:I.XLVIII}
+\defineNewPicture{
+pair A, B, C, D;
+numeric d;
+d := 7/4u;
+A := (0, 0);
+B := A shifted (0, 4u);
+C := A shifted (d, 0);
+D := A shifted (-d, 0);
+byAngleDefine(B, A, C, byred, SOLID_SECTOR);
+byAngleDefine(D, A, B, byyellow, SOLID_SECTOR);
+draw byNamedAngleResized();
+draw byLine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(A, D, byblack, DASHED_LINE, REGULAR_WIDTH);
+byLineDefine(B, C, byred, SOLID_LINE, REGULAR_WIDTH);
+byLineDefine(B, D, byred, DASHED_LINE, REGULAR_WIDTH);
+draw byNamedLineSeq(0)(AC,AD,BD,BC);
+draw byLabelsOnPolygon(D, B, C, A)(ALL_LABELS, 0);
+}
+\drawCurrentPictureInMargin
+\problem{I}{f}{the square of one side (\drawUnitLine{BC}) of a triangle is equal to the squares of the other two sides (\drawUnitLine{AB} and \drawUnitLine{AC}), the angle (\drawAngle{BAC}) subtended by that side is a right angle.} % improvement: DAB sould be BAC https://github.com/jemmybutton/byrne-euclid/issues/31#issuecomment-350511743
+
+\begin{center}
+Draw $\drawUnitLine{AD} \perp \drawUnitLine{AB}$ and $= \drawUnitLine{AC}$ \byref{prop:I.XI,prop:I.III}\\
+and draw \drawUnitLine{BD} also.
+
+Since $\drawUnitLine{AD} = \drawUnitLine{AC}$ \byref{\constref}\\
+$\drawUnitLine{AD}^2 = \drawUnitLine{AC}^2$;
+
+$\therefore \drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{AC}^2 + \drawUnitLine{AB}^2$
+
+but $\drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BD}^2$ \byref{prop:I.XLVII},\\
+and $\drawUnitLine{AC}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BC}^2$ \byref{\hypref}
+
+$\therefore \drawUnitLine{BD}^2 = \drawUnitLine{BC}^2$,
+
+$\therefore \drawUnitLine{BD} = \drawUnitLine{BC}$;
+
+and $\therefore \drawAngle{DAB} = \drawAngle{BAC}$ \byref{prop:I.VIII},
+
+consequently \drawAngle{BAC} is a right angle.
+\end{center}
+
+\qed
+
+\tableofcontents
+
+\end{document}	
