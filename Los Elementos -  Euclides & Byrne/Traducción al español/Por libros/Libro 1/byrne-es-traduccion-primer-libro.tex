@@ -1,6 +1,8 @@
 ﻿\documentclass[booklanguage=english]{byrnebook}
 %\usepackage{lua-visual-debug}
 
+\def\bookString{Libro}
+
 \begin{document}
 
 \newgeometry{top=20mm, bottom=20mm, left=36mm, right=36mm}
@@ -101,10 +103,10 @@ La edición visual en color fue publicada en Londres por
 Oliver Byrne en 1847, bajo el título 
 \textit{The First Six Books of the Elements of Euclid}. 
 \\[\baselineskip]
-La edición digital en \LaTeX\ fue realizada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
+La edición digital en \LaTeX\ fue creada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
 \url{https://github.com/jemmybutton/byrne-euclid}
 \\[\baselineskip]
-La traducción al español y pequeñas modificaciones al formato original fue realizada por Carlos Villarreal en 2026 en México.
+La traducción al español y modificaciones al formato fueron realizadas en 2026 por Carlos Villarreal en México.
 \end{flushleft}
 
 \begin{center}
@@ -122,7 +124,7 @@ La traducción al español y pequeñas modificaciones al formato original fue re
 \pagebreak
 
 \restoregeometry
-\setcounter{page}{1} %Se inicia la numeración de página con la introducción
+\setcounter{page}{1} %Se inicia la numeración de página en la introducción
 \fancyhead[CO,CE]{} %Se oculta la leyenda "Book" en la cabecera en todas las páginas anteriores a esta
 
 \part*{Introducción}
@@ -198,12 +200,12 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 \vskip 0.5\baselineskip
 
 \begin{enumerate}
-\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\ Es decir, el ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo, igual a dos ángulos rectos.
-\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\ O en otras palabras, el ángulo rojo sumado al ángulo azul, es igual al ángulo amarillo.
-\item $\drawAngle{B} > \drawAngle{A} \mbox{ or } > \drawAngle{C}$. \\ El ángulo amarillo es mayor que cualquiera de los ángulos rojo o azul.
-\item $\drawAngle{A} \mbox{ or } \drawAngle{C} < \drawAngle{B}$. \\ El ángulo rojo o azul es menor que el ángulo amarillo.
-\item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\ En otros términos, el ángulo amarillo menos el ángulo azul es igual al ángulo rojo.
-\item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\ Es decir, el cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.
+\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\[0.5\baselineskip]Es decir, el ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo, igual a dos ángulos rectos.\\[0.5\baselineskip]
+\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\[0.5\baselineskip]O en otras palabras, el ángulo rojo sumado al ángulo azul, es igual al ángulo amarillo.\\[0.5\baselineskip]
+\item $\drawAngle{B} > \drawAngle{A} \mbox{ or } > \drawAngle{C}$. \\[0.5\baselineskip]El ángulo amarillo es mayor que cualquiera de los ángulos rojo o azul.\\[0.5\baselineskip]
+\item $\drawAngle{A} \mbox{ or } \drawAngle{C} < \drawAngle{B}$. \\[0.5\baselineskip]El ángulo rojo o azul es menor que el ángulo amarillo.\\[0.5\baselineskip]
+\item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\[0.5\baselineskip]En otros términos, el ángulo amarillo menos el ángulo azul es igual al ángulo rojo.\\[0.5\baselineskip]
+\item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\[0.5\baselineskip]Es decir, el cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.\\[0.5\baselineskip]
 \end{enumerate}
 
 \pagebreak
@@ -612,8 +614,7 @@ significa \emph{Quod erat demonstrandum}. Lo que se quería demostrar.
 \pagebreak
 
 \part{Libro I}
-\fancyhead[CO,CE]{\bookString\ \thepart.~\rightmark} % Se muestra la leyenda "Book I." en la cabecera a partir de esta página
-
+\fancyhead[CO,CE]{Libro\ \thepart.~\rightmark} % Se muestra la leyenda "Libro I." en la cabecera a partir de esta página
 
 \chapter*{Definiciones}
 
@@ -670,7 +671,7 @@ Un ángulo plano es la inclinación de dos líneas entre sí, que se encuentran 
 }
 \startdefinition{}\label{def:I.IX}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un ángulo rectilíneo plano es la inclinación de dos líneas rectas entre sí, que se encuentran, pero no están en la misma línea recta.
+\drawCurrentPictureInMargin Un ángulo rectilíneo plano es la inclinación de dos líneas rectas entre sí, que se encuentran, pero no están en la misma línea recta.
 \end{center}
 	
 \defineNewPicture{
@@ -687,7 +688,7 @@ Un ángulo plano es la inclinación de dos líneas entre sí, que se encuentran 
 }
 \startdefinition{}\label{def:I.X}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Cuando una línea recta parada sobre otra línea recta hace iguales los ángulos adyacentes, cada uno de estos ángulos es llamado \emph{ángulo recto}, y se dice que cada una de estas líneas es \emph{perpendicular} a la otra.
+\drawCurrentPictureInMargin Cuando una línea recta parada sobre otra línea recta hace iguales los ángulos adyacentes, cada uno de estos ángulos es llamado \emph{ángulo recto}, y se dice que cada una de estas líneas es \emph{perpendicular} a la otra.
 \end{center}
 
 \defineNewPicture{
@@ -703,7 +704,7 @@ Un ángulo plano es la inclinación de dos líneas entre sí, que se encuentran 
 }
 \startdefinition{}\label{def:I.XI}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un ángulo obtuso es un ángulo mayor que un ángulo recto.
+\drawCurrentPictureInMargin Un ángulo obtuso es un ángulo mayor que un ángulo recto.
 \end{center}
 
 \defineNewPicture{
@@ -719,7 +720,7 @@ Un ángulo plano es la inclinación de dos líneas entre sí, que se encuentran 
 }
 \startdefinition{}\label{def:I.XII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un ángulo agudo es menor que un ángulo recto.
+\drawCurrentPictureInMargin Un ángulo agudo es menor que un ángulo recto.
 \end{center}
 
 \startdefinition{}\label{def:I.XIII}
@@ -750,7 +751,7 @@ Una figura es una superficie encerrada en todos los lados por una línea o líne
 }
 \startdefinition{}\label{def:I.XV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un círculo es una figura plana, delimitada por una línea continua, llamada circunferencia o periferia; y tiene un cierto punto dentro de él, desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
+\drawCurrentPictureInMargin Un círculo es una figura plana, delimitada por una línea continua, llamada circunferencia o periferia; y tiene un cierto punto dentro de él, desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
 \end{center}
 
 \startdefinition{}\label{def:I.XVI}
@@ -770,7 +771,7 @@ Este punto (desde el cual se dibujan las líneas iguales) se llama el centro del
 }
 \startdefinition{}\label{def:I.XVII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] El diámetro es una línea recta dibujada a través del centro, terminada en ambos sentidos en la circunferencia.
+\drawCurrentPictureInMargin El diámetro es una línea recta dibujada a través del centro, terminada en ambos sentidos en la circunferencia.
 \end{center}
 
 \defineNewPicture{
@@ -786,7 +787,7 @@ Este punto (desde el cual se dibujan las líneas iguales) se llama el centro del
 }
 \startdefinition{}\label{def:I.XVIII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un semicírculo es la figura contenida por el diámetro, y la parte del círculo cortada por el diámetro.
+\drawCurrentPictureInMargin Un semicírculo es la figura contenida por el diámetro, y la parte del círculo cortada por el diámetro.
 \end{center}
 
 \defineNewPicture{
@@ -804,7 +805,7 @@ Este punto (desde el cual se dibujan las líneas iguales) se llama el centro del
 }
 \startdefinition{}\label{def:I.XIX}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un segmento circular es una figura contenida por una línea recta y la parte de la circunferencia que corta.
+\drawCurrentPictureInMargin Un segmento circular es una figura contenida por una línea recta y la parte de la circunferencia que corta.
 \end{center}
 
 \startdefinition{}\label{def:I.XX}
@@ -834,7 +835,7 @@ Un triángulo es una figura rectilínea contenida por tres lados.
 }
 \startdefinition{}\label{def:I.XXII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Una figura cuadrilátera es aquella que está limitada por cuatro lados. Las líneas rectas \drawUnitLine{AD} y \drawUnitLine{CB} que conectan los vértices de los ángulos opuestos de una figura cuadrilátera, son denominadas sus diagonales.
+\drawCurrentPictureInMargin Una figura cuadrilátera es aquella que está limitada por cuatro lados. Las líneas rectas \drawUnitLine{AD} y \drawUnitLine{CB} que conectan los vértices de los ángulos opuestos de una figura cuadrilátera, son denominadas sus diagonales.
 \end{center}
 
 \startdefinition{}\label{def:I.XXIII}
@@ -854,7 +855,7 @@ Un polígono es una figura rectilínea delimitada por más de cuatro lados.
 }
 \startdefinition{}\label{def:I.XXIV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo equilátero es el que tiene todos sus lados iguales.
+\drawCurrentPictureInMargin Un triángulo equilátero es el que tiene todos sus lados iguales.
 \end{center}
 
 \defineNewPicture{
@@ -869,7 +870,7 @@ Un polígono es una figura rectilínea delimitada por más de cuatro lados.
 }
 \startdefinition{}\label{def:I.XXV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo isósceles es el que tiene dos lados iguales.
+\drawCurrentPictureInMargin Un triángulo isósceles es el que tiene dos lados iguales.
 \end{center}
 
 \startdefinition{}\label{def:I.XXVI}
@@ -889,7 +890,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXVII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo rectángulo es el que tiene un ángulo recto.
+\drawCurrentPictureInMargin Un triángulo rectángulo es el que tiene un ángulo recto.
 \end{center}
 
 \vskip \baselineskip
@@ -906,7 +907,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXVIII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo obtusángulo es aquel que tiene un ángulo obtuso.
+\drawCurrentPictureInMargin Un triángulo obtusángulo es aquel que tiene un ángulo obtuso.
 \end{center}
 
 \defineNewPicture{
@@ -921,7 +922,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXIX}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un triángulo acutángulo es aquel que tiene tres ángulos agudos.
+\drawCurrentPictureInMargin Un triángulo acutángulo es aquel que tiene tres ángulos agudos.
 \end{center}
 
 \defineNewPicture{
@@ -940,7 +941,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXX}
 \begin{center}
-\drawCurrentPictureInMargin[inside] De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados iguales y todos sus ángulos rectos.
+\drawCurrentPictureInMargin De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados iguales y todos sus ángulos rectos.
 \end{center}
 
 \defineNewPicture{
@@ -959,7 +960,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXXI}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un rombo es aquel que tiene todos sus lados iguales, pero sus ángulos no son ángulos rectos.
+\drawCurrentPictureInMargin Un rombo es aquel que tiene todos sus lados iguales, pero sus ángulos no son ángulos rectos.
 \end{center}
 
 \defineNewPicture{
@@ -978,7 +979,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXXII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
+\drawCurrentPictureInMargin Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
 \end{center}
 
 \defineNewPicture{
@@ -997,7 +998,7 @@ Un triángulo escaleno es uno que no tiene dos lados iguales.
 }
 \startdefinition{}\label{def:I.XXXIII}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
+\drawCurrentPictureInMargin Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
 \end{center}
 
 \startdefinition{}\label{def:I.XXXIV}
@@ -1018,8 +1019,10 @@ Todas las demás figuras cuadriláteras se llaman trapecios.
 }
 \startdefinition{}\label{def:I.XXXV}
 \begin{center}
-\drawCurrentPictureInMargin[inside] Las líneas rectas paralelas son aquellas que están en el mismo plano, y que prolongadas continuamente en ambas direcciones, nunca se encontrarán.
+\drawCurrentPictureInMargin Las líneas rectas paralelas son aquellas que están en el mismo plano, y que prolongadas continuamente en ambas direcciones, nunca se encontrarán.
 \end{center}
+
+\pagebreak
 
 \chapter*{Postulados}
 
@@ -1032,40 +1035,64 @@ Se puede prolongar una línea recta indefinidamente.
 \startpostulate{}\label{post:I.III}
 Se puede trazar un círculo con cualquier centro y radio.
 
+\pagebreak
+
 \chapter*{Axiomas}
 
 \startaxiom{}\label{ax:I.I}
-Las magnitudes iguales a una misma magnitud son iguales entre sí.
+\begin{center}
+Magnitudes iguales a otra magnitud son iguales entre sí.
+\end{center}
 
 \startaxiom{}\label{ax:I.II}
+\begin{center}
 Si se suman iguales, las sumas serán iguales.
+\end{center}
 
 \startaxiom{}\label{ax:I.III}
+\begin{center}
 Si se restan iguales, el residuo será igual.
+\end{center}
 
 \startaxiom{}\label{ax:I.IV}
+\begin{center}
 Si se suman iguales a desiguales, las sumas serán desiguales.
+\end{center}
 
 \startaxiom{}\label{ax:I.V}
+\begin{center}
 Si se restan iguales a desiguales, el residuo será desigual.
+\end{center}
 
 \startaxiom{}\label{ax:I.VI}
+\begin{center}
 Magnitudes iguales a una misma magnitud son iguales entre sí.
+\end{center}
 
 \startaxiom{}\label{ax:I.VII}
+\begin{center}
 Magnitudes que son la mitad de la misma magnitud son iguales entre sí.
+\end{center}
 
 \startaxiom{}\label{ax:I.VIII}
+\begin{center}
 Magnitudes que coinciden entre sí, o que llenan exactamente el mismo espacio, son iguales.
+\end{center}
 
 \startaxiom{}\label{ax:I.IX}
+\begin{center}
 El todo es mayor que sus partes.
+\end{center}
 
 \startaxiom{}\label{ax:I.X}
+\begin{center}
 Dos líneas rectas no pueden contener un espacio.
+\end{center}
 
 \startaxiom{}\label{ax:I.XI}
+\begin{center}
 Todos los ángulos rectos son iguales.
+\end{center}
 
 \startaxiom{}\label{ax:I.XII}
 \defineNewPicture{
@@ -1090,7 +1117,7 @@ Todos los ángulos rectos son iguales.
 		draw byLabelsOnPolygon(E, H, D)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 		draw byLabelsOnPolygon(B, G, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
-\drawCurrentPictureInMargin[inside]
+\drawCurrentPictureInMargin
 Si dos líneas rectas $\left(\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}}\right)$ se encuentran con una tercera línea recta (\drawUnitLine{EF}) para hacer que los dos ángulos interiores (\drawAngle{H} y \drawAngle{G}) en el mismo lado sean menores que dos ángulos rectos, estas dos líneas rectas se encontrarán si se prolongan en el lado en el que los ángulos son menores que dos ángulos rectos.
 
 El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras:
@@ -1125,7 +1152,7 @@ El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras
 		draw byLabelsOnPolygon(A, C, B)(ALL_LABELS, 1);
 }
 \drawCurrentPictureInMargin
-\problem{E}{n}{ una línea recta finita dada (\drawUnitLine{AB}) para trazar un triángulo equilátero.}
+\problem{E}{n}{ una línea recta finita dada (\drawUnitLine{AB}), trazar un triángulo equilátero.}
 
 \begin{center}
 Traza \offsetPicture{15pt}{0pt}{\drawFromCurrentPicture{
@@ -1141,14 +1168,11 @@ draw byLabelLineEnd(B, A, 0);
 }} \byref{post:I.III};\\
 dibuja \drawUnitLine{CA} y \drawUnitLine{BC} \byref{post:I.I}.\\
 Entonces \drawLine[bottom][triangleABC]{AB,CA,BC} será equilátero.
-
-Para \drawUnitLine{BC} $=$ \drawLine[bottom][triangleABC]{AB,CA,BC} \byref{def:I.XV};
-y \drawUnitLine{AB} $=$ \drawUnitLine{CA} \byref{def:I.XV},
-$\therefore$ \drawUnitLine{AB} $=$ \drawUnitLine{BC} \byref{ax:I.I};
-
-y por lo tanto \drawUnitLine{CA} es el triángulo equilátero requerido.
-
-Q. E. D. \drawUnitLine{BC} \triangleABC
+\\[\baselineskip]
+Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV};\\
+y $\drawUnitLine{AB} = \drawUnitLine{BC}$ \byref{def:I.XV};\\
+$\therefore \drawUnitLine{CA} = \drawUnitLine{BC}$ \byref{ax:I.I};\\
+y por lo tanto \triangleABC\ es el triángulo equilátero requerido.
 \end{center}
 
 \qed
@@ -1192,7 +1216,7 @@ draw byNamedPointLines(A,"AB");
 stopGlobalRotation;
 }), dibujar una línea recta igual a una línea recta finita dada (\drawUnitLine{BC}).}
 
-\begin{center}
+
 Dibuja \drawUnitLine{AB} \byref{post:I.I}, traza \drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 startTempScale(scaleFactor*3);
@@ -1211,12 +1235,9 @@ draw byNamedLineSeq(0)(BD, BE);
 draw byNamedCircle(A);
 draw byLabelLineEnd(D, E, 0);
 draw byLabelLineEnd(E, D, 1);
-} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, entonces \drawUnitLine{AF} es la línea requerida.
+} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida.\\
 
-Para \drawUnitLine{BE,BD} $=$ \drawUnitLine{DA,AF} \byref{def:I.XV}, y \drawUnitLine{BD} $=$ \drawUnitLine{DA} (conſt.), $\therefore$ \drawUnitLine{BE} $=$ \drawUnitLine{AF} \byref{\constref}, pero \byref{post:I.III} \drawUnitLine{BC} $=$ \drawUnitLine{BE} $=$ \drawUnitLine{AF}; $\therefore$ \drawUnitLine{AF} dibujada de un punto dado (\pointA), es igual a la línea dada \drawUnitLine{BC}.
-
-Q. E. D. \byref{def:I.XV}
-\end{center}
+Porque \drawUnitLine{BE,BD} $=$ \drawUnitLine{DA,AF} \byref{def:I.XV},\\y \drawUnitLine{BD} $=$ \drawUnitLine{DA} (conſt.),\\$\therefore$ \drawUnitLine{BE} $=$ \drawUnitLine{AF} \byref{\constref},\\ pero \byref{post:I.III} \drawUnitLine{BC} $=$ \drawUnitLine{BE} $=$ \drawUnitLine{AF}; \\ $\therefore$ \drawUnitLine{AF} dibujada de un punto dado (\pointA),\\ es igual a la línea dada \drawUnitLine{BC}.
 
 \qed
 
@@ -1245,21 +1266,21 @@ draw byLabelPoint(B, angle(B-A) + 45, 2);
 draw byLabelsOnPolygon(E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{F}{rom}{the greater (\drawUnitLine{AB,BC}) of two given straight lines, to cut off a part equal to the less (\drawUnitLine{EF}).}
+\problem{D}{e}{la mayor (\drawUnitLine{AB,BC}) de dos líneas rectas dadas,  cortar una parte igual a la menor de ellas (\drawUnitLine{EF}).}
 
 \begin{center}
-Draw $\drawUnitLine{AD} = \drawUnitLine{EF}$ \byref{prop:I.II};\\
-describe
+Dibuja $\drawUnitLine{AD} = \drawUnitLine{EF}$ \byref{prop:I.II};\\
+traza
 \drawFromCurrentPicture{
 draw byNamedLine (AD);
 draw byNamedCircle(A);
 draw byLabelLineEnd(D, A, 0);
 draw byLabelLineEnd(A, D, 0);
 } \byref{post:I.III},\\
-then $\drawUnitLine{EF} = \drawUnitLine{AB}$
+entonces $\drawUnitLine{EF} = \drawUnitLine{AB}$
 
-For $\drawUnitLine{AD} = \drawUnitLine{AB}$ \byref{def:I.XV},\\
-and $\drawUnitLine{EF} = \drawUnitLine{AD}$ \byref{\constref};
+Porque $\drawUnitLine{AD} = \drawUnitLine{AB}$ \byref{def:I.XV},\\
+y $\drawUnitLine{EF} = \drawUnitLine{AD}$ \byref{\constref};
 
 $\therefore \drawUnitLine{EF} = \drawUnitLine{AB}$ \byref{ax:I.I}.
 \end{center}
@@ -1296,9 +1317,9 @@ draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 1);
 }
 \drawCurrentPictureInMargin
-\problem[4]{I}{f}{two triangles have two sides of the one respectively equal to two sides of the other, (\drawUnitLine{AB} to \drawUnitLine{DE} and \drawUnitLine{CA} to \drawUnitLine{FD}) and the angles (\drawAngle{A} and \drawAngle{D}) contained by those equal sides also equal; then their bases or their sides (\drawUnitLine{BC} and \drawUnitLine{EF}) are also equal: and the remaining angles opposite to equal sides are respectively equal ($\drawAngle{B} = \drawAngle{E}$ and $\drawAngle{C} = \drawAngle{F}$): and the triangles are equal in every respect.}
+\problem[4]{S}{i}{dos triángulos tienen dos lados respectivamente iguales, (\drawUnitLine{AB} a \drawUnitLine{DE} y \drawUnitLine{CA} a \drawUnitLine{FD}) y los ángulos (\drawAngle{A} y \drawAngle{D}) contenidos por esos lados iguales también son iguales; entonces sus bases o sus lados (\drawUnitLine{BC} y \drawUnitLine{EF}) también son iguales: y los ángulos restantes opuestos son respectivamente iguales ($\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$): y los triángulos son iguales en todo aspecto.}
 
-Let two triangles be conceived, to be so placed, that the vertex of the one of the equal angles, \drawAngle{A} or \drawAngle{D}; shall fall upon that of the other, and \drawUnitLine{AB} to coincide with \drawUnitLine{DE}, then will \drawUnitLine{CA} coincide with \drawUnitLine{FD} if applied: consequently \drawUnitLine{BC} will coincide with \drawUnitLine{EF}, or two straight lines will enclose a space, which is impossible \byref{ax:I.X}, therefore $\drawUnitLine{BC} = \drawUnitLine{EF}$, $\drawAngle{B} = \drawAngle{E}$ and $\drawAngle{C} = \drawAngle{F}$, and as the triangles \drawLine{CA,BC,AB} and \drawLine{FD,EF,DE} coincide, when applied, they are equal in every respect.
+Sean dos triángulos, se colocan de tal manera, que el vértice de uno de los ángulos iguales, \drawAngle{A} o \drawAngle{D}; caiga sobre el del otro, y \drawUnitLine{AB} coincida con \drawUnitLine{DE}, entonces \drawUnitLine{CA} coincidirá con \drawUnitLine{FD} si se aplica: consecuentemente \drawUnitLine{BC} coincidirá con \drawUnitLine{EF}, o dos líneas rectas encerrarán un espacio, lo cual es imposible \byref{ax:I.X}, por lo tanto $\drawUnitLine{BC} = \drawUnitLine{EF}$, $\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$, y como los triángulos \drawLine{CA,BC,AB} y \drawLine{FD,EF,DE} coinciden, cuando se aplican, son iguales en todo aspecto.
 
 \qed
 

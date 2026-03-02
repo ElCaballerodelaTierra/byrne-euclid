@@ -488,7 +488,7 @@
 \newcommand{\subpropositionmark}[1]{}
 
 \newcommand\startaxiom{\@startsection{axiom}{1}{\z@}%
-                                   {0.5\baselineskip}%
+                                   {-0.5\baselineskip}%
                                    {0.25\baselineskip}%
                                    {\large\centering}}
 
@@ -515,7 +515,7 @@
                                    {#2}}
 
 \newcommand\startpostulate{\@startsection{postulate}{1}{\z@}%
-                                   {0.5\baselineskip}%
+                                   {-0.5\baselineskip}%
                                    {0.25\baselineskip}%
                                    {\large\centering}}
 
