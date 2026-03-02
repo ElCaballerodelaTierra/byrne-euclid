@@ -1168,7 +1168,9 @@ draw byLabelLineEnd(B, A, 0);
 }} \byref{post:I.III};\\
 dibuja \drawUnitLine{CA} y \drawUnitLine{BC} \byref{post:I.I}.\\
 Entonces \drawLine[bottom][triangleABC]{AB,CA,BC} será equilátero.
-\\[\baselineskip]
+
+\vspace{\baselineskip}
+
 Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV};\\
 y $\drawUnitLine{AB} = \drawUnitLine{BC}$ \byref{def:I.XV};\\
 $\therefore \drawUnitLine{CA} = \drawUnitLine{BC}$ \byref{ax:I.I};\\
@@ -1217,6 +1219,7 @@ stopGlobalRotation;
 }), dibujar una línea recta igual a una línea recta finita dada (\drawUnitLine{BC}).}
 
 
+\begin{center}
 Dibuja \drawUnitLine{AB} \byref{post:I.I}, traza \drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 startTempScale(scaleFactor*3);
@@ -1235,9 +1238,12 @@ draw byNamedLineSeq(0)(BD, BE);
 draw byNamedCircle(A);
 draw byLabelLineEnd(D, E, 0);
 draw byLabelLineEnd(E, D, 1);
-} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida.\\
+} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida.
+
+\vspace{2\baselineskip}
 
 Porque \drawUnitLine{BE,BD} $=$ \drawUnitLine{DA,AF} \byref{def:I.XV},\\y \drawUnitLine{BD} $=$ \drawUnitLine{DA} (conſt.),\\$\therefore$ \drawUnitLine{BE} $=$ \drawUnitLine{AF} \byref{\constref},\\ pero \byref{post:I.III} \drawUnitLine{BC} $=$ \drawUnitLine{BE} $=$ \drawUnitLine{AF}; \\ $\therefore$ \drawUnitLine{AF} dibujada de un punto dado (\pointA),\\ es igual a la línea dada \drawUnitLine{BC}.
+\end{center}
 
 \qed
 
@@ -1277,7 +1283,9 @@ draw byNamedCircle(A);
 draw byLabelLineEnd(D, A, 0);
 draw byLabelLineEnd(A, D, 0);
 } \byref{post:I.III},\\
-entonces $\drawUnitLine{EF} = \drawUnitLine{AB}$\\
+entonces $\drawUnitLine{EF} = \drawUnitLine{AB}$
+
+\vspace{\baselineskip}
 
 Porque $\drawUnitLine{AD} = \drawUnitLine{AB}$ \byref{def:I.XV},\\
 y $\drawUnitLine{EF} = \drawUnitLine{AD}$ \byref{\constref};
@@ -1287,7 +1295,7 @@ $\therefore \drawUnitLine{EF} = \drawUnitLine{AB}$ \byref{ax:I.I}.
 
 \qed
 
-\starttheorem{Prop. IV. Theor.}\label{prop:I.IV}
+\starttheorem{Prop. IV. Teor.}\label{prop:I.IV}
 \defineNewPicture[1/5]{
 pair A, B, C, D, E, F, d;
 A := (0, 0);
