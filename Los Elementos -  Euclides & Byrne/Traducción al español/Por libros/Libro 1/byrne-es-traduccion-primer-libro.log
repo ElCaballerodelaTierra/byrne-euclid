@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 23:17
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  7 MAR 2026 00:24
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -6566,7 +6566,7 @@ Module luamplib Info: flushing figure 1 on input line 1743
 
 LaTeX Warning: Marginpar on page 37 moved.
 
-\ltrnW=\count380
+\ltrnC=\count380
 \luamplib.box.163=\box281
 \luamplib.box.164=\box282
 \luamplib.box.165=\box283
@@ -9153,7 +9153,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342226 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342285 bytes).
 
 
 PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)
