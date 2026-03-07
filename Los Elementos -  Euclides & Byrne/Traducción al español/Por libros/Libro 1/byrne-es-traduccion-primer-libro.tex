@@ -1607,7 +1607,7 @@ draw byLabelsOnPolygon(B, A, C, D)(ALL_LABELS, 0);
 \problem{B}{isecar}{una línea recta finita dada (\drawUnitLine{DB,CD}).}
 
 \begin{center}
-Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
+Se construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
 dibuja \drawUnitLine{AD}, tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}.
 
 Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ por \byref{prop:I.IV}.\\
@@ -1645,19 +1645,19 @@ draw byLabelsOnPolygon(F, C, D, B, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(B, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{F}{rom}{a given point (\drawPointL[middle][AD]{D}), in a given straight line (\drawUnitLine[3/2cm]{BD,DC}), to draw a perpendicular.}
+\problem{D}{esde}{un punto (\drawPointL[middle][AD]{D}), en una línea recta dada (\drawUnitLine[3/2cm]{BD,DC}), dibujar una perpendicular.}
 
 \begin{center}
-Take any point (\drawPointL[middle][CA]{C}) in the given line,\\
-cut off $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
-construct \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
-draw \drawUnitLine{AD} and it shall be perpendicular to the given line.
+Se toma cualquier punto (\drawPointL[middle][CA]{C}) en la línea dada,\\
+se toman rectas finitas tal que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
+se construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
+dibuja \drawUnitLine{AD} y será perpendicular a la línea dada.
 
-For $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\
+Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\
 $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref}\\
-and \drawUnitLine{AD} common to the two triangles. % what triangles? obviously DBA and DAC
+y \drawUnitLine{AD} es común a los dos triángulos. % what triangles? obviously DBA and DAC
 
-Therefore $\drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
+Por lo tanto $\drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
 
 $\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
 \end{center}
