@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 19:59
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 20:36
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -6190,7 +6190,6 @@ Module luamplib Info: flushing figure 1 on input line 1468
 
 LaTeX Warning: Marginpar on page 31 moved.
 
-\ltrnO=\count379
 \luamplib.box.127=\box189
 \luamplib.box.128=\box190
 \luamplib.box.129=\box191
@@ -6206,16 +6205,6 @@ Module luamplib Info: flushing figure 1 on input line 1468
 Module luamplib Info: flushing figure 1 on input line 1468
 Module luamplib Info: flushing figure 1 on input line 1468
 Module luamplib Info: flushing figure 1 on input line 1468
-
-Underfull \hbox (badness 5847) in paragraph at lines 1468--1468
-[]  \TU/EBGaramond(27)/m/sc/10 n \TU/EBGaramond(27)/m/it/10 the same base ([]), and on the
- []
-
-
-Underfull \hbox (badness 6859) in paragraph at lines 1468--1468
-\TU/EBGaramond(27)/m/it/10 hav-ing their con-ter-mi-nous sides ([]
- []
-
 
 Underfull \vbox (badness 10000) detected at line 1468
  []
@@ -6263,7 +6252,6 @@ Module luamplib Info: flushing figure 1 on input line 1523
 
 LaTeX Warning: Marginpar on page 32 moved.
 
-\ltrnI=\count380
 \luamplib.box.133=\box195
 \luamplib.box.134=\box196
 \luamplib.box.135=\box197
@@ -6286,23 +6274,6 @@ Module luamplib Info: flushing figure 1 on input line 1537
 Module luamplib Info: flushing figure 1 on input line 1537
 Module luamplib Info: flushing figure 1 on input line 1537
 
-Underfull \hbox (badness 10000) in paragraph at lines 1537--1537
-[]  \TU/EBGaramond(27)/m/sc/10 f \TU/EBGaramond(27)/m/it/10 two tri-an-gles have
- two sides of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1537--1537
-\TU/EBGaramond(27)/m/it/10 one re-spec-tively equal to two sides of
- []
-
-
-Underfull \hbox (badness 8170) in paragraph at lines 1537--1537
-\TU/EBGaramond(27)/m/it/10 the other ($[] \OT1/cmr/m/n/10 = []$ \TU/EBGaramond(
-27)/m/it/10 and
- []
-
-
 Underfull \vbox (badness 10000) detected at line 1537
  []
 
@@ -6318,11 +6289,6 @@ Module luamplib Info: flushing figure 1 on input line 1539
 Module luamplib Info: flushing figure 1 on input line 1539
 Module luamplib Info: flushing figure 1 on input line 1539
 Module luamplib Info: flushing figure 1 on input line 1539
-
-Underfull \hbox (badness 1337) in paragraph at lines 1539--1540
-\TU/EBGaramond(27)/m/n/10 sides [] and [], [] and [] be
- []
-
 Module luamplib Info: flushing figure 1 on input line 1541
 Module luamplib Info: flushing figure 1 on input line 1541
 Module luamplib Info: flushing figure 1 on input line 1541
@@ -6353,7 +6319,7 @@ Module luamplib Info: flushing figure 1 on input line 1571
 
 LaTeX Warning: Marginpar on page 33 moved.
 
-\ltrnT=\count381
+\ltrnT=\count379
 \luamplib.box.139=\box257
 \luamplib.box.140=\box258
 \luamplib.box.141=\box259
@@ -6456,7 +6422,7 @@ Module luamplib Info: flushing figure 1 on input line 1648
 
 LaTeX Warning: Marginpar on page 35 moved.
 
-\ltrnF=\count382
+\ltrnF=\count380
 \luamplib.box.151=\box269
 \luamplib.box.152=\box270
 \luamplib.box.153=\box271
@@ -6606,7 +6572,7 @@ Module luamplib Info: flushing figure 1 on input line 1743
 
 LaTeX Warning: Marginpar on page 37 moved.
 
-\ltrnW=\count383
+\ltrnW=\count381
 \luamplib.box.163=\box281
 \luamplib.box.164=\box282
 \luamplib.box.165=\box283
@@ -6684,6 +6650,7 @@ Module luamplib Info: flushing figure 1 on input line 1782
 
 LaTeX Warning: Marginpar on page 38 moved.
 
+\ltrnI=\count382
 \luamplib.box.169=\box287
 \luamplib.box.170=\box288
 \luamplib.box.171=\box289
@@ -6896,7 +6863,7 @@ Module luamplib Info: flushing figure 1 on input line 1909
 
 LaTeX Warning: Marginpar on page 41 moved.
 
-\ltrnA=\count384
+\ltrnA=\count383
 \luamplib.box.187=\box305
 \luamplib.box.188=\box306
 \luamplib.box.189=\box307
@@ -7218,7 +7185,7 @@ Module luamplib Info: flushing figure 1 on input line 2129
 
 LaTeX Warning: Marginpar on page 46 moved.
 
-\ltrnG=\count385
+\ltrnG=\count384
 \luamplib.box.217=\box335
 \luamplib.box.218=\box336
 \luamplib.box.219=\box337
@@ -8210,7 +8177,7 @@ Module luamplib Info: flushing figure 1 on input line 2814
 
 LaTeX Warning: Marginpar on page 60 moved.
 
-\ltrnP=\count386
+\ltrnP=\count385
 \luamplib.box.297=\box415
 \luamplib.box.298=\box416
 \luamplib.box.299=\box417
@@ -8912,7 +8879,7 @@ Module luamplib Info: flushing figure 1 on input line 3467
 
 LaTeX Warning: Marginpar on page 71 moved.
 
-\ltrnU=\count387
+\ltrnU=\count386
 \luamplib.box.363=\box481
 \luamplib.box.364=\box482
 \luamplib.box.365=\box483
@@ -9165,7 +9132,7 @@ t changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24350 strings out of 476076
+ 24343 strings out of 476076
  156792,1373583 words of node,token memory allocated
  25104 words of node memory still in use:
    473 hlist, 85 vlist, 2 rule, 5 disc, 31 local_par, 219 glue, 296 kern, 68 pen
@@ -9173,7 +9140,7 @@ alty, 503 glyph, 1692 attribute, 63 glue_spec, 847 attribute_list, 3 write, 2539
  pdf_literal nodes
    avail lists: 1:21,2:1340,3:4216,4:156,5:3080,6:125,7:4628,8:47,9:773,10:22,11
 :433
- 46028 multiletter control sequences out of 65536+600000
+ 46021 multiletter control sequences out of 65536+600000
  83 fonts using 19044199 bytes
  105i,13n,141p,2061b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.en
@@ -9190,7 +9157,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341910 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341884 bytes).
 
 
 PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)

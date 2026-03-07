@@ -1476,7 +1476,7 @@ $\left\{
 		\drawUnitLine{BC}&=\drawUnitLine{BD}\\
 	\end{aligned}
 	\right\}$
-, entonces se traza \drawUnitLine{CD} y,
+, \\ entonces se traza \drawUnitLine{CD} y,
 
 \begin{center}
 $\drawAngle{C,DCB} = \drawAngle{CDA}$ \byref{prop:I.V}
@@ -1520,25 +1520,25 @@ draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{two triangles have two sides of the one respectively equal to two sides of the other ($\drawUnitLine{CA} = \drawUnitLine{FD}$ and $\drawUnitLine{AB} = \drawUnitLine{DE}$) and also their bases ($\drawUnitLine{BC} = \drawUnitLine{EF}$), equal; then the angles
+\problem{S}{i}{ dos triángulos tienen dos lados de uno respectivamente iguales a dos lados del otro ($\drawUnitLine{CA} = \drawUnitLine{FD}$ y $\drawUnitLine{AB} = \drawUnitLine{DE}$) y también sus bases ($\drawUnitLine{BC} = \drawUnitLine{EF}$), iguales; entonces los ángulos
 (\drawFromCurrentPicture{
 startAutoLabeling;
 startGlobalRotation(-getAttribute("angle","Direction","A"));
 draw byNamedAngleWithDummySides(A);
 stopGlobalRotation;
 stopAutoLabeling;
-} and
+} y
 \drawFromCurrentPicture{
 startAutoLabeling;
 startGlobalRotation(-getAttribute("angle","Direction","D"));
 draw byNamedAngleWithDummySides(D);
 stopGlobalRotation;
 stopAutoLabeling;
-}) contained by their equal sides are also equal.}
+}) contenidos por sus lados iguales son también iguales.}
 
-If the equal bases \drawUnitLine{BC} and \drawUnitLine{EF} be conceived to be placed one upon the other, so that the triangles shall lie at the same side of them, and that the equal sides \drawUnitLine{AB} and \drawUnitLine{DE}, \drawUnitLine{CA} and \drawUnitLine{FD} be conterminous, the vertex of the one must fall on the vertex of the other; for to suppose them not coincident would contradict the last proposition.
+Si las bases iguales \drawUnitLine{BC} y \drawUnitLine{EF} se colocan una sobre la otra, de modo que los triángulos estén en el mismo lado de ellas, y que los lados iguales \drawUnitLine{AB} y \drawUnitLine{DE}, \drawUnitLine{CA} y \drawUnitLine{FD} sean contiguos, el vértice de uno debe caer sobre el vértice del otro; pues al suponerlos y no fueran coincidentes se contradiría la anterior proposición.
 
-Therefore sides \drawUnitLine{AB} and \drawUnitLine{CA}, being coincident with \drawUnitLine{DE} and \drawUnitLine{FD}, $\therefore \drawAngle{A} = \drawAngle{D}$.
+Por lo tanto los lados \drawUnitLine{AB} y \drawUnitLine{CA}, siendo coincidentes con \drawUnitLine{DE} y \drawUnitLine{FD}, $\therefore \drawAngle{A} = \drawAngle{D}$.
 
 \qed
 
