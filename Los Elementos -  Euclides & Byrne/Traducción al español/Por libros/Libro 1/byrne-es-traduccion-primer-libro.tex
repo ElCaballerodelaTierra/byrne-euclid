@@ -1779,18 +1779,17 @@ draw byLabelsOnPolygon(C, B, noPoint)(OMIT_LAST_LABEL, 0);
 draw byLabelLineEnd(A, D, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{two straight lines (\drawUnitLine{BD} and \drawUnitLine{DC}), meeting a third straight line (\drawUnitLine{AD}), at the same point, and at opposite sides of it, make with it adjacent angles (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} and \drawAngle{CDA}) equal to two right angles; these straight lines lie in one continuous straight line.}
+\problem{S}{i}{dos lineas rectas (\drawUnitLine{BD} y \drawUnitLine{DC}), se encuentran con una tercera linea recta (\drawUnitLine{AD}) en el mismo punto y en lados opuestos, con ángulos adyacentes (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} y \drawAngle{CDA}) es igual a dos ángulos rectos; entonces estas lineas rectas forman una sola linea recta.}
 
 \begin{center}
-For, if possible let \drawUnitLine{ED}, and not \drawUnitLine{DC},\\
-be the continuation of \drawUnitLine{BD},\\
-then $\drawAngle{BDA} + \drawAngle{CDA,EDC} = \drawTwoRightAngles$
+Supongamos que \drawUnitLine{ED}, es la continuación de \drawUnitLine{BD}, y no \drawUnitLine{DC},\\
+entonces $\drawAngle{BDA} + \drawAngle{CDA,EDC} = \drawTwoRightAngles$
 
-but by the hypothesis $\drawAngle{BDA} + \drawAngle{CDA} = \drawTwoRightAngles$
+pero por la hipótesis $\drawAngle{BDA} + \drawAngle{CDA} = \drawTwoRightAngles$
 
-$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III}; which is absurd \byref{ax:I.IX}.
+$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III}; lo cual es absurdo \byref{ax:I.IX}.
 
-$\therefore \drawUnitLine{ED}$ is not the continuation of \drawUnitLine{BD}, and the like may be demonstrated of any other straight line except \drawUnitLine{DC}, $\therefore \drawUnitLine{DC}$ is the continuation of \drawUnitLine{BD}.
+$\therefore \drawUnitLine{ED}$ no es la continuación de \drawUnitLine{BD}, y lo mismo puede ser demostrado de cualquier otra línea recta excepto \drawUnitLine{DC}, \\ $\therefore \drawUnitLine{DC}$ es la continuación de \drawUnitLine{BD}.
 \end{center}
 
 \qed
