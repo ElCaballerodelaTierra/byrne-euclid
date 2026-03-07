@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  7 MAR 2026 11:01
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  7 MAR 2026 11:09
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -6730,7 +6730,6 @@ Module luamplib Info: flushing figure 1 on input line 1817
 
 LaTeX Warning: Marginpar on page 39 moved.
 
-\ltrnI=\count381
 \luamplib.box.175=\box293
 \luamplib.box.176=\box294
 \luamplib.box.177=\box295
@@ -6748,6 +6747,11 @@ Module luamplib Info: flushing figure 1 on input line 1817
 Module luamplib Info: flushing figure 1 on input line 1817
 Module luamplib Info: flushing figure 1 on input line 1817
 Module luamplib Info: flushing figure 1 on input line 1817
+
+Underfull \hbox (badness 1466) in paragraph at lines 1817--1817
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 dos lin-eas rec-tas ([] y []) se
+ []
+
 
 Underfull \vbox (badness 10000) detected at line 1817
  []
@@ -6793,6 +6797,7 @@ Module luamplib Info: flushing figure 1 on input line 1865
 
 LaTeX Warning: Marginpar on page 40 moved.
 
+\ltrnI=\count381
 \luamplib.box.181=\box299
 \luamplib.box.182=\box300
 \luamplib.box.183=\box301
@@ -9168,11 +9173,11 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342255 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342419 bytes).
 
 
-PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)
- 1194 compressed objects within 12 object streams
+PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)
+ 1198 compressed objects within 12 object streams
  319 named destinations out of 1000 (max. 131072)
  809 words of extra memory for PDF output out of 10000 (max. 100000000)
 
