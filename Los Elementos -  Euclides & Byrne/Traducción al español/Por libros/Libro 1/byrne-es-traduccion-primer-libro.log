@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 21:14
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 21:33
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -6382,7 +6382,6 @@ Module luamplib Info: flushing figure 1 on input line 1607
 
 LaTeX Warning: Marginpar on page 34 moved.
 
-\ltrnT=\count380
 \luamplib.box.145=\box263
 \luamplib.box.146=\box264
 \luamplib.box.147=\box265
@@ -6390,6 +6389,12 @@ LaTeX Warning: Marginpar on page 34 moved.
 Module luamplib Info: flushing figure 1 on input line 1607
 Module luamplib Info: flushing figure 1 on input line 1607
 Module luamplib Info: flushing figure 1 on input line 1607
+
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1607
+[]  \TU/EBGaramond(27)/m/sc/10 ise-car \TU/EBGaramond(27)/m/it/10 una línea rec
+ta finita dada
+ []
+
 
 Underfull \vbox (badness 10000) detected at line 1607
  []
@@ -6434,7 +6439,7 @@ Module luamplib Info: flushing figure 1 on input line 1648
 
 LaTeX Warning: Marginpar on page 35 moved.
 
-\ltrnF=\count381
+\ltrnF=\count380
 \luamplib.box.151=\box269
 \luamplib.box.152=\box270
 \luamplib.box.153=\box271
@@ -6507,6 +6512,7 @@ Module luamplib Info: flushing figure 1 on input line 1703
 
 LaTeX Warning: Marginpar on page 36 moved.
 
+\ltrnT=\count381
 \luamplib.box.157=\box275
 \luamplib.box.158=\box276
 \luamplib.box.159=\box277
@@ -9169,7 +9175,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342063 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342074 bytes).
 
 
 PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)
