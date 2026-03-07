@@ -1823,7 +1823,7 @@ $\drawAngle{AED} + \drawAngle{CEA} = \drawTwoRightAngles$ \byref{prop:I.XIII}
 
 $\therefore \drawAngle{BEC} = \drawAngle{AED}$ \byref{ax:I.III}. % And this is according to \byref{ax:I.III}
 
-En el mismo modo se puede demostrar que\\
+Del mismo modo se puede demostrar que\\
 $\drawAngle{CEA} = \drawAngle{DEB}$.
 \end{center}
 
@@ -1862,25 +1862,25 @@ draw byLabelsOnPolygon(F, A, B, E, D, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(F, C, G, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{a side of a triangle (\drawLine[bottom]{BE,EC,AC,AB}) is produced, the external angle (\drawFromCurrentPicture[middle][anglesECDpDCF]{
+\problem{S}{i}{el lado de un triángulo (\drawLine[bottom]{BE,EC,AC,AB}) es alargado, el ángulo externo (\drawFromCurrentPicture[middle][anglesECDpDCF]{
 startAutoLabeling;
 draw byNamedAngleSides(ECD,DCF)(CF);
 stopAutoLabeling;
-}) is greater than either of the internal remote angles (\drawAngle{B} or \drawAngle{A}).
+}) es mayor que cualquiera de los ángulos internos remotos (\drawAngle{B} or \drawAngle{A}).
 }
 
 \begin{center}
-Make $\drawUnitLine{BE} = \drawUnitLine{EC}$ \byref{prop:I.X};\\
-Draw \drawUnitLine{AE} and produce it until $\drawUnitLine{ED} = \drawUnitLine{AE}$;\\
-draw \drawUnitLine{CD}.
+Toma $\drawUnitLine{BE} = \drawUnitLine{EC}$ \byref{prop:I.X};\\
+dibuja \drawUnitLine{AE} y alarga hasta que $\drawUnitLine{ED} = \drawUnitLine{AE}$;\\
+dibuja \drawUnitLine{CD}.
 
-In \drawLine{BE,AE,AB} and \drawLine{EC,ED,CD};\\
-$\drawUnitLine{BE} = \drawUnitLine{EC}$, $\drawAngle{AEB} = \drawAngle{DEC}$ and $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref,prop:I.XV},\\
+Para \drawLine{BE,AE,AB} y \drawLine{EC,ED,CD};\\
+$\drawUnitLine{BE} = \drawUnitLine{EC}$, $\drawAngle{AEB} = \drawAngle{DEC}$ y $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref,prop:I.XV},\\
 $\therefore \drawAngle{B} = \drawAngle{ECD}$ \byref{prop:I.IV},\\
 $\therefore \anglesECDpDCF\ > \drawAngle{B}$.
 
-In like manner it can be shown, that if \drawUnitLine{BC} be produced, $\drawAngle{GCA} > \drawAngle{A}$ \\
-and therefore \anglesECDpDCF\ which is $= \drawAngle{GCA}$ is $> \drawAngle{A}$.
+En la misma manera se puede demostrar que si \drawUnitLine{BC} se alarga, $\drawAngle{GCA} > \drawAngle{A}$ \\
+por lo tanto \anglesECDpDCF\ $= \drawAngle{GCA}$ $> \drawAngle{A}$.
 \end{center}
 
 \qed
@@ -1905,18 +1905,18 @@ draw byNamedLineSeq(0)(noLine,BC,AB,AC,CD);
 draw byLabelsOnPolygon(D, C, A, B)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{A}{ny}{two angles of a triangle \drawLine[bottom]{AB,BC,AC} are together less than two right angles.}
+\problem{L}{a}{suma de dos angulos cualesquiera de un triangulo es menor que dos angulos rectos.}
 
 \begin{center}
-Produce \drawUnitLine{AC}, then will\\
+Prolonga \drawUnitLine{AC}, entonces\\
 $\drawAngle{ACB} + \drawAngle{BCD} = \drawTwoRightAngles$.
 
-But $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
+Pero $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
 
 $\therefore \drawAngle{ACB} + \drawAngle{A} < \drawTwoRightAngles$,
 \end{center}
 
-\noindent and in the same manner it may be shown that any other two angles of the triangle taken together are less than two right angles.
+\noindent y de la misma manera se puede demostrar que la suma de cualquier otro par de angulos del triangulo es menor que dos angulos rectos.
 
 \qed
 

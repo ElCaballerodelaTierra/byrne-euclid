@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  7 MAR 2026 11:09
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  7 MAR 2026 11:57
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -6797,7 +6797,6 @@ Module luamplib Info: flushing figure 1 on input line 1865
 
 LaTeX Warning: Marginpar on page 40 moved.
 
-\ltrnI=\count381
 \luamplib.box.181=\box299
 \luamplib.box.182=\box300
 \luamplib.box.183=\box301
@@ -6811,6 +6810,12 @@ Module luamplib Info: flushing figure 1 on input line 1870
 Module luamplib Info: flushing figure 1 on input line 1870
 Module luamplib Info: flushing figure 1 on input line 1870
 Module luamplib Info: flushing figure 1 on input line 1870
+
+Underfull \hbox (badness 10000) in paragraph at lines 1870--1870
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 el lado de un tri
+án-gulo ([]) es
+ []
+
 
 Underfull \vbox (badness 10000) detected at line 1870
  []
@@ -6877,20 +6882,11 @@ Module luamplib Info: flushing figure 1 on input line 1908
 
 LaTeX Warning: Marginpar on page 41 moved.
 
-\ltrnA=\count382
 \luamplib.box.187=\box305
 \luamplib.box.188=\box306
 \luamplib.box.189=\box307
 \luamplib.box.190=\box308
 Module luamplib Info: flushing figure 1 on input line 1908
-Module luamplib Info: flushing figure 1 on input line 1908
-Module luamplib Info: flushing figure 1 on input line 1908
-
-Underfull \hbox (badness 3977) in paragraph at lines 1908--1908
-[]  \TU/EBGaramond(27)/m/sc/10 ny \TU/EBGaramond(27)/m/it/10 two an-gles of a tr
-i-an-gle [] are
- []
-
 
 Underfull \vbox (badness 10000) detected at line 1908
  []
@@ -6930,6 +6926,7 @@ Module luamplib Info: flushing figure 1 on input line 1949
 
 LaTeX Warning: Marginpar on page 42 moved.
 
+\ltrnI=\count381
 \luamplib.box.193=\box311
 \luamplib.box.194=\box312
 \luamplib.box.195=\box313
@@ -7050,6 +7047,7 @@ Module luamplib Info: flushing figure 1 on input line 2020
 
 LaTeX Warning: Marginpar on page 44 moved.
 
+\ltrnA=\count382
 \luamplib.box.205=\box323
 \luamplib.box.206=\box324
 \luamplib.box.207=\box325
@@ -9148,7 +9146,7 @@ t changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24350 strings out of 476076
+ 24348 strings out of 476076
  156792,1373583 words of node,token memory allocated
  25104 words of node memory still in use:
    473 hlist, 85 vlist, 2 rule, 5 disc, 31 local_par, 219 glue, 296 kern, 68 pen
@@ -9156,7 +9154,7 @@ alty, 503 glyph, 1692 attribute, 63 glue_spec, 847 attribute_list, 3 write, 2539
  pdf_literal nodes
    avail lists: 1:21,2:1340,3:4216,4:156,5:3080,6:125,7:4628,8:47,9:773,10:22,11
 :433
- 46028 multiletter control sequences out of 65536+600000
+ 46026 multiletter control sequences out of 65536+600000
  83 fonts using 19044199 bytes
  105i,13n,141p,2061b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.en
@@ -9173,7 +9171,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342419 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342202 bytes).
 
 
 PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)
