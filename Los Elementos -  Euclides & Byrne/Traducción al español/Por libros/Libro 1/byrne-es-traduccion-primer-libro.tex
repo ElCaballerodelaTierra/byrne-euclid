@@ -2018,21 +2018,21 @@ draw byNamedLineSeq(0)(DA,CD,BC,AB);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{A}{ny}{two sides \drawUnitLine{DA} and \drawUnitLine{BD} of a triangle \drawLine[bottom]{DA,BD,AB} taken together are greater than the third side (\drawUnitLine{AB}).}
+\problem{L}{a}{suma de dos lados cualesquiera \drawUnitLine{DA} y \drawUnitLine{BD} de un triangulo \drawLine[bottom]{DA,BD,AB} es mayor que el tercer lado (\drawUnitLine{AB}).}
 
 \begin{center}
-Produce \drawUnitLine{DA}, and\\
-make $\drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{prop:I.III};\\
-draw \drawUnitLine{BC}.
+Prolonga \drawUnitLine{DA}, y\\
+toma $\drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{prop:I.III};\\
+traza \drawUnitLine{BC}.
 
-Then $\because \drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{\constref},\\ %because
+Entonces $\drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{\constref},\\ %because
 $\drawAngle{CBD} = \drawAngle{C}$ \byref{prop:I.V}
 
 $\therefore \drawAngle{CBD,DBA} > \drawAngle{C}$ \byref{ax:I.IX}
 
 $\therefore \drawUnitLine{DA} + \drawUnitLine{CD} > \drawUnitLine{AB}$ \byref{prop:I.XIX}
 
-and $\therefore \drawUnitLine{DA} + \drawUnitLine{BD} > \drawUnitLine{AB}$.
+y $\therefore \drawUnitLine{DA} + \drawUnitLine{BD} > \drawUnitLine{AB}$.
 \end{center}
 
 \qed
