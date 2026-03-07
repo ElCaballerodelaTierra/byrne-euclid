@@ -1317,9 +1317,10 @@ draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 1);
 }
 \drawCurrentPictureInMargin
-\problem[4]{S}{i}{dos triángulos tienen dos lados respectivamente iguales, (\drawUnitLine{AB} a \drawUnitLine{DE} y \drawUnitLine{CA} a \drawUnitLine{FD}) y los ángulos (\drawAngle{A} y \drawAngle{D}) contenidos por esos lados iguales también son iguales; entonces sus bases o sus lados (\drawUnitLine{BC} y \drawUnitLine{EF}) también son iguales: y los ángulos restantes opuestos son respectivamente iguales ($\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$): y los triángulos son iguales en todo aspecto.}
+\problem[4]{S}{i}{dos triángulos tienen dos lados respectivamente iguales, (\drawUnitLine{AB} con \drawUnitLine{DE} y \drawUnitLine{CA} con \drawUnitLine{FD}) y los ángulos (\drawAngle{A} con \drawAngle{D}) contenidos por esos lados también iguales; entonces sus bases o sus lados (\drawUnitLine{BC} con \drawUnitLine{EF}) también son iguales: y los ángulos restantes opuestos son respectivamente iguales ($\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$): y los triángulos son iguales en todo aspecto.}
 
-Sean dos triángulos, se colocan de tal manera, que el vértice de uno de los ángulos iguales, \drawAngle{A} o \drawAngle{D}; caiga sobre el del otro, y \drawUnitLine{AB} coincida con \drawUnitLine{DE}, entonces \drawUnitLine{CA} coincidirá con \drawUnitLine{FD} si se aplica: consecuentemente \drawUnitLine{BC} coincidirá con \drawUnitLine{EF}, o dos líneas rectas encerrarán un espacio, lo cual es imposible \byref{ax:I.X}, por lo tanto $\drawUnitLine{BC} = \drawUnitLine{EF}$, $\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$, y como los triángulos \drawLine{CA,BC,AB} y \drawLine{FD,EF,DE} coinciden, cuando se aplican, son iguales en todo aspecto.
+Sean dos triángulos, se colocan de tal manera, que el vértice de uno de los ángulos iguales, \drawAngle{A} o \drawAngle{D};
+se superponga sobre el del otro, y \drawUnitLine{AB} coincida con \drawUnitLine{DE}, entonces \drawUnitLine{CA} coincidirá con \drawUnitLine{FD} si se superpone: consecuentemente \drawUnitLine{BC} coincidirá con \drawUnitLine{EF}, o dos líneas rectas encerrarán un espacio, lo cual es imposible \byref{ax:I.X}, por lo tanto $\drawUnitLine{BC} = \drawUnitLine{EF}$, $\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$, y como los triángulos \drawLine{CA,BC,AB} y \drawLine{FD,EF,DE} coinciden, cuando se superponen, son iguales en todo aspecto.
 
 \qed
 
@@ -1352,36 +1353,36 @@ draw byNamedLineSeq(0)(CD,noLine,BC,noLine,BE,CE,AC,AB,BD);
 draw byLabelsOnPolygon(E, C, A, B, D, C, B)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[4]{I}{n}{any isosceles triangle \drawLine[bottom]{BC,AC,AB} if the equal sides be produced, the external angles at the base are equal, and the internal angles at the base are also equal.}
+\problem[4]{E}{n}{cualquier triángulo isósceles \drawLine[bottom]{BC,AC,AB} si los lados iguales se prolongan, los ángulos externos en la base son iguales, y los ángulos internos en la base también son iguales.}
 
 \begin{center}
-Produce \drawUnitLine{AB} and \drawUnitLine{AC} \byref{post:I.II},\\
-take $\drawUnitLine{BD} = \drawUnitLine{CE}$ \byref{prop:I.III};\\
-draw \drawUnitLine{BE} and \drawUnitLine{CD}.
+Prolonga \drawUnitLine{AB} y \drawUnitLine{AC} \byref{post:I.II},\\
+de tal forma que $\drawUnitLine{BD} = \drawUnitLine{CE}$ \byref{prop:I.III};\\
+dibuja \drawUnitLine{BE} y \drawUnitLine{CD}.
 
-Then in
+Entonces para los triángulos
 \drawFromCurrentPicture{
 startAutoLabeling;
 draw byNamedAngle(BAC);
 draw byNamedLineSeq(0)(BE,CE,AC,AB);
 stopAutoLabeling;
 }
-and
+y
 \drawFromCurrentPicture{
 startAutoLabeling;
 draw byNamedAngle(BAC);
 draw byNamedLineSeq(0)(BD,CD,AC,AB);
 stopAutoLabeling;
 }\\
-we have $\drawUnitLine{AB,BD} = \drawUnitLine{AC,CE}$ \byref{\constref},\\
-\drawAngle{BAC} common to both,\\
-and $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\hypref}\\
-$\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$ and $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.
+se tiene $\drawUnitLine{AB,BD} = \drawUnitLine{AC,CE}$ \byref{\constref},\\
+\drawAngle{BAC} comunes a ambos,\\
+y $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\hypref}\\
+$\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$ y $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.
 
-Again in \drawLine{BE,CE,BC} and \drawLine{BD,CD,BC}\\
-we have $\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$ and $\drawUnitLine{BE} = \drawUnitLine{CD}$,\\
-$\therefore \drawAngle{DCE,DCB} = \drawAngle{EBD,CBE}$ and $\drawAngle{DCB} = \drawAngle{CBE}$ \byref{prop:I.IV}\\
-but $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$ \byref{ax:I.III}.
+Igualmente para los triángulos \drawLine{BE,CE,BC} y \drawLine{BD,CD,BC}\\
+temos que $\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$ y $\drawUnitLine{BE} = \drawUnitLine{CD}$,\\
+$\therefore \drawAngle{DCE,DCB} = \drawAngle{EBD,CBE}$ y $\drawAngle{DCB} = \drawAngle{CBE}$ \byref{prop:I.IV}\\
+pero $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$ \byref{ax:I.III}.
 \end{center}
 
 \qed
