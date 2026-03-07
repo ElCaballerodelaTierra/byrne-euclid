@@ -1946,17 +1946,16 @@ draw byNamedLineSeq(0)(DC,BC,BA,AD);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{I}{n}{any triangle \drawLine{DC,BC,BA,AD} if one side \drawUnitLine{AD,DC} be greater than another \drawUnitLine{BC}, the angle opposite to the greater side is greater than the angle opposite to the less. I.\ e.\ $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
+\problem[3]{E}{n}{cualquier triangulo \drawLine{DC,BC,BA,AD} si un lado \drawUnitLine{AD,DC}es mayor que otro \drawUnitLine{BC}, el angulo opuesto al lado mayor es mayor que el angulo opuesto al lado menor, es decir $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
 
 \begin{center}
-Make $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, draw \drawUnitLine{DB}.
+Toma $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, traza \drawUnitLine{DB}.
 
-Then will $\drawAngle{D} = \drawAngle{DBC}$ \byref{prop:I.V};
+Entonces $\drawAngle{D} = \drawAngle{DBC}$ \byref{prop:I.V};
 
-but $\drawAngle{D} > \drawAngle{A}$ \byref{prop:I.XVI}
+pero $\drawAngle{D} > \drawAngle{A}$ \byref{prop:I.XVI}
 
-$\therefore \drawAngle{DBC} > \drawAngle{A}$ and much more\\
-is $\drawAngle{DBC,ABD} > \drawAngle{A}$.
+$\therefore \drawAngle{DBC} > \drawAngle{A}$, más aún\\ $\drawAngle{DBC,ABD} > \drawAngle{A}$.
 \end{center}
 
 \qed
@@ -1977,19 +1976,21 @@ draw byNamedLineSeq(0)(CA,BC,AB);
 draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{in any triangle \drawLine[bottom]{CA,BC,AB} one angle \drawAngle{A} be greater than another \drawAngle{B} the side \drawUnitLine{BC} which is opposite to the greater angle, is greater than the side \drawUnitLine{CA} opposite the less.}
+\problem{S}{i}{en cualquier triangulo \drawLine[bottom]{CA,BC,AB} un ángulo \drawAngle{A} es mayor que otro \drawAngle{B} el lado \drawUnitLine{BC} opuesto al ángulo mayor es mayor que el lado \drawUnitLine{CA} opuesto al ángulo menor.}
 
 \begin{center}
-If \drawUnitLine{BC} be not greater than \drawUnitLine{CA} then must\\
-$\drawUnitLine{BC} =$ or $< \drawUnitLine{CA}$.
+Si \drawUnitLine{BC} no es mayor que \drawUnitLine{CA} entonces debe ser\\
+$\drawUnitLine{BC} = \drawUnitLine{CA}$ 
+ó 
+$\drawUnitLine{BC} < \drawUnitLine{CA}$. \\
 
-If $\drawUnitLine{BC} = \drawUnitLine{CA}$ then\\
+Si $\drawUnitLine{BC} = \drawUnitLine{CA}$ entonces\\
 $\drawAngle{A} = \drawAngle{B}$ \byref{prop:I.V};\\
-which is contrary to the hypothesis.
+lo cual es contrario a la hipótesis.
 
-\drawUnitLine{BC} is not less than \drawUnitLine{CA}; for if it were,\\
+\drawUnitLine{BC} no es menor que \drawUnitLine{CA}; porque si lo fuera,\\
 $\drawAngle{A} < \drawAngle{B}$ \byref{prop:I.XVIII}\\
-which is contrary to the hypothesis:
+lo cual es contrario a la hipótesis:
 
 $\therefore \drawUnitLine{BC} > \drawUnitLine{CA}$.
 \end{center}
