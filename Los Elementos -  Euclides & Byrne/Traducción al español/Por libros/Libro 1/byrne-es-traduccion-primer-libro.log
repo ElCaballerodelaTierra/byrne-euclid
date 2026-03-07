@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 21:50
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  6 MAR 2026 23:17
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -6500,7 +6500,6 @@ Module luamplib Info: flushing figure 1 on input line 1703
 
 LaTeX Warning: Marginpar on page 36 moved.
 
-\ltrnT=\count380
 \luamplib.box.157=\box275
 \luamplib.box.158=\box276
 \luamplib.box.159=\box277
@@ -6510,17 +6509,6 @@ Module luamplib Info: flushing figure 1 on input line 1703
 Module luamplib Info: flushing figure 1 on input line 1703
 Module luamplib Info: flushing figure 1 on input line 1703
 Module luamplib Info: flushing figure 1 on input line 1703
-
-Underfull \hbox (badness 1655) in paragraph at lines 1703--1703
-[]  \TU/EBGaramond(27)/m/sc/10 o \TU/EBGaramond(27)/m/it/10 draw a straight line
- per-pen-dic-u-lar to a
- []
-
-
-Underfull \hbox (badness 7486) in paragraph at lines 1703--1703
-\TU/EBGaramond(27)/m/it/10 given in-def-i-nite straight line ([])
- []
-
 
 Underfull \vbox (badness 10000) detected at line 1703
  []
@@ -6578,7 +6566,7 @@ Module luamplib Info: flushing figure 1 on input line 1743
 
 LaTeX Warning: Marginpar on page 37 moved.
 
-\ltrnW=\count381
+\ltrnW=\count380
 \luamplib.box.163=\box281
 \luamplib.box.164=\box282
 \luamplib.box.165=\box283
@@ -6656,7 +6644,7 @@ Module luamplib Info: flushing figure 1 on input line 1782
 
 LaTeX Warning: Marginpar on page 38 moved.
 
-\ltrnI=\count382
+\ltrnI=\count381
 \luamplib.box.169=\box287
 \luamplib.box.170=\box288
 \luamplib.box.171=\box289
@@ -6869,7 +6857,7 @@ Module luamplib Info: flushing figure 1 on input line 1909
 
 LaTeX Warning: Marginpar on page 41 moved.
 
-\ltrnA=\count383
+\ltrnA=\count382
 \luamplib.box.187=\box305
 \luamplib.box.188=\box306
 \luamplib.box.189=\box307
@@ -7191,7 +7179,7 @@ Module luamplib Info: flushing figure 1 on input line 2129
 
 LaTeX Warning: Marginpar on page 46 moved.
 
-\ltrnG=\count384
+\ltrnG=\count383
 \luamplib.box.217=\box335
 \luamplib.box.218=\box336
 \luamplib.box.219=\box337
@@ -7943,7 +7931,7 @@ Module luamplib Info: flushing figure 1 on input line 2638
 
 LaTeX Warning: Marginpar on page 56 moved.
 
-\ltrnF=\count385
+\ltrnF=\count384
 \luamplib.box.273=\box391
 \luamplib.box.274=\box392
 \luamplib.box.275=\box393
@@ -8122,6 +8110,7 @@ Module luamplib Info: flushing figure 1 on input line 2758
 
 LaTeX Warning: Marginpar on page 59 moved.
 
+\ltrnT=\count385
 \luamplib.box.291=\box409
 \luamplib.box.292=\box410
 \luamplib.box.293=\box411
@@ -9164,7 +9153,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342016 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342226 bytes).
 
 
 PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)

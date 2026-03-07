@@ -12,7 +12,7 @@ S
 B
 B
 D
-T
+D
 W
 I
 I
