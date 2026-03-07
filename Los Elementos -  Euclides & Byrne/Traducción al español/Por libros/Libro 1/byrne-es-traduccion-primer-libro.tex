@@ -1538,7 +1538,7 @@ stopAutoLabeling;
 
 Si las bases iguales \drawUnitLine{BC} y \drawUnitLine{EF} se colocan una sobre la otra, de modo que los triángulos estén en el mismo lado de ellas, y que los lados iguales \drawUnitLine{AB} y \drawUnitLine{DE}, \drawUnitLine{CA} y \drawUnitLine{FD} sean contiguos, el vértice de uno debe caer sobre el vértice del otro; pues al suponerlos y no fueran coincidentes se contradiría la anterior proposición.
 
-Por lo tanto los lados \drawUnitLine{AB} y \drawUnitLine{CA}, siendo coincidentes con \drawUnitLine{DE} y \drawUnitLine{FD}, $\therefore \drawAngle{A} = \drawAngle{D}$.
+Por lo tanto los lados \drawUnitLine{AB} y \drawUnitLine{CA}, coinciden con \drawUnitLine{DE} y \drawUnitLine{FD}, $\therefore \drawAngle{A} = \drawAngle{D}$.
 
 \qed
 
@@ -1568,17 +1568,17 @@ draw byNamedLineSeq(0)(BE,AB,CA,CF);
 draw byLabelsOnPolygon(D, B, A, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{o}{bisect a given rectilinear angle (\drawAngle{BAD,CAD}).}
+\problem{B}{isecar}{ (dividir en dos partes iguales) un ángulo dado (\drawAngle{BAD,CAD}).}
 
 \begin{center}
-Take $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
+Tomar $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
 
-draw \drawUnitLine{BC}, upon which describe \drawLine{CD,DB,BC} \byref{prop:I.I},\\
-draw \drawUnitLine{AD}.
+dibuja \drawUnitLine{BC}, sobre el cual construye \drawLine{CD,DB,BC} \byref{prop:I.I},\\
+dibuja \drawUnitLine{AD}.
 
 $\because \drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\ %Because
-and \drawUnitLine{AD} common to the two triangles\\  % what triangles?
-and $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref},
+y \drawUnitLine{AD} común a los dos triángulos\\  % what triangles?
+y $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref},
 
 $\therefore \drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.VIII}.
 \end{center}
