@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  7 MAR 2026 13:24
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  10 MAR 2026 20:26
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -7123,7 +7123,6 @@ Module luamplib Info: flushing figure 1 on input line 2066
 
 LaTeX Warning: Marginpar on page 45 moved.
 
-\ltrnI=\count381
 \luamplib.box.211=\box329
 \luamplib.box.212=\box330
 \luamplib.box.213=\box331
@@ -7206,7 +7205,7 @@ Module luamplib Info: flushing figure 1 on input line 2129
 
 LaTeX Warning: Marginpar on page 46 moved.
 
-\ltrnG=\count382
+\ltrnG=\count381
 \luamplib.box.217=\box335
 \luamplib.box.218=\box336
 \luamplib.box.219=\box337
@@ -7283,7 +7282,7 @@ Module luamplib Info: flushing figure 1 on input line 2201
 
 LaTeX Warning: Marginpar on page 47 moved.
 
-\ltrnA=\count383
+\ltrnA=\count382
 \luamplib.box.223=\box341
 \luamplib.box.224=\box342
 \luamplib.box.225=\box343
@@ -7340,6 +7339,7 @@ Module luamplib Info: flushing figure 1 on input line 2260
 
 LaTeX Warning: Marginpar on page 48 moved.
 
+\ltrnI=\count383
 \luamplib.box.229=\box347
 \luamplib.box.230=\box348
 \luamplib.box.231=\box349
@@ -9181,7 +9181,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341979 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342031 bytes).
 
 
 PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)

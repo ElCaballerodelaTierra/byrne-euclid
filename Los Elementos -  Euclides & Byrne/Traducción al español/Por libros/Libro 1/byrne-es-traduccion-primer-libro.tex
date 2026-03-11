@@ -2063,21 +2063,21 @@ draw byLabelsOnPolygon(A, C, E, B)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(A, D, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem[2]{S}{i}{desde cualquier punto (\drawPointL[middle][DE]{D}) dentro de un triangulo \drawLine[bottom]{CA,EC,BE,AB} se trazan lineas rectas a los extremos de uno de los lados (\drawSizedLine{AB}), las lineas estarán más cercanas a los otros dos lados, y contendrán un angulo mayor.}
+\problem[2]{S}{i}{desde cualquier punto (\drawPointL[middle][DE]{D}) dentro de un triangulo \drawLine[bottom]{CA,EC,BE,AB} se trazan lineas rectas a los extremos de uno de los lados (\drawSizedLine{AB}), la suma de esas líneas será menor que la de los otros dos lados del triángulo, y contendrán un angulo mayor.}
 
 \begin{center}
-Produce \drawSizedLine{AD},\\
+Prolonga \drawSizedLine{AD},\\
 $\drawSizedLine{CA} + \drawSizedLine{EC} > \drawSizedLine{AD,DE}$ \byref{prop:I.XX},\\
-add \drawSizedLine{BE} to each,\\
+añade \drawSizedLine{BE} a cada parte,\\
 $\drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD,DE} + \drawSizedLine{BE}$ \byref{ax:I.IV}
 
-in the same manner it may be shown that\\
+en la misma manera se puede demostrar que\\
 $\drawSizedLine{AD,DE} + \drawSizedLine{BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
 $\therefore \drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
-which was to be proved.
+que era lo que se debía demostrar.
 
-Again $\drawAngle{E} > \drawAngle{C}$ \byref{prop:I.XVI},\\
-and also $\drawAngle{D} > \drawAngle{E}$ \byref{prop:I.XVI},
+Asi mismo $\drawAngle{E} > \drawAngle{C}$ \byref{prop:I.XVI},\\
+y también $\drawAngle{D} > \drawAngle{E}$ \byref{prop:I.XVI},
 
 $\therefore \drawAngle{D} > \drawAngle{C}$.
 \end{center}
