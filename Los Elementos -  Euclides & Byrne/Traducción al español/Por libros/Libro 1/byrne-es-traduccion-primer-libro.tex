@@ -2126,11 +2126,11 @@ draw byLabelsOnCircle(E)(B);
 draw byLabelLine(0)(L', L'', L''');
 }
 \drawCurrentPictureInMargin
-\problem[4]{G}{iven}{three right lines $\left\{\vcenter{
+\problem[4]{D}{adas}{tres lineas rectas $\left\{\vcenter{
 \nointerlineskip\hbox{\drawSizedLine{L'}}
 \nointerlineskip\hbox{\drawSizedLine{L''}}
 \nointerlineskip\hbox{\drawSizedLine{L'''}}}\right.$
-the sum of any two greater than the third, to construct a triangle whose sides shall be respectively equal to the given lines.}
+cuya suma de dos cualesquiera sea mayor que la tercera, construir un triangulo cuyos lados sean respectivamente iguales a las lineas dadas.}
 
 \begin{center}
 Assume $\drawSizedLine{AB} = \drawSizedLine{L'}$ \byref{prop:I.III}.
@@ -2142,25 +2142,25 @@ $\left.
 	\end{aligned}
 	\right\}\mbox{\byref{prop:I.II}.}$
 
-With \drawSizedLine{AD} and \drawSizedLine{BE} as radii, describe
+Con \drawSizedLine{AD} y \drawSizedLine{BE} como radios, traza
 \drawFromCurrentPicture{
 draw byNamedLine(AD); draw byNamedCircle(A);
 draw byLabelLineEnd(A, D, 0);
 draw byLabelLineEnd(D, A, 0);
-} and
+} y
 \offsetPicture{12pt}{0pt}{\drawFromCurrentPicture{
 draw byNamedLine(BE); draw byNamedCircle(B);
 draw byLabelLineEnd(B, E, 0);
 draw byLabelLineEnd(E, B, 0);
 }} \byref{post:I.III};\\
-draw \drawSizedLine{CA} and \drawSizedLine{BC},\\
-then will \drawLine[bottom]{CA,BC,AB} be the triangle required.
+dibuja \drawSizedLine{CA} y \drawSizedLine{BC},\\
+será \drawLine[bottom]{CA,BC,AB} el triángulo requerido.
 
 $\left.
 	\begin{aligned}
-		\mbox{For } \drawSizedLine{AB} &= \drawSizedLine{L'} \mbox{,} \\
+		\mbox{Pues } \drawSizedLine{AB} &= \drawSizedLine{L'} \mbox{,} \\
 		\drawSizedLine{BC} &= \drawSizedLine{BE} = \drawSizedLine{L''} \mbox{,} \\
-		\mbox{and } \drawSizedLine{CA} &= \drawSizedLine{AD} = \drawSizedLine{L'''} \mbox{.} \\
+		\mbox{y } \drawSizedLine{CA} &= \drawSizedLine{AD} = \drawSizedLine{L'''} \mbox{.} \\
 	\end{aligned}
 	\right\}\mbox{\byref{\constref}}$
 \end{center}

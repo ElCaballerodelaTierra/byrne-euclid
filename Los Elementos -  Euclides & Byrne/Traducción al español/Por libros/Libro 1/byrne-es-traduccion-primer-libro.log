@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  10 MAR 2026 20:26
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  11 MAR 2026 06:49
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -7205,7 +7205,6 @@ Module luamplib Info: flushing figure 1 on input line 2129
 
 LaTeX Warning: Marginpar on page 46 moved.
 
-\ltrnG=\count381
 \luamplib.box.217=\box335
 \luamplib.box.218=\box336
 \luamplib.box.219=\box337
@@ -7282,7 +7281,7 @@ Module luamplib Info: flushing figure 1 on input line 2201
 
 LaTeX Warning: Marginpar on page 47 moved.
 
-\ltrnA=\count382
+\ltrnA=\count381
 \luamplib.box.223=\box341
 \luamplib.box.224=\box342
 \luamplib.box.225=\box343
@@ -7339,7 +7338,7 @@ Module luamplib Info: flushing figure 1 on input line 2260
 
 LaTeX Warning: Marginpar on page 48 moved.
 
-\ltrnI=\count383
+\ltrnI=\count382
 \luamplib.box.229=\box347
 \luamplib.box.230=\box348
 \luamplib.box.231=\box349
@@ -7959,7 +7958,7 @@ Module luamplib Info: flushing figure 1 on input line 2638
 
 LaTeX Warning: Marginpar on page 56 moved.
 
-\ltrnF=\count384
+\ltrnF=\count383
 \luamplib.box.273=\box391
 \luamplib.box.274=\box392
 \luamplib.box.275=\box393
@@ -8138,7 +8137,7 @@ Module luamplib Info: flushing figure 1 on input line 2758
 
 LaTeX Warning: Marginpar on page 59 moved.
 
-\ltrnT=\count385
+\ltrnT=\count384
 \luamplib.box.291=\box409
 \luamplib.box.292=\box410
 \luamplib.box.293=\box411
@@ -8201,7 +8200,7 @@ Module luamplib Info: flushing figure 1 on input line 2814
 
 LaTeX Warning: Marginpar on page 60 moved.
 
-\ltrnP=\count386
+\ltrnP=\count385
 \luamplib.box.297=\box415
 \luamplib.box.298=\box416
 \luamplib.box.299=\box417
@@ -8903,7 +8902,7 @@ Module luamplib Info: flushing figure 1 on input line 3467
 
 LaTeX Warning: Marginpar on page 71 moved.
 
-\ltrnU=\count387
+\ltrnU=\count386
 \luamplib.box.363=\box481
 \luamplib.box.364=\box482
 \luamplib.box.365=\box483
@@ -9156,7 +9155,7 @@ t changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24348 strings out of 476076
+ 24341 strings out of 476076
  156792,1373583 words of node,token memory allocated
  25104 words of node memory still in use:
    473 hlist, 85 vlist, 2 rule, 5 disc, 31 local_par, 219 glue, 296 kern, 68 pen
@@ -9164,7 +9163,7 @@ alty, 503 glyph, 1692 attribute, 63 glue_spec, 847 attribute_list, 3 write, 2539
  pdf_literal nodes
    avail lists: 1:21,2:1340,3:4216,4:156,5:3080,6:125,7:4628,8:47,9:773,10:22,11
 :433
- 46026 multiletter control sequences out of 65536+600000
+ 46019 multiletter control sequences out of 65536+600000
  83 fonts using 19044199 bytes
  105i,13n,141p,2061b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.en
@@ -9181,7 +9180,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 342031 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341634 bytes).
 
 
 PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)
