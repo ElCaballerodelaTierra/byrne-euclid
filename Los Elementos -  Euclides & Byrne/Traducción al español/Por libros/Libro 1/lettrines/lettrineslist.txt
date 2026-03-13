@@ -23,11 +23,11 @@ S
 L
 S
 D
-A
-I
-I
-I
-I
+D
+S
+S
+S
+S
 I
 A
 S

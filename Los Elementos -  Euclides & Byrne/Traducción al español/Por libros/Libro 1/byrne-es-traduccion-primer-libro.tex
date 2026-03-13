@@ -2198,16 +2198,16 @@ draw byLabelsOnPolygon(D, B, A, C, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(noPoint,J, G, F, H, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{A}{t}{a given point (\drawPointL{F}) in a given straight line (\drawUnitLine{FG,GJ}), to make an angle equal to a given rectilinear angle (\drawAngle{A}).}
+\problem{D}{esde}{un punto dado (\drawPointL{F}) en una linea recta dada (\drawUnitLine{FG,GJ}), construir un angulo igual a un angulo dado (\drawAngle{A}).}
 
-Draw \drawUnitLine{BC} between any two points in the legs of the given angle.
+Traza \drawUnitLine{BC} en dos puntos cualesquiera de los lados del angulo dado.
 
 \begin{center}
-Construct \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
-so that $\drawUnitLine{FG} = \drawUnitLine{AB}$, $\drawUnitLine{HF} = \drawUnitLine{CA}$\\
-and $\drawUnitLine{GH} = \drawUnitLine{BC}$.
+Traza \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
+tal que $\drawUnitLine{FG} = \drawUnitLine{AB}$, $\drawUnitLine{HF} = \drawUnitLine{CA}$\\
+y $\drawUnitLine{GH} = \drawUnitLine{BC}$.
 
-Then $\drawAngle{A} = \drawAngle{F}$ \byref{prop:I.VIII}.
+Entonces $\drawAngle{A} = \drawAngle{F}$ \byref{prop:I.VIII}.
 \end{center}
 
 \qed
@@ -2257,38 +2257,38 @@ draw byLabelsOnPolygon(D, A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(G, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{two triangles have two sides of the one respectively equal to two sides of the other (\drawUnitLine{AB} to \drawUnitLine{EF} and \drawUnitLine{AD} to \drawUnitLine{GE}), and if one of the angles
+\problem{S}{i}{dos triangulos tienen dos lados del uno respectivamente iguales a dos lados del otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y si uno de los ángulos
 (\drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 draw byNamedAngleSides(BAC,CAD)(AB,CA,AD);
 stopAutoLabeling;
 })
-contained by the equal sides be greater than the other
+contenido por los lados iguales esmayor que el otro
 (\drawFromCurrentPicture[bottom][angleFEG]{
 startAutoLabeling;
 draw byNamedAngleSides(FEG)(EF, GE);
 stopAutoLabeling;
 }),
-the side (\drawUnitLine{DB}) which is opposite to the greater angle is greater than the side (\drawUnitLine{FG}) which is opposite to the less angle.
+el lado (\drawUnitLine{DB}) opuesto al mayor angulo es mayor que el lado (\drawUnitLine{FG}) opuesto al menor angulo.
 }
 
 \begin{center}
-Make $\drawFromCurrentPicture[bottom][angleBAC]{
+Crea $\drawFromCurrentPicture[bottom][angleBAC]{
 startAutoLabeling;
 draw byNamedAngleSides(BAC)(AB, CA);
 stopAutoLabeling;
 } = \angleFEG$ \byref{prop:I.XXIII},\\
-and $\drawUnitLine{CA} = \drawUnitLine{GE}$ \byref{prop:I.III},\\
-draw \drawUnitLine{CD} and \drawUnitLine{BC}.
+y $\drawUnitLine{CA} = \drawUnitLine{GE}$ \byref{prop:I.III},\\
+traza \drawUnitLine{CD} y \drawUnitLine{BC}.
 
 $\because \drawUnitLine{CA} = \drawUnitLine{AD}$ \byref{ax:I.I,\hypref,\constref}\\ %because
 $\therefore \drawAngle{BDA,CDB} = \drawAngle{DCA}$ \byref{prop:I.V}\\
-but $\drawAngle{CDB} < \drawAngle{DCA}$,\\
-and $\therefore \drawAngle{CDB} < \drawAngle{DCA,ACB}$,
+pero $\drawAngle{CDB} < \drawAngle{DCA}$,\\
+$\therefore \drawAngle{CDB} < \drawAngle{DCA,ACB}$,
 
 $\therefore \drawUnitLine{DB} > \drawUnitLine{BC}$ \byref{prop:I.XIX}
 
-but $\drawUnitLine{BC} = \drawUnitLine{FG}$ \byref{prop:I.IV}
+pero $\drawUnitLine{BC} = \drawUnitLine{FG}$ \byref{prop:I.IV}
 
 $\therefore \drawUnitLine{DB} > \drawUnitLine{FG}$.
 \end{center}
@@ -2320,19 +2320,19 @@ draw byLabelsOnPolygon(A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(D, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{two triangles have two sides (\drawUnitLine[0.7cm]{AB} and \drawUnitLine[0.7cm]{CA}) of the one respectively equal to two sides (\drawUnitLine{DE} and \drawUnitLine{FD}) of the other, but their bases unequal, the angle subtended by the greater base (\drawUnitLine{BC}) of the one, must be greater than the angle subtended by the less base (\drawUnitLine{EF}) of the other.}
+\problem{S}{i}{un triangulo tiene dos lados (\drawUnitLine[0.7cm]{AB} y \drawUnitLine[0.7cm]{CA}) respectivamente iguales a dos lados (\drawUnitLine{DE} y \drawUnitLine{FD}) de otro triangulo, pero con bases desiguales, el ángulo subtendido por la base mayor (\drawUnitLine{BC}) de uno, debe ser mayor que el ángulo subtendido por la base menor (\drawUnitLine{EF}) del otro.}
 
 \begin{center}
-$\drawAngle{A} =\mbox{, } > \mbox{ or } < \drawAngle{D}$
+$\drawAngle{A} =\mbox{, } > \mbox{ o } < \drawAngle{D}$
 
-\drawAngle{A} is not equal to \drawAngle{D}\\
-for if $\drawAngle{A} = \drawAngle{D}$ then $\drawUnitLine{CB} = \drawUnitLine{FE}$ \byref{prop:I.IV}\\
-which is contrary to the hypothesis;
+\drawAngle{A} no es igual a \drawAngle{D}\\
+porque si $\drawAngle{A} = \drawAngle{D}$ entonces $\drawUnitLine{CB} = \drawUnitLine{FE}$ \byref{prop:I.IV}\\
+lo cual es contrario a la hipótesis;
 
-\drawAngle{A} is not less than \drawAngle{D}\\
-for if $\drawAngle{A} < \drawAngle{D}$\\
+\drawAngle{A} no es menor que \drawAngle{D}\\
+porque si $\drawAngle{A} < \drawAngle{D}$\\
 then $\drawUnitLine{CB} < \drawUnitLine{FE}$ \byref{prop:I.XXIV},\\
-which is also contrary to the hypothesis:
+lo cual es contrario a la hipótesis:
 
 $\therefore \drawAngle{A} > \drawAngle{D}$.
 \end{center}
@@ -2372,27 +2372,26 @@ draw byNamedLineSeq(0)(GD,FG,EF,DE);
 draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(D, G, F, E)(ALL_LABELS, 0);
 }
-\problem{I}{f}{two triangles have two angles of the one respectively equal to two angles of the other ($\drawAngle{A} = \drawAngle{D}$ and $\drawAngle{B} = \drawAngle{GED,FEG}$), and a side of the one equal to a side of the other similarly placed with respect to the equal angles, the remaining sides and angles are respectively equal to one another.}
+\problem{S}{i}{dos triangulos tienen dos ángulos respectivamente iguales entre si ($\drawAngle{A} = \drawAngle{D}$ y $\drawAngle{B} = \drawAngle{GED,FEG}$), y un lado de uno es igual a un lado del otro, los lados y ángulos restantes son respectivamente iguales entre sí.}
 \drawCurrentPictureInMargin
-\startsubproposition{Case I.}
+\startsubproposition{Caso I.}
 \begin{center}
-Let \drawUnitLine{AB} and \drawUnitLine{DE} which lie between the equal angles be equal,\\
-then $\drawUnitLine{CA} = \drawUnitLine{GD,FG}$.
+Sean \drawUnitLine{AB} y \drawUnitLine{DE} los lados iguales que yacen entre los ángulos iguales,\\
+entonces $\drawUnitLine{CA} = \drawUnitLine{GD,FG}$.\\
 
-For if it be possible, let one of them \drawUnitLine{GD,FG} be greater than the other;\\
-make $\drawUnitLine{CA} = \drawUnitLine{GD}$, draw \drawUnitLine{EG}.
+Supongamos que uno de ellos \drawUnitLine{GD,FG} es mayor que el otro;\\
+toma $\drawUnitLine{CA} = \drawUnitLine{GD}$, traza \drawUnitLine{EG}.
 
-In \drawLine[bottom]{CA,BC,AB} and
-\drawLine[bottom]{GD,EG,DE} we have\\
+En \drawLine[bottom]{CA,BC,AB} y \drawLine[bottom]{GD,EG,DE} tenemos\\
 $\drawUnitLine{CA} = \drawUnitLine{GD}$, $\drawAngle{A} = \drawAngle{D}$, $\drawUnitLine{AB} = \drawUnitLine{DE}$;\\
 $\therefore \drawAngle{B} = \drawAngle{GED}$ (pr. 4.)\\
-but $\drawAngle{B} = \drawAngle{GED,FEG}$ \byref{\hypref}
+pero $\drawAngle{B} = \drawAngle{GED,FEG}$ \byref{\hypref}
 
-and therefore $\drawAngle{GED} = \drawAngle{GED,FEG}$, which is absurd;\\
-hence neither of the sides \drawUnitLine{CA} and \drawUnitLine{GD,FG} is greater than the other;\\
-and $\therefore$ they are equal;
+por lo tanto $\drawAngle{GED} = \drawAngle{GED,FEG}$, lo cual es absurdo;\\
+por lo tanto ninguno de los lados \drawUnitLine{CA} y \drawUnitLine{GD,FG} es mayor que el otro;\\
+$\therefore$ son iguales;
 
-$\therefore \drawUnitLine{BC} = \drawUnitLine{EF}$, and $\drawAngle{C} = \drawAngle{F}$, \byref{prop:I.IV}.
+$\therefore \drawUnitLine{BC} = \drawUnitLine{EF}$, y $\drawAngle{C} = \drawAngle{F}$, \byref{prop:I.IV}.
 \end{center}
 
 \vfill\pagebreak
@@ -2428,19 +2427,20 @@ draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(D, F, E, G)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\startsubproposition{Case II.}
+\startsubproposition{Caso II.}
 \begin{center}
-Again, let $\drawUnitLine{CA} = \drawUnitLine{FD}$, which lie opposite the equal angles \drawAngle{B} and \drawAngle{E}.\\
-If it be possible, let $\drawUnitLine{DG,GE} > \drawUnitLine{AB}$, then take $\drawUnitLine{DG} = \drawUnitLine{AB}$, draw \drawUnitLine{FG}.
+De la misma forma, se toma $\drawUnitLine{CA} = \drawUnitLine{FD}$, como los lados opuestos a los ángulos iguales \drawAngle{B} y \drawAngle{E}.\\
+Supongamos que $\drawUnitLine{DG,GE} > \drawUnitLine{AB}$, entonces toma $\drawUnitLine{DG} = \drawUnitLine{AB}$, y traza \drawUnitLine{FG}.
 
-Then in \drawLine[bottom]{CA,BC,AB} and \drawLine[bottom]{FD,FG,DG} we have $\drawUnitLine{CA} = \drawUnitLine{FD}$, $\drawUnitLine{AB} = \drawUnitLine{DG}$ and $\drawAngle{A} = \drawAngle{D}$,
+Entonces para \drawLine[bottom]{CA,BC,AB} y \drawLine[bottom]{FD,FG,DG} se tiene que $\drawUnitLine{CA} = \drawUnitLine{FD}$, $\drawUnitLine{AB} = \drawUnitLine{DG}$ y $\drawAngle{A} = \drawAngle{D}$,
 
 $\therefore \drawAngle{B} = \drawAngle{G}$ \byref{prop:I.IV}\\
-but $\drawAngle{B} = \drawAngle{E}$ \byref{\hypref}
+pero $\drawAngle{B} = \drawAngle{E}$ \byref{\hypref}
 
-$\therefore \drawAngle{G} = \drawAngle{E}$ which is absurd \byref{prop:I.XVI}.
+$\therefore \drawAngle{G} = \drawAngle{E}$ lo cual es absurdo \byref{prop:I.XVI}.
 
-Consequently, neither of the sides \drawUnitLine{AB} or \drawUnitLine{DG,GE} is greater than the other, hence they must be equal. It follows (by \byref{prop:I.IV}) that the triangles are equal in all respects.
+Por lo tanto, ninguno de los lados \drawUnitLine{AB} o \drawUnitLine{DG,GE} es mayor que el otro, por lo tanto deben ser iguales. \\
+Se deduce (por \byref{prop:I.IV}) que los triángulos son iguales en todos los aspectos.
 \end{center}
 
 \qed
@@ -2474,11 +2474,11 @@ draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{a straight line (\drawUnitLine{GH}) meeting two other straight lines (\drawUnitLine{CD} and \drawUnitLine{AB}) makes with them the alternate angles (\drawAngle{CFG} and \drawAngle{HEB}; \drawAngle{GFD} and \drawAngle{AEH}) equal, these two straight lines are parallel.}
+\problem{S}{i}{una línea recta (\drawUnitLine{GH}) que se encuentra con otras dos líneas rectas (\drawUnitLine{CD} y \drawUnitLine{AB}) y con ellas forma ángulos alternos (\drawAngle{CFG} y \drawAngle{HEB}; \drawAngle{GFD} y \drawAngle{AEH}) iguales, entonces estas dos líneas rectas son paralelas.}
 
-If \drawUnitLine{CD} be not parallel to \drawUnitLine{AB} they shall meet when produced.
+Si \drawUnitLine{CD} no es paralela a \drawUnitLine{AB}, se encontrarán cuando se prolonguen.
 
-If it be possible, let those lines be not parallel, but meet when produced; then the external angle \drawAngle{HEB} is greater than \drawAngle{CFG} \byref{prop:I.XVI}, but they are also equal \byref{\hypref}, which is absurd: in the same manner it may be shown that they cannot meet on the other side; $\therefore$ they are parallel.
+Supongamos que esas líneas no sean paralelas, es decir, se encuentran cuando al prolongarse; entonces el ángulo externo \drawAngle{HEB} es mayor que \drawAngle{CFG} \byref{prop:I.XVI}, pero también son iguales \byref{\hypref}, lo cual es absurdo: de la misma manera se puede demostrar que no pueden encontrarse en el otro lado, $\therefore$ son paralelas.
 
 \qed
 
@@ -2509,7 +2509,7 @@ draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{a straight line (\drawUnitLine{GH}), cutting two other straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), makes the external equal to the internal and opposite angle, at the same side of the cutting line (namely $\drawAngle{GEA} = \drawAngle{CFG}$ or $\drawAngle{BEG} = \drawAngle{GFD}$), or if it makes the two internal angles at the same side (\drawAngle{GFD} and \drawAngle{HEB}, or \drawAngle{CFG} and \drawAngle{AEH}) together equal to two right angles, those two straight lines are parallel.}
+\problem{S}{i}{una linea recta (\drawUnitLine{GH}), cutting two other straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), makes the external equal to the internal and opposite angle, at the same side of the cutting line (namely $\drawAngle{GEA} = \drawAngle{CFG}$ or $\drawAngle{BEG} = \drawAngle{GFD}$), or if it makes the two internal angles at the same side (\drawAngle{GFD} and \drawAngle{HEB}, or \drawAngle{CFG} and \drawAngle{AEH}) together equal to two right angles, those two straight lines are parallel.}
 
 \begin{center}
 First, if $\drawAngle{GEA} = \drawAngle{CFG}$, then $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV},\\

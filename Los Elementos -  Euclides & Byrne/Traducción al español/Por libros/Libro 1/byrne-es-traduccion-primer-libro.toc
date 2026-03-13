@@ -76,8 +76,8 @@
 \contentsline {proposition}{\numberline {I.24}Prop XXIV. Theor.}{48}{proposition.1.24}%
 \contentsline {proposition}{\numberline {I.25}Prop XXV. Theor.}{49}{proposition.1.25}%
 \contentsline {proposition}{\numberline {I.26}Prop XXVI. Theor.}{50}{proposition.1.26}%
-\contentsline {subproposition}{\numberline {}Case I.}{50}{subproposition.1.26.1}%
-\contentsline {subproposition}{\numberline {}Case II.}{51}{subproposition.1.26.2}%
+\contentsline {subproposition}{\numberline {}Caso I.}{50}{subproposition.1.26.1}%
+\contentsline {subproposition}{\numberline {}Caso II.}{51}{subproposition.1.26.2}%
 \contentsline {proposition}{\numberline {I.27}Prop XXVII. Theor.}{52}{proposition.1.27}%
 \contentsline {proposition}{\numberline {I.28}Prop XXVIII. Theor.}{53}{proposition.1.28}%
 \contentsline {proposition}{\numberline {I.29}Prop XXIX. Theor.}{54}{proposition.1.29}%
