@@ -99,4 +99,4 @@
 \contentsline {proposition}{\numberline {I.45}Prop XLV. Prob.}{70}{proposition.1.45}%
 \contentsline {proposition}{\numberline {I.46}Prop XLVI. Prob.}{71}{proposition.1.46}%
 \contentsline {proposition}{\numberline {I.47}Prop XLVII. Theor.}{72}{proposition.1.47}%
-\contentsline {proposition}{\numberline {I.48}Prop XLVIII. Theor.}{73}{proposition.1.48}%
+\contentsline {proposition}{\numberline {I.48}Prop XLVIII. Theor.}{74}{proposition.1.48}%

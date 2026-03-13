@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  13 MAR 2026 14:50
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  13 MAR 2026 16:05
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -5159,4 +5159,4011 @@ ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;
 (fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
 guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
 e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
-letterspace=-1;le
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;+on
+um;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;+on
+um;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;+
+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;+
+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pn
+um;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pn
+um;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(26)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 492.
+LaTeX Font Info:    Font shape `TU/EBGaramond(26)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 492.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(27)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-3,Letter
+Space=0,LetterSpace=-2,LetterSpace=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=0
+;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=0
+;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspa
+ce=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspa
+ce=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=
+0;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=
+0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=0;+
+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=0;+
+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=0
+;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspace=0
+;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspa
+ce=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;letterspa
+ce=0;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(27)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 492.
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\TU/EBGaramond(26)/m/n/10 con el propósito de es-table-cer una proposi-ción m
+ás
+ []
+
+[14]
+\@minpageheight=\dimen266
+LaTeX Font Info:    Font shape `TU/EBGaramond(27)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 499.
+\luamplib.box.43=\box105
+\luamplib.box.44=\box106
+Module luamplib Info: flushing figure 1 on input line 559
+Module luamplib Info: flushing figure 1 on input line 561
+Module luamplib Info: flushing figure 1 on input line 561
+Module luamplib Info: flushing figure 1 on input line 564
+Module luamplib Info: flushing figure 1 on input line 564
+ [15]
+Module luamplib Info: flushing figure 1 on input line 567
+Module luamplib Info: flushing figure 1 on input line 567
+\luamplib.box.45=\box107
+\luamplib.box.46=\box108
+Module luamplib Info: flushing figure 1 on input line 580
+Module luamplib Info: flushing figure 1 on input line 589
+Module luamplib Info: flushing figure 1 on input line 589
+Module luamplib Info: flushing figure 1 on input line 589
+Module luamplib Info: flushing figure 1 on input line 589
+Module luamplib Info: flushing figure 1 on input line 592
+Module luamplib Info: flushing figure 1 on input line 592
+Module luamplib Info: flushing figure 1 on input line 594
+Module luamplib Info: flushing figure 1 on input line 594
+
+Underfull \hbox (badness 1571) in paragraph at lines 608--610
+\TU/EBGaramond(27)/m/n/10 const.  sig-nifica \TU/EBGaramond(27)/m/it/10 con-stru
+c-ción\TU/EBGaramond(27)/m/n/10 . La \TU/EBGaramond(27)/m/it/10 con-struc-ci
+ón \TU/EBGaramond(27)/m/n/10 es el
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 608--610
+\TU/EBGaramond(27)/m/n/10 ha-ciendo án-gu-los, de-scri-bi-endo cír-cu-los, etc
+. para
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 608--610
+\TU/EBGaramond(27)/m/n/10 a un án-gulo dado, es-tos dos án-gu-los son iguales por
+ []
+
+[16]
+\luamplib.box.47=\box109
+\luamplib.box.48=\box110
+Module luamplib Info: flushing figure 1 on input line 616
+
+Overfull \hbox (1.33296pt too wide) in paragraph at lines 616--616
+[] [] 
+ []
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(27)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 616.
+\@minpageheight=\dimen267
+LaTeX Font Info:    Font shape `TU/EBGaramond(27)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 621.
+
+Package hyperref Warning: bookmark level for unknown definition defaults to 0.
+
+\luamplib.box.49=\box111
+\luamplib.box.50=\box112
+Module luamplib Info: flushing figure 1 on input line 671
+Module luamplib Info: flushing figure 1 on input line 674
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 674
+[17
+
+]
+\luamplib.box.51=\box113
+\luamplib.box.52=\box114
+Module luamplib Info: flushing figure 1 on input line 688
+Module luamplib Info: flushing figure 1 on input line 691
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--260
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 691
+\luamplib.box.53=\box115
+\luamplib.box.54=\box116
+Module luamplib Info: flushing figure 1 on input line 704
+Module luamplib Info: flushing figure 1 on input line 707
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--140
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 707
+\luamplib.box.55=\box117
+\luamplib.box.56=\box118
+Module luamplib Info: flushing figure 1 on input line 720
+Module luamplib Info: flushing figure 1 on input line 723
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--134
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 723
+\luamplib.box.57=\box119
+\luamplib.box.58=\box120
+Module luamplib Info: flushing figure 1 on input line 751
+Module luamplib Info: flushing figure 1 on input line 754
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--377
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 754
+\luamplib.box.59=\box121
+\luamplib.box.60=\box122
+Module luamplib Info: flushing figure 1 on input line 771
+Module luamplib Info: flushing figure 1 on input line 774
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--215
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 774
+\luamplib.box.61=\box123
+\luamplib.box.62=\box124
+Module luamplib Info: flushing figure 1 on input line 787
+Module luamplib Info: flushing figure 1 on input line 790
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--302
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 790
+[18]
+\luamplib.box.63=\box125
+\luamplib.box.64=\box126
+Module luamplib Info: flushing figure 1 on input line 805
+Module luamplib Info: flushing figure 1 on input line 808
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--302
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 808
+\luamplib.box.65=\box127
+\luamplib.box.66=\box128
+Module luamplib Info: flushing figure 1 on input line 835
+Module luamplib Info: flushing figure 1 on input line 838
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--332
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 838
+Module luamplib Info: flushing figure 1 on input line 838
+Module luamplib Info: flushing figure 1 on input line 838
+Module luamplib Info: flushing figure 1 on input line 838
+Module luamplib Info: flushing figure 1 on input line 838
+\luamplib.box.67=\box129
+\luamplib.box.68=\box130
+Module luamplib Info: flushing figure 1 on input line 855
+Module luamplib Info: flushing figure 1 on input line 858
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 858
+\luamplib.box.69=\box131
+\luamplib.box.70=\box132
+Module luamplib Info: flushing figure 1 on input line 870
+Module luamplib Info: flushing figure 1 on input line 873
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 873
+[19]
+\luamplib.box.71=\box133
+\luamplib.box.72=\box134
+Module luamplib Info: flushing figure 1 on input line 890
+Module luamplib Info: flushing figure 1 on input line 893
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 893
+\luamplib.box.73=\box135
+\luamplib.box.74=\box136
+Module luamplib Info: flushing figure 1 on input line 907
+Module luamplib Info: flushing figure 1 on input line 910
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 910
+\luamplib.box.75=\box137
+\luamplib.box.76=\box138
+Module luamplib Info: flushing figure 1 on input line 922
+Module luamplib Info: flushing figure 1 on input line 925
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--170
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 925
+\luamplib.box.77=\box139
+\luamplib.box.78=\box140
+Module luamplib Info: flushing figure 1 on input line 941
+Module luamplib Info: flushing figure 1 on input line 944
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--224
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 944
+\luamplib.box.79=\box141
+\luamplib.box.80=\box142
+Module luamplib Info: flushing figure 1 on input line 960
+Module luamplib Info: flushing figure 1 on input line 963
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--224
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 963
+\luamplib.box.81=\box143
+\luamplib.box.82=\box144
+Module luamplib Info: flushing figure 1 on input line 979
+Module luamplib Info: flushing figure 1 on input line 982
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--224
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 982
+\luamplib.box.83=\box145
+\luamplib.box.84=\box146
+Module luamplib Info: flushing figure 1 on input line 998
+Module luamplib Info: flushing figure 1 on input line 1001
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--224
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1001
+\luamplib.box.85=\box147
+\luamplib.box.86=\box148
+Module luamplib Info: flushing figure 1 on input line 1019
+Module luamplib Info: flushing figure 1 on input line 1022
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--116
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1022
+[20] [21]
+\@minpageheight=\dimen268
+
+
+Package hyperref Warning: bookmark level for unknown postulate defaults to 0.
+
+[22]
+\@minpageheight=\dimen269
+
+
+Package hyperref Warning: bookmark level for unknown axiom defaults to 0.
+
+\luamplib.box.87=\box149
+\luamplib.box.88=\box150
+Module luamplib Info: flushing figure 1 on input line 1119
+Module luamplib Info: flushing figure 1 on input line 1121
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--212
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1121
+[23]
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+Module luamplib Info: flushing figure 1 on input line 1121
+
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+[]\TU/EBGaramond(27)/m/n/10 El duodécimo ax-ioma puede ser ex-pre-sado en
+ []
+
+[24]
+\@minpageheight=\dimen270
+
+
+Package hyperref Warning: bookmark level for unknown proposition defaults to 0.
+
+
+\luamplib.box.89=\box151
+\luamplib.box.90=\box152
+Module luamplib Info: flushing figure 1 on input line 1153
+Module luamplib Info: flushing figure 1 on input line 1155
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--476
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1155
+\ltrnE=\count376
+\luamplib.box.91=\box153
+\luamplib.box.92=\box154
+\luamplib.box.93=\box155
+\luamplib.box.94=\box156
+Module luamplib Info: flushing figure 1 on input line 1155
+LaTeX Font Info:    Font shape `TU/EBGaramond(27)/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 1155.
+Module luamplib Info: flushing figure 1 on input line 1155
+Module luamplib Info: flushing figure 1 on input line 1155
+
+Underfull \vbox (badness 10000) detected at line 1155
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1163
+Module luamplib Info: flushing figure 1 on input line 1163
+Module luamplib Info: flushing figure 1 on input line 1168
+Module luamplib Info: flushing figure 1 on input line 1168
+Module luamplib Info: flushing figure 1 on input line 1169
+Module luamplib Info: flushing figure 1 on input line 1169
+Module luamplib Info: flushing figure 1 on input line 1169
+Module luamplib Info: flushing figure 1 on input line 1169
+Module luamplib Info: flushing figure 1 on input line 1170
+Module luamplib Info: flushing figure 1 on input line 1170
+Module luamplib Info: flushing figure 1 on input line 1172
+Module luamplib Info: flushing figure 1 on input line 1172
+Module luamplib Info: flushing figure 1 on input line 1172
+Module luamplib Info: flushing figure 1 on input line 1172
+Module luamplib Info: flushing figure 1 on input line 1173
+Module luamplib Info: flushing figure 1 on input line 1173
+Module luamplib Info: flushing figure 1 on input line 1173
+Module luamplib Info: flushing figure 1 on input line 1173
+Module luamplib Info: flushing figure 1 on input line 1174
+Module luamplib Info: flushing figure 1 on input line 1174
+Module luamplib Info: flushing figure 1 on input line 1174
+Module luamplib Info: flushing figure 1 on input line 1174
+Module luamplib Info: flushing figure 1 on input line 1175
+[25]
+\luamplib.box.95=\box157
+\luamplib.box.96=\box158
+Module luamplib Info: flushing figure 1 on input line 1211
+Module luamplib Info: flushing figure 1 on input line 1213
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--683
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1213
+
+LaTeX Warning: Marginpar on page 26 moved.
+
+\ltrnD=\count377
+\luamplib.box.97=\box159
+\luamplib.box.98=\box160
+\luamplib.box.99=\box161
+\luamplib.box.100=\box162
+Module luamplib Info: flushing figure 1 on input line 1217
+Module luamplib Info: flushing figure 1 on input line 1217
+Module luamplib Info: flushing figure 1 on input line 1217
+Module luamplib Info: flushing figure 1 on input line 1217
+Module luamplib Info: flushing figure 1 on input line 1217
+
+Underfull \hbox (badness 2376) in paragraph at lines 1217--1217
+[]  \TU/EBGaramond(27)/m/sc/10 e \TU/EBGaramond(27)/m/it/10 un punto dado ([]), dibu-jar una
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1217--1217
+\TU/EBGaramond(27)/m/it/10 línea recta igual a una línea recta finita
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1217
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1220
+Module luamplib Info: flushing figure 1 on input line 1220
+Module luamplib Info: flushing figure 1 on input line 1228
+Module luamplib Info: flushing figure 1 on input line 1228
+Module luamplib Info: flushing figure 1 on input line 1228
+Module luamplib Info: flushing figure 1 on input line 1228
+Module luamplib Info: flushing figure 1 on input line 1233
+Module luamplib Info: flushing figure 1 on input line 1233
+Module luamplib Info: flushing figure 1 on input line 1238
+Module luamplib Info: flushing figure 1 on input line 1238
+Module luamplib Info: flushing figure 1 on input line 1238
+Module luamplib Info: flushing figure 1 on input line 1238
+Module luamplib Info: flushing figure 1 on input line 1238
+Module luamplib Info: flushing figure 1 on input line 1238
+
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1239
+
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+Module luamplib Info: flushing figure 1 on input line 1240
+[26]
+\luamplib.box.101=\box163
+\luamplib.box.102=\box164
+Module luamplib Info: flushing figure 1 on input line 1267
+Module luamplib Info: flushing figure 1 on input line 1269
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--407
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1269
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+\luamplib.box.103=\box165
+\luamplib.box.104=\box166
+\luamplib.box.105=\box167
+\luamplib.box.106=\box168
+Module luamplib Info: flushing figure 1 on input line 1269
+Module luamplib Info: flushing figure 1 on input line 1269
+Module luamplib Info: flushing figure 1 on input line 1269
+Module luamplib Info: flushing figure 1 on input line 1269
+Module luamplib Info: flushing figure 1 on input line 1269
+
+Underfull \hbox (badness 1406) in paragraph at lines 1269--1269
+[]  \TU/EBGaramond(27)/m/sc/10 e \TU/EBGaramond(27)/m/it/10 la mayor ([]) de dos
+ líneas rec-tas
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1269
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1272
+Module luamplib Info: flushing figure 1 on input line 1272
+Module luamplib Info: flushing figure 1 on input line 1272
+Module luamplib Info: flushing figure 1 on input line 1272
+Module luamplib Info: flushing figure 1 on input line 1279
+Module luamplib Info: flushing figure 1 on input line 1279
+Module luamplib Info: flushing figure 1 on input line 1280
+Module luamplib Info: flushing figure 1 on input line 1280
+Module luamplib Info: flushing figure 1 on input line 1280
+Module luamplib Info: flushing figure 1 on input line 1280
+Module luamplib Info: flushing figure 1 on input line 1282
+Module luamplib Info: flushing figure 1 on input line 1282
+Module luamplib Info: flushing figure 1 on input line 1282
+Module luamplib Info: flushing figure 1 on input line 1282
+Module luamplib Info: flushing figure 1 on input line 1283
+Module luamplib Info: flushing figure 1 on input line 1283
+Module luamplib Info: flushing figure 1 on input line 1283
+Module luamplib Info: flushing figure 1 on input line 1283
+Module luamplib Info: flushing figure 1 on input line 1285
+Module luamplib Info: flushing figure 1 on input line 1285
+Module luamplib Info: flushing figure 1 on input line 1285
+Module luamplib Info: flushing figure 1 on input line 1285
+[27]
+\luamplib.box.107=\box169
+\luamplib.box.108=\box170
+Module luamplib Info: flushing figure 1 on input line 1318
+Module luamplib Info: flushing figure 1 on input line 1320
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--464
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1320
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+\ltrnS=\count378
+\luamplib.box.109=\box171
+\luamplib.box.110=\box172
+\luamplib.box.111=\box173
+\luamplib.box.112=\box174
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+Module luamplib Info: flushing figure 1 on input line 1320
+
+Underfull \hbox (badness 3884) in paragraph at lines 1320--1320
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 dos trián-gu-los ti
+enen dos la-dos re-spec-ti-
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 1320--1320
+\TU/EBGaramond(27)/m/it/10 va-mente iguales, ([] con [] y
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 1320--1320
+\TU/EBGaramond(27)/m/it/10 en-tonces sus bases o sus la-dos ([] con [])
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1320
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1322
+Module luamplib Info: flushing figure 1 on input line 1322
+Module luamplib Info: flushing figure 1 on input line 1322
+Module luamplib Info: flushing figure 1 on input line 1322
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+Module luamplib Info: flushing figure 1 on input line 1323
+[28]
+\luamplib.box.113=\box175
+\luamplib.box.114=\box176
+Module luamplib Info: flushing figure 1 on input line 1354
+Module luamplib Info: flushing figure 1 on input line 1356
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--524
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1356
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+\luamplib.box.115=\box177
+\luamplib.box.116=\box178
+\luamplib.box.117=\box179
+\luamplib.box.118=\box180
+Module luamplib Info: flushing figure 1 on input line 1356
+Module luamplib Info: flushing figure 1 on input line 1356
+Module luamplib Info: flushing figure 1 on input line 1356
+
+Underfull \vbox (badness 10000) detected at line 1356
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1359
+Module luamplib Info: flushing figure 1 on input line 1359
+Module luamplib Info: flushing figure 1 on input line 1359
+Module luamplib Info: flushing figure 1 on input line 1359
+Module luamplib Info: flushing figure 1 on input line 1360
+Module luamplib Info: flushing figure 1 on input line 1360
+Module luamplib Info: flushing figure 1 on input line 1360
+Module luamplib Info: flushing figure 1 on input line 1360
+Module luamplib Info: flushing figure 1 on input line 1361
+Module luamplib Info: flushing figure 1 on input line 1361
+Module luamplib Info: flushing figure 1 on input line 1361
+Module luamplib Info: flushing figure 1 on input line 1361
+Module luamplib Info: flushing figure 1 on input line 1369
+Module luamplib Info: flushing figure 1 on input line 1369
+Module luamplib Info: flushing figure 1 on input line 1376
+Module luamplib Info: flushing figure 1 on input line 1376
+Module luamplib Info: flushing figure 1 on input line 1377
+Module luamplib Info: flushing figure 1 on input line 1377
+Module luamplib Info: flushing figure 1 on input line 1377
+Module luamplib Info: flushing figure 1 on input line 1377
+Module luamplib Info: flushing figure 1 on input line 1378
+Module luamplib Info: flushing figure 1 on input line 1378
+Module luamplib Info: flushing figure 1 on input line 1379
+Module luamplib Info: flushing figure 1 on input line 1379
+Module luamplib Info: flushing figure 1 on input line 1379
+Module luamplib Info: flushing figure 1 on input line 1379
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1380
+Module luamplib Info: flushing figure 1 on input line 1382
+Module luamplib Info: flushing figure 1 on input line 1382
+Module luamplib Info: flushing figure 1 on input line 1382
+Module luamplib Info: flushing figure 1 on input line 1382
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1383
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1384
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+Module luamplib Info: flushing figure 1 on input line 1385
+[29]
+\luamplib.box.119=\box181
+\luamplib.box.120=\box182
+Module luamplib Info: flushing figure 1 on input line 1408
+Module luamplib Info: flushing figure 1 on input line 1410
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--350
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1410
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+\luamplib.box.121=\box183
+\luamplib.box.122=\box184
+\luamplib.box.123=\box185
+\luamplib.box.124=\box186
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+Module luamplib Info: flushing figure 1 on input line 1410
+
+Underfull \vbox (badness 10000) detected at line 1410
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1412
+Module luamplib Info: flushing figure 1 on input line 1415
+Module luamplib Info: flushing figure 1 on input line 1415
+Module luamplib Info: flushing figure 1 on input line 1415
+Module luamplib Info: flushing figure 1 on input line 1416
+Module luamplib Info: flushing figure 1 on input line 1416
+Module luamplib Info: flushing figure 1 on input line 1416
+Module luamplib Info: flushing figure 1 on input line 1416
+Module luamplib Info: flushing figure 1 on input line 1417
+Module luamplib Info: flushing figure 1 on input line 1417
+Module luamplib Info: flushing figure 1 on input line 1417
+Module luamplib Info: flushing figure 1 on input line 1417
+Module luamplib Info: flushing figure 1 on input line 1417
+Module luamplib Info: flushing figure 1 on input line 1417
+Module luamplib Info: flushing figure 1 on input line 1420
+Module luamplib Info: flushing figure 1 on input line 1420
+Module luamplib Info: flushing figure 1 on input line 1420
+Module luamplib Info: flushing figure 1 on input line 1420
+[30]
+\luamplib.box.125=\box187
+\luamplib.box.126=\box188
+Module luamplib Info: flushing figure 1 on input line 1466
+Module luamplib Info: flushing figure 1 on input line 1468
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1064
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1468
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+\luamplib.box.127=\box189
+\luamplib.box.128=\box190
+\luamplib.box.129=\box191
+\luamplib.box.130=\box192
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+Module luamplib Info: flushing figure 1 on input line 1468
+
+Underfull \vbox (badness 10000) detected at line 1468
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1475
+Module luamplib Info: flushing figure 1 on input line 1475
+Module luamplib Info: flushing figure 1 on input line 1475
+Module luamplib Info: flushing figure 1 on input line 1475
+Module luamplib Info: flushing figure 1 on input line 1476
+Module luamplib Info: flushing figure 1 on input line 1476
+Module luamplib Info: flushing figure 1 on input line 1476
+Module luamplib Info: flushing figure 1 on input line 1476
+Module luamplib Info: flushing figure 1 on input line 1479
+Module luamplib Info: flushing figure 1 on input line 1479
+Module luamplib Info: flushing figure 1 on input line 1482
+Module luamplib Info: flushing figure 1 on input line 1482
+Module luamplib Info: flushing figure 1 on input line 1482
+Module luamplib Info: flushing figure 1 on input line 1482
+Module luamplib Info: flushing figure 1 on input line 1484
+Module luamplib Info: flushing figure 1 on input line 1484
+Module luamplib Info: flushing figure 1 on input line 1484
+Module luamplib Info: flushing figure 1 on input line 1484
+Module luamplib Info: flushing figure 1 on input line 1488
+Module luamplib Info: flushing figure 1 on input line 1488
+Module luamplib Info: flushing figure 1 on input line 1488
+Module luamplib Info: flushing figure 1 on input line 1488
+Module luamplib Info: flushing figure 1 on input line 1489
+Module luamplib Info: flushing figure 1 on input line 1489
+Module luamplib Info: flushing figure 1 on input line 1489
+Module luamplib Info: flushing figure 1 on input line 1489
+[31]
+\luamplib.box.131=\box193
+\luamplib.box.132=\box194
+Module luamplib Info: flushing figure 1 on input line 1521
+Module luamplib Info: flushing figure 1 on input line 1523
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--374
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1523
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+\luamplib.box.133=\box195
+\luamplib.box.134=\box196
+\luamplib.box.135=\box197
+\luamplib.box.136=\box198
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+Module luamplib Info: flushing figure 1 on input line 1537
+
+Underfull \hbox (badness 2426) in paragraph at lines 1537--1537
+[]  \TU/EBGaramond(27)/m/sc/10 i  \TU/EBGaramond(27)/m/it/10 dos trián-gu-los 
+tienen dos la-dos de uno
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1537
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+Module luamplib Info: flushing figure 1 on input line 1539
+
+Underfull \hbox (badness 1406) in paragraph at lines 1539--1540
+[]\TU/EBGaramond(27)/m/n/10 Si las bases iguales [] y [] se colo-can
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+Module luamplib Info: flushing figure 1 on input line 1541
+[32]
+\luamplib.box.137=\box199
+\luamplib.box.138=\box256
+Module luamplib Info: flushing figure 1 on input line 1569
+Module luamplib Info: flushing figure 1 on input line 1571
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--542
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1571
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+\ltrnB=\count379
+\luamplib.box.139=\box257
+\luamplib.box.140=\box258
+\luamplib.box.141=\box259
+\luamplib.box.142=\box260
+Module luamplib Info: flushing figure 1 on input line 1571
+Module luamplib Info: flushing figure 1 on input line 1571
+Module luamplib Info: flushing figure 1 on input line 1571
+
+Underfull \vbox (badness 10000) detected at line 1571
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1574
+Module luamplib Info: flushing figure 1 on input line 1574
+Module luamplib Info: flushing figure 1 on input line 1574
+Module luamplib Info: flushing figure 1 on input line 1574
+Module luamplib Info: flushing figure 1 on input line 1576
+Module luamplib Info: flushing figure 1 on input line 1576
+Module luamplib Info: flushing figure 1 on input line 1576
+Module luamplib Info: flushing figure 1 on input line 1576
+Module luamplib Info: flushing figure 1 on input line 1577
+Module luamplib Info: flushing figure 1 on input line 1577
+Module luamplib Info: flushing figure 1 on input line 1579
+Module luamplib Info: flushing figure 1 on input line 1579
+Module luamplib Info: flushing figure 1 on input line 1579
+Module luamplib Info: flushing figure 1 on input line 1579
+Module luamplib Info: flushing figure 1 on input line 1580
+Module luamplib Info: flushing figure 1 on input line 1580
+Module luamplib Info: flushing figure 1 on input line 1581
+Module luamplib Info: flushing figure 1 on input line 1581
+Module luamplib Info: flushing figure 1 on input line 1581
+Module luamplib Info: flushing figure 1 on input line 1581
+Module luamplib Info: flushing figure 1 on input line 1583
+Module luamplib Info: flushing figure 1 on input line 1583
+Module luamplib Info: flushing figure 1 on input line 1583
+Module luamplib Info: flushing figure 1 on input line 1583
+[33]
+\luamplib.box.143=\box261
+\luamplib.box.144=\box262
+Module luamplib Info: flushing figure 1 on input line 1605
+Module luamplib Info: flushing figure 1 on input line 1607
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--350
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1607
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+\luamplib.box.145=\box263
+\luamplib.box.146=\box264
+\luamplib.box.147=\box265
+\luamplib.box.148=\box266
+Module luamplib Info: flushing figure 1 on input line 1607
+Module luamplib Info: flushing figure 1 on input line 1607
+Module luamplib Info: flushing figure 1 on input line 1607
+
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1607
+[]  \TU/EBGaramond(27)/m/sc/10 ise-car \TU/EBGaramond(27)/m/it/10 una línea rec
+ta finita dada
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1607
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1610
+Module luamplib Info: flushing figure 1 on input line 1610
+Module luamplib Info: flushing figure 1 on input line 1611
+Module luamplib Info: flushing figure 1 on input line 1611
+Module luamplib Info: flushing figure 1 on input line 1611
+Module luamplib Info: flushing figure 1 on input line 1611
+Module luamplib Info: flushing figure 1 on input line 1611
+Module luamplib Info: flushing figure 1 on input line 1611
+Module luamplib Info: flushing figure 1 on input line 1613
+Module luamplib Info: flushing figure 1 on input line 1613
+Module luamplib Info: flushing figure 1 on input line 1613
+Module luamplib Info: flushing figure 1 on input line 1613
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1615
+Module luamplib Info: flushing figure 1 on input line 1616
+Module luamplib Info: flushing figure 1 on input line 1616
+[34]
+\luamplib.box.149=\box267
+\luamplib.box.150=\box268
+Module luamplib Info: flushing figure 1 on input line 1646
+Module luamplib Info: flushing figure 1 on input line 1648
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--488
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1648
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+\luamplib.box.151=\box269
+\luamplib.box.152=\box270
+\luamplib.box.153=\box271
+\luamplib.box.154=\box272
+Module luamplib Info: flushing figure 1 on input line 1648
+Module luamplib Info: flushing figure 1 on input line 1648
+Module luamplib Info: flushing figure 1 on input line 1648
+Module luamplib Info: flushing figure 1 on input line 1648
+Module luamplib Info: flushing figure 1 on input line 1648
+
+Underfull \vbox (badness 10000) detected at line 1648
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1651
+Module luamplib Info: flushing figure 1 on input line 1651
+Module luamplib Info: flushing figure 1 on input line 1652
+Module luamplib Info: flushing figure 1 on input line 1652
+Module luamplib Info: flushing figure 1 on input line 1652
+Module luamplib Info: flushing figure 1 on input line 1652
+Module luamplib Info: flushing figure 1 on input line 1653
+Module luamplib Info: flushing figure 1 on input line 1653
+Module luamplib Info: flushing figure 1 on input line 1654
+Module luamplib Info: flushing figure 1 on input line 1654
+Module luamplib Info: flushing figure 1 on input line 1656
+Module luamplib Info: flushing figure 1 on input line 1656
+Module luamplib Info: flushing figure 1 on input line 1656
+Module luamplib Info: flushing figure 1 on input line 1656
+Module luamplib Info: flushing figure 1 on input line 1657
+Module luamplib Info: flushing figure 1 on input line 1657
+Module luamplib Info: flushing figure 1 on input line 1657
+Module luamplib Info: flushing figure 1 on input line 1657
+Module luamplib Info: flushing figure 1 on input line 1658
+Module luamplib Info: flushing figure 1 on input line 1658
+Module luamplib Info: flushing figure 1 on input line 1660
+Module luamplib Info: flushing figure 1 on input line 1660
+Module luamplib Info: flushing figure 1 on input line 1660
+Module luamplib Info: flushing figure 1 on input line 1660
+Module luamplib Info: flushing figure 1 on input line 1662
+Module luamplib Info: flushing figure 1 on input line 1662
+Module luamplib Info: flushing figure 1 on input line 1662
+Module luamplib Info: flushing figure 1 on input line 1662
+[35]
+\luamplib.box.155=\box273
+\luamplib.box.156=\box274
+Module luamplib Info: flushing figure 1 on input line 1701
+Module luamplib Info: flushing figure 1 on input line 1703
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--797
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1703
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+\luamplib.box.157=\box275
+\luamplib.box.158=\box276
+\luamplib.box.159=\box277
+\luamplib.box.160=\box278
+Module luamplib Info: flushing figure 1 on input line 1703
+Module luamplib Info: flushing figure 1 on input line 1703
+Module luamplib Info: flushing figure 1 on input line 1703
+Module luamplib Info: flushing figure 1 on input line 1703
+Module luamplib Info: flushing figure 1 on input line 1703
+
+Underfull \vbox (badness 10000) detected at line 1703
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1706
+Module luamplib Info: flushing figure 1 on input line 1706
+Module luamplib Info: flushing figure 1 on input line 1706
+Module luamplib Info: flushing figure 1 on input line 1706
+Module luamplib Info: flushing figure 1 on input line 1706
+Module luamplib Info: flushing figure 1 on input line 1706
+Module luamplib Info: flushing figure 1 on input line 1708
+Module luamplib Info: flushing figure 1 on input line 1708
+Module luamplib Info: flushing figure 1 on input line 1708
+Module luamplib Info: flushing figure 1 on input line 1708
+Module luamplib Info: flushing figure 1 on input line 1709
+Module luamplib Info: flushing figure 1 on input line 1709
+Module luamplib Info: flushing figure 1 on input line 1709
+Module luamplib Info: flushing figure 1 on input line 1709
+Module luamplib Info: flushing figure 1 on input line 1709
+Module luamplib Info: flushing figure 1 on input line 1709
+Module luamplib Info: flushing figure 1 on input line 1710
+Module luamplib Info: flushing figure 1 on input line 1710
+Module luamplib Info: flushing figure 1 on input line 1710
+Module luamplib Info: flushing figure 1 on input line 1710
+Module luamplib Info: flushing figure 1 on input line 1712
+Module luamplib Info: flushing figure 1 on input line 1712
+Module luamplib Info: flushing figure 1 on input line 1712
+Module luamplib Info: flushing figure 1 on input line 1712
+Module luamplib Info: flushing figure 1 on input line 1713
+Module luamplib Info: flushing figure 1 on input line 1713
+Module luamplib Info: flushing figure 1 on input line 1714
+Module luamplib Info: flushing figure 1 on input line 1714
+Module luamplib Info: flushing figure 1 on input line 1714
+Module luamplib Info: flushing figure 1 on input line 1714
+Module luamplib Info: flushing figure 1 on input line 1716
+Module luamplib Info: flushing figure 1 on input line 1716
+Module luamplib Info: flushing figure 1 on input line 1716
+Module luamplib Info: flushing figure 1 on input line 1716
+Module luamplib Info: flushing figure 1 on input line 1718
+Module luamplib Info: flushing figure 1 on input line 1718
+Module luamplib Info: flushing figure 1 on input line 1718
+Module luamplib Info: flushing figure 1 on input line 1718
+[36]
+\luamplib.box.161=\box279
+\luamplib.box.162=\box280
+Module luamplib Info: flushing figure 1 on input line 1741
+Module luamplib Info: flushing figure 1 on input line 1743
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--233
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1743
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+\ltrnC=\count380
+\luamplib.box.163=\box281
+\luamplib.box.164=\box282
+\luamplib.box.165=\box283
+\luamplib.box.166=\box284
+Module luamplib Info: flushing figure 1 on input line 1743
+Module luamplib Info: flushing figure 1 on input line 1743
+Module luamplib Info: flushing figure 1 on input line 1743
+Module luamplib Info: flushing figure 1 on input line 1743
+Module luamplib Info: flushing figure 1 on input line 1743
+
+Underfull \vbox (badness 10000) detected at line 1743
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1746
+Module luamplib Info: flushing figure 1 on input line 1746
+Module luamplib Info: flushing figure 1 on input line 1746
+Module luamplib Info: flushing figure 1 on input line 1746
+Module luamplib Info: flushing figure 1 on input line 1747
+Module luamplib Info: flushing figure 1 on input line 1747
+Module luamplib Info: flushing figure 1 on input line 1747
+Module luamplib Info: flushing figure 1 on input line 1747
+Module luamplib Info: flushing figure 1 on input line 1747
+Module luamplib Info: flushing figure 1 on input line 1747
+Module luamplib Info: flushing figure 1 on input line 1749
+Module luamplib Info: flushing figure 1 on input line 1749
+Module luamplib Info: flushing figure 1 on input line 1749
+Module luamplib Info: flushing figure 1 on input line 1749
+Module luamplib Info: flushing figure 1 on input line 1750
+Module luamplib Info: flushing figure 1 on input line 1750
+Module luamplib Info: flushing figure 1 on input line 1750
+Module luamplib Info: flushing figure 1 on input line 1750
+Module luamplib Info: flushing figure 1 on input line 1751
+Module luamplib Info: flushing figure 1 on input line 1751
+Module luamplib Info: flushing figure 1 on input line 1751
+Module luamplib Info: flushing figure 1 on input line 1751
+Module luamplib Info: flushing figure 1 on input line 1751
+Module luamplib Info: flushing figure 1 on input line 1751
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1752
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1754
+Module luamplib Info: flushing figure 1 on input line 1756
+Module luamplib Info: flushing figure 1 on input line 1756
+Module luamplib Info: flushing figure 1 on input line 1756
+Module luamplib Info: flushing figure 1 on input line 1756
+Module luamplib Info: flushing figure 1 on input line 1756
+Module luamplib Info: flushing figure 1 on input line 1756
+[37]
+\luamplib.box.167=\box285
+\luamplib.box.168=\box286
+Module luamplib Info: flushing figure 1 on input line 1780
+Module luamplib Info: flushing figure 1 on input line 1782
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--290
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1782
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+\luamplib.box.169=\box287
+\luamplib.box.170=\box288
+\luamplib.box.171=\box289
+\luamplib.box.172=\box290
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+Module luamplib Info: flushing figure 1 on input line 1782
+
+Underfull \hbox (badness 5741) in paragraph at lines 1782--1782
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 dos lin-eas rec-tas ([] y []),
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 1782--1782
+\TU/EBGaramond(27)/m/it/10 se en-cuen-tran con una ter-cera linea recta
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 1782--1782
+\TU/EBGaramond(27)/m/it/10 ([]) en el mismo punto y en la-dos
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 1782--1782
+\TU/EBGaramond(27)/m/it/10 op-uestos, con án-gu-los ady-a-centes ([] y
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1782
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1785
+Module luamplib Info: flushing figure 1 on input line 1785
+Module luamplib Info: flushing figure 1 on input line 1785
+Module luamplib Info: flushing figure 1 on input line 1785
+Module luamplib Info: flushing figure 1 on input line 1785
+Module luamplib Info: flushing figure 1 on input line 1785
+Module luamplib Info: flushing figure 1 on input line 1786
+Module luamplib Info: flushing figure 1 on input line 1786
+Module luamplib Info: flushing figure 1 on input line 1786
+Module luamplib Info: flushing figure 1 on input line 1786
+Module luamplib Info: flushing figure 1 on input line 1786
+Module luamplib Info: flushing figure 1 on input line 1786
+Module luamplib Info: flushing figure 1 on input line 1788
+Module luamplib Info: flushing figure 1 on input line 1788
+Module luamplib Info: flushing figure 1 on input line 1788
+Module luamplib Info: flushing figure 1 on input line 1788
+Module luamplib Info: flushing figure 1 on input line 1788
+Module luamplib Info: flushing figure 1 on input line 1788
+Module luamplib Info: flushing figure 1 on input line 1790
+Module luamplib Info: flushing figure 1 on input line 1790
+Module luamplib Info: flushing figure 1 on input line 1790
+Module luamplib Info: flushing figure 1 on input line 1790
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+Module luamplib Info: flushing figure 1 on input line 1792
+[38]
+\luamplib.box.173=\box291
+\luamplib.box.174=\box292
+Module luamplib Info: flushing figure 1 on input line 1815
+Module luamplib Info: flushing figure 1 on input line 1817
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--212
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1817
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+\luamplib.box.175=\box293
+\luamplib.box.176=\box294
+\luamplib.box.177=\box295
+\luamplib.box.178=\box296
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+Module luamplib Info: flushing figure 1 on input line 1817
+
+Underfull \hbox (badness 1466) in paragraph at lines 1817--1817
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 dos lin-eas rec-tas ([] y []) se
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1817
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1820
+Module luamplib Info: flushing figure 1 on input line 1820
+Module luamplib Info: flushing figure 1 on input line 1820
+Module luamplib Info: flushing figure 1 on input line 1820
+Module luamplib Info: flushing figure 1 on input line 1820
+Module luamplib Info: flushing figure 1 on input line 1820
+Module luamplib Info: flushing figure 1 on input line 1822
+Module luamplib Info: flushing figure 1 on input line 1822
+Module luamplib Info: flushing figure 1 on input line 1822
+Module luamplib Info: flushing figure 1 on input line 1822
+Module luamplib Info: flushing figure 1 on input line 1822
+Module luamplib Info: flushing figure 1 on input line 1822
+Module luamplib Info: flushing figure 1 on input line 1824
+Module luamplib Info: flushing figure 1 on input line 1824
+Module luamplib Info: flushing figure 1 on input line 1824
+Module luamplib Info: flushing figure 1 on input line 1824
+Module luamplib Info: flushing figure 1 on input line 1827
+Module luamplib Info: flushing figure 1 on input line 1827
+Module luamplib Info: flushing figure 1 on input line 1827
+Module luamplib Info: flushing figure 1 on input line 1827
+[39]
+\luamplib.box.179=\box297
+\luamplib.box.180=\box298
+Module luamplib Info: flushing figure 1 on input line 1863
+Module luamplib Info: flushing figure 1 on input line 1865
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--833
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1865
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+\luamplib.box.181=\box299
+\luamplib.box.182=\box300
+\luamplib.box.183=\box301
+\luamplib.box.184=\box302
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+Module luamplib Info: flushing figure 1 on input line 1870
+
+Underfull \hbox (badness 10000) in paragraph at lines 1870--1870
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 el lado de un tri
+án-gulo ([]) es
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1870
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1873
+Module luamplib Info: flushing figure 1 on input line 1873
+Module luamplib Info: flushing figure 1 on input line 1873
+Module luamplib Info: flushing figure 1 on input line 1873
+Module luamplib Info: flushing figure 1 on input line 1874
+Module luamplib Info: flushing figure 1 on input line 1874
+Module luamplib Info: flushing figure 1 on input line 1874
+Module luamplib Info: flushing figure 1 on input line 1874
+Module luamplib Info: flushing figure 1 on input line 1874
+Module luamplib Info: flushing figure 1 on input line 1874
+Module luamplib Info: flushing figure 1 on input line 1875
+Module luamplib Info: flushing figure 1 on input line 1875
+Module luamplib Info: flushing figure 1 on input line 1877
+Module luamplib Info: flushing figure 1 on input line 1877
+Module luamplib Info: flushing figure 1 on input line 1877
+Module luamplib Info: flushing figure 1 on input line 1877
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1878
+Module luamplib Info: flushing figure 1 on input line 1879
+Module luamplib Info: flushing figure 1 on input line 1879
+Module luamplib Info: flushing figure 1 on input line 1879
+Module luamplib Info: flushing figure 1 on input line 1879
+Module luamplib Info: flushing figure 1 on input line 1880
+Module luamplib Info: flushing figure 1 on input line 1880
+Module luamplib Info: flushing figure 1 on input line 1880
+Module luamplib Info: flushing figure 1 on input line 1882
+Module luamplib Info: flushing figure 1 on input line 1882
+Module luamplib Info: flushing figure 1 on input line 1882
+Module luamplib Info: flushing figure 1 on input line 1882
+Module luamplib Info: flushing figure 1 on input line 1882
+Module luamplib Info: flushing figure 1 on input line 1882
+Module luamplib Info: flushing figure 1 on input line 1883
+Module luamplib Info: flushing figure 1 on input line 1883
+Module luamplib Info: flushing figure 1 on input line 1883
+Module luamplib Info: flushing figure 1 on input line 1883
+Module luamplib Info: flushing figure 1 on input line 1883
+[40]
+\luamplib.box.185=\box303
+\luamplib.box.186=\box304
+Module luamplib Info: flushing figure 1 on input line 1906
+Module luamplib Info: flushing figure 1 on input line 1908
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--311
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1908
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+\luamplib.box.187=\box305
+\luamplib.box.188=\box306
+\luamplib.box.189=\box307
+\luamplib.box.190=\box308
+Module luamplib Info: flushing figure 1 on input line 1908
+
+Underfull \vbox (badness 10000) detected at line 1908
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1911
+Module luamplib Info: flushing figure 1 on input line 1911
+Module luamplib Info: flushing figure 1 on input line 1912
+Module luamplib Info: flushing figure 1 on input line 1912
+Module luamplib Info: flushing figure 1 on input line 1912
+Module luamplib Info: flushing figure 1 on input line 1912
+Module luamplib Info: flushing figure 1 on input line 1912
+Module luamplib Info: flushing figure 1 on input line 1912
+Module luamplib Info: flushing figure 1 on input line 1914
+Module luamplib Info: flushing figure 1 on input line 1914
+Module luamplib Info: flushing figure 1 on input line 1914
+Module luamplib Info: flushing figure 1 on input line 1914
+Module luamplib Info: flushing figure 1 on input line 1916
+Module luamplib Info: flushing figure 1 on input line 1916
+Module luamplib Info: flushing figure 1 on input line 1916
+Module luamplib Info: flushing figure 1 on input line 1916
+Module luamplib Info: flushing figure 1 on input line 1916
+Module luamplib Info: flushing figure 1 on input line 1916
+[41]
+\luamplib.box.191=\box309
+\luamplib.box.192=\box310
+Module luamplib Info: flushing figure 1 on input line 1947
+Module luamplib Info: flushing figure 1 on input line 1949
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--392
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1949
+
+LaTeX Warning: Marginpar on page 42 moved.
+
+\luamplib.box.193=\box311
+\luamplib.box.194=\box312
+\luamplib.box.195=\box313
+\luamplib.box.196=\box314
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+Module luamplib Info: flushing figure 1 on input line 1949
+
+Underfull \hbox (badness 3861) in paragraph at lines 1949--1949
+[]  \TU/EBGaramond(27)/m/sc/10 n \TU/EBGaramond(27)/m/it/10 cualquier tri-an-gul
+o [] si un lado
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1949
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1952
+Module luamplib Info: flushing figure 1 on input line 1952
+Module luamplib Info: flushing figure 1 on input line 1952
+Module luamplib Info: flushing figure 1 on input line 1952
+Module luamplib Info: flushing figure 1 on input line 1952
+Module luamplib Info: flushing figure 1 on input line 1952
+Module luamplib Info: flushing figure 1 on input line 1954
+Module luamplib Info: flushing figure 1 on input line 1954
+Module luamplib Info: flushing figure 1 on input line 1954
+Module luamplib Info: flushing figure 1 on input line 1954
+Module luamplib Info: flushing figure 1 on input line 1956
+Module luamplib Info: flushing figure 1 on input line 1956
+Module luamplib Info: flushing figure 1 on input line 1956
+Module luamplib Info: flushing figure 1 on input line 1956
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+Module luamplib Info: flushing figure 1 on input line 1958
+[42]
+\luamplib.box.197=\box315
+\luamplib.box.198=\box316
+Module luamplib Info: flushing figure 1 on input line 1977
+Module luamplib Info: flushing figure 1 on input line 1979
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--215
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1979
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+\luamplib.box.199=\box317
+\luamplib.box.200=\box318
+\luamplib.box.201=\box319
+\luamplib.box.202=\box320
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+Module luamplib Info: flushing figure 1 on input line 1979
+
+Underfull \vbox (badness 10000) detected at line 1979
+ []
+
+Module luamplib Info: flushing figure 1 on input line 1982
+Module luamplib Info: flushing figure 1 on input line 1982
+Module luamplib Info: flushing figure 1 on input line 1982
+Module luamplib Info: flushing figure 1 on input line 1982
+Module luamplib Info: flushing figure 1 on input line 1983
+Module luamplib Info: flushing figure 1 on input line 1983
+Module luamplib Info: flushing figure 1 on input line 1983
+Module luamplib Info: flushing figure 1 on input line 1983
+Module luamplib Info: flushing figure 1 on input line 1985
+Module luamplib Info: flushing figure 1 on input line 1985
+Module luamplib Info: flushing figure 1 on input line 1985
+Module luamplib Info: flushing figure 1 on input line 1985
+Module luamplib Info: flushing figure 1 on input line 1987
+Module luamplib Info: flushing figure 1 on input line 1987
+Module luamplib Info: flushing figure 1 on input line 1987
+Module luamplib Info: flushing figure 1 on input line 1987
+Module luamplib Info: flushing figure 1 on input line 1988
+Module luamplib Info: flushing figure 1 on input line 1988
+Module luamplib Info: flushing figure 1 on input line 1988
+Module luamplib Info: flushing figure 1 on input line 1988
+Module luamplib Info: flushing figure 1 on input line 1991
+Module luamplib Info: flushing figure 1 on input line 1991
+Module luamplib Info: flushing figure 1 on input line 1991
+Module luamplib Info: flushing figure 1 on input line 1991
+Module luamplib Info: flushing figure 1 on input line 1992
+Module luamplib Info: flushing figure 1 on input line 1992
+Module luamplib Info: flushing figure 1 on input line 1992
+Module luamplib Info: flushing figure 1 on input line 1992
+Module luamplib Info: flushing figure 1 on input line 1995
+Module luamplib Info: flushing figure 1 on input line 1995
+Module luamplib Info: flushing figure 1 on input line 1995
+Module luamplib Info: flushing figure 1 on input line 1995
+[43]
+\luamplib.box.203=\box321
+\luamplib.box.204=\box322
+Module luamplib Info: flushing figure 1 on input line 2019
+Module luamplib Info: flushing figure 1 on input line 2021
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--371
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2021
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+\luamplib.box.205=\box323
+\luamplib.box.206=\box324
+\luamplib.box.207=\box325
+\luamplib.box.208=\box326
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+Module luamplib Info: flushing figure 1 on input line 2021
+
+Underfull \vbox (badness 10000) detected at line 2021
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2024
+Module luamplib Info: flushing figure 1 on input line 2024
+Module luamplib Info: flushing figure 1 on input line 2025
+Module luamplib Info: flushing figure 1 on input line 2025
+Module luamplib Info: flushing figure 1 on input line 2025
+Module luamplib Info: flushing figure 1 on input line 2025
+Module luamplib Info: flushing figure 1 on input line 2026
+Module luamplib Info: flushing figure 1 on input line 2026
+Module luamplib Info: flushing figure 1 on input line 2028
+Module luamplib Info: flushing figure 1 on input line 2028
+Module luamplib Info: flushing figure 1 on input line 2028
+Module luamplib Info: flushing figure 1 on input line 2028
+Module luamplib Info: flushing figure 1 on input line 2029
+Module luamplib Info: flushing figure 1 on input line 2029
+Module luamplib Info: flushing figure 1 on input line 2029
+Module luamplib Info: flushing figure 1 on input line 2029
+Module luamplib Info: flushing figure 1 on input line 2031
+Module luamplib Info: flushing figure 1 on input line 2031
+Module luamplib Info: flushing figure 1 on input line 2031
+Module luamplib Info: flushing figure 1 on input line 2031
+Module luamplib Info: flushing figure 1 on input line 2033
+Module luamplib Info: flushing figure 1 on input line 2033
+Module luamplib Info: flushing figure 1 on input line 2033
+Module luamplib Info: flushing figure 1 on input line 2033
+Module luamplib Info: flushing figure 1 on input line 2033
+Module luamplib Info: flushing figure 1 on input line 2033
+Module luamplib Info: flushing figure 1 on input line 2035
+Module luamplib Info: flushing figure 1 on input line 2035
+Module luamplib Info: flushing figure 1 on input line 2035
+Module luamplib Info: flushing figure 1 on input line 2035
+Module luamplib Info: flushing figure 1 on input line 2035
+Module luamplib Info: flushing figure 1 on input line 2035
+[44]
+\luamplib.box.209=\box327
+\luamplib.box.210=\box328
+Module luamplib Info: flushing figure 1 on input line 2064
+Module luamplib Info: flushing figure 1 on input line 2066
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--557
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2066
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+\luamplib.box.211=\box329
+\luamplib.box.212=\box330
+\luamplib.box.213=\box331
+\luamplib.box.214=\box332
+Module luamplib Info: flushing figure 1 on input line 2066
+Module luamplib Info: flushing figure 1 on input line 2066
+Module luamplib Info: flushing figure 1 on input line 2066
+Module luamplib Info: flushing figure 1 on input line 2066
+Module luamplib Info: flushing figure 1 on input line 2066
+Module luamplib Info: flushing figure 1 on input line 2066
+Module luamplib Info: flushing figure 1 on input line 2066
+
+Underfull \vbox (badness 10000) detected at line 2066
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2069
+Module luamplib Info: flushing figure 1 on input line 2069
+Module luamplib Info: flushing figure 1 on input line 2070
+Module luamplib Info: flushing figure 1 on input line 2070
+Module luamplib Info: flushing figure 1 on input line 2070
+Module luamplib Info: flushing figure 1 on input line 2070
+Module luamplib Info: flushing figure 1 on input line 2070
+Module luamplib Info: flushing figure 1 on input line 2070
+Module luamplib Info: flushing figure 1 on input line 2071
+Module luamplib Info: flushing figure 1 on input line 2071
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2072
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2075
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2076
+Module luamplib Info: flushing figure 1 on input line 2079
+Module luamplib Info: flushing figure 1 on input line 2079
+Module luamplib Info: flushing figure 1 on input line 2079
+Module luamplib Info: flushing figure 1 on input line 2079
+Module luamplib Info: flushing figure 1 on input line 2080
+Module luamplib Info: flushing figure 1 on input line 2080
+Module luamplib Info: flushing figure 1 on input line 2080
+Module luamplib Info: flushing figure 1 on input line 2080
+Module luamplib Info: flushing figure 1 on input line 2082
+Module luamplib Info: flushing figure 1 on input line 2082
+Module luamplib Info: flushing figure 1 on input line 2082
+Module luamplib Info: flushing figure 1 on input line 2082
+[45]
+\luamplib.box.215=\box333
+\luamplib.box.216=\box334
+Module luamplib Info: flushing figure 1 on input line 2127
+Module luamplib Info: flushing figure 1 on input line 2129
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--926
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2129
+
+LaTeX Warning: Marginpar on page 46 moved.
+
+\luamplib.box.217=\box335
+\luamplib.box.218=\box336
+\luamplib.box.219=\box337
+\luamplib.box.220=\box338
+Module luamplib Info: flushing figure 1 on input line 2133
+Module luamplib Info: flushing figure 1 on input line 2133
+Module luamplib Info: flushing figure 1 on input line 2133
+Module luamplib Info: flushing figure 1 on input line 2133
+Module luamplib Info: flushing figure 1 on input line 2133
+Module luamplib Info: flushing figure 1 on input line 2133
+Module luamplib Info: flushing figure 1 on input line 2133
+
+Underfull \vbox (badness 10000) detected at line 2133
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2136
+Module luamplib Info: flushing figure 1 on input line 2136
+Module luamplib Info: flushing figure 1 on input line 2136
+Module luamplib Info: flushing figure 1 on input line 2136
+Module luamplib Info: flushing figure 1 on input line 2140
+Module luamplib Info: flushing figure 1 on input line 2140
+Module luamplib Info: flushing figure 1 on input line 2140
+Module luamplib Info: flushing figure 1 on input line 2140
+Module luamplib Info: flushing figure 1 on input line 2141
+Module luamplib Info: flushing figure 1 on input line 2141
+Module luamplib Info: flushing figure 1 on input line 2141
+Module luamplib Info: flushing figure 1 on input line 2141
+Module luamplib Info: flushing figure 1 on input line 2145
+Module luamplib Info: flushing figure 1 on input line 2145
+Module luamplib Info: flushing figure 1 on input line 2145
+Module luamplib Info: flushing figure 1 on input line 2145
+Module luamplib Info: flushing figure 1 on input line 2150
+Module luamplib Info: flushing figure 1 on input line 2150
+Module luamplib Info: flushing figure 1 on input line 2155
+Module luamplib Info: flushing figure 1 on input line 2155
+Module luamplib Info: flushing figure 1 on input line 2156
+Module luamplib Info: flushing figure 1 on input line 2156
+Module luamplib Info: flushing figure 1 on input line 2156
+Module luamplib Info: flushing figure 1 on input line 2156
+Module luamplib Info: flushing figure 1 on input line 2157
+Module luamplib Info: flushing figure 1 on input line 2157
+Module luamplib Info: flushing figure 1 on input line 2161
+Module luamplib Info: flushing figure 1 on input line 2161
+Module luamplib Info: flushing figure 1 on input line 2161
+Module luamplib Info: flushing figure 1 on input line 2161
+Module luamplib Info: flushing figure 1 on input line 2162
+Module luamplib Info: flushing figure 1 on input line 2162
+Module luamplib Info: flushing figure 1 on input line 2162
+Module luamplib Info: flushing figure 1 on input line 2162
+Module luamplib Info: flushing figure 1 on input line 2162
+Module luamplib Info: flushing figure 1 on input line 2162
+Module luamplib Info: flushing figure 1 on input line 2163
+Module luamplib Info: flushing figure 1 on input line 2163
+Module luamplib Info: flushing figure 1 on input line 2163
+Module luamplib Info: flushing figure 1 on input line 2163
+Module luamplib Info: flushing figure 1 on input line 2163
+Module luamplib Info: flushing figure 1 on input line 2163
+[46]
+\luamplib.box.221=\box339
+\luamplib.box.222=\box340
+Module luamplib Info: flushing figure 1 on input line 2199
+Module luamplib Info: flushing figure 1 on input line 2201
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--620
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2201
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+\luamplib.box.223=\box341
+\luamplib.box.224=\box342
+\luamplib.box.225=\box343
+\luamplib.box.226=\box344
+Module luamplib Info: flushing figure 1 on input line 2201
+Module luamplib Info: flushing figure 1 on input line 2201
+Module luamplib Info: flushing figure 1 on input line 2201
+Module luamplib Info: flushing figure 1 on input line 2201
+Module luamplib Info: flushing figure 1 on input line 2201
+Module luamplib Info: flushing figure 1 on input line 2201
+Module luamplib Info: flushing figure 1 on input line 2201
+
+Underfull \vbox (badness 10000) detected at line 2201
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2203
+Module luamplib Info: flushing figure 1 on input line 2203
+Module luamplib Info: flushing figure 1 on input line 2206
+Module luamplib Info: flushing figure 1 on input line 2206
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2207
+Module luamplib Info: flushing figure 1 on input line 2208
+Module luamplib Info: flushing figure 1 on input line 2208
+Module luamplib Info: flushing figure 1 on input line 2208
+Module luamplib Info: flushing figure 1 on input line 2208
+Module luamplib Info: flushing figure 1 on input line 2210
+Module luamplib Info: flushing figure 1 on input line 2210
+Module luamplib Info: flushing figure 1 on input line 2210
+Module luamplib Info: flushing figure 1 on input line 2210
+[47]
+\luamplib.box.227=\box345
+\luamplib.box.228=\box346
+Module luamplib Info: flushing figure 1 on input line 2258
+Module luamplib Info: flushing figure 1 on input line 2260
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--929
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2260
+
+LaTeX Warning: Marginpar on page 48 moved.
+
+\luamplib.box.229=\box347
+\luamplib.box.230=\box348
+\luamplib.box.231=\box349
+\luamplib.box.232=\box350
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+Module luamplib Info: flushing figure 1 on input line 2273
+
+Underfull \vbox (badness 10000) detected at line 2273
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2280
+Module luamplib Info: flushing figure 1 on input line 2280
+Module luamplib Info: flushing figure 1 on input line 2280
+Module luamplib Info: flushing figure 1 on input line 2281
+Module luamplib Info: flushing figure 1 on input line 2281
+Module luamplib Info: flushing figure 1 on input line 2281
+Module luamplib Info: flushing figure 1 on input line 2281
+Module luamplib Info: flushing figure 1 on input line 2282
+Module luamplib Info: flushing figure 1 on input line 2282
+Module luamplib Info: flushing figure 1 on input line 2282
+Module luamplib Info: flushing figure 1 on input line 2282
+Module luamplib Info: flushing figure 1 on input line 2284
+Module luamplib Info: flushing figure 1 on input line 2284
+Module luamplib Info: flushing figure 1 on input line 2284
+Module luamplib Info: flushing figure 1 on input line 2284
+Module luamplib Info: flushing figure 1 on input line 2285
+Module luamplib Info: flushing figure 1 on input line 2285
+Module luamplib Info: flushing figure 1 on input line 2285
+Module luamplib Info: flushing figure 1 on input line 2285
+Module luamplib Info: flushing figure 1 on input line 2286
+Module luamplib Info: flushing figure 1 on input line 2286
+Module luamplib Info: flushing figure 1 on input line 2286
+Module luamplib Info: flushing figure 1 on input line 2286
+Module luamplib Info: flushing figure 1 on input line 2287
+Module luamplib Info: flushing figure 1 on input line 2287
+Module luamplib Info: flushing figure 1 on input line 2287
+Module luamplib Info: flushing figure 1 on input line 2287
+Module luamplib Info: flushing figure 1 on input line 2289
+Module luamplib Info: flushing figure 1 on input line 2289
+Module luamplib Info: flushing figure 1 on input line 2289
+Module luamplib Info: flushing figure 1 on input line 2289
+Module luamplib Info: flushing figure 1 on input line 2291
+Module luamplib Info: flushing figure 1 on input line 2291
+Module luamplib Info: flushing figure 1 on input line 2291
+Module luamplib Info: flushing figure 1 on input line 2291
+Module luamplib Info: flushing figure 1 on input line 2293
+Module luamplib Info: flushing figure 1 on input line 2293
+Module luamplib Info: flushing figure 1 on input line 2293
+Module luamplib Info: flushing figure 1 on input line 2293
+[48]
+\luamplib.box.233=\box351
+\luamplib.box.234=\box352
+Module luamplib Info: flushing figure 1 on input line 2321
+Module luamplib Info: flushing figure 1 on input line 2323
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--374
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2323
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+\luamplib.box.235=\box353
+\luamplib.box.236=\box354
+\luamplib.box.237=\box355
+\luamplib.box.238=\box356
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+Module luamplib Info: flushing figure 1 on input line 2323
+
+Underfull \vbox (badness 10000) detected at line 2323
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2326
+Module luamplib Info: flushing figure 1 on input line 2326
+Module luamplib Info: flushing figure 1 on input line 2326
+Module luamplib Info: flushing figure 1 on input line 2326
+Module luamplib Info: flushing figure 1 on input line 2328
+Module luamplib Info: flushing figure 1 on input line 2328
+Module luamplib Info: flushing figure 1 on input line 2328
+Module luamplib Info: flushing figure 1 on input line 2328
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2329
+Module luamplib Info: flushing figure 1 on input line 2332
+Module luamplib Info: flushing figure 1 on input line 2332
+Module luamplib Info: flushing figure 1 on input line 2332
+Module luamplib Info: flushing figure 1 on input line 2332
+Module luamplib Info: flushing figure 1 on input line 2333
+Module luamplib Info: flushing figure 1 on input line 2333
+Module luamplib Info: flushing figure 1 on input line 2333
+Module luamplib Info: flushing figure 1 on input line 2333
+Module luamplib Info: flushing figure 1 on input line 2334
+Module luamplib Info: flushing figure 1 on input line 2334
+Module luamplib Info: flushing figure 1 on input line 2334
+Module luamplib Info: flushing figure 1 on input line 2334
+Module luamplib Info: flushing figure 1 on input line 2337
+Module luamplib Info: flushing figure 1 on input line 2337
+Module luamplib Info: flushing figure 1 on input line 2337
+Module luamplib Info: flushing figure 1 on input line 2337
+[49]
+\luamplib.box.239=\box357
+\luamplib.box.240=\box358
+Module luamplib Info: flushing figure 1 on input line 2374
+\luamplib.box.241=\box359
+\luamplib.box.242=\box360
+\luamplib.box.243=\box361
+\luamplib.box.244=\box362
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+Module luamplib Info: flushing figure 1 on input line 2375
+
+Underfull \vbox (badness 10000) detected at line 2375
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2377
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--719
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2377
+
+Package hyperref Warning: bookmark level for unknown subproposition defaults to
+ 0.
+
+Module luamplib Info: flushing figure 1 on input line 2379
+Module luamplib Info: flushing figure 1 on input line 2379
+Module luamplib Info: flushing figure 1 on input line 2379
+Module luamplib Info: flushing figure 1 on input line 2379
+Module luamplib Info: flushing figure 1 on input line 2380
+Module luamplib Info: flushing figure 1 on input line 2380
+Module luamplib Info: flushing figure 1 on input line 2380
+Module luamplib Info: flushing figure 1 on input line 2380
+Module luamplib Info: flushing figure 1 on input line 2382
+Module luamplib Info: flushing figure 1 on input line 2382
+Module luamplib Info: flushing figure 1 on input line 2383
+Module luamplib Info: flushing figure 1 on input line 2383
+Module luamplib Info: flushing figure 1 on input line 2383
+Module luamplib Info: flushing figure 1 on input line 2383
+Module luamplib Info: flushing figure 1 on input line 2383
+Module luamplib Info: flushing figure 1 on input line 2383
+Module luamplib Info: flushing figure 1 on input line 2385
+Module luamplib Info: flushing figure 1 on input line 2385
+Module luamplib Info: flushing figure 1 on input line 2385
+Module luamplib Info: flushing figure 1 on input line 2385
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2386
+Module luamplib Info: flushing figure 1 on input line 2387
+Module luamplib Info: flushing figure 1 on input line 2387
+Module luamplib Info: flushing figure 1 on input line 2387
+Module luamplib Info: flushing figure 1 on input line 2387
+Module luamplib Info: flushing figure 1 on input line 2388
+Module luamplib Info: flushing figure 1 on input line 2388
+Module luamplib Info: flushing figure 1 on input line 2388
+Module luamplib Info: flushing figure 1 on input line 2388
+Module luamplib Info: flushing figure 1 on input line 2390
+Module luamplib Info: flushing figure 1 on input line 2390
+Module luamplib Info: flushing figure 1 on input line 2390
+Module luamplib Info: flushing figure 1 on input line 2390
+Module luamplib Info: flushing figure 1 on input line 2391
+Module luamplib Info: flushing figure 1 on input line 2391
+Module luamplib Info: flushing figure 1 on input line 2391
+Module luamplib Info: flushing figure 1 on input line 2391
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+Module luamplib Info: flushing figure 1 on input line 2394
+[50]
+\luamplib.box.245=\box363
+\luamplib.box.246=\box364
+Module luamplib Info: flushing figure 1 on input line 2428
+Module luamplib Info: flushing figure 1 on input line 2430
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--578
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2430
+
+LaTeX Warning: Marginpar on page 51 moved.
+
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2432
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2433
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2435
+Module luamplib Info: flushing figure 1 on input line 2437
+Module luamplib Info: flushing figure 1 on input line 2437
+Module luamplib Info: flushing figure 1 on input line 2437
+Module luamplib Info: flushing figure 1 on input line 2437
+Module luamplib Info: flushing figure 1 on input line 2438
+Module luamplib Info: flushing figure 1 on input line 2438
+Module luamplib Info: flushing figure 1 on input line 2438
+Module luamplib Info: flushing figure 1 on input line 2438
+Module luamplib Info: flushing figure 1 on input line 2440
+Module luamplib Info: flushing figure 1 on input line 2440
+Module luamplib Info: flushing figure 1 on input line 2440
+Module luamplib Info: flushing figure 1 on input line 2440
+Module luamplib Info: flushing figure 1 on input line 2442
+Module luamplib Info: flushing figure 1 on input line 2442
+Module luamplib Info: flushing figure 1 on input line 2442
+Module luamplib Info: flushing figure 1 on input line 2442
+[51]
+\luamplib.box.247=\box365
+\luamplib.box.248=\box366
+Module luamplib Info: flushing figure 1 on input line 2475
+Module luamplib Info: flushing figure 1 on input line 2477
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--371
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2477
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+\luamplib.box.249=\box367
+\luamplib.box.250=\box368
+\luamplib.box.251=\box369
+\luamplib.box.252=\box370
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+Module luamplib Info: flushing figure 1 on input line 2477
+
+Underfull \hbox (badness 2080) in paragraph at lines 2477--2477
+\TU/EBGaramond(27)/m/it/10 tra con otras dos líneas rec-tas ([] y
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 2477--2477
+[]\TU/EBGaramond(27)/m/it/10 ) y con el-las forma án-gu-los al-ter-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2477
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2479
+Module luamplib Info: flushing figure 1 on input line 2479
+Module luamplib Info: flushing figure 1 on input line 2479
+Module luamplib Info: flushing figure 1 on input line 2479
+Module luamplib Info: flushing figure 1 on input line 2481
+Module luamplib Info: flushing figure 1 on input line 2481
+Module luamplib Info: flushing figure 1 on input line 2481
+Module luamplib Info: flushing figure 1 on input line 2481
+[52]
+\luamplib.box.253=\box371
+\luamplib.box.254=\box372
+Module luamplib Info: flushing figure 1 on input line 2510
+Module luamplib Info: flushing figure 1 on input line 2512
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--311
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2512
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+\luamplib.box.255=\box373
+\luamplib.box.256=\box374
+\luamplib.box.257=\box375
+\luamplib.box.258=\box376
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+Module luamplib Info: flushing figure 1 on input line 2512
+
+Underfull \hbox (badness 2393) in paragraph at lines 2512--2512
+[]  \TU/EBGaramond(27)/m/sc/10 i \TU/EBGaramond(27)/m/it/10 una linea recta ([]
+) corta a otras
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2512
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2515
+Module luamplib Info: flushing figure 1 on input line 2517
+Module luamplib Info: flushing figure 1 on input line 2517
+Module luamplib Info: flushing figure 1 on input line 2517
+Module luamplib Info: flushing figure 1 on input line 2517
+Module luamplib Info: flushing figure 1 on input line 2520
+Module luamplib Info: flushing figure 1 on input line 2520
+Module luamplib Info: flushing figure 1 on input line 2520
+Module luamplib Info: flushing figure 1 on input line 2520
+Module luamplib Info: flushing figure 1 on input line 2520
+Module luamplib Info: flushing figure 1 on input line 2520
+Module luamplib Info: flushing figure 1 on input line 2521
+Module luamplib Info: flushing figure 1 on input line 2521
+Module luamplib Info: flushing figure 1 on input line 2521
+Module luamplib Info: flushing figure 1 on input line 2521
+Module luamplib Info: flushing figure 1 on input line 2521
+Module luamplib Info: flushing figure 1 on input line 2521
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2522
+Module luamplib Info: flushing figure 1 on input line 2524
+Module luamplib Info: flushing figure 1 on input line 2524
+Module luamplib Info: flushing figure 1 on input line 2524
+Module luamplib Info: flushing figure 1 on input line 2524
+Module luamplib Info: flushing figure 1 on input line 2526
+Module luamplib Info: flushing figure 1 on input line 2526
+Module luamplib Info: flushing figure 1 on input line 2526
+Module luamplib Info: flushing figure 1 on input line 2526
+[53]
+\luamplib.box.259=\box377
+\luamplib.box.260=\box378
+Module luamplib Info: flushing figure 1 on input line 2562
+Module luamplib Info: flushing figure 1 on input line 2564
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--434
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2564
+
+LaTeX Warning: Marginpar on page 54 moved.
+
+\ltrnU=\count381
+\luamplib.box.261=\box379
+\luamplib.box.262=\box380
+\luamplib.box.263=\box381
+\luamplib.box.264=\box382
+Module luamplib Info: flushing figure 1 on input line 2564
+Module luamplib Info: flushing figure 1 on input line 2564
+Module luamplib Info: flushing figure 1 on input line 2564
+Module luamplib Info: flushing figure 1 on input line 2564
+Module luamplib Info: flushing figure 1 on input line 2564
+Module luamplib Info: flushing figure 1 on input line 2564
+Module luamplib Info: flushing figure 1 on input line 2564
+
+Underfull \vbox (badness 10000) detected at line 2564
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2566
+Module luamplib Info: flushing figure 1 on input line 2568
+Module luamplib Info: flushing figure 1 on input line 2568
+Module luamplib Info: flushing figure 1 on input line 2568
+Module luamplib Info: flushing figure 1 on input line 2568
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+Module luamplib Info: flushing figure 1 on input line 2570
+
+Underfull \hbox (badness 5077) in paragraph at lines 2570--2571
+\TU/EBGaramond(27)/m/n/10 el án-gulo ex-terno igual al in-terno y op-uesto en 
+el
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 2570--2571
+\TU/EBGaramond(27)/m/n/10 mismo lado: si [] se suma a am-bos, en-tonces
+ []
+
+[54]
+\luamplib.box.265=\box383
+\luamplib.box.266=\box384
+Module luamplib Info: flushing figure 1 on input line 2601
+Module luamplib Info: flushing figure 1 on input line 2603
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--287
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2603
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+\luamplib.box.267=\box385
+\luamplib.box.268=\box386
+\luamplib.box.269=\box387
+\luamplib.box.270=\box388
+Module luamplib Info: flushing figure 1 on input line 2603
+Module luamplib Info: flushing figure 1 on input line 2603
+Module luamplib Info: flushing figure 1 on input line 2603
+Module luamplib Info: flushing figure 1 on input line 2603
+Module luamplib Info: flushing figure 1 on input line 2603
+Module luamplib Info: flushing figure 1 on input line 2603
+Module luamplib Info: flushing figure 1 on input line 2603
+
+Underfull \vbox (badness 10000) detected at line 2603
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2606
+Module luamplib Info: flushing figure 1 on input line 2608
+Module luamplib Info: flushing figure 1 on input line 2608
+Module luamplib Info: flushing figure 1 on input line 2608
+Module luamplib Info: flushing figure 1 on input line 2608
+Module luamplib Info: flushing figure 1 on input line 2608
+Module luamplib Info: flushing figure 1 on input line 2608
+Module luamplib Info: flushing figure 1 on input line 2610
+Module luamplib Info: flushing figure 1 on input line 2610
+Module luamplib Info: flushing figure 1 on input line 2610
+Module luamplib Info: flushing figure 1 on input line 2610
+Module luamplib Info: flushing figure 1 on input line 2612
+Module luamplib Info: flushing figure 1 on input line 2612
+Module luamplib Info: flushing figure 1 on input line 2612
+Module luamplib Info: flushing figure 1 on input line 2612
+[55]
+\luamplib.box.271=\box389
+\luamplib.box.272=\box390
+Module luamplib Info: flushing figure 1 on input line 2638
+Module luamplib Info: flushing figure 1 on input line 2640
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--350
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2640
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+\ltrnF=\count382
+\luamplib.box.273=\box391
+\luamplib.box.274=\box392
+\luamplib.box.275=\box393
+\luamplib.box.276=\box394
+Module luamplib Info: flushing figure 1 on input line 2640
+Module luamplib Info: flushing figure 1 on input line 2640
+Module luamplib Info: flushing figure 1 on input line 2640
+Module luamplib Info: flushing figure 1 on input line 2640
+Module luamplib Info: flushing figure 1 on input line 2640
+
+Underfull \vbox (badness 10000) detected at line 2640
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2643
+Module luamplib Info: flushing figure 1 on input line 2645
+Module luamplib Info: flushing figure 1 on input line 2645
+Module luamplib Info: flushing figure 1 on input line 2645
+Module luamplib Info: flushing figure 1 on input line 2645
+Module luamplib Info: flushing figure 1 on input line 2647
+Module luamplib Info: flushing figure 1 on input line 2647
+Module luamplib Info: flushing figure 1 on input line 2647
+Module luamplib Info: flushing figure 1 on input line 2647
+[56]
+\luamplib.box.277=\box395
+\luamplib.box.278=\box396
+Module luamplib Info: flushing figure 1 on input line 2673
+Module luamplib Info: flushing figure 1 on input line 2675
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--419
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2675
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+\ltrnI=\count383
+\luamplib.box.279=\box397
+\luamplib.box.280=\box398
+\luamplib.box.281=\box399
+\luamplib.box.282=\box400
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+Module luamplib Info: flushing figure 1 on input line 2675
+
+Underfull \vbox (badness 10000) detected at line 2675
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2678
+Module luamplib Info: flushing figure 1 on input line 2678
+Module luamplib Info: flushing figure 1 on input line 2679
+Module luamplib Info: flushing figure 1 on input line 2679
+Module luamplib Info: flushing figure 1 on input line 2679
+Module luamplib Info: flushing figure 1 on input line 2679
+Module luamplib Info: flushing figure 1 on input line 2683
+Module luamplib Info: flushing figure 1 on input line 2683
+Module luamplib Info: flushing figure 1 on input line 2683
+Module luamplib Info: flushing figure 1 on input line 2683
+Module luamplib Info: flushing figure 1 on input line 2684
+Module luamplib Info: flushing figure 1 on input line 2684
+Module luamplib Info: flushing figure 1 on input line 2684
+Module luamplib Info: flushing figure 1 on input line 2684
+Module luamplib Info: flushing figure 1 on input line 2688
+Module luamplib Info: flushing figure 1 on input line 2688
+Module luamplib Info: flushing figure 1 on input line 2688
+Module luamplib Info: flushing figure 1 on input line 2688
+Module luamplib Info: flushing figure 1 on input line 2688
+Module luamplib Info: flushing figure 1 on input line 2688
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+Module luamplib Info: flushing figure 1 on input line 2691
+[57]
+\luamplib.box.283=\box401
+\luamplib.box.284=\box402
+Module luamplib Info: flushing figure 1 on input line 2717
+Module luamplib Info: flushing figure 1 on input line 2719
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--407
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2719
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+\luamplib.box.285=\box403
+\luamplib.box.286=\box404
+\luamplib.box.287=\box405
+\luamplib.box.288=\box406
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+Module luamplib Info: flushing figure 1 on input line 2719
+
+Underfull \hbox (badness 2245) in paragraph at lines 2719--2719
+\TU/EBGaramond(27)/m/it/10 join the ad-ja-cent ex-trem-i-ties of two equal
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 2719--2719
+\TU/EBGaramond(27)/m/it/10 and par-al-lel straight lines ([] and
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2719
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2722
+Module luamplib Info: flushing figure 1 on input line 2722
+Module luamplib Info: flushing figure 1 on input line 2724
+Module luamplib Info: flushing figure 1 on input line 2724
+Module luamplib Info: flushing figure 1 on input line 2724
+Module luamplib Info: flushing figure 1 on input line 2724
+Module luamplib Info: flushing figure 1 on input line 2725
+Module luamplib Info: flushing figure 1 on input line 2725
+Module luamplib Info: flushing figure 1 on input line 2725
+Module luamplib Info: flushing figure 1 on input line 2725
+Module luamplib Info: flushing figure 1 on input line 2726
+Module luamplib Info: flushing figure 1 on input line 2726
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2728
+Module luamplib Info: flushing figure 1 on input line 2730
+Module luamplib Info: flushing figure 1 on input line 2730
+Module luamplib Info: flushing figure 1 on input line 2730
+Module luamplib Info: flushing figure 1 on input line 2730
+[58]
+\luamplib.box.289=\box407
+\luamplib.box.290=\box408
+Module luamplib Info: flushing figure 1 on input line 2758
+Module luamplib Info: flushing figure 1 on input line 2760
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--455
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2760
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+\ltrnT=\count384
+\luamplib.box.291=\box409
+\luamplib.box.292=\box410
+\luamplib.box.293=\box411
+\luamplib.box.294=\box412
+Module luamplib Info: flushing figure 1 on input line 2760
+Module luamplib Info: flushing figure 1 on input line 2760
+Module luamplib Info: flushing figure 1 on input line 2760
+
+Underfull \vbox (badness 10000) detected at line 2760
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2765
+Module luamplib Info: flushing figure 1 on input line 2765
+Module luamplib Info: flushing figure 1 on input line 2765
+Module luamplib Info: flushing figure 1 on input line 2765
+Module luamplib Info: flushing figure 1 on input line 2766
+Module luamplib Info: flushing figure 1 on input line 2766
+Module luamplib Info: flushing figure 1 on input line 2766
+Module luamplib Info: flushing figure 1 on input line 2766
+Module luamplib Info: flushing figure 1 on input line 2770
+Module luamplib Info: flushing figure 1 on input line 2770
+Module luamplib Info: flushing figure 1 on input line 2774
+Module luamplib Info: flushing figure 1 on input line 2774
+Module luamplib Info: flushing figure 1 on input line 2774
+Module luamplib Info: flushing figure 1 on input line 2774
+Module luamplib Info: flushing figure 1 on input line 2775
+Module luamplib Info: flushing figure 1 on input line 2775
+Module luamplib Info: flushing figure 1 on input line 2775
+Module luamplib Info: flushing figure 1 on input line 2775
+Module luamplib Info: flushing figure 1 on input line 2776
+Module luamplib Info: flushing figure 1 on input line 2776
+Module luamplib Info: flushing figure 1 on input line 2776
+Module luamplib Info: flushing figure 1 on input line 2776
+Module luamplib Info: flushing figure 1 on input line 2779
+Module luamplib Info: flushing figure 1 on input line 2779
+Module luamplib Info: flushing figure 1 on input line 2779
+Module luamplib Info: flushing figure 1 on input line 2779
+Module luamplib Info: flushing figure 1 on input line 2782
+Module luamplib Info: flushing figure 1 on input line 2782
+Module luamplib Info: flushing figure 1 on input line 2782
+Module luamplib Info: flushing figure 1 on input line 2782
+[59]
+\luamplib.box.295=\box413
+\luamplib.box.296=\box414
+Module luamplib Info: flushing figure 1 on input line 2814
+Module luamplib Info: flushing figure 1 on input line 2816
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--839
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2816
+
+LaTeX Warning: Marginpar on page 60 moved.
+
+\ltrnP=\count385
+\luamplib.box.297=\box415
+\luamplib.box.298=\box416
+\luamplib.box.299=\box417
+\luamplib.box.300=\box418
+Module luamplib Info: flushing figure 1 on input line 2816
+
+Underfull \vbox (badness 10000) detected at line 2816
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2822
+Module luamplib Info: flushing figure 1 on input line 2822
+Module luamplib Info: flushing figure 1 on input line 2822
+Module luamplib Info: flushing figure 1 on input line 2822
+Module luamplib Info: flushing figure 1 on input line 2823
+Module luamplib Info: flushing figure 1 on input line 2823
+Module luamplib Info: flushing figure 1 on input line 2823
+Module luamplib Info: flushing figure 1 on input line 2823
+Module luamplib Info: flushing figure 1 on input line 2824
+Module luamplib Info: flushing figure 1 on input line 2824
+Module luamplib Info: flushing figure 1 on input line 2824
+Module luamplib Info: flushing figure 1 on input line 2824
+Module luamplib Info: flushing figure 1 on input line 2840
+Module luamplib Info: flushing figure 1 on input line 2840
+Module luamplib Info: flushing figure 1 on input line 2847
+Module luamplib Info: flushing figure 1 on input line 2847
+Module luamplib Info: flushing figure 1 on input line 2855
+Module luamplib Info: flushing figure 1 on input line 2855
+Module luamplib Info: flushing figure 1 on input line 2855
+Module luamplib Info: flushing figure 1 on input line 2856
+Module luamplib Info: flushing figure 1 on input line 2856
+Module luamplib Info: flushing figure 1 on input line 2857
+Module luamplib Info: flushing figure 1 on input line 2857
+Module luamplib Info: flushing figure 1 on input line 2858
+Module luamplib Info: flushing figure 1 on input line 2858
+Module luamplib Info: flushing figure 1 on input line 2860
+Module luamplib Info: flushing figure 1 on input line 2860
+Module luamplib Info: flushing figure 1 on input line 2860
+Module luamplib Info: flushing figure 1 on input line 2860
+[60]
+\luamplib.box.301=\box419
+\luamplib.box.302=\box420
+Module luamplib Info: flushing figure 1 on input line 2897
+Module luamplib Info: flushing figure 1 on input line 2899
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--923
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2899
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+\luamplib.box.303=\box421
+\luamplib.box.304=\box422
+\luamplib.box.305=\box423
+\luamplib.box.306=\box424
+Module luamplib Info: flushing figure 1 on input line 2899
+Module luamplib Info: flushing figure 1 on input line 2899
+Module luamplib Info: flushing figure 1 on input line 2899
+Module luamplib Info: flushing figure 1 on input line 2899
+Module luamplib Info: flushing figure 1 on input line 2899
+
+Underfull \hbox (badness 4995) in paragraph at lines 2899--2899
+[]  \TU/EBGaramond(27)/m/sc/10 ar-al-lel-o-grams \TU/EBGaramond(27)/m/it/10 ([]
+ and []) on
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2899
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2902
+Module luamplib Info: flushing figure 1 on input line 2902
+Module luamplib Info: flushing figure 1 on input line 2902
+Module luamplib Info: flushing figure 1 on input line 2902
+Module luamplib Info: flushing figure 1 on input line 2903
+Module luamplib Info: flushing figure 1 on input line 2903
+Module luamplib Info: flushing figure 1 on input line 2903
+Module luamplib Info: flushing figure 1 on input line 2903
+Module luamplib Info: flushing figure 1 on input line 2903
+Module luamplib Info: flushing figure 1 on input line 2903
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2910
+Module luamplib Info: flushing figure 1 on input line 2910
+Module luamplib Info: flushing figure 1 on input line 2913
+Module luamplib Info: flushing figure 1 on input line 2913
+Module luamplib Info: flushing figure 1 on input line 2913
+Module luamplib Info: flushing figure 1 on input line 2915
+Module luamplib Info: flushing figure 1 on input line 2915
+[61]
+\luamplib.box.307=\box425
+\luamplib.box.308=\box426
+Module luamplib Info: flushing figure 1 on input line 2949
+Module luamplib Info: flushing figure 1 on input line 2951
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1022
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2951
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+\luamplib.box.309=\box427
+\luamplib.box.310=\box428
+\luamplib.box.311=\box429
+\luamplib.box.312=\box430
+Module luamplib Info: flushing figure 1 on input line 2954
+Module luamplib Info: flushing figure 1 on input line 2954
+Module luamplib Info: flushing figure 1 on input line 2954
+Module luamplib Info: flushing figure 1 on input line 2954
+Module luamplib Info: flushing figure 1 on input line 2954
+Module luamplib Info: flushing figure 1 on input line 2954
+Module luamplib Info: flushing figure 1 on input line 2954
+
+Underfull \vbox (badness 10000) detected at line 2954
+ []
+
+Module luamplib Info: flushing figure 1 on input line 2959
+Module luamplib Info: flushing figure 1 on input line 2959
+Module luamplib Info: flushing figure 1 on input line 2959
+Module luamplib Info: flushing figure 1 on input line 2959
+Module luamplib Info: flushing figure 1 on input line 2960
+Module luamplib Info: flushing figure 1 on input line 2960
+Module luamplib Info: flushing figure 1 on input line 2960
+Module luamplib Info: flushing figure 1 on input line 2960
+Module luamplib Info: flushing figure 1 on input line 2964
+Module luamplib Info: flushing figure 1 on input line 2964
+Module luamplib Info: flushing figure 1 on input line 2966
+Module luamplib Info: flushing figure 1 on input line 2966
+Module luamplib Info: flushing figure 1 on input line 2968
+Module luamplib Info: flushing figure 1 on input line 2968
+Module luamplib Info: flushing figure 1 on input line 2973
+Module luamplib Info: flushing figure 1 on input line 2973
+Module luamplib Info: flushing figure 1 on input line 2974
+Module luamplib Info: flushing figure 1 on input line 2974
+Module luamplib Info: flushing figure 1 on input line 2977
+Module luamplib Info: flushing figure 1 on input line 2977
+[62]
+\luamplib.box.313=\box431
+\luamplib.box.314=\box432
+Module luamplib Info: flushing figure 1 on input line 3014
+Module luamplib Info: flushing figure 1 on input line 3016
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--914
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3016
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+\luamplib.box.315=\box433
+\luamplib.box.316=\box434
+\luamplib.box.317=\box435
+\luamplib.box.318=\box436
+Module luamplib Info: flushing figure 1 on input line 3016
+Module luamplib Info: flushing figure 1 on input line 3016
+Module luamplib Info: flushing figure 1 on input line 3016
+Module luamplib Info: flushing figure 1 on input line 3016
+Module luamplib Info: flushing figure 1 on input line 3016
+
+Underfull \vbox (badness 10000) detected at line 3016
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3021
+Module luamplib Info: flushing figure 1 on input line 3021
+Module luamplib Info: flushing figure 1 on input line 3021
+Module luamplib Info: flushing figure 1 on input line 3021
+Module luamplib Info: flushing figure 1 on input line 3022
+Module luamplib Info: flushing figure 1 on input line 3022
+Module luamplib Info: flushing figure 1 on input line 3022
+Module luamplib Info: flushing figure 1 on input line 3022
+Module luamplib Info: flushing figure 1 on input line 3025
+Module luamplib Info: flushing figure 1 on input line 3025
+Module luamplib Info: flushing figure 1 on input line 3025
+Module luamplib Info: flushing figure 1 on input line 3025
+Module luamplib Info: flushing figure 1 on input line 3027
+Module luamplib Info: flushing figure 1 on input line 3027
+Module luamplib Info: flushing figure 1 on input line 3028
+Module luamplib Info: flushing figure 1 on input line 3028
+Module luamplib Info: flushing figure 1 on input line 3030
+Module luamplib Info: flushing figure 1 on input line 3030
+[63]
+\luamplib.box.319=\box437
+\luamplib.box.320=\box438
+Module luamplib Info: flushing figure 1 on input line 3059
+Module luamplib Info: flushing figure 1 on input line 3061
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--878
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3061
+
+LaTeX Warning: Marginpar on page 64 moved.
+
+\luamplib.box.321=\box439
+\luamplib.box.322=\box440
+\luamplib.box.323=\box441
+\luamplib.box.324=\box442
+Module luamplib Info: flushing figure 1 on input line 3063
+Module luamplib Info: flushing figure 1 on input line 3063
+Module luamplib Info: flushing figure 1 on input line 3063
+Module luamplib Info: flushing figure 1 on input line 3063
+Module luamplib Info: flushing figure 1 on input line 3063
+Module luamplib Info: flushing figure 1 on input line 3063
+Module luamplib Info: flushing figure 1 on input line 3063
+
+Underfull \vbox (badness 10000) detected at line 3063
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3066
+Module luamplib Info: flushing figure 1 on input line 3068
+Module luamplib Info: flushing figure 1 on input line 3068
+Module luamplib Info: flushing figure 1 on input line 3070
+Module luamplib Info: flushing figure 1 on input line 3070
+Module luamplib Info: flushing figure 1 on input line 3070
+Module luamplib Info: flushing figure 1 on input line 3070
+Module luamplib Info: flushing figure 1 on input line 3071
+Module luamplib Info: flushing figure 1 on input line 3072
+Module luamplib Info: flushing figure 1 on input line 3072
+Module luamplib Info: flushing figure 1 on input line 3073
+Module luamplib Info: flushing figure 1 on input line 3073
+Module luamplib Info: flushing figure 1 on input line 3075
+Module luamplib Info: flushing figure 1 on input line 3075
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+Module luamplib Info: flushing figure 1 on input line 3077
+[64]
+\luamplib.box.325=\box443
+\luamplib.box.326=\box444
+Module luamplib Info: flushing figure 1 on input line 3108
+Module luamplib Info: flushing figure 1 on input line 3110
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--713
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3110
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+\luamplib.box.327=\box445
+\luamplib.box.328=\box446
+\luamplib.box.329=\box447
+\luamplib.box.330=\box448
+Module luamplib Info: flushing figure 1 on input line 3123
+Module luamplib Info: flushing figure 1 on input line 3123
+Module luamplib Info: flushing figure 1 on input line 3123
+Module luamplib Info: flushing figure 1 on input line 3123
+Module luamplib Info: flushing figure 1 on input line 3123
+
+Underfull \vbox (badness 10000) detected at line 3123
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3126
+Module luamplib Info: flushing figure 1 on input line 3126
+Module luamplib Info: flushing figure 1 on input line 3126
+Module luamplib Info: flushing figure 1 on input line 3126
+Module luamplib Info: flushing figure 1 on input line 3127
+Module luamplib Info: flushing figure 1 on input line 3127
+Module luamplib Info: flushing figure 1 on input line 3127
+Module luamplib Info: flushing figure 1 on input line 3127
+Module luamplib Info: flushing figure 1 on input line 3128
+Module luamplib Info: flushing figure 1 on input line 3128
+Module luamplib Info: flushing figure 1 on input line 3129
+Module luamplib Info: flushing figure 1 on input line 3129
+Module luamplib Info: flushing figure 1 on input line 3131
+Module luamplib Info: flushing figure 1 on input line 3131
+Module luamplib Info: flushing figure 1 on input line 3131
+Module luamplib Info: flushing figure 1 on input line 3131
+Module luamplib Info: flushing figure 1 on input line 3132
+Module luamplib Info: flushing figure 1 on input line 3138
+Module luamplib Info: flushing figure 1 on input line 3138
+Module luamplib Info: flushing figure 1 on input line 3138
+Module luamplib Info: flushing figure 1 on input line 3138
+Module luamplib Info: flushing figure 1 on input line 3140
+Module luamplib Info: flushing figure 1 on input line 3140
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+Module luamplib Info: flushing figure 1 on input line 3142
+[65]
+\luamplib.box.331=\box449
+\luamplib.box.332=\box450
+Module luamplib Info: flushing figure 1 on input line 3167
+Module luamplib Info: flushing figure 1 on input line 3169
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--791
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3169
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+\luamplib.box.333=\box451
+\luamplib.box.334=\box452
+\luamplib.box.335=\box453
+\luamplib.box.336=\box454
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+Module luamplib Info: flushing figure 1 on input line 3173
+
+Underfull \hbox (badness 6859) in paragraph at lines 3173--3173
+\TU/EBGaramond(27)/m/it/10 be-tween the same par-al-lels [] and
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3173
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3176
+Module luamplib Info: flushing figure 1 on input line 3176
+Module luamplib Info: flushing figure 1 on input line 3179
+Module luamplib Info: flushing figure 1 on input line 3179
+Module luamplib Info: flushing figure 1 on input line 3179
+Module luamplib Info: flushing figure 1 on input line 3180
+Module luamplib Info: flushing figure 1 on input line 3180
+Module luamplib Info: flushing figure 1 on input line 3182
+Module luamplib Info: flushing figure 1 on input line 3182
+[66]
+\luamplib.box.337=\box455
+\luamplib.box.338=\box456
+Module luamplib Info: flushing figure 1 on input line 3221
+Module luamplib Info: flushing figure 1 on input line 3223
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--899
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3223
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+\luamplib.box.339=\box457
+\luamplib.box.340=\box458
+\luamplib.box.341=\box459
+\luamplib.box.342=\box460
+Module luamplib Info: flushing figure 1 on input line 3224
+Module luamplib Info: flushing figure 1 on input line 3224
+Module luamplib Info: flushing figure 1 on input line 3224
+Module luamplib Info: flushing figure 1 on input line 3224
+Module luamplib Info: flushing figure 1 on input line 3224
+
+Underfull \vbox (badness 10000) detected at line 3224
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3227
+Module luamplib Info: flushing figure 1 on input line 3227
+Module luamplib Info: flushing figure 1 on input line 3227
+Module luamplib Info: flushing figure 1 on input line 3227
+Module luamplib Info: flushing figure 1 on input line 3228
+Module luamplib Info: flushing figure 1 on input line 3228
+Module luamplib Info: flushing figure 1 on input line 3230
+Module luamplib Info: flushing figure 1 on input line 3230
+Module luamplib Info: flushing figure 1 on input line 3230
+Module luamplib Info: flushing figure 1 on input line 3230
+Module luamplib Info: flushing figure 1 on input line 3233
+Module luamplib Info: flushing figure 1 on input line 3233
+Module luamplib Info: flushing figure 1 on input line 3233
+Module luamplib Info: flushing figure 1 on input line 3233
+Module luamplib Info: flushing figure 1 on input line 3234
+Module luamplib Info: flushing figure 1 on input line 3234
+Module luamplib Info: flushing figure 1 on input line 3234
+Module luamplib Info: flushing figure 1 on input line 3234
+Module luamplib Info: flushing figure 1 on input line 3238
+Module luamplib Info: flushing figure 1 on input line 3238
+Module luamplib Info: flushing figure 1 on input line 3240
+Module luamplib Info: flushing figure 1 on input line 3240
+Module luamplib Info: flushing figure 1 on input line 3241
+Module luamplib Info: flushing figure 1 on input line 3242
+Module luamplib Info: flushing figure 1 on input line 3242
+Module luamplib Info: flushing figure 1 on input line 3244
+Module luamplib Info: flushing figure 1 on input line 3244
+[67]
+\luamplib.box.343=\box461
+\luamplib.box.344=\box462
+Module luamplib Info: flushing figure 1 on input line 3274
+Module luamplib Info: flushing figure 1 on input line 3276
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--770
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3276
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+\luamplib.box.345=\box463
+\luamplib.box.346=\box464
+\luamplib.box.347=\box465
+\luamplib.box.348=\box466
+Module luamplib Info: flushing figure 1 on input line 3280
+Module luamplib Info: flushing figure 1 on input line 3280
+Module luamplib Info: flushing figure 1 on input line 3280
+Module luamplib Info: flushing figure 1 on input line 3280
+Module luamplib Info: flushing figure 1 on input line 3280
+
+Underfull \vbox (badness 10000) detected at line 3280
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3283
+Module luamplib Info: flushing figure 1 on input line 3283
+Module luamplib Info: flushing figure 1 on input line 3283
+Module luamplib Info: flushing figure 1 on input line 3283
+Module luamplib Info: flushing figure 1 on input line 3284
+Module luamplib Info: flushing figure 1 on input line 3284
+Module luamplib Info: flushing figure 1 on input line 3284
+Module luamplib Info: flushing figure 1 on input line 3284
+Module luamplib Info: flushing figure 1 on input line 3286
+Module luamplib Info: flushing figure 1 on input line 3286
+[68]
+\luamplib.box.349=\box467
+\luamplib.box.350=\box468
+Module luamplib Info: flushing figure 1 on input line 3343
+Module luamplib Info: flushing figure 1 on input line 3345
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1151
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3345
+
+LaTeX Warning: Marginpar on page 69 moved.
+
+\luamplib.box.351=\box469
+\luamplib.box.352=\box470
+\luamplib.box.353=\box471
+\luamplib.box.354=\box472
+Module luamplib Info: flushing figure 1 on input line 3345
+Module luamplib Info: flushing figure 1 on input line 3345
+Module luamplib Info: flushing figure 1 on input line 3345
+Module luamplib Info: flushing figure 1 on input line 3345
+Module luamplib Info: flushing figure 1 on input line 3345
+Module luamplib Info: flushing figure 1 on input line 3345
+Module luamplib Info: flushing figure 1 on input line 3345
+
+Underfull \hbox (badness 1242) in paragraph at lines 3345--3345
+[]  \TU/EBGaramond(27)/m/sc/10 o \TU/EBGaramond(27)/m/it/10 a given straight lin
+e ([]) to ap-ply
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 3345--3345
+\TU/EBGaramond(27)/m/it/10 a par-al-lel-o-gram equal to a given tri-an-gle
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 3345--3345
+\TU/EBGaramond(27)/m/it/10 ([]), and hav-ing an an-gle equal to a
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3345
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3348
+Module luamplib Info: flushing figure 1 on input line 3349
+Module luamplib Info: flushing figure 1 on input line 3349
+Module luamplib Info: flushing figure 1 on input line 3349
+Module luamplib Info: flushing figure 1 on input line 3349
+Module luamplib Info: flushing figure 1 on input line 3351
+Module luamplib Info: flushing figure 1 on input line 3351
+Module luamplib Info: flushing figure 1 on input line 3351
+Module luamplib Info: flushing figure 1 on input line 3351
+Module luamplib Info: flushing figure 1 on input line 3351
+Module luamplib Info: flushing figure 1 on input line 3351
+Module luamplib Info: flushing figure 1 on input line 3352
+Module luamplib Info: flushing figure 1 on input line 3352
+Module luamplib Info: flushing figure 1 on input line 3352
+Module luamplib Info: flushing figure 1 on input line 3352
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3353
+Module luamplib Info: flushing figure 1 on input line 3355
+Module luamplib Info: flushing figure 1 on input line 3355
+Module luamplib Info: flushing figure 1 on input line 3355
+Module luamplib Info: flushing figure 1 on input line 3356
+Module luamplib Info: flushing figure 1 on input line 3356
+Module luamplib Info: flushing figure 1 on input line 3358
+Module luamplib Info: flushing figure 1 on input line 3358
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+Module luamplib Info: flushing figure 1 on input line 3360
+[69]
+\luamplib.box.355=\box473
+\luamplib.box.356=\box474
+Module luamplib Info: flushing figure 1 on input line 3423
+Module luamplib Info: flushing figure 1 on input line 3425
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1436
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3425
+
+LaTeX Warning: Marginpar on page 70 moved.
+
+\luamplib.box.357=\box475
+\luamplib.box.358=\box476
+\luamplib.box.359=\box477
+\luamplib.box.360=\box478
+Module luamplib Info: flushing figure 1 on input line 3425
+Module luamplib Info: flushing figure 1 on input line 3425
+Module luamplib Info: flushing figure 1 on input line 3425
+Module luamplib Info: flushing figure 1 on input line 3425
+Module luamplib Info: flushing figure 1 on input line 3425
+
+Underfull \vbox (badness 10000) detected at line 3425
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3428
+Module luamplib Info: flushing figure 1 on input line 3428
+Module luamplib Info: flushing figure 1 on input line 3428
+Module luamplib Info: flushing figure 1 on input line 3428
+Module luamplib Info: flushing figure 1 on input line 3430
+Module luamplib Info: flushing figure 1 on input line 3430
+Module luamplib Info: flushing figure 1 on input line 3430
+Module luamplib Info: flushing figure 1 on input line 3430
+Module luamplib Info: flushing figure 1 on input line 3431
+Module luamplib Info: flushing figure 1 on input line 3431
+Module luamplib Info: flushing figure 1 on input line 3431
+Module luamplib Info: flushing figure 1 on input line 3431
+Module luamplib Info: flushing figure 1 on input line 3433
+Module luamplib Info: flushing figure 1 on input line 3433
+Module luamplib Info: flushing figure 1 on input line 3433
+Module luamplib Info: flushing figure 1 on input line 3433
+Module luamplib Info: flushing figure 1 on input line 3433
+Module luamplib Info: flushing figure 1 on input line 3433
+Module luamplib Info: flushing figure 1 on input line 3434
+Module luamplib Info: flushing figure 1 on input line 3434
+Module luamplib Info: flushing figure 1 on input line 3434
+Module luamplib Info: flushing figure 1 on input line 3434
+Module luamplib Info: flushing figure 1 on input line 3436
+Module luamplib Info: flushing figure 1 on input line 3436
+Module luamplib Info: flushing figure 1 on input line 3436
+Module luamplib Info: flushing figure 1 on input line 3436
+Module luamplib Info: flushing figure 1 on input line 3436
+Module luamplib Info: flushing figure 1 on input line 3436
+Module luamplib Info: flushing figure 1 on input line 3437
+Module luamplib Info: flushing figure 1 on input line 3437
+Module luamplib Info: flushing figure 1 on input line 3437
+Module luamplib Info: flushing figure 1 on input line 3437
+Module luamplib Info: flushing figure 1 on input line 3439
+Module luamplib Info: flushing figure 1 on input line 3439
+Module luamplib Info: flushing figure 1 on input line 3439
+Module luamplib Info: flushing figure 1 on input line 3441
+Module luamplib Info: flushing figure 1 on input line 3442
+Module luamplib Info: flushing figure 1 on input line 3442
+Module luamplib Info: flushing figure 1 on input line 3442
+Module luamplib Info: flushing figure 1 on input line 3442
+[70]
+\luamplib.box.361=\box479
+\luamplib.box.362=\box480
+Module luamplib Info: flushing figure 1 on input line 3467
+Module luamplib Info: flushing figure 1 on input line 3469
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--308
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3469
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+\luamplib.box.363=\box481
+\luamplib.box.364=\box482
+\luamplib.box.365=\box483
+\luamplib.box.366=\box484
+Module luamplib Info: flushing figure 1 on input line 3469
+Module luamplib Info: flushing figure 1 on input line 3469
+Module luamplib Info: flushing figure 1 on input line 3469
+
+Underfull \hbox (badness 10000) in paragraph at lines 3469--3469
+[]  \TU/EBGaramond(27)/m/sc/10 pon \TU/EBGaramond(27)/m/it/10 a given straight 
+line ([]) to
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3469
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3472
+Module luamplib Info: flushing figure 1 on input line 3472
+Module luamplib Info: flushing figure 1 on input line 3472
+Module luamplib Info: flushing figure 1 on input line 3472
+Module luamplib Info: flushing figure 1 on input line 3474
+Module luamplib Info: flushing figure 1 on input line 3474
+Module luamplib Info: flushing figure 1 on input line 3474
+Module luamplib Info: flushing figure 1 on input line 3474
+Module luamplib Info: flushing figure 1 on input line 3475
+Module luamplib Info: flushing figure 1 on input line 3475
+Module luamplib Info: flushing figure 1 on input line 3475
+Module luamplib Info: flushing figure 1 on input line 3475
+Module luamplib Info: flushing figure 1 on input line 3484
+Module luamplib Info: flushing figure 1 on input line 3484
+Module luamplib Info: flushing figure 1 on input line 3485
+Module luamplib Info: flushing figure 1 on input line 3485
+Module luamplib Info: flushing figure 1 on input line 3485
+Module luamplib Info: flushing figure 1 on input line 3485
+Module luamplib Info: flushing figure 1 on input line 3486
+Module luamplib Info: flushing figure 1 on input line 3486
+Module luamplib Info: flushing figure 1 on input line 3488
+Module luamplib Info: flushing figure 1 on input line 3488
+Module luamplib Info: flushing figure 1 on input line 3488
+Module luamplib Info: flushing figure 1 on input line 3488
+Module luamplib Info: flushing figure 1 on input line 3491
+[71]
+\luamplib.box.367=\box485
+\luamplib.box.368=\box486
+Module luamplib Info: flushing figure 1 on input line 3562
+Module luamplib Info: flushing figure 1 on input line 3564
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1439
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3564
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+\luamplib.box.369=\box487
+\luamplib.box.370=\box488
+\luamplib.box.371=\box489
+\luamplib.box.372=\box490
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+Module luamplib Info: flushing figure 1 on input line 3564
+
+Underfull \hbox (badness 1968) in paragraph at lines 3564--3564
+[]  \TU/EBGaramond(27)/m/sc/10 n \TU/EBGaramond(27)/m/it/10 a right an-gled tri-
+an-gle [] the
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3564
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3567
+Module luamplib Info: flushing figure 1 on input line 3567
+Module luamplib Info: flushing figure 1 on input line 3567
+Module luamplib Info: flushing figure 1 on input line 3567
+Module luamplib Info: flushing figure 1 on input line 3567
+Module luamplib Info: flushing figure 1 on input line 3567
+Module luamplib Info: flushing figure 1 on input line 3569
+Module luamplib Info: flushing figure 1 on input line 3569
+Module luamplib Info: flushing figure 1 on input line 3569
+Module luamplib Info: flushing figure 1 on input line 3569
+Module luamplib Info: flushing figure 1 on input line 3570
+Module luamplib Info: flushing figure 1 on input line 3570
+Module luamplib Info: flushing figure 1 on input line 3570
+Module luamplib Info: flushing figure 1 on input line 3570
+Module luamplib Info: flushing figure 1 on input line 3571
+Module luamplib Info: flushing figure 1 on input line 3571
+Module luamplib Info: flushing figure 1 on input line 3571
+Module luamplib Info: flushing figure 1 on input line 3571
+Module luamplib Info: flushing figure 1 on input line 3573
+Module luamplib Info: flushing figure 1 on input line 3573
+Module luamplib Info: flushing figure 1 on input line 3573
+Module luamplib Info: flushing figure 1 on input line 3573
+Module luamplib Info: flushing figure 1 on input line 3573
+Module luamplib Info: flushing figure 1 on input line 3573
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3574
+Module luamplib Info: flushing figure 1 on input line 3582
+Module luamplib Info: flushing figure 1 on input line 3582
+Module luamplib Info: flushing figure 1 on input line 3589
+Module luamplib Info: flushing figure 1 on input line 3589
+Module luamplib Info: flushing figure 1 on input line 3592
+Module luamplib Info: flushing figure 1 on input line 3592
+Module luamplib Info: flushing figure 1 on input line 3592
+Module luamplib Info: flushing figure 1 on input line 3592
+Module luamplib Info: flushing figure 1 on input line 3593
+Module luamplib Info: flushing figure 1 on input line 3593
+Module luamplib Info: flushing figure 1 on input line 3593
+Module luamplib Info: flushing figure 1 on input line 3594
+Module luamplib Info: flushing figure 1 on input line 3594
+Module luamplib Info: flushing figure 1 on input line 3594
+Module luamplib Info: flushing figure 1 on input line 3596
+Module luamplib Info: flushing figure 1 on input line 3596
+Module luamplib Info: flushing figure 1 on input line 3598
+Module luamplib Info: flushing figure 1 on input line 3598
+Module luamplib Info: flushing figure 1 on input line 3598
+Module luamplib Info: flushing figure 1 on input line 3598
+Module luamplib Info: flushing figure 1 on input line 3600
+Module luamplib Info: flushing figure 1 on input line 3600
+Module luamplib Info: flushing figure 1 on input line 3600
+Module luamplib Info: flushing figure 1 on input line 3600
+[72] [73]
+\luamplib.box.373=\box491
+\luamplib.box.374=\box492
+Module luamplib Info: flushing figure 1 on input line 3625
+Module luamplib Info: flushing figure 1 on input line 3627
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--395
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3627
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+\luamplib.box.375=\box493
+\luamplib.box.376=\box494
+\luamplib.box.377=\box495
+\luamplib.box.378=\box496
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+Module luamplib Info: flushing figure 1 on input line 3627
+
+Underfull \vbox (badness 10000) detected at line 3627
+ []
+
+Module luamplib Info: flushing figure 1 on input line 3630
+Module luamplib Info: flushing figure 1 on input line 3630
+Module luamplib Info: flushing figure 1 on input line 3630
+Module luamplib Info: flushing figure 1 on input line 3630
+Module luamplib Info: flushing figure 1 on input line 3630
+Module luamplib Info: flushing figure 1 on input line 3630
+Module luamplib Info: flushing figure 1 on input line 3631
+Module luamplib Info: flushing figure 1 on input line 3631
+Module luamplib Info: flushing figure 1 on input line 3633
+Module luamplib Info: flushing figure 1 on input line 3633
+Module luamplib Info: flushing figure 1 on input line 3633
+Module luamplib Info: flushing figure 1 on input line 3633
+Module luamplib Info: flushing figure 1 on input line 3634
+Module luamplib Info: flushing figure 1 on input line 3634
+Module luamplib Info: flushing figure 1 on input line 3634
+Module luamplib Info: flushing figure 1 on input line 3634
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3636
+Module luamplib Info: flushing figure 1 on input line 3638
+Module luamplib Info: flushing figure 1 on input line 3638
+Module luamplib Info: flushing figure 1 on input line 3638
+Module luamplib Info: flushing figure 1 on input line 3638
+Module luamplib Info: flushing figure 1 on input line 3638
+Module luamplib Info: flushing figure 1 on input line 3638
+Module luamplib Info: flushing figure 1 on input line 3639
+Module luamplib Info: flushing figure 1 on input line 3639
+Module luamplib Info: flushing figure 1 on input line 3639
+Module luamplib Info: flushing figure 1 on input line 3639
+Module luamplib Info: flushing figure 1 on input line 3639
+Module luamplib Info: flushing figure 1 on input line 3639
+Module luamplib Info: flushing figure 1 on input line 3641
+Module luamplib Info: flushing figure 1 on input line 3641
+Module luamplib Info: flushing figure 1 on input line 3641
+Module luamplib Info: flushing figure 1 on input line 3641
+Module luamplib Info: flushing figure 1 on input line 3643
+Module luamplib Info: flushing figure 1 on input line 3643
+Module luamplib Info: flushing figure 1 on input line 3643
+Module luamplib Info: flushing figure 1 on input line 3643
+Module luamplib Info: flushing figure 1 on input line 3645
+Module luamplib Info: flushing figure 1 on input line 3645
+Module luamplib Info: flushing figure 1 on input line 3645
+Module luamplib Info: flushing figure 1 on input line 3645
+Module luamplib Info: flushing figure 1 on input line 3647
+Module luamplib Info: flushing figure 1 on input line 3647
+[74]
+\@minpageheight=\dimen271
+ (./byrne-es-traduccion-primer-libro.toc
+LaTeX Font Info:    Font shape `TU/EBGaramond(27)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+ [75] [76])
+\tf@toc=\write5
+
+\openout5 = byrne-es-traduccion-primer-libro.toc
+ [77]
+(./byrne-es-traduccion-primer-libro.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `byrne-es-traduccion-primer-libro.out' has no
+t changed.
+(rerunfilecheck)             Checksum: A1131F81C9E1F16A78BD45458DD2ACBD;9577.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 24334 strings out of 476076
+ 156792,1373583 words of node,token memory allocated
+ 25104 words of node memory still in use:
+   473 hlist, 85 vlist, 2 rule, 5 disc, 31 local_par, 219 glue, 296 kern, 68 pen
+alty, 503 glyph, 1692 attribute, 63 glue_spec, 847 attribute_list, 3 write, 2539
+ pdf_literal nodes
+   avail lists: 1:21,2:1340,3:4216,4:156,5:3080,6:125,7:4628,8:47,9:773,10:22,11
+:433
+ 46012 multiletter control sequences out of 65536+600000
+ 83 fonts using 19044199 bytes
+ 105i,13n,141p,2061b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.en
+c}<c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regula
+r.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf><
+c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Italic.ot
+f><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.o
+tf><c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regul
+ar.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Ital
+ic.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb><c:/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341532 bytes).
+
+
+PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)
+ 1198 compressed objects within 12 object streams
+ 319 named destinations out of 1000 (max. 131072)
+ 809 words of extra memory for PDF output out of 10000 (max. 100000000)
+

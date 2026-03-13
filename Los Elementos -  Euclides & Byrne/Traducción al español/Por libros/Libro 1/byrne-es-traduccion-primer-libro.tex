@@ -2509,11 +2509,14 @@ draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{una linea recta (\drawUnitLine{GH}) corta a otras dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}), de tal forma que el angulo externo es igual al angulo interno y opuesto en el mismo lado de la linea que corta (es decir $\drawAngle{GEA} = \drawAngle{CFG}$ o $\drawAngle{BEG} = \drawAngle{GFD}$), o si los dos angulos internos en el mismo lado (\drawAngle{GFD} y \drawAngle{HEB}, o \drawAngle{CFG} y \drawAngle{AEH}) son iguales a dos angulos rectos, entonces estas dos lineas rectas son paralelas.}
+\problem{S}{i}{una linea recta (\drawUnitLine{GH}) corta a otras dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}) de tal forma que el angulo externo es igual al angulo interno y opuesto en el mismo lado de la linea que corta (es decir $\drawAngle{GEA} = \drawAngle{CFG}$ o $\drawAngle{BEG} = \drawAngle{GFD}$), o si los dos angulos internos en el mismo lado (\drawAngle{GFD} y \drawAngle{HEB}, o \drawAngle{CFG} y \drawAngle{AEH}) son iguales a dos angulos rectos, entonces las dos lineas rectas son paralelas.}
 
 \begin{center}
-En primer lugar, si $\drawAngle{GEA} = \drawAngle{CFG}$, entonces $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV}, $\therefore \drawAngle{CFG} = \drawAngle{HEB} \therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
-
+En primer lugar, si $\drawAngle{GEA} = \drawAngle{CFG}$, \\ entonces $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV}, $\therefore \drawAngle{CFG} = \drawAngle{HEB}
+\newline 
+\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
+\newline
+\newline
 En segundo lugar, si $\drawAngle{CFG} + \drawAngle{AEH} = \drawTwoRightAngles$,\\
 entonces $\drawAngle{AEH} + \drawAngle{HEB} = \drawTwoRightAngles$ \byref{prop:I.XIII},\\
 $\therefore \drawAngle{CFG} + \drawAngle{AEH} = \drawAngle{AEH} + \drawAngle{HEB}$ \byref{ax:I.III}
@@ -2558,13 +2561,13 @@ draw byLabelPoint(I, lineAngle.IE - 90, 1);
 draw byLabelPoint(J, lineAngle.EJ + 90, 1);
 }
 \drawCurrentPictureInMargin
-\problem{A}{ straight}{line (\drawUnitLine{GH}) falling on two parallel straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), makes the alternate angles equal to one another; and also the external equal to the internal and opposite angle on the same side; and the two internal angles on the same side together equal to two right angles.}
+\problem{U}{na}{linea recta (\drawUnitLine{GH}) que corta a dos lineas paralelas (\drawUnitLine{AB} y \drawUnitLine{CD}), hace que los angulos alternos sean iguales entre si; tambien el angulo externo resulta ser igual al interno y opuesto en el mismo lado; y los dos angulos internos en el mismo lado resultan ser iguales a dos angulos rectos.}
 
-For if the alternate angles \drawAngle{IEA,HEI} and \drawAngle{GFD} be not equal, draw \drawUnitLine{IE}, making $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.
+Supongamos que los angulos alternos \drawAngle{IEA,HEI} y \drawAngle{GFD} no son iguales, trazamos \drawUnitLine{IE}, haciendo que $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.
 
-Therefore $\drawUnitLine{IE,EJ} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII} and therefore two straight lines which intersect are parallel to the same straight line, which is impossible \byref{ax:I.XII}.
+Por lo tanto, \drawUnitLine{IE,EJ} \parallel \drawUnitLine{CD} \byref{prop:I.XXVII} y por lo tanto dos lineas rectas que se intersectan son paralelas a la misma linea recta, lo cual es imposible \byref{ax:I.XII}.
 
-Hence \drawAngle{IEA,HEI} and \drawAngle{GFD} are not unequal, that is, they are equal: $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; $\therefore \drawAngle{GEB} = \drawAngle{GFD}$, the external angle equal to the internal and opposite on the same side: if \drawAngle{BEH} be added to both, then $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. That is to say, the two internal angles at the same side of the cutting line are equal to two right angles.
+Por lo tanto, los angulos alternos \drawAngle{IEA,HEI} y \drawAngle{GFD} son iguales: $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; $\therefore \drawAngle{GEB} = \drawAngle{GFD}$, el ángulo externo igual al interno y opuesto en el mismo lado: si \drawAngle{BEH} se suma a ambos, entonces $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. Es decir, los dos ángulos internos en el mismo lado de la línea que corta son iguales a dos ángulos rectos.
 
 \qed
 
@@ -2597,12 +2600,12 @@ draw byLabelsOnPolygon(J, I, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(J, H, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{traight}{lines (\drawUnitLine{AB} and \drawUnitLine{EF}) which are parallel to the same straight line (\drawUnitLine{CD}), are parallel to one another.}
+\problem{L}{ineas}{rectas (\drawUnitLine{AB} y \drawUnitLine{EF}) que son paralelas a la misma linea recta (\drawUnitLine{CD}), son paralelas entre si.}
 
 \begin{center}
-Let \drawUnitLine{JK} intersect $\left\{\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}\nointerlineskip\hbox{\drawUnitLine{EF}}}\right\}$;
+Sea \drawUnitLine{JK} que intersecta $\left\{\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}\nointerlineskip\hbox{\drawUnitLine{EF}}}\right\}$;
 
-Then, $\drawAngle{G} = \drawAngle{I} = \drawAngle{H}$ \byref{prop:I.XXIX},
+Entonces, $\drawAngle{G} = \drawAngle{I} = \drawAngle{H}$ \byref{prop:I.XXIX},
 
 $\therefore \drawAngle{G} = \drawAngle{H}$
 
