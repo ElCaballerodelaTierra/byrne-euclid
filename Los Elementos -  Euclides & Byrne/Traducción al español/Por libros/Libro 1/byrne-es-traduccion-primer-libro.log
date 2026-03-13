@@ -3106,3 +3106,2057 @@ Module luamplib Info: flushing figure 1 on input line 378
 Module luamplib Info: flushing figure 1 on input line 378
 Module luamplib Info: flushing figure 1 on input line 378
 Module luamplib Info: flushing figure 1 on input line 378
+Module luamplib Info: flushing figure 1 on input line 379
+Module luamplib Info: flushing figure 1 on input line 379
+Module luamplib Info: flushing figure 1 on input line 379
+Module luamplib Info: flushing figure 1 on input line 379
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+Module luamplib Info: flushing figure 1 on input line 380
+LaTeX Font Info:    Font shape `TU/EBGaramond(13)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 386.
+[9] [10]
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(14)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;+smcp
+;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(14)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 399.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(15)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+
+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+
+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+on
+um;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+on
+um;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;
++smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+sm
+cp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;"
+
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+
+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+on
+um;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+on
+um;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(15)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 399.
+
+Underfull \hbox (badness 4859) in paragraph at lines 399--400
+\TU/EBGaramond(14)/m/n/10 ciones, por lo tanto hemos se-lec-cionado las an-te-ri
+-ores
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 399--400
+\TU/EBGaramond(14)/m/n/10 di-a-gra-mas, etc. para uso pri-vado los lápices de 
+col-ores
+ []
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(16)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+t
+lig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+t
+lig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+
+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+
+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+tli
+g;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+tli
+g;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+t
+lig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;+t
+lig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(16)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 403.
+LaTeX Font Info:    Font shape `TU/EBGaramond(16)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 403.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(17)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(17)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 403.
+[11]
+\@minpageheight=\dimen265
+LaTeX Font Info:    Font shape `TU/EBGaramond(17)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 409.
+\luamplib.box.31=\box93
+\luamplib.box.32=\box94
+\luamplib.box.33=\box95
+Module luamplib Info: flushing figure 1 on input line 423
+Module luamplib Info: flushing figure 1 on input line 424
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--150
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 424
+
+Underfull \hbox (badness 1960) in paragraph at lines 424--425
+[]\TU/EBGaramond(17)/m/n/10 Los án-gu-los po-drían con-sid-er-arse apropi-ada-
+mente
+ []
+
+\luamplib.box.34=\box96
+\luamplib.box.35=\box97
+\luamplib.box.36=\box98
+\luamplib.box.37=\box99
+\luamplib.box.38=\box100
+\luamplib.box.39=\box101
+\luamplib.box.40=\box102
+\luamplib.box.41=\box103
+\luamplib.box.42=\box104
+Module luamplib Info: flushing figure 1 on input line 454
+Module luamplib Info: flushing figure 1 on input line 456
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--501
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][]
+ []
+
+Module luamplib Info: flushing figure 1 on input line 456
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(18)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(18)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 456.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(19)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(19)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 456.
+
+Underfull \hbox (badness 1769) in paragraph at lines 456--457
+[]\TU/EBGaramond(18)/m/n/10 Un án-gulo se des-igna a menudo por una sola le-tra
+
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 456--457
+\TU/EBGaramond(18)/m/n/10 cuando más de dos líneas se en-cuen-tran en el mismo
+
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 456--457
+\TU/EBGaramond(18)/m/n/10 punto, era nece-sario por méto-dos an-te-ri-ores, par
+a evi-tar
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 456--457
+\TU/EBGaramond(18)/m/n/10 con-fu-siones, em-plear tres le-tras para des-ig-nar 
+un án-gulo
+ []
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(19)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 458.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(20)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh
+;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+swsh
+;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+
+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+
+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smc
+p;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp;"
+
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+smcp
+;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;+tlig;+pnum;+onum;+
+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(20)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 460.
+[12]
+LaTeX Font Info:    Font shape `TU/EBGaramond(20)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 460.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(21)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pn
+um;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pn
+um;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig
+;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig
+;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+p
+num;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+p
+num;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum
+;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pnum
+;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pn
+um;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig;+pn
+um;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig
+;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;+tlig
+;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(21)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 460.
+LaTeX Font Info:    Font shape `TU/EBGaramond(21)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 462.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(22)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0,LetterSpace=-2.5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(22)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 464.
+LaTeX Font Info:    Font shape `TU/EBGaramond(22)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 464.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(23)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(23)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 464.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(24)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-3].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;+tlig;+pnum;+onum;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(24)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 466.
+LaTeX Font Info:    Font shape `TU/EBGaramond(24)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 466.
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(25)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-3,Letter
+Space=0].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+swsh;+smc
+p;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+swsh;
+"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+swsh;
++smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=base;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lett
+erspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspace
+=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;+tlig;+pnum;+onum;+smcp;
+"
+
+LaTeX Font Info:    Font shape `TU/EBGaramond(25)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 466.
+LaTeX Font Info:    Font shape `TU/EBGaramond(25)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 468.
+
+Underfull \hbox (badness 6625) in paragraph at lines 470--471
+[]\TU/EBGaramond(25)/m/n/10 Las \TU/EBGaramond(25)/m/it/10 proposi-ciones \TU/E
+BGaramond(25)/m/n/10 son aque-l-los re-sul-ta-dos que se
+ []
+
+[13]
+Underfull \hbox (badness 3219) in paragraph at lines 490--491
+[]\TU/EBGaramond(25)/m/n/10 Un \TU/EBGaramond(25)/m/it/10 es-co-lio \TU/EBGaram
+ond(25)/m/n/10 es una nota u ob-ser-vación so-bre una
+ []
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             EBGaramond-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'EBGaramond(26)' created for font
+(fontspec)             'EBGaramond' with options [Ligatures = TeX,Scale =
+(fontspec)             1,SmallCapsFeatures={Renderer=Basic},Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic,FontFace={m}{sw}{Font=*-Italic,Style=Swash}
+,FontFace={b}{sw}{Font=*-BoldItalic,Style=Swash},LetterSpace=-2,LetterSpace=0,L
+etterSpace=-1,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=-2,LetterS
+pace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-1,LetterSpace=0,LetterSpace=
+-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-2,LetterSpace=0,Le
+tterSpace=-2,LetterSpace=0,LetterSpace=-2.5,LetterSpace=0,LetterSpace=-3,Letter
+Space=0,LetterSpace=-2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'swash' (m/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=node;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;+
+onum;+swsh;"
+(fontspec)             -  (m/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Italic.otf]:mode=base;script=latn;l
+anguage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lettersp
+ace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=
+0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;le
+tterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;letterspa
+ce=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;+
+onum;+swsh;+smcp;"
+(fontspec)             - 'bold swash' (b/sw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=node;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pn
+um;+onum;+swsh;"
+(fontspec)             -  (b/scsw) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]:mode=base;script=la
+tn;language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;lett
+erspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;lettersp
+ace=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.
+5;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lette
+rspace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pn
+um;+onum;+swsh;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=node;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;
++onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Regular.otf]:mode=base;script=latn;
+language=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letters
+pace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace
+=0;letterspace=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;l
+etterspace=0;letterspace=-2;letterspace=0;letterspace=-2;letterspace=0;lettersp
+ace=-2.5;letterspace=0;letterspace=-3;letterspace=0;letterspace=-2;+tlig;+pnum;
++onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[EBGaramond-Bold.otf]:mode=node;script=latn;lan
+guage=dflt;letterspace=-2;letterspace=0;letterspace=-1;letterspace=0;letterspac
+e=-1;letterspace=0;letterspace=-2;letterspace=0;letterspace=-2.5;letterspace=0;
+letterspace=-1;le
