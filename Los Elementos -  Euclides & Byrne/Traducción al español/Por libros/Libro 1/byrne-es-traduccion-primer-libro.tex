@@ -2509,14 +2509,13 @@ draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{una linea recta (\drawUnitLine{GH}), cutting two other straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), makes the external equal to the internal and opposite angle, at the same side of the cutting line (namely $\drawAngle{GEA} = \drawAngle{CFG}$ or $\drawAngle{BEG} = \drawAngle{GFD}$), or if it makes the two internal angles at the same side (\drawAngle{GFD} and \drawAngle{HEB}, or \drawAngle{CFG} and \drawAngle{AEH}) together equal to two right angles, those two straight lines are parallel.}
+\problem{S}{i}{una linea recta (\drawUnitLine{GH}) corta a otras dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}), de tal forma que el angulo externo es igual al angulo interno y opuesto en el mismo lado de la linea que corta (es decir $\drawAngle{GEA} = \drawAngle{CFG}$ o $\drawAngle{BEG} = \drawAngle{GFD}$), o si los dos angulos internos en el mismo lado (\drawAngle{GFD} y \drawAngle{HEB}, o \drawAngle{CFG} y \drawAngle{AEH}) son iguales a dos angulos rectos, entonces estas dos lineas rectas son paralelas.}
 
 \begin{center}
-First, if $\drawAngle{GEA} = \drawAngle{CFG}$, then $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV},\\
-$\therefore \drawAngle{CFG} = \drawAngle{HEB} \therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
+En primer lugar, si $\drawAngle{GEA} = \drawAngle{CFG}$, entonces $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV}, $\therefore \drawAngle{CFG} = \drawAngle{HEB} \therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
 
-Secondly, if $\drawAngle{CFG} + \drawAngle{AEH} = \drawTwoRightAngles$,\\
-then $\drawAngle{AEH} + \drawAngle{HEB} = \drawTwoRightAngles$ \byref{prop:I.XIII},\\
+En segundo lugar, si $\drawAngle{CFG} + \drawAngle{AEH} = \drawTwoRightAngles$,\\
+entonces $\drawAngle{AEH} + \drawAngle{HEB} = \drawTwoRightAngles$ \byref{prop:I.XIII},\\
 $\therefore \drawAngle{CFG} + \drawAngle{AEH} = \drawAngle{AEH} + \drawAngle{HEB}$ \byref{ax:I.III}
 
 $\therefore \drawAngle{CFG} = \drawAngle{HEB}$
