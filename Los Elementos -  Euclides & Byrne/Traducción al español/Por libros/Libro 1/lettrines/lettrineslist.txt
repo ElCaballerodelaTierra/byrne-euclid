@@ -31,11 +31,11 @@ S
 S
 U
 L
-F
-I
+D
 S
-T
-P
+S
+L
+L
 P
 T
 T

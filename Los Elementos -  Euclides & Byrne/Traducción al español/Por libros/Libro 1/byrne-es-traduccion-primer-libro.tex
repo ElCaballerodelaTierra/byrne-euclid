@@ -10,7 +10,7 @@
 
 \begin{center}
 
-\Large \uppercase{Los primeros seis libros de}
+\Large \uppercase{El primer libro de}
 
 \LARGE \uppercase{Los elementos de Euclides}
 
@@ -106,7 +106,7 @@ Oliver Byrne en 1847, bajo el título
 La edición digital en \LaTeX\ fue creada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
 \url{https://github.com/jemmybutton/byrne-euclid}
 \\[\baselineskip]
-La traducción al español y modificaciones al formato fueron realizadas en 2026 por Carlos Villarreal en México.
+La traducción al español y modificaciones al formato original fueron realizadas en 2026 por Carlos Villarreal en México.
 \end{flushleft}
 
 \begin{center}
@@ -115,7 +115,7 @@ La traducción al español y modificaciones al formato fueron realizadas en 2026
 
 \vskip 0.25\baselineskip
 
-\noindent \footnotesize Esta traducción de \emph{Los primeros seis libros de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
+\noindent \footnotesize Esta traducción de \emph{El primer libro de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
 
 \vskip -\baselineskip
 
@@ -129,8 +129,8 @@ La traducción al español y modificaciones al formato fueron realizadas en 2026
 
 \part*{Introducción}
 
-\charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su adquisición es de tanta importancia como extender sus límites. La ilustración, si no acorta el tiempo de estudio, al menos lo hará más agradable. Este trabajo tiene un objetivo mayor que la mera ilustración; no introducimos colores con el propósito de entretener, o para entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
-pero para ayudar a la mente en sus investigaciones de la verdad, para aumentar las facilidades de introducción y para difundir el conocimiento permanente. Si quisiéramos autoridades para probar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos, en la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, los Elementos de Euclides se han convertido, por consentimiento común, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parecerá extraordinario, si consideramos que esta ciencia sublime no solo está mejor calculada que cualquier otra para despertar el espíritu de investigación, elevar la mente y fortalecer las facultades de razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
+\charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su enseñanza es de tanta importancia como extender sus límites. Las ilustraciones expuestas, tal vez no acorten el tiempo de estudio, pero al menos lo harán más agradable. Este trabajo tiene un objetivo mayor que las meras ilustraciones; no se introducen colores con el propósito de entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
+sino para ayudar a la mente en sus investigaciones de la verdad, para aumentar las facilidades de introducción y para difundir el conocimiento permanente. Si quisiéramos autoridades para probar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos, en la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, los Elementos de Euclides se han convertido, por consentimiento común, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parecerá extraordinario, si consideramos que esta ciencia sublime no solo está mejor calculada que cualquier otra para despertar el espíritu de investigación, elevar la mente y fortalecer las facultades de razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
 
 \pagebreak
 
@@ -2637,14 +2637,14 @@ draw byNamedLineSeq(0)(CF, FD);
 draw byLabelsOnPolygon(A, E, B, noPoint, D, F, C, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{F}{rom}{a given point \drawPointL[middle][EB]{E} to draw a straight line parallel to a given straight line (\drawUnitLine{CF,FD}).}
+\problem{D}{esde}{un punto dado \drawPointL[middle][EB]{E} trazar una linea recta paralela a una linea recta dada (\drawUnitLine{CF,FD}).}
 
 \begin{center}
-Draw \drawUnitLine{EF} from the point \drawPointL[middle][EB]{E} to any point  \drawPointL[middle][CF]{F} in \drawUnitLine{CF,FD},
+Dibuja \drawUnitLine{EF} desde el punto \drawPointL[middle][EB]{E} a cualquier punto \drawPointL[middle][CF]{F} en \drawUnitLine{CF,FD},
 
-make $\drawAngle{E} = \drawAngle{F}$ \byref{prop:I.XXIII},
+construye $\drawAngle{E} = \drawAngle{F}$ \byref{prop:I.XXIII},
 
-then $\drawUnitLine{AE,EB} \parallel \drawUnitLine{CF,FD}$ \byref{prop:I.XXVII}.
+entonces $\drawUnitLine{AE,EB} \parallel \drawUnitLine{CF,FD}$ \byref{prop:I.XXVII}.
 \end{center}
 
 \qed
@@ -2672,13 +2672,13 @@ draw byNamedLineSeq(0)(CA,noLine,AD,AB,BC);
 draw byLabelsOnPolygon(C, B, A, D, noPoint, E, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{I}{f}{any side (\drawUnitLine{AB}) of a triangle be produced, the external angle (\drawAngle{DAE,EAC}) is equal to the sum of the two internal and opposite angles (\drawAngle{B} and \drawAngle{C}), and the three internal angles of any triangle taken together are equal to two right angles.}
+\problem[3]{S}{i}{ cualquier lado (\drawUnitLine{AB}) de un triangulo es prolongado el angulo externo (\drawAngle{DAE,EAC}) es igual a la suma de los dos angulos internos opuestos (\drawAngle{B} y \drawAngle{C}), y la suma de los tres angulos internos de cualquier triangulo son iguales a dos angulos rectos.}
 
 \begin{center}
-Through the point \drawPointL[middle][AD,AE]{A} draw\\
+Desde el punto \drawPointL[middle][AD,AE]{A} traza\\
 $\drawUnitLine{AE} \parallel \drawUnitLine{BC}$ \byref{prop:I.XXXI}.
 
-Then $\left\{
+Entonces $\left\{
 	\begin{aligned}
 		\drawAngle{DAE} &= \drawAngle{B}\\
 		\drawAngle{EAC} &= \drawAngle{C}\\
@@ -2687,7 +2687,7 @@ Then $\left\{
 
 $\therefore \drawAngle{B} + \drawAngle{C} = \drawAngle{DAE,EAC}$ \byref{ax:I.II},
 
-and therefore\\
+y por lo tanto\\
 $\drawAngle{B} + \drawAngle{CAB} + \drawAngle{C} = \drawAngle{DAE,EAC,CAB} = \drawTwoRightAngles$ \byref{prop:I.XIII}.
 \end{center}
 
@@ -2716,18 +2716,18 @@ draw byNamedLineSeq(0)(AB,BD,CD,AC);
 draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{traight}{lines (\drawUnitLine{AC} and \drawUnitLine{BD}) which join the adjacent extremities of two equal and parallel straight lines (\drawUnitLine{AB} and \drawUnitLine{CD}), are themselves equal and parallel.}
+\problem{S}{i}{ dos lineas rectas (\drawUnitLine{AC} y \drawUnitLine{BD}) unen los extremos adyacentes de dos lineas rectas iguales y paralelas (\drawUnitLine{AB} y \drawUnitLine{CD}), entonces las lineas rectas son iguales y paralelas.}
 
 \begin{center}
-Draw \drawUnitLine{AD} the diagonal.
+Traza la diagonal \drawUnitLine{AD}.
 
 $\drawUnitLine{AB} = \drawUnitLine{CD}$ \byref{\hypref}\\
 $\drawAngle{BAD} = \drawAngle{CDA}$ \byref{prop:I.XXIX}\\
-and \drawUnitLine{AD} common to the two triangles; % what triangles?
+y como \drawUnitLine{AD} es común a los dos triangulos;
 
-$\therefore \drawUnitLine{AC} = \drawUnitLine{BD}$, and $\drawAngle{ADB} = \drawAngle{DAC}$ \byref{prop:I.IV};
+$\therefore \drawUnitLine{AC} = \drawUnitLine{BD}$, y $\drawAngle{ADB} = \drawAngle{DAC}$ \byref{prop:I.IV};
 
-and $\therefore \drawUnitLine{AC} \parallel \drawUnitLine{BD}$ \byref{prop:I.XXVII}.
+$\therefore \drawUnitLine{AC} \parallel \drawUnitLine{BD}$ \byref{prop:I.XXVII}.
 \end{center}
 
 \qed
@@ -2757,17 +2757,17 @@ draw byNamedLineSeq(0)(AB,BD,CD,AC);
 draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{he}{opposite sides and angles of any parallelogram are equal, and the diagonal (\drawUnitLine{AD}) divides it into two equal parts.}
+\problem{L}{os}{lados opuestos y angulos de cualquier paralelogramo son iguales, y la diagonal (\drawUnitLine{AD}) lo divide en dos partes iguales.}
 
 \begin{center}
-Since $\left\{
+Como $\left\{
 	\begin{aligned}
 		\drawAngle{BAD} &= \drawAngle{CDA}\\
 		\drawAngle{DAC} &= \drawAngle{ADB}\\
 	\end{aligned}
 	\right\}$ \byref{prop:I.XXIX}
 
-and \drawUnitLine{AD} common to the two triangles.
+y como \drawUnitLine{AD} es común a los dos triangulos;
 
 $\therefore \left\{
 	\begin{aligned}
@@ -2776,10 +2776,10 @@ $\therefore \left\{
 		\drawAngle{B} &= \drawAngle{C}\\
 	\end{aligned}
 	\right\}$ \byref{prop:I.XXVI}\\
-and $\drawAngle{BAD,DAC} = \drawAngle{CDA,ADB}$ \byref{ax:I.II}.
+y $\drawAngle{BAD,DAC} = \drawAngle{CDA,ADB}$ \byref{ax:I.II}.
 \end{center}
 
-Therefore the opposite sides and angles of the parallelogram are equal: and as the triangles \drawLine{AD,CD,AC} and \drawLine{AB,BD,AD} are equal in every respect \byref{prop:I.IV}, the diagonal divides the parallelogram into two equal parts.
+Por lo tanto, los lados opuestos y los angulos de cualquier paralelogramo son iguales: y como los triangulos \drawLine{AD,CD,AC} y \drawLine{AB,BD,AD} son iguales en todo sentido \byref{prop:I.IV}, la diagonal divide al paralelogramo en dos partes iguales.
 
 \qed
 
@@ -2813,10 +2813,10 @@ draw byNamedLineSeq(0)(AC,CD,BD);
 draw byLabelsOnPolygon(C, A, B, E, F, D)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{P}{arallelograms}{on the same base, and between the same parallels, are (in area) equal.}
+\problem{L}{os}{paralelogramos con la misma base y entre las mismas paralelas tienen igual area.}
 
 \begin{center}
-On account of the parallels,\\
+Debido a que son paralelas, se tiene que\\
 $\left.
 	\begin{aligned}
 		\drawAngle{A} &= \drawAngle{B};\\
@@ -2831,7 +2831,7 @@ $\left.
 	\end{aligned}
 	$
 
-But
+Pero
 $\drawFromCurrentPicture[middle][polygonABC]{
 startAutoLabeling;
 draw byNamedPolygon (ABGC, BEG);
@@ -2854,7 +2854,7 @@ stopAutoLabeling;
 draw byNamedLine (AC);
 } - \polygonEFD =
 \drawPolygon{ABGC, CDG}$,\\
-and $\polygonAFDC - \polygonABC =
+y $\polygonAFDC - \polygonABC =
 \drawPolygon{EFDG, CDG}$;
 
 $\therefore \drawPolygon{ABGC, CDG} = \drawPolygon{EFDG, CDG}$.

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  13 MAR 2026 16:05
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  13 MAR 2026 23:33
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -1511,31 +1511,20 @@ tn;language=dflt;letterspace=-2;letterspace=0;+tlig;+pnum;+onum;+smcp;"
 LaTeX Font Info:    Font shape `TU/EBGaramond(3)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 133.
 
-Underfull \hbox (badness 1436) in paragraph at lines 133--134
-[]  \TU/EBGaramond(2)/m/sc/10 as \TU/EBGaramond(2)/m/n/10 artes y cien-cias se 
-han vuelto tan ex-ten-
+Underfull \hbox (badness 2735) in paragraph at lines 133--134
+\TU/EBGaramond(2)/m/n/10 ex-pues-tas, tal vez no acorten el tiempo de
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 133--134
-\TU/EBGaramond(2)/m/n/10 sas, que fa-cil-i-tar su adquisi-ción es de tanta
+Underfull \hbox (badness 1466) in paragraph at lines 133--134
+\TU/EBGaramond(2)/m/n/10 tiene un ob-je-tivo mayor que las meras ilus-tra-ciones
+; no
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 133--134
-\TU/EBGaramond(2)/m/n/10 im-por-tan-cia como ex-ten-der sus límites. La
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 133--134
-\TU/EBGaramond(2)/m/n/10 mayor que la mera ilus-tración; no in-tro-duci-mos col
--ores
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 133--134
-\TU/EBGaramond(2)/m/it/10 com-bi-na-ciones de ma-tiz y forma\TU/EBGaramond(2)/m
-/n/10 , pero para ayu-dar a la
+Underfull \hbox (badness 1005) in paragraph at lines 133--134
+\TU/EBGaramond(2)/m/n/10 se in-tro-ducen col-ores con el propósito de en-treten
+er \TU/EBGaramond(2)/m/it/10 con
  []
 
 
@@ -7937,7 +7926,6 @@ Module luamplib Info: flushing figure 1 on input line 2640
 
 LaTeX Warning: Marginpar on page 56 moved.
 
-\ltrnF=\count382
 \luamplib.box.273=\box391
 \luamplib.box.274=\box392
 \luamplib.box.275=\box393
@@ -7947,6 +7935,12 @@ Module luamplib Info: flushing figure 1 on input line 2640
 Module luamplib Info: flushing figure 1 on input line 2640
 Module luamplib Info: flushing figure 1 on input line 2640
 Module luamplib Info: flushing figure 1 on input line 2640
+
+Underfull \hbox (badness 10000) in paragraph at lines 2640--2640
+[]  \TU/EBGaramond(27)/m/sc/10 esde \TU/EBGaramond(27)/m/it/10 un punto dado []
+ trazar una
+ []
+
 
 Underfull \vbox (badness 10000) detected at line 2640
  []
@@ -7984,7 +7978,6 @@ Module luamplib Info: flushing figure 1 on input line 2675
 
 LaTeX Warning: Marginpar on page 57 moved.
 
-\ltrnI=\count383
 \luamplib.box.279=\box397
 \luamplib.box.280=\box398
 \luamplib.box.281=\box399
@@ -8063,13 +8056,19 @@ Module luamplib Info: flushing figure 1 on input line 2719
 Module luamplib Info: flushing figure 1 on input line 2719
 Module luamplib Info: flushing figure 1 on input line 2719
 
-Underfull \hbox (badness 2245) in paragraph at lines 2719--2719
-\TU/EBGaramond(27)/m/it/10 join the ad-ja-cent ex-trem-i-ties of two equal
+Underfull \hbox (badness 3690) in paragraph at lines 2719--2719
+[]  \TU/EBGaramond(27)/m/sc/10 i  \TU/EBGaramond(27)/m/it/10 dos lin-eas rec-tas
+ ([] y [])
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 2719--2719
-\TU/EBGaramond(27)/m/it/10 and par-al-lel straight lines ([] and
+Underfull \hbox (badness 4608) in paragraph at lines 2719--2719
+\TU/EBGaramond(27)/m/it/10 unen los ex-tremos ady-a-centes de dos lin-
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 2719--2719
+\TU/EBGaramond(27)/m/it/10 eas rec-tas iguales y par-ale-las ([] y
  []
 
 
@@ -8117,7 +8116,6 @@ Module luamplib Info: flushing figure 1 on input line 2760
 
 LaTeX Warning: Marginpar on page 59 moved.
 
-\ltrnT=\count384
 \luamplib.box.291=\box409
 \luamplib.box.292=\box410
 \luamplib.box.293=\box411
@@ -8125,6 +8123,16 @@ LaTeX Warning: Marginpar on page 59 moved.
 Module luamplib Info: flushing figure 1 on input line 2760
 Module luamplib Info: flushing figure 1 on input line 2760
 Module luamplib Info: flushing figure 1 on input line 2760
+
+Underfull \hbox (badness 4621) in paragraph at lines 2760--2760
+[]  \TU/EBGaramond(27)/m/sc/10 os \TU/EBGaramond(27)/m/it/10 la-dos op-uestos y an-gu-los de cualquier
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 2760--2760
+\TU/EBGaramond(27)/m/it/10 par-alel-o-gramo son iguales, y la di-ag-o-nal
+ []
+
 
 Underfull \vbox (badness 10000) detected at line 2760
  []
@@ -8159,6 +8167,17 @@ Module luamplib Info: flushing figure 1 on input line 2782
 Module luamplib Info: flushing figure 1 on input line 2782
 Module luamplib Info: flushing figure 1 on input line 2782
 Module luamplib Info: flushing figure 1 on input line 2782
+
+Underfull \hbox (badness 1448) in paragraph at lines 2782--2783
+[]\TU/EBGaramond(27)/m/n/10 Por lo tanto, los la-dos op-uestos y los an-gu-los 
+de
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 2782--2783
+\TU/EBGaramond(27)/m/n/10 gu-los [] y [] son iguales en todo sen-tido
+ []
+
 [59]
 \luamplib.box.295=\box413
 \luamplib.box.296=\box414
@@ -8180,7 +8199,6 @@ Module luamplib Info: flushing figure 1 on input line 2816
 
 LaTeX Warning: Marginpar on page 60 moved.
 
-\ltrnP=\count385
 \luamplib.box.297=\box415
 \luamplib.box.298=\box416
 \luamplib.box.299=\box417
@@ -8240,6 +8258,7 @@ Module luamplib Info: flushing figure 1 on input line 2899
 
 LaTeX Warning: Marginpar on page 61 moved.
 
+\ltrnP=\count382
 \luamplib.box.303=\box421
 \luamplib.box.304=\box422
 \luamplib.box.305=\box423
@@ -8306,6 +8325,7 @@ Module luamplib Info: flushing figure 1 on input line 2951
 
 LaTeX Warning: Marginpar on page 62 moved.
 
+\ltrnT=\count383
 \luamplib.box.309=\box427
 \luamplib.box.310=\box428
 \luamplib.box.311=\box429
@@ -8552,6 +8572,7 @@ Module luamplib Info: flushing figure 1 on input line 3169
 
 LaTeX Warning: Marginpar on page 66 moved.
 
+\ltrnI=\count384
 \luamplib.box.333=\box451
 \luamplib.box.334=\box452
 \luamplib.box.335=\box453
@@ -9134,15 +9155,15 @@ t changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24334 strings out of 476076
+ 24327 strings out of 476076
  156792,1373583 words of node,token memory allocated
  25104 words of node memory still in use:
    473 hlist, 85 vlist, 2 rule, 5 disc, 31 local_par, 219 glue, 296 kern, 68 pen
 alty, 503 glyph, 1692 attribute, 63 glue_spec, 847 attribute_list, 3 write, 2539
  pdf_literal nodes
-   avail lists: 1:21,2:1340,3:4216,4:156,5:3080,6:125,7:4628,8:47,9:773,10:22,11
+   avail lists: 1:20,2:1340,3:4216,4:156,5:3080,6:125,7:4628,8:47,9:773,10:22,11
 :433
- 46012 multiletter control sequences out of 65536+600000
+ 46005 multiletter control sequences out of 65536+600000
  83 fonts using 19044199 bytes
  105i,13n,141p,2061b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.en
@@ -9159,7 +9180,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341532 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341434 bytes).
 
 
 PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)
