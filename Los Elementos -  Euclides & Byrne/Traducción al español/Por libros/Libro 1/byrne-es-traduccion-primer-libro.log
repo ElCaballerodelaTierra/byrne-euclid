@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  13 MAR 2026 23:33
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  14 MAR 2026 14:16
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -8269,9 +8269,9 @@ Module luamplib Info: flushing figure 1 on input line 2899
 Module luamplib Info: flushing figure 1 on input line 2899
 Module luamplib Info: flushing figure 1 on input line 2899
 
-Underfull \hbox (badness 4995) in paragraph at lines 2899--2899
-[]  \TU/EBGaramond(27)/m/sc/10 ar-al-lel-o-grams \TU/EBGaramond(27)/m/it/10 ([]
- and []) on
+Underfull \hbox (badness 7256) in paragraph at lines 2899--2899
+[]  \TU/EBGaramond(27)/m/sc/10 ar-al-lel-o-gramos \TU/EBGaramond(27)/m/it/10 ([
+] y []) con
  []
 
 
@@ -8292,6 +8292,14 @@ Module luamplib Info: flushing figure 1 on input line 2905
 Module luamplib Info: flushing figure 1 on input line 2905
 Module luamplib Info: flushing figure 1 on input line 2905
 Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2905
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2907
+Module luamplib Info: flushing figure 1 on input line 2907
 Module luamplib Info: flushing figure 1 on input line 2907
 Module luamplib Info: flushing figure 1 on input line 2907
 Module luamplib Info: flushing figure 1 on input line 2907
@@ -8513,6 +8521,12 @@ Module luamplib Info: flushing figure 1 on input line 3123
 Module luamplib Info: flushing figure 1 on input line 3123
 Module luamplib Info: flushing figure 1 on input line 3123
 Module luamplib Info: flushing figure 1 on input line 3123
+
+Underfull \hbox (badness 3302) in paragraph at lines 3123--3123
+[]  \TU/EBGaramond(27)/m/sc/10 ri-an-gu-los \TU/EBGaramond(27)/m/it/10 iguales 
+([] y []) so-bre
+ []
+
 
 Underfull \vbox (badness 10000) detected at line 3123
  []
@@ -9180,7 +9194,7 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341434 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341468 bytes).
 
 
 PDF statistics: 1314 PDF objects out of 1440 (max. 8388607)

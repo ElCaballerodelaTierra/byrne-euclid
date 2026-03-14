@@ -1700,7 +1700,7 @@ draw byLabelLineEnd(D, A, 0);
 draw byLabelLineEnd(C, A, 0);
 }
 \drawCurrentPictureInMargin
-\problem{D}{ibujar}{una recta perpendicular a una línea recta indefinida dada (\drawUnitLine[1.2cm]{DB,CD}) desde un punto dado (\drawPointL{A})}.
+\problem{D}{ibujar}{una recta perpendicular a una línea recta indefinida dada (\drawUnitLine[1.2cm]{DB,CD}) desde un punto dado (\drawPointL{A}).}
 
 \begin{center}
 Con el punto dado \drawPointL{A} como centro, en un lado de la línea, y a cualquier distancia \drawUnitLine{DB} capaz de extenderse al otro lado, traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB
@@ -1743,12 +1743,12 @@ draw byLabelLineEnd(A, D, 0);
 \problem{C}{uando}{una linea recta (\drawUnitLine{ED}) se encuentra con otra linea recta (\drawUnitLine{BC}) se forman ángulos; estos pueden ser dos ángulos rectos o la suma de ambos ángulos es igual a dos ángulos rectos.}
 
 \begin{center}
-Si \drawUnitLine{ED} es $\perp$ a \drawUnitLine{BC} entonces,\\
-\drawAngle{ADB,EDA} y $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}, % improvement: def. 7 in the original is likely to be a mistake
+Supongamos que \drawUnitLine{ED} $\perp$ \drawUnitLine{BC}, entonces\\
+\drawAngle{ADB,EDA} + $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}, % improvement: def. 7 in the original is likely to be a mistake
 
 pero si \drawUnitLine{ED} no es $\perp$ a \drawUnitLine{BC},\\
-entonces dibuja $\drawUnitLine{AD} \perp \drawUnitLine{BC}$ \byref{prop:I.XI};\\
-$\drawAngle{ADB} +\drawAngle{CDE,EDA} = \drawTwoRightAngles$ \byref{\constref},\\
+traza $\drawUnitLine{AD} \perp \drawUnitLine{BC}$ \byref{prop:I.XI};\\
+entonces $\drawAngle{ADB} +\drawAngle{CDE,EDA} = \drawTwoRightAngles$ \byref{\constref},\\
 $\drawAngle{ADB} = \drawAngle{CDE,EDA} = \drawAngle{EDA} + \drawAngle{CDE}$
 
 $\therefore \drawAngle{ADB} + \drawAngle{CDE,EDA} = \drawAngle{ADB} + \drawAngle{EDA} + \drawAngle{CDE}$ \byref{ax:I.II}
@@ -2032,7 +2032,7 @@ $\therefore \drawAngle{CBD,DBA} > \drawAngle{C}$ \byref{ax:I.IX}
 
 $\therefore \drawUnitLine{DA} + \drawUnitLine{CD} > \drawUnitLine{AB}$ \byref{prop:I.XIX}
 
-y $\therefore \drawUnitLine{DA} + \drawUnitLine{BD} > \drawUnitLine{AB}$.
+$\therefore \drawUnitLine{DA} + \drawUnitLine{BD} > \drawUnitLine{AB}$.
 \end{center}
 
 \qed
@@ -2816,12 +2816,12 @@ draw byLabelsOnPolygon(C, A, B, E, F, D)(ALL_LABELS, 0);
 \problem{L}{os}{paralelogramos con la misma base y entre las mismas paralelas tienen igual area.}
 
 \begin{center}
-Debido a que son paralelas, se tiene que\\
+Debido a que son paralelas\\
 $\left.
 	\begin{aligned}
 		\drawAngle{A} &= \drawAngle{B};\\
 		\drawAngle{E} &= \drawAngle{F};\\
-		\mbox{and } \drawUnitLine{AC} &= \drawUnitLine{BD}\\
+		\mbox{y } \drawUnitLine{AC} &= \drawUnitLine{BD}\\
 	\end{aligned}
 	\right\}
 	\begin{aligned}
@@ -2896,21 +2896,21 @@ draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(E, F, H, G)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{P}{arallelograms}{(\drawPolygon[bottom][polygonABDC]{ABIC, CDI}~and~\drawPolygon[bottom][polygonEFHG]{EFJ, JFHG}) on equal bases, and between the same parallels, are equal.}
+\problem{P}{arallelogramos}{(\drawPolygon[bottom][polygonABDC]{ABIC, CDI}~y~\drawPolygon[bottom][polygonEFHG]{EFJ, JFHG}) con bases iguales, y entre las mismas paralelas, son iguales.}
 
 \begin{center}
-Draw \drawUnitLine{CE} and \drawUnitLine{DF}\\
-$\drawUnitLine{CD} = \drawUnitLine{GH} = \drawUnitLine{EF}$ by \byref{prop:I.XXXIV,\hypref};
+Traza \drawUnitLine{CE} y \drawUnitLine{DF}\\
+entonces $\drawUnitLine{CD} = \drawUnitLine{GH} = \drawUnitLine{EF}$ \\ por \byref{prop:I.XXXIV,\hypref};
 
-$\therefore \drawUnitLine{CD} = \mbox{ and } \parallel \drawUnitLine{EF}$;
+$\therefore \drawUnitLine{CD} = \drawUnitLine{EF} \mbox{ y } \drawUnitLine{CD} \parallel \drawUnitLine{EF}$;
 
-$\therefore \drawUnitLine{CE} = \mbox{ and } \parallel \drawUnitLine{DF}$ \byref{prop:I.XXXIII}
+$\therefore \drawUnitLine{CE} = \drawUnitLine{DF} \mbox{ y } \drawUnitLine{CE} \parallel \drawUnitLine{DF}$ \byref{prop:I.XXXIII}
 
-And therefore
+Por lo tanto
 \drawPolygon[bottom][polygonCDFE]{CDI, IDJE, EFJ}
-is a parallelogram:
+es un paralelogramo:
 
-but $\polygonABDC = \polygonCDFE = \polygonEFHG$ \byref{prop:I.XXXV}
+pero $\polygonABDC = \polygonCDFE = \polygonEFHG$ \byref{prop:I.XXXV}
 
 $\therefore \polygonABDC = \polygonEFHG$ \byref{ax:I.I}.
 \end{center}
@@ -2948,30 +2948,30 @@ draw byLabelsOnPolygon(H, A, B, E, F, I, noPoint)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, D, C, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riangles}{
-\drawPolygon[bottom][polygonBCD]{BCG, CDG} and~\drawPolygon[bottom][polygonCDE]{DGE, CDG}
-on the same base (\drawUnitLine{CD}) and between the same parallels are equal.
+\problem{T}{riangulos}{
+\drawPolygon[bottom][polygonBCD]{BCG, CDG} y~\drawPolygon[bottom][polygonCDE]{DGE, CDG}
+con la misma base (\drawUnitLine{CD}) y entre las mismas paralelas son iguales.
 }
 
 \begin{center}
 $\left.
 	\begin{aligned}
-		\mbox{Draw } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
+		\mbox{Traza } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
 		\drawUnitLine{FD} &\parallel \drawUnitLine{EC}\\
 	\end{aligned}
 \right\}\mbox{\byref{prop:I.XXXI}}$
 
-Produce \drawUnitLine{HI}.
+Dibuja \drawUnitLine{HI}.
 
 \drawPolygon[bottom][polygonABDC]{ABC, BCG, CDG}
-and
+y
 \drawPolygon[bottom][polygonEFDC]{DGE, CDG, EFD}
-are parallelograms on the same base and between the same parallels, and therefore equal. \byref{prop:I.XXXV}
+son paralelogramos sobre la misma base y entre las mismas paralelas, y por lo tanto iguales. \byref{prop:I.XXXV}
 
 $\therefore \left\{
 	\begin{aligned}
-		\polygonABDC &= \mbox{ twice } \polygonBCD\\
-		\polygonEFDC &= \mbox{ twice } \polygonCDE\\
+		\polygonABDC &= \mbox{ 2 } \polygonBCD\\
+		\polygonEFDC &= \mbox{ 2 } \polygonCDE\\
 	\end{aligned}
 	\right\}$ \byref{prop:I.XXXIV}
 $\therefore \polygonBCD = \polygonCDE$.
@@ -3013,19 +3013,19 @@ draw byLabelsOnPolygon(A, B, E, F, noPoint)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(H, G, D, C, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riangles}{(\drawPolygon[bottom][polygonBCD]{BCD} and \drawPolygon[bottom][polygonEGH]{EGH}) on equal bases and between the same parallels are equal.}
+\problem{T}{riangulos}{(\drawPolygon[bottom][polygonBCD]{BCD} y \drawPolygon[bottom][polygonEGH]{EGH}) sobre bases iguales y entre las mismas paralelas son iguales.}
 
 \begin{center}
 $\left.
 	\begin{aligned}
-		\mbox{Draw } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
-		\mbox{and } \drawUnitLine{FH} &\parallel \drawUnitLine{EG}\\
+		\mbox{Traza } \drawUnitLine{AC} &\parallel \drawUnitLine{BD}\\
+		\mbox{y } \drawUnitLine{FH} &\parallel \drawUnitLine{EG}\\
 	\end{aligned}
 	\right\}\mbox{\byref{prop:I.XXXI}}$\\
 $\drawPolygon[bottom][polygonABDC]{ABC, BCD} = \drawPolygon[bottom][polygonEFHG]{EFH, EGH}$ \byref{prop:I.XXXVI};
 
-but $\polygonABDC = \mbox{ twice } \polygonBCD$ \byref{prop:I.XXXIV},\\
-and $\polygonEFHG = \mbox{ twice } \polygonEGH$ \byref{prop:I.XXXIV},
+pero $\polygonABDC = \mbox{ 2 } \polygonBCD$ \byref{prop:I.XXXIV},\\
+y $\polygonEFHG = \mbox{ 2 } \polygonEGH$ \byref{prop:I.XXXIV},
 
 $\therefore \polygonBCD = \polygonEGH$ \byref{ax:I.VII}.
 \end{center}
@@ -3058,23 +3058,23 @@ draw byLabelsOnPolygon(A, B, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(A, F, G, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{E}{qual}{triangles
-\drawPolygon[bottom][polygonADC]{AEC, ECD} and~\drawPolygon[bottom][polygonBDC]{BED, ECD}
-on the same base (\drawUnitLine{CD}) and on the same side of it, are between the same parallels.}
+\problem{T}{riangulos}{iguales
+\drawPolygon[bottom][polygonADC]{AEC, ECD} y~\drawPolygon[bottom][polygonBDC]{BED, ECD}
+con la misma base (\drawUnitLine{CD}) y del mismo lado de ella, están entre las mismas paralelas.}
 
 \begin{center}
-If \drawUnitLine{AB}, which joins the vertices of the triangles, be not $\parallel \drawUnitLine{CD}$, draw $\drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXXI}, meeting \drawUnitLine{CG}.
+Si \drawUnitLine{AB}, que une los vértices de los triángulos, no es $\parallel \drawUnitLine{CD}$, traza $\drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXXI}, encontrando \drawUnitLine{CG}.
 
-Draw \drawUnitLine{DF}.
+Traza \drawUnitLine{DF}.
 
 $\because \drawUnitLine{AF} \parallel \drawUnitLine{CD}$ \byref{\constref}\\ %Because
 $\polygonADC =
 \drawPolygon[bottom][polygonFDC]{BED, ECD, FBD}$ \byref{prop:I.XXXVII};\\
-but $\polygonADC = \polygonBDC$ \byref{\hypref};
+pero $\polygonADC = \polygonBDC$ \byref{\hypref};
 
-$\therefore \polygonBDC = \polygonFDC$, a part equal to the whole, which is absurd.
+$\therefore \polygonBDC = \polygonFDC$, \\ es decir, una parte es igual al todo, lo cual es absurdo.
 
-$\therefore \drawUnitLine{AF} \nparallel \drawUnitLine{CD}$; and in the same manner it can be demonstrated, that no other line except \drawUnitLine{AB} is $\parallel \drawUnitLine{CD}$; $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$.
+$\therefore \drawUnitLine{AF} \nparallel \drawUnitLine{CD}$; y de la misma manera se puede demostrar, que ninguna otra línea excepto \drawUnitLine{AB} es $\parallel \drawUnitLine{CD}$ \\ $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$.
 \end{center}
 
 \qed
@@ -3107,39 +3107,39 @@ draw byLabelsOnPolygon(A, B, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(A, G, H, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{E}{qual}{triangles
+\problem{T}{riangulos}{iguales 
 (\drawFromCurrentPicture[bottom][polygonACD]{
 startAutoLabeling;
 draw byNamedPolygon (ACD);
 stopAutoLabeling;
 draw byNamedLineFull(A, A, 1, 1, 0, 0)(CD);
 }
-and
+y
 \drawFromCurrentPicture[bottom][polygonBEF]{
 startAutoLabeling;
 draw byNamedPolygon (BEF);
 stopAutoLabeling;
 draw byNamedLineFull(B, B, 1, 1,  0, 0)(EF);
-}) on equal bases, and on the same side, are between the same parallels.}
+}) sobre bases iguales y del mismo lado de ellas, están entre las mismas paralelas.}
 
 \begin{center}
-If \drawSizedLine{AB} which joins the vertices of triangles be not $\parallel \drawSizedLine{CD,DE,EF}$,\\
-draw \drawSizedLine{AG} $\parallel \drawSizedLine{CD,DE,EF}$ \byref{prop:I.XXXI},\\
-meeting \drawSizedLine{EH}.\\
-Draw \drawSizedLine{FG}.
+Supongamos que la línea que une los vértices de los triángulos \drawSizedLine{AB} $\nparallel \drawSizedLine{CD,DE,EF}$,\\
+entonces se traza \drawSizedLine{AG} $\parallel \drawSizedLine{CD,DE,EF}$ \byref{prop:I.XXXI},\\
+hasta \drawSizedLine{EH}.\\
+Dibuja \drawSizedLine{FG}.
 
-$\because \drawSizedLine{AG} \parallel \drawSizedLine{CD,DE,EF}$ \byref{\constref}\\ %Because
+Como $\drawSizedLine{AG} \parallel \drawSizedLine{CD,DE,EF}$ \byref{\constref}\\ entonces
 $\polygonACD =
 \drawFromCurrentPicture[bottom][polygonGEF]{
 startAutoLabeling;
 draw byNamedPolygon (BEF, GBF);
 stopAutoLabeling;
 draw byNamedLineFull(G, G, 1, 1,  0, 0)(EF);
-}$ but $\polygonACD = \polygonBEF$
+}$ pero $\polygonACD = \polygonBEF$
 
-$\therefore \polygonBEF = \polygonGEF$, a part equal to the whole, which is absurd.
+$\therefore \polygonBEF = \polygonGEF$, una parte es igual al todo, lo cual es absurdo.
 
-$\therefore \drawSizedLine{AG} \nparallel \drawSizedLine{CD,DE,EF}$: and in the same manner it can be demonstrated, that no other line except \drawSizedLine{AB} is $\parallel \drawSizedLine{CD,DE,EF}$: $\therefore \drawSizedLine{AB} \parallel \drawSizedLine{CD,DE,EF}$.
+$\therefore \drawSizedLine{AG} \nparallel \drawSizedLine{CD,DE,EF}$: y de la misma manera se puede demostrar, que ninguna otra línea excepto \drawSizedLine{AB} es $\parallel \drawSizedLine{CD,DE,EF}$ \newline $\therefore \drawSizedLine{AB} \parallel \drawSizedLine{CD,DE,EF}$.
 \end{center}
 
 \qed

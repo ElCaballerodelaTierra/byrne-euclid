@@ -39,8 +39,8 @@ L
 P
 T
 T
-E
-E
+T
+T
 I
 T
 T
