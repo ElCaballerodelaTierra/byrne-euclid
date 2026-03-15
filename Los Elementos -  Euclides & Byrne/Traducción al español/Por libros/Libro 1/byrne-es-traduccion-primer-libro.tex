@@ -107,6 +107,9 @@ La edición digital en \LaTeX\ fue creada en 2017 por Slyusarev Sergey, se encue
 \url{https://github.com/jemmybutton/byrne-euclid}
 \\[\baselineskip]
 La traducción al español y modificaciones al formato original fueron realizadas en 2026 por Carlos Villarreal en México.
+\\[\baselineskip]
+Desde la publicación de esta obra por Byrne, la notación matemática y el estilo de presentación de las demostraciones han evolucionado a lo largo de los últimos siglos. Esta edición se han modernizado estos aspectos con el propósito de facilitar su lectura al público contemporáneo.
+
 \end{flushleft}
 
 \begin{center}
@@ -1216,7 +1219,7 @@ draw byNamedPointLines(A,"AB");
 stopGlobalRotation;
 }), dibujar una línea recta igual a una línea recta finita dada (\drawUnitLine{BC}).}
 
-
+\begin{center}
 Dibuja \drawUnitLine{AB} \byref{post:I.I}, traza \drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 startTempScale(scaleFactor*3);
@@ -1237,7 +1240,13 @@ draw byLabelLineEnd(D, E, 0);
 draw byLabelLineEnd(E, D, 1);
 } \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida.\\
 
-Porque \drawUnitLine{BE,BD} $=$ \drawUnitLine{DA,AF} \byref{def:I.XV},\\y \drawUnitLine{BD} $=$ \drawUnitLine{DA} (conſt.),\\$\therefore$ \drawUnitLine{BE} $=$ \drawUnitLine{AF} \byref{\constref},\\ pero \byref{post:I.III} \drawUnitLine{BC} $=$ \drawUnitLine{BE} $=$ \drawUnitLine{AF}; \\ $\therefore$ \drawUnitLine{AF} dibujada de un punto dado (\pointA),\\ es igual a la línea dada \drawUnitLine{BC}.
+Porque $\drawUnitLine{BE,BD} = \drawUnitLine{DA,AF}$ \byref{def:I.XV},\\
+y $\drawUnitLine{BD} = \drawUnitLine{DA}$ \byref{\constref},\\
+$\therefore \drawUnitLine{BE} = \drawUnitLine{AF}$ \byref{post:I.III},\\
+pero \byref{def:I.XV} $\drawUnitLine{BC} = \drawUnitLine{BE} = \drawUnitLine{AF}$;
+
+$\therefore \drawUnitLine{AF}$ dibujada de un punto dado (\pointA), es igual a la línea dada \drawUnitLine{BC}.
+\end{center}
 
 \qed
 
@@ -1409,7 +1418,7 @@ draw byLabelsOnPolygon(A, C, D, B)(ALL_LABELS, 0);
 \drawCurrentPictureInMargin
 \problem{E}{n}{cualquier triángulo (\drawLine[bottom][triangleABD]{CA,CD,BD,AB}) si dos ángulos (\drawAngle{A} y \drawAngle{B}) son iguales, los lados (\drawUnitLine{CA,CD} y \drawUnitLine{BD}) opuestos a ellos son también iguales.}
 
-Si los lados no son iguales, entonces uno de ellos \drawUnitLine{CA,CD} es mayor que el otro \drawUnitLine{BD}, y de él se corta $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{prop:I.III}, y se dibuja \drawUnitLine{BC}.
+Supongamos que los lados no son iguales, entonces uno de ellos \drawUnitLine{CA,CD} es mayor que el otro \drawUnitLine{BD}, entonces se toma $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{prop:I.III}, y se traza \drawUnitLine{BC}.
 
 \begin{center}
 Luego para \drawLine[bottom]{BC,AB,CA} y \triangleABD,\\
@@ -1571,7 +1580,7 @@ draw byLabelsOnPolygon(D, B, A, C)(ALL_LABELS, 0);
 \problem{B}{isecar}{ (dividir en dos partes iguales) un ángulo dado (\drawAngle{BAD,CAD}).}
 
 \begin{center}
-Tomar $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
+Toma $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
 
 dibuja \drawUnitLine{BC}, sobre el cual construye \drawLine{CD,DB,BC} \byref{prop:I.I},\\
 dibuja \drawUnitLine{AD}.
@@ -1615,7 +1624,7 @@ Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ por \byref{prop:I.IV}.\\
 Porque $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref} $\drawAngle{BAD} = \drawAngle{CAD}$\\
 y \drawUnitLine{AD} es común a los dos triángulos. % what triangles? obviously DBA and DAC
 
-Por lo tanto la línea dada es bisecada.
+Por lo tanto la línea dada está bisecada.
 \end{center}
 
 \qed
@@ -1651,7 +1660,7 @@ draw byLabelsOnPolygon(B, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 Se toma cualquier punto (\drawPointL[middle][CA]{C}) en la línea dada,\\
 se toman rectas finitas tal que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
 se construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
-dibuja \drawUnitLine{AD} y será perpendicular a la línea dada.
+dibuja \drawUnitLine{AD} y será perpendicular a la línea dada. \newline
 
 Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\
 $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref}\\
@@ -1703,7 +1712,7 @@ draw byLabelLineEnd(C, A, 0);
 \problem{D}{ibujar}{una recta perpendicular a una línea recta indefinida dada (\drawUnitLine[1.2cm]{DB,CD}) desde un punto dado (\drawPointL{A}).}
 
 \begin{center}
-Con el punto dado \drawPointL{A} como centro, en un lado de la línea, y a cualquier distancia \drawUnitLine{DB} capaz de extenderse al otro lado, traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB
+Desde un punto dado \drawPointL{A} como centro, desde un lado de la línea y a una distancia \drawUnitLine{DB} capaz de extenderse al otro lado, se traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB
 
 Toma $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.X},\\
 traza \drawUnitLine{AB}, \drawUnitLine{CA} y \drawUnitLine{AD},\\
@@ -1779,7 +1788,7 @@ draw byLabelsOnPolygon(C, B, noPoint)(OMIT_LAST_LABEL, 0);
 draw byLabelLineEnd(A, D, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{dos lineas rectas (\drawUnitLine{BD} y \drawUnitLine{DC}), se encuentran con una tercera linea recta (\drawUnitLine{AD}) en el mismo punto y en lados opuestos, con ángulos adyacentes (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} y \drawAngle{CDA}) es igual a dos ángulos rectos; entonces estas lineas rectas forman una sola linea recta.}
+\problem{S}{i}{dos lineas rectas (\drawUnitLine{BD} y \drawUnitLine{DC}), se encuentran con una tercera linea recta (\drawUnitLine{AD}) en el mismo punto y en lados opuestos, con ángulos adyacentes (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} y \drawAngle{CDA}) iguales a dos ángulos rectos; entonces estas lineas rectas forman una sola linea recta.}
 
 \begin{center}
 Supongamos que \drawUnitLine{ED}, es la continuación de \drawUnitLine{BD}, y no \drawUnitLine{DC},\\
@@ -1862,24 +1871,24 @@ draw byLabelsOnPolygon(F, A, B, E, D, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(F, C, G, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{el lado de un triángulo (\drawLine[bottom]{BE,EC,AC,AB}) es alargado, el ángulo externo (\drawFromCurrentPicture[middle][anglesECDpDCF]{
+\problem{S}{i}{el lado de un triángulo (\drawLine[bottom]{BE,EC,AC,AB}) es alargado, el ángulo externo formado (\drawFromCurrentPicture[middle][anglesECDpDCF]{
 startAutoLabeling;
 draw byNamedAngleSides(ECD,DCF)(CF);
 stopAutoLabeling;
-}) es mayor que cualquiera de los ángulos internos remotos (\drawAngle{B} or \drawAngle{A}).
+}) es mayor que cualquiera de los ángulos internos (\drawAngle{B} or \drawAngle{A}).
 }
 
 \begin{center}
 Toma $\drawUnitLine{BE} = \drawUnitLine{EC}$ \byref{prop:I.X};\\
-dibuja \drawUnitLine{AE} y alarga hasta que $\drawUnitLine{ED} = \drawUnitLine{AE}$;\\
-dibuja \drawUnitLine{CD}.
+traza \drawUnitLine{AE} tal que $\drawUnitLine{ED} = \drawUnitLine{AE}$;\\
+traza \drawUnitLine{CD}.
 
 Para \drawLine{BE,AE,AB} y \drawLine{EC,ED,CD};\\
-$\drawUnitLine{BE} = \drawUnitLine{EC}$, $\drawAngle{AEB} = \drawAngle{DEC}$ y $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref,prop:I.XV},\\
+$\drawUnitLine{BE} = \drawUnitLine{EC}$, $\drawAngle{AEB} = \drawAngle{DEC}$ \\ y $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref,prop:I.XV},\\
 $\therefore \drawAngle{B} = \drawAngle{ECD}$ \byref{prop:I.IV},\\
 $\therefore \anglesECDpDCF\ > \drawAngle{B}$.
 
-En la misma manera se puede demostrar que si \drawUnitLine{BC} se alarga, $\drawAngle{GCA} > \drawAngle{A}$ \\
+En la misma manera se puede demostrar que si se extiende \drawUnitLine{BC}, $\drawAngle{GCA} > \drawAngle{A}$ \\
 por lo tanto \anglesECDpDCF\ $= \drawAngle{GCA}$ $> \drawAngle{A}$.
 \end{center}
 
@@ -1946,7 +1955,7 @@ draw byNamedLineSeq(0)(DC,BC,BA,AD);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{E}{n}{cualquier triangulo \drawLine{DC,BC,BA,AD} si un lado \drawUnitLine{AD,DC}es mayor que otro \drawUnitLine{BC}, el angulo opuesto al lado mayor es mayor que el angulo opuesto al lado menor, es decir $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
+\problem[3]{E}{n}{cualquier triangulo \drawLine{DC,BC,BA,AD} si un lado \drawUnitLine{AD,DC}es mayor que otro \drawUnitLine{BC}, el angulo opuesto al lado mayor es mayor que el angulo opuesto al lado menor $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
 
 \begin{center}
 Toma $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, traza \drawUnitLine{DB}.
@@ -2133,12 +2142,12 @@ draw byLabelLine(0)(L', L'', L''');
 cuya suma de dos cualesquiera sea mayor que la tercera, construir un triangulo cuyos lados sean respectivamente iguales a las lineas dadas.}
 
 \begin{center}
-Assume $\drawSizedLine{AB} = \drawSizedLine{L'}$ \byref{prop:I.III}.
+Toma $\drawSizedLine{AB} = \drawSizedLine{L'}$ \byref{prop:I.III}.
 
 $\left.
 	\begin{aligned}
-		\mbox{Draw } \drawSizedLine{BE} &= \drawSizedLine{L''}\\
-		\mbox{and } \drawSizedLine{AD} &= \drawSizedLine{L'''}\\
+		\mbox{Traza } \drawSizedLine{BE} &= \drawSizedLine{L''}\\
+		\mbox{y } \drawSizedLine{AD} &= \drawSizedLine{L'''}\\
 	\end{aligned}
 	\right\}\mbox{\byref{prop:I.II}.}$
 
@@ -2153,8 +2162,8 @@ draw byNamedLine(BE); draw byNamedCircle(B);
 draw byLabelLineEnd(B, E, 0);
 draw byLabelLineEnd(E, B, 0);
 }} \byref{post:I.III};\\
-dibuja \drawSizedLine{CA} y \drawSizedLine{BC},\\
-será \drawLine[bottom]{CA,BC,AB} el triángulo requerido.
+traza \drawSizedLine{CA} y \drawSizedLine{BC},\\
+entonces \drawLine[bottom]{CA,BC,AB} es el triángulo requerido. \newline
 
 $\left.
 	\begin{aligned}
@@ -2257,23 +2266,23 @@ draw byLabelsOnPolygon(D, A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(G, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{dos triangulos tienen dos lados del uno respectivamente iguales a dos lados del otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y si uno de los ángulos
+\problem{S}{i}{un triangulo tiene dos lados respectivamente iguales a dos lados de otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y si uno de los ángulos
 (\drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 draw byNamedAngleSides(BAC,CAD)(AB,CA,AD);
 stopAutoLabeling;
 })
-contenido por los lados iguales esmayor que el otro
+contenido por los lados iguales es mayor que el otro
 (\drawFromCurrentPicture[bottom][angleFEG]{
 startAutoLabeling;
 draw byNamedAngleSides(FEG)(EF, GE);
 stopAutoLabeling;
 }),
-el lado (\drawUnitLine{DB}) opuesto al mayor angulo es mayor que el lado (\drawUnitLine{FG}) opuesto al menor angulo.
+el lado (\drawUnitLine{DB}) opuesto al mayor angulo es mayor que el lado (\drawUnitLine{FG}) opuesto al angulo menor.
 }
 
 \begin{center}
-Crea $\drawFromCurrentPicture[bottom][angleBAC]{
+Traza $\drawFromCurrentPicture[bottom][angleBAC]{
 startAutoLabeling;
 draw byNamedAngleSides(BAC)(AB, CA);
 stopAutoLabeling;
@@ -2320,18 +2329,18 @@ draw byLabelsOnPolygon(A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(D, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{un triangulo tiene dos lados (\drawUnitLine[0.7cm]{AB} y \drawUnitLine[0.7cm]{CA}) respectivamente iguales a dos lados (\drawUnitLine{DE} y \drawUnitLine{FD}) de otro triangulo, pero con bases desiguales, el ángulo subtendido por la base mayor (\drawUnitLine{BC}) de uno, debe ser mayor que el ángulo subtendido por la base menor (\drawUnitLine{EF}) del otro.}
+\problem{S}{i}{un triangulo tiene dos lados (\drawUnitLine[0.7cm]{AB} y \drawUnitLine[0.7cm]{CA}) respectivamente iguales a dos lados (\drawUnitLine{DE} y \drawUnitLine{FD}) de otro triangulo, pero con bases diferentes, el ángulo creado por la base mayor (\drawUnitLine{BC}), debe ser mayor que el ángulo creado por la base menor (\drawUnitLine{EF}).}
 
 \begin{center}
-$\drawAngle{A} =\mbox{, } > \mbox{ o } < \drawAngle{D}$
-
+$\drawAngle{A} = \drawAngle{D} \mbox{ , } \drawAngle{A} > \drawAngle{D} \mbox{ ó } \drawAngle{A} < \drawAngle{D}$
+\newline
 \drawAngle{A} no es igual a \drawAngle{D}\\
 porque si $\drawAngle{A} = \drawAngle{D}$ entonces $\drawUnitLine{CB} = \drawUnitLine{FE}$ \byref{prop:I.IV}\\
-lo cual es contrario a la hipótesis;
+lo cual es contrario a la hipótesis; \newline
 
 \drawAngle{A} no es menor que \drawAngle{D}\\
 porque si $\drawAngle{A} < \drawAngle{D}$\\
-then $\drawUnitLine{CB} < \drawUnitLine{FE}$ \byref{prop:I.XXIV},\\
+entonces $\drawUnitLine{CB} < \drawUnitLine{FE}$ \byref{prop:I.XXIV},\\
 lo cual es contrario a la hipótesis:
 
 $\therefore \drawAngle{A} > \drawAngle{D}$.
@@ -3166,20 +3175,20 @@ draw byLineFull(D, E, byblack, 0, 0)(A, C, 1, 1, 0);
 draw byLabelsOnPolygon(E, D, A, B, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{I}{f}{a parallelogram
+\problem[3]{S}{i}{un paralelogramo
 \drawPolygon[bottom][polygonABED]{ABFG,GFE,AGD,DEG}
-and a triangle
+y un triángulo
 \drawPolygon[bottom][polygonCED]{GFE,DEG,CFE}
-are upon the same base \drawUnitLine{DE} and between the same parallels \drawUnitLine{AC} and \drawUnitLine{DE}, the parallelogram is double the triangle.}
+están sobre la misma base \drawUnitLine{DE} y entre las mismas paralelas \drawUnitLine{AC} y \drawUnitLine{DE}, el paralelogramo es el doble del triángulo.}
 
 \begin{center}
-Draw \drawUnitLine{AE} the diagonal.
+Dibuja la diagonal \drawUnitLine{AE}.
 
-Then
+Entonces
 $\drawPolygon[bottom][polygonAED]{AGD,DEG} = \polygonCED$ \byref{prop:I.XXXVII}\\
-$\polygonABED = \mbox{ twice } \polygonAED$ \byref{prop:I.XXXIV}
+$\polygonABED = \mbox{ 2 } \polygonAED$ \byref{prop:I.XXXIV}
 
-$\therefore \polygonABED = \mbox{ twice } \polygonCED$.
+$\therefore \polygonABED = \mbox{ 2 } \polygonCED$.
 \end{center}
 
 \qed
@@ -3220,15 +3229,15 @@ draw byNamedAngleSidesFull(HIJ)();
 stopAutoLabeling;
 }
 \drawCurrentPictureInMargin
-\problem[3]{T}{o}{construct a parallelogram equal to a given triangle
-\drawPolygon[bottom][polygonCDG]{DEF,CFE,ECG} and having an angle equal to a given rectilinear angle \drawAngle{I}.}
+\problem[3]{C}{onstruir}{ un paralelogramo igual a un triángulo dado
+\drawPolygon[bottom][polygonCDG]{DEF,CFE,ECG} con un ángulo igual a un ángulo dado \drawAngle{I}.}
 
 \begin{center}
-Make $\drawUnitLine{DE} = \drawUnitLine{EG}$ \byref{prop:I.X}\\
-Draw \drawUnitLine{CE}.
+Toma $\drawUnitLine{DE} = \drawUnitLine{EG}$ \byref{prop:I.X}\\
+Traza $\drawUnitLine{CE}$.
 
-Make $\drawAngle{E} = \drawAngle{I}$ \byref{prop:I.XXIII}\\
-Draw $\left\{
+Crea $\drawAngle{E} = \drawAngle{I}$ \byref{prop:I.XXIII}\\
+Traza $\left\{
 	\begin{aligned}
 		\drawUnitLine{AD} &\parallel \drawUnitLine{BE}\\
 		\drawUnitLine{AC} &\parallel \drawUnitLine{DE}\\
@@ -3236,9 +3245,9 @@ Draw $\left\{
 	\right\}$ \byref{prop:I.XXXI}
 
 $\drawPolygon[bottom][polygonABED]{ABFD,DEF}
-= \mbox{ twice }
+= \mbox{ 2 }
 \drawPolygon[bottom][polygonCED]{DEF,CFE}$ \byref{prop:I.XLI}\\
-but $\polygonCED =
+pero $\polygonCED =
 \drawPolygon[bottom][polygonDCG]{ECG}$ \byref{prop:I.XXXVIII}
 
 $\therefore \polygonABED = \polygonCDG$.
@@ -3273,15 +3282,15 @@ draw byLabelsOnPolygon(C, F, A, H, B, G, D, I)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, E, H)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{he}{complements
+\problem{L}{os}{complementos
 \drawPolygon[bottom][polygonHBGE]{HBGE}
-and
+y
 \drawPolygon[bottom][polygonFCIE]{FCIE}
-of the parallelograms which are about the diagonal of a parallelogram are equal.}
+de los paralelogramos que están sobre la diagonal de un paralelogramo son iguales.}
 
 \begin{center}
 $\drawPolygon[bottom][polygonADC]{AEF,FCIE,IDE} = \drawPolygon[bottom][polygonABD]{AEH,HBGE,GDE}$ \byref{prop:I.XXXIV}\\
-and $\drawPolygon[bottom][polygonAEFpIDE]{AEF,IDE} = \drawPolygon[bottom][polygonAEHpGDE]{AEH,GDE}$ \byref{prop:I.XXXIV}
+y $\drawPolygon[bottom][polygonAEFpIDE]{AEF,IDE} = \drawPolygon[bottom][polygonAEHpGDE]{AEH,GDE}$ \byref{prop:I.XXXIV}
 
 $\therefore \polygonFCIE = \polygonHBGE$ \byref{ax:I.III}.
 \end{center}
@@ -3342,22 +3351,22 @@ draw byNamedAngleSidesFull(MNO)();
 stopAutoLabeling;
 }
 \drawCurrentPictureInMargin
-\problem[4]{T}{o}{a given straight line (\drawUnitLine{EG}) to apply a parallelogram equal to a given triangle (\drawPolygon[middle][polygonJKL]{JKL}), and having an angle equal to a given rectilinear angle (\drawAngle{N}).}
+\problem[4]{D}{ada}{una linea recta (\drawUnitLine{EG}) construir un paralelogramo igual a un triángulo dado (\drawPolygon[middle][polygonJKL]{JKL}), y que tenga un ángulo igual a un ángulo dado (\drawAngle{N}).}
 
 \begin{center}
-Make $\drawPolygon[middle][polygonAHEF]{AHEF} = \polygonJKL$ with $\drawAngle{F} = \drawAngle{N}$ \byref{prop:I.XLII}\\
-and having one of its sides \drawUnitLine{FE} conterminous with and in continuation of \drawUnitLine{EG}.
+Construir $\drawPolygon[middle][polygonAHEF]{AHEF} = \polygonJKL$ con $\drawAngle{F} = \drawAngle{N}$ \byref{prop:I.XLII}\\
+y uno de sus lados \drawUnitLine{FE} extendido desde \drawUnitLine{EG}.
 
-Produce \drawUnitLine{AH} till it meets $\drawUnitLine{BG} \parallel \drawUnitLine{HE}$\\
-draw \drawUnitLine{BE} produce it till it meets \drawUnitLine{AF} continued;\\
-draw $\drawUnitLine{CD} \parallel \drawUnitLine{FE,EG}$ meeting \drawUnitLine{BG} produced and produce \drawUnitLine{HE}.
+Extiende \drawUnitLine{AH} hasta que se encuentre con $\drawUnitLine{BG} \parallel \drawUnitLine{HE}$\\
+extiende \drawUnitLine{BE} hasta que se encuentre con \drawUnitLine{AF};\\
+traza $\drawUnitLine{CD} \parallel \drawUnitLine{FE,EG}$ hasta que se encuentre con \drawUnitLine{BG} y extiende \drawUnitLine{HE}.
 
 $\polygonAHEF = \drawPolygon[middle][polygonEGDI]{EGDI}$ \byref{prop:I.XLIII}\\
-but $\polygonAHEF = \polygonJKL$ \byref{\constref}
+pero $\polygonAHEF = \polygonJKL$ \byref{\constref}
 
 $\therefore \polygonEGDI = \polygonJKL$;
 
-and $\drawAngle{F} = \drawAngle{E} =\drawAngle{I} = \drawAngle{N}$ \byref{prop:I.XXIX,\constref}. % improvement: proposition 19 in the original seems to be a typo
+y $\drawAngle{F} = \drawAngle{E} =\drawAngle{I} = \drawAngle{N}$ \byref{prop:I.XXIX} y \byref{\constref}. % improvement: proposition 19 in the original seems to be a typo
 \end{center}
 
 \qed
@@ -3422,24 +3431,24 @@ draw byNamedAngleSidesFull(NOP)();
 stopAutoLabeling;
 }
 \drawCurrentPictureInMargin
-\problem[2]{T}{o}{construct a parallelogram equal to a given rectilinear figure (\drawPolygon[middle][polygonABCDE]{ABC,ACD,ADE}) and having an angle equal to a given rectilinear angle (\drawAngle{O}).}
+\problem[2]{C}{onstruir}{un paralelogramo igual a una figura rectilínea dada (\drawPolygon[middle][polygonABCDE]{ABC,ACD,ADE}) y que tenga un ángulo igual a un ángulo dado (\drawAngle{O}).}
 
 \begin{center}
-Draw \drawUnitLine{AD} and \drawUnitLine{AC} dividing the rectilinear figure into triangles.
+Traza \drawUnitLine{AD} y \drawUnitLine{AC} dividiendo la figura rectilínea en triángulos.
 
-Construct $\drawPolygon{FGIH} = \drawPolygon{ADE}$\\
-having $\drawAngle{I} = \drawAngle{O}$ \byref{prop:I.XLII}
+Construir $\drawPolygon{FGIH} = \drawPolygon{ADE}$\\
+con $\drawAngle{I} = \drawAngle{O}$ \byref{prop:I.XLII}
 
-to \drawUnitLine{GI} apply $\drawPolygon{GJKI} = \drawPolygon{ACD}$\\
-having $\drawAngle{K} = \drawAngle{O}$ \byref{prop:I.XLIV}
+Para \drawUnitLine{GI} construye $\drawPolygon{GJKI} = \drawPolygon{ACD}$\\
+con $\drawAngle{K} = \drawAngle{O}$ \byref{prop:I.XLIV}
 
-to \drawUnitLine{JK} apply $\drawPolygon{JLMK} = \drawPolygon{ABC}$\\
-having $\drawAngle{M} = \drawAngle{O}$ \byref{prop:I.XLIV}
+Para \drawUnitLine{JK} construye $\drawPolygon{JLMK} = \drawPolygon{ABC}$\\
+con $\drawAngle{M} = \drawAngle{O}$ \byref{prop:I.XLIV}
 
 $\therefore \drawPolygon[middle][polygonFLMH]{FGIH,GJKI,JLMK} = \polygonABCDE$
 
-and \polygonFLMH is a parallelogram. \byref{prop:I.XXIX,prop:I.XIV,prop:I.XXX}\\
-having $\drawAngle{M} = \drawAngle{O}$.
+y \polygonFLMH es un paralelogramo. \byref{prop:I.XXIX,prop:I.XIV,prop:I.XXX}\\
+con $\drawAngle{M} = \drawAngle{O}$.
 \end{center}
 
 \qed
@@ -3466,15 +3475,15 @@ draw byNamedLineSeq(0)(AB,BD,DC,CA);
 draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{U}{pon}{a given straight line (\drawUnitLine{DC}) to construct a square.}
+\problem{D}{esde}{una línea recta dada (\drawUnitLine{DC}) construir un cuadrado.}
 
 \begin{center}
-Draw $\drawUnitLine{CA} \perp \mbox{ and } = \drawUnitLine{DC}$ \byref{prop:I.XI,prop:I.III}
+Traza $\drawUnitLine{CA} \perp \mbox{ y } = \drawUnitLine{DC}$ \byref{prop:I.XI} y \byref{prop:I.III}
 
-Draw $\drawUnitLine{AB} \parallel \drawUnitLine{DC}$,\\
-and meeting \drawUnitLine{BD} drawn $\parallel \drawUnitLine{CA}$.
+Traza $\drawUnitLine{AB} \parallel \drawUnitLine{DC}$,\\
+y traza \drawUnitLine{BD} $\parallel \drawUnitLine{CA}$.
 
-In
+Entonces para el paralelogramo
 \drawFromCurrentPicture[bottom][polygonABDC]{
 startTempAngleScale(angleScale*3/4);
 draw byNamedAngle(A,B,C,D);
@@ -3482,13 +3491,13 @@ draw byNamedLineSeq(0)(AB,BD,DC,CA);
 draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 stopTempAngleScale;
 }
-$\drawUnitLine{CA} = \drawUnitLine{DC}$ \byref{\constref}\\
-$\drawAngle{C} = \mbox{a right angle}$ \byref{\constref}
+\newline Se tiene que $\drawUnitLine{CA} = \drawUnitLine{DC}$ \byref{\constref}\\
+$\drawAngle{C} = \mbox{es un ángulo recto}$ \byref{\constref}
 
-$\therefore \drawAngle{D} = \drawAngle{C} = \mbox{a right angle}$ \byref{prop:I.XXIX},\\
-and~the~remaining sides and~angles must be equal \byref{prop:I.XXXIV}.
+$\therefore \drawAngle{D} = \drawAngle{C} = \mbox{también es un ángulo recto}$ \byref{prop:I.XXIX},\\
+los lados y ángulos restantes son iguales \byref{prop:I.XXXIV}.
 
-And $\therefore \polygonABDC$ is a square \byref{def:I.XXX}. % improvement: in the original definition 27 was wrongly referenced
+$\therefore \polygonABDC$ es un cuadrado \byref{def:I.XXX}. % improvement: in the original definition 27 was wrongly referenced
 \end{center}
 
 \qed
@@ -3561,17 +3570,17 @@ draw byLabelsOnPolygon(B, E, D, A, G, F, C, I, K, H)(ALL_LABELS, -1);
 draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 }
 \drawCurrentPictureInMargin
-\problem[4]{I}{n}{a right angled triangle \drawLine[bottom][triangleABC]{CA,BC,AB} the square on the hypotenuse \drawUnitLine{BC} is equal to the sum of the squares of the sides (\drawUnitLine{CA} and \drawUnitLine{AB}).}
+\problem[4]{E}{n}{un triangulo con un ángulo recto \drawLine[bottom][triangleABC]{CA,BC,AB} el cuadrado de la hipotenusa \drawUnitLine{BC} es igual a la suma de los cuadrados de los lados \drawUnitLine{CA} y \drawUnitLine{AB}.}
 
 \begin{center}
-On \drawUnitLine{BC}, \drawUnitLine{CA}, \drawUnitLine{AB} describe squares, \byref{prop:I.XLVI}
+Para \drawUnitLine{BC}, \drawUnitLine{CA}, \drawUnitLine{AB} crea sus cuadrados, \byref{prop:I.XLVI}
 
-Draw $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$ \byref{prop:I.XXXI}\\
-also draw \drawUnitLine{BF} and \drawUnitLine{AI}.\\
+Traza $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$ \byref{prop:I.XXXI}\\
+también traza \drawUnitLine{BF} y \drawUnitLine{AI}.\\
 $\drawAngle{BCI} = \drawAngle{FCA}$.
 
-To each add \drawAngle{ACB} $\therefore \drawAngle{BCI,ACB} = \drawAngle{FCA,ACB}$,\\
-$\drawUnitLine{BC} = \drawUnitLine{CI}$ and $\drawUnitLine{CA} = \drawUnitLine{CF}$;
+A cada ángulo suma \drawAngle{ACB} $\therefore \drawAngle{BCI,ACB} = \drawAngle{FCA,ACB}$,\\
+$\drawUnitLine{BC} = \drawUnitLine{CI}$ y $\drawUnitLine{CA} = \drawUnitLine{CF}$;
 
 $\therefore
 \drawFromCurrentPicture[middle][polygonAFC]{
@@ -3589,15 +3598,15 @@ draw byLabelsOnPolygon(B,F,C)(OMIT_LABELS_AT_STRAIGHT_ANGLES, -1);
 }
 $.
 
-Again, $\because \drawUnitLine{AB} \parallel \drawUnitLine{CF}$\\ %because
-$\drawPolygon[middle][polygonACFG]{LAGF,CLF} = \mbox{ twice } \polygonBLC$,\\
-and $\drawPolygon[middle][polygonJMCK]{JMIK,MCI} = \mbox{ twice } \polygonAFC$;
+Así mismo, $\because \drawUnitLine{AB} \parallel \drawUnitLine{CF}$\\ %because
+$\drawPolygon[middle][polygonACFG]{LAGF,CLF} = \mbox{ 2 } \polygonBLC$,\\
+y $\drawPolygon[middle][polygonJMCK]{JMIK,MCI} = \mbox{ 2 } \polygonAFC$;
 
 $\therefore \polygonACFG = \polygonJMCK$.
 
-In the same manner it may be shown that $\drawPolygon[middle][polygonABED]{ABED} = \drawPolygon[middle][polygonBJKH]{BJKH}$;
+De la misma manera se puede demostrar que $\drawPolygon[middle][polygonABED]{ABED} = \drawPolygon[middle][polygonBJKH]{BJKH}$;
 
-hence $\drawPolygon[middle][polygonABEDpACFG]{ABED,LAGF,CLF} = \drawPolygon[middle][polygonBCIH]{JMIK,MCI,BJKH}$.
+por lo tanto $\drawPolygon[middle][polygonABEDpACFG]{ABED,LAGF,CLF} = \drawPolygon[middle][polygonBCIH]{JMIK,MCI,BJKH}$.
 
 \end{center}
 
@@ -3624,31 +3633,29 @@ draw byNamedLineSeq(0)(AC,AD,BD,BC);
 draw byLabelsOnPolygon(D, B, C, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{I}{f}{the square of one side (\drawUnitLine{BC}) of a triangle is equal to the squares of the other two sides (\drawUnitLine{AB} and \drawUnitLine{AC}), the angle (\drawAngle{BAC}) subtended by that side is a right angle.} % improvement: DAB sould be BAC https://github.com/jemmybutton/byrne-euclid/issues/31#issuecomment-350511743
+\problem{S}{i}{el cuadrado de un lado (\drawUnitLine{BC}) de un triángulo es igual a los cuadrados de los otros dos lados, (\drawUnitLine{AB} y \drawUnitLine{AC}), el ángulo (\drawAngle{BAC}) de ese triángulo es un ángulo recto.} % improvement: DAB sould be BAC https://github.com/jemmybutton/byrne-euclid/issues/31#issuecomment-350511743
 
 \begin{center}
-Draw $\drawUnitLine{AD} \perp \drawUnitLine{AB}$ and $= \drawUnitLine{AC}$ \byref{prop:I.XI,prop:I.III}\\
-and draw \drawUnitLine{BD} also.
+Traza $\drawUnitLine{AD} \perp \drawUnitLine{AB}$ y $= \drawUnitLine{AC}$ \byref{prop:I.XI} y \byref{prop:I.III}\\
+y también traza \drawUnitLine{BD}.
 
-Since $\drawUnitLine{AD} = \drawUnitLine{AC}$ \byref{\constref}\\
-$\drawUnitLine{AD}^2 = \drawUnitLine{AC}^2$;
+Como $\drawUnitLine{AD} = \drawUnitLine{AC}$ \byref{\constref}\\
+entonces $\drawUnitLine{AD}^2 = \drawUnitLine{AC}^2$;
 
 $\therefore \drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{AC}^2 + \drawUnitLine{AB}^2$
 
-but $\drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BD}^2$ \byref{prop:I.XLVII},\\
-and $\drawUnitLine{AC}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BC}^2$ \byref{\hypref}
+pero $\drawUnitLine{AD}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BD}^2$ \byref{prop:I.XLVII},\\
+y $\drawUnitLine{AC}^2 + \drawUnitLine{AB}^2 = \drawUnitLine{BC}^2$ \byref{\hypref}
 
 $\therefore \drawUnitLine{BD}^2 = \drawUnitLine{BC}^2$,
 
 $\therefore \drawUnitLine{BD} = \drawUnitLine{BC}$;
 
-and $\therefore \drawAngle{DAB} = \drawAngle{BAC}$ \byref{prop:I.VIII},
+y $\therefore \drawAngle{DAB} = \drawAngle{BAC}$ \byref{prop:I.VIII},
 
-consequently \drawAngle{BAC} is a right angle.
+por lo tanto \drawAngle{BAC} es un ángulo recto.
 \end{center}
 
 \qed
-
-\tableofcontents
 
 \end{document}	
