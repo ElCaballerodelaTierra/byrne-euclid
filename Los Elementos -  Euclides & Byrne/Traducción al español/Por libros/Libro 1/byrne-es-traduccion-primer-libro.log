@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  14 MAR 2026 22:37
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.25)  16 MAR 2026 07:35
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -1516,33 +1516,15 @@ Underfull \hbox (badness 2735) in paragraph at lines 136--137
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 136--137
-\TU/EBGaramond(2)/m/n/10 tiene un ob-je-tivo mayor que las meras ilus-tra-ciones
-; no
+Underfull \hbox (badness 3386) in paragraph at lines 136--137
+\TU/EBGaramond(2)/m/n/10 la ge-ometría fue adop-tada como el mejor gim-na-sio 
+de
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 136--137
-\TU/EBGaramond(2)/m/n/10 se in-tro-ducen col-ores con el propósito de en-treten
-er \TU/EBGaramond(2)/m/it/10 con
- []
-
-
-Underfull \hbox (badness 1783) in paragraph at lines 136--137
-\TU/EBGaramond(2)/m/n/10 per-ma-nente. Si quisiéramos au-tori-dades para pro-ba
-r la
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 136--137
-\TU/EBGaramond(2)/m/n/10 otra para des-per-tar el es-píritu de in-ves-ti-gaci
-ón, el-e-var la
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 136--137
-\TU/EBGaramond(2)/m/n/10 óp-tica, la as-tronomía física, etc. de-pen-den to-d
-as de las
+Underfull \hbox (badness 1210) in paragraph at lines 136--137
+\TU/EBGaramond(2)/m/n/10 la mente. De he-cho, \TU/EBGaramond(2)/m/it/10 Los El-e
+-men-tos \TU/EBGaramond(2)/m/n/10 de Eu-clides se han
  []
 
 
@@ -9165,17 +9147,7 @@ Module luamplib Info: flushing figure 1 on input line 3654
 Module luamplib Info: flushing figure 1 on input line 3654
 Module luamplib Info: flushing figure 1 on input line 3656
 Module luamplib Info: flushing figure 1 on input line 3656
-[74]
-\@minpageheight=\dimen271
- (./byrne-es-traduccion-primer-libro.toc
-LaTeX Font Info:    Font shape `TU/EBGaramond(27)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
- [75] [76])
-\tf@toc=\write5
-
-\openout5 = byrne-es-traduccion-primer-libro.toc
- [77]
-(./byrne-es-traduccion-primer-libro.aux)
+[74] (./byrne-es-traduccion-primer-libro.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -9186,16 +9158,16 @@ t changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24320 strings out of 476076
+ 24302 strings out of 476076
  156792,1373583 words of node,token memory allocated
  25069 words of node memory still in use:
    473 hlist, 85 vlist, 2 rule, 6 disc, 31 local_par, 216 glue, 291 kern, 68 pen
 alty, 503 glyph, 1692 attribute, 63 glue_spec, 847 attribute_list, 3 write, 2539
  pdf_literal nodes
-   avail lists: 1:19,2:1340,3:4034,4:156,5:3085,6:124,7:4631,8:47,9:755,10:22,11
-:432
- 45998 multiletter control sequences out of 65536+600000
- 83 fonts using 19044199 bytes
+   avail lists: 1:19,2:1301,3:4033,4:50,5:3085,6:124,7:4631,8:48,9:755,10:22,11:
+432
+ 45990 multiletter control sequences out of 65536+600000
+ 82 fonts using 18528831 bytes
  105i,13n,141p,2061b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.en
 c}<c:/texlive/2025/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Regula
@@ -9211,11 +9183,11 @@ xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025
 /public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (79 pages, 341199 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (76 pages, 334493 bytes).
 
 
-PDF statistics: 1315 PDF objects out of 1440 (max. 8388607)
- 1199 compressed objects within 12 object streams
- 319 named destinations out of 1000 (max. 131072)
+PDF statistics: 1200 PDF objects out of 1200 (max. 8388607)
+ 1088 compressed objects within 11 object streams
+ 316 named destinations out of 1000 (max. 131072)
  809 words of extra memory for PDF output out of 10000 (max. 100000000)
 
