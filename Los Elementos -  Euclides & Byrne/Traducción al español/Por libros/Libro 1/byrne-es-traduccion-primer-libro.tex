@@ -92,25 +92,23 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \pagebreak
 \thispagestyle{empty}
 
-\begin{flushleft}
 \section*{Créditos y atribución}
 
 \small
-\textit{Los Elementos} fueron escritos por 
-Euclides aproximadamente hace 2300 años en Alejandría.
+\textit{Los Elementos} es una recopilación de trabajos previos de matemáticos como Pitágoras, Eudoxo y Teeteto. Euclides recopiló y organizó estos trabajos aproximadamente hace 2300 años en Alejandría.
 \\[\baselineskip]
 La edición visual en color fue publicada en Londres por 
 Oliver Byrne en 1847, bajo el título 
 \textit{The First Six Books of the Elements of Euclid}. 
 \\[\baselineskip]
-La edición digital en \LaTeX\ fue creada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
+La edición en \LaTeX\ fue creada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
 \url{https://github.com/jemmybutton/byrne-euclid}
 \\[\baselineskip]
-La traducción al español y modificaciones al formato original fueron realizadas en 2026 por Carlos Villarreal en México.
+La traducción al español y mejoras a la edición digital fueron realizadas en 2026 por Carlos Villarreal en México.
 \\[\baselineskip]
-Desde la publicación de esta obra por Byrne, la notación matemática y el estilo de presentación de las demostraciones ha evolucionado a lo largo de los últimos siglos. Esta edición ha modernizado dichos aspectos con el propósito de facilitar su lectura al público contemporáneo.
-
-\end{flushleft}
+Desde la publicación de esta obra por Byrne, la notación matemática y el estilo de exposición de las demostraciones han evolucionado en los últimos siglos. 
+Se procuró conservar la esencia de la obra original, pero con un lenguaje más accesible y moderno. \\
+Espero que este libro llegue a las manos de muchas personas y contribuya a despertar en ellas el interés por la verdadera esencia de las matemáticas.
 
 \begin{center}
 \ccbysa 
@@ -132,13 +130,13 @@ Desde la publicación de esta obra por Byrne, la notación matemática y el esti
 
 \part*{Introducción}
 
-\charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su enseñanza es tan importante como extender sus límites. Las ilustraciones expuestas, tal vez no acorten el tiempo de estudio, pero al menos lo harán más agradable. Este trabajo tiene un objetivo mayor que las meras ilustraciones; no se introducen colores con el propósito de entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
-sino para ayudar a la mente en la búsqueda de la verdad y difundir el conocimiento. Si buscáramos autoridades para verificar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos de la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, \emph{Los Elementos} de Euclides se han convertido, por defecto, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parece extraordinario, si consideramos que esta ciencia no solo es la mejor para despertar el espíritu investigador, elevar la mente y fortalecer el razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
+\charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su enseñanza es tan importante como extender sus límites. Las ilustraciones aquí expuestas, tal vez no acorten el tiempo de estudio, pero al menos lo harán más agradable. Este trabajo tiene un objetivo mayor que las meras ilustraciones; no se introducen colores con el propósito de entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
+sino para facilitar a la mente en la búsqueda de la verdad y difundir el conocimiento. Si buscáramos autoridades para verificar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos de la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, \emph{Los Elementos} de Euclides se han convertido, por defecto, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parece extraordinario, si consideramos que esta ciencia no solo es la mejor para despertar el espíritu investigador, elevar la mente y fortalecer el razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
 
 \pagebreak
 
-\charspacing{-1}{Sin embargo, todo depende de la primera introducción de cualquier ciencia a un alumno, aunque los mejores métodos rara vez se adoptan. Se presentan proposiciones a un estudiante, a quien, aunque tenga una comprensión suficiente, se le dice tan poco sobre ellas al entrar en el umbral mismo de la ciencia, que se le da una predisposición muy desfavorable para su futuro estudio de este fascinante tema; o \enquote{las formalidades y parafernalia del rigor se presentan de manera tan ostentosa, que casi ocultan su belleza. Las repeticiones interminables y desconcertantes, que no confieren mayor exactitud al razonamiento, hacen que las demostraciones sean complejas y oscuras, ocultando a la vista del estudiante la secuencia lógica de las ideas.} % la cita parece ser de The First Six Books of the Elements of Euclid de Dionysius Lardner https://books.google.ru/books?id=YnkAAAAAMAAJ
-Así se crea una aversión en la mente del alumno, y un tema tan importante para mejorar su razonamiento y darle el hábito de pensar con atención se degrada por un curso de instrucción seco, rígido y un ejercicio poco interesante para la memoria. Despertar la curiosidad y despertar las facultades letárgicas y latentes de las mentes jóvenes debería ser el objetivo de todo maestro; cuando existen buenos ejemplos de enseñanza, estos inspiran atención e imitación; cuando no los hay, los intentos de mejorar son escasos. El objetivo de esta obra es introducir un método de enseñanza de la geometría que ha sido muy aprobado por muchas personas de ciencia en este país, así como en Francia y América. El plan aquí adoptado apela fuertemente al ojo, el más sensible y el más completo de nuestros órganos externos, y su preeminencia para grabar su tema en la mente está respaldada por el axioma incontrovertible expresado en las conocidas palabras de Horacio:}
+\charspacing{-1}{Sin embargo, todo depende de la primera introducción de cualquier ciencia a un alumno, aunque los mejores métodos rara vez se adoptan. Se presentan proposiciones a un estudiante, a quien, aunque tenga una comprensión suficiente, se le dice tan poco sobre ellas que al entrar en el umbral de la ciencia, se le da una predisposición muy desfavorable para el estudio futuro de este tema tan fascinante; o \enquote{las formalidades y parafernalia del rigor se presentan de manera tan ostentosa, que casi ocultan su belleza. Las repeticiones interminables y desconcertantes, que no confieren mayor exactitud al razonamiento, hacen que las demostraciones sean complejas y oscuras, ocultando a la vista del estudiante la secuencia lógica de las ideas.} % la cita parece ser de The First Six Books of the Elements of Euclid de Dionysius Lardner https://books.google.ru/books?id=YnkAAAAAMAAJ
+Así se crea una aversión en la mente del alumno, y un tema tan importante para mejorar su razonamiento y darle el hábito de pensar con atención se degrada por un curso de instrucción seco, rígido y un ejercicio poco interesante para la memoria. Despertar tanto su curiosidad como las facultades latentes de las mentes jóvenes debería ser el objetivo de todo maestro; cuando existen buenos ejemplos de enseñanza, estos inspiran atención e imitación; cuando no los hay, los intentos de mejorar son escasos. El objetivo de esta obra es introducir un método de enseñanza de la geometría que ha sido muy aprobado por muchas personas de ciencia en este país, así como en Francia y América. Este método se apoya principalmente en el uso de la vista, uno de nuestros sentidos más eficaces para comprender y recordar ideas. Su importancia para fijar el conocimiento en la mente ya había sido señalada en el conocido principio expresado por Horacio.}
 
 \begin{center}
 \emph{Segnius irritant animos demissa per aurem\\
@@ -148,11 +146,11 @@ La impresión que llega al oído es más débil \\
 que la que transmite el ojo fiel.
 \end{center}
 
+\pagebreak
+
 \charspacing{-1}{Todo lenguaje se compone de signos que representan ideas, y los mejores signos son aquellos que cumplen su propósito con mayor precisión y rapidez. En la comunicación cotidiana, esos signos son las palabras: sonidos que transmiten significado, ya sea que lleguen directamente al oído o que, mediante la escritura, se perciban a través de la vista.
 
-En la geometría, sin embargo, los diagramas no son simples signos, sino parte esencial del propio contenido de la ciencia. Su propósito es mostrar las relaciones entre las magnitudes mediante un proceso de razonamiento llamado demostración. Tradicionalmente, estas demostraciones se han expresado mediante palabras, letras y diagramas negros o sin color. No obstante, así como en muchas artes y ciencias el uso de símbolos y diagramas coloreados puede hacer más claro el proceso de razonamiento, también en la geometría el color puede ayudar a distinguir las partes de una figura y facilitar su comprensión.}
-
-Este método de presentar el conocimiento resulta tan eficaz que \emph{Los Elementos} de Euclides pueden comprenderse en menos de un tercio del tiempo que suele requerir su estudio tradicional, y además lo aprendido se retiene por más tiempo en la memoria. Según el autor, esto ha sido confirmado mediante diversos experimentos realizados por él mismo y por otros que han aplicado este enfoque.
+En la geometría, sin embargo, los diagramas no son simples signos, son parte esencial del propio contenido. Su propósito es mostrar las relaciones entre las magnitudes mediante un proceso de razonamiento llamado Demostración. Tradicionalmente, estas demostraciones se han expresado mediante palabras, letras y diagramas negros sin color. No obstante, así como en muchas artes y ciencias el uso de símbolos y diagramas coloreados puede hacer más claro el proceso de razonamiento, también en la geometría el color puede ayudar a distinguir las partes de una figura y facilitar su comprensión.}
 
 El principio en que se basa es simple. En las demostraciones geométricas, las letras que se colocan junto a puntos, líneas u otras partes de un diagrama no son más que nombres arbitrarios que se utilizan para identificarlas durante el razonamiento. En este sistema, en cambio, las distintas partes de la figura se distinguen mediante colores; de esta manera, cada elemento se reconoce por sí mismo, ya que su forma y su color permiten identificarlo directamente en la demostración.
 
@@ -178,8 +176,6 @@ Para comprender mejor este método y las ventajas que ofrece, consideremos un tr
 		label.lft(btex A etex, A);
 	angleScale := 4/5;
 }
-
-\pagebreak
 
 \begin{center}
 \drawCurrentPictureInMargin \emph{Algunas de las propiedades del triángulo rectángulo ABC, expresadas por el método generalmente empleado:}
@@ -207,10 +203,10 @@ Para comprender mejor este método y las ventajas que ofrece, consideremos un tr
 \vskip 0.5\baselineskip
 
 \begin{enumerate}
-\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\[0.5\baselineskip]Es decir, el ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo, igual a dos ángulos rectos.\\[0.5\baselineskip]
-\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\[0.5\baselineskip]O en otras palabras, el ángulo rojo sumado al ángulo azul, es igual al ángulo amarillo.\\[0.5\baselineskip]
-\item $\drawAngle{B} > \drawAngle{A} \mbox{ or } > \drawAngle{C}$. \\[0.5\baselineskip]El ángulo amarillo es mayor que cualquiera de los ángulos rojo o azul.\\[0.5\baselineskip]
-\item $\drawAngle{A} \mbox{ or } \drawAngle{C} < \drawAngle{B}$. \\[0.5\baselineskip]El ángulo rojo o azul es menor que el ángulo amarillo.\\[0.5\baselineskip]
+\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\[0.5\baselineskip]Es decir, el ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo e igual a dos ángulos rectos.\\[0.5\baselineskip]
+\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\[0.5\baselineskip]En otras palabras, el ángulo rojo sumado al ángulo azul, es igual al ángulo amarillo.\\[0.5\baselineskip]
+\item $\drawAngle{B} > \drawAngle{A} \mbox{ o } \drawAngle{B} > \drawAngle{C}$. \\[0.5\baselineskip]El ángulo amarillo es mayor que cualquiera de los ángulos rojo o azul.\\[0.5\baselineskip]
+\item $\drawAngle{A} < \drawAngle{B} \mbox{ o } \drawAngle{C} < \drawAngle{B}$. \\[0.5\baselineskip]El ángulo rojo o azul es menor que el ángulo amarillo.\\[0.5\baselineskip]
 \item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\[0.5\baselineskip]En otros términos, el ángulo amarillo menos el ángulo azul es igual al ángulo rojo.\\[0.5\baselineskip]
 \item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\[0.5\baselineskip]Es decir, el cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.\\[0.5\baselineskip]
 \end{enumerate}
@@ -222,6 +218,8 @@ En las demostraciones orales, el uso del color ofrece una ventaja importante: pe
 \charspacing{-2}{Cuando el texto se refiere a un diagrama, es más rápido y seguro identificar sus partes mediante sus formas y colores que hacerlo mediante letras. Además de ser más simple, este sistema favorece la concentración y evita una práctica perjudicial, aunque frecuente: que el estudiante memorice la demostración sin comprenderla plenamente. En cambio, el objetivo es que la razón, los hechos y las pruebas queden claramente impresos en el entendimiento.}
 
 De nuevo, al dar una conferencia sobre los principios o propiedades de las figuras, si mencionamos el color de la parte o partes a las que se hace referencia, como al decir, el ángulo rojo, la línea azul o líneas, etc., la parte o partes así nombradas serán vistas inmediatamente por toda la clase al mismo instante; no así si decimos el ángulo ABC, el triángulo PFQ, la figura EGKt, y así sucesivamente; porque las letras deben trazarse una por una antes de que los estudiantes organicen en sus mentes la magnitud particular a la que se refieren, lo que a menudo ocasiona confusión y error, así como pérdida de tiempo. Además, si las partes que se dan como iguales tienen los mismos colores en cualquier diagrama, la mente no se desviará del objeto que tiene ante sí; es decir, tal disposición presenta una demostración ocular de las partes que deben probarse como iguales, y el alumno retiene los datos durante todo el razonamiento. Pero cualesquiera que sean las ventajas del plan actual, si no se sustituye, siempre puede ser un poderoso auxiliar de los otros métodos, con el propósito de introducción, o de una reminiscencia más rápida, o de una retención más permanente por la memoria.
+
+\pagebreak
 
 \charspacing{-2.5}{La experiencia de quienes han desarrollado métodos para facilitar la comprensión del conocimiento coincide en que las representaciones visuales como imágenes, grabados o diagramas coloreados se quedan grabadas en la mente con mayor facilidad que las palabras por sí solas. Curiosamente, los poetas parecen haber reconocido este principio con mayor claridad que los matemáticos; varios autores modernos han hecho referencia a esta forma visual de transmitir el conocimiento, y uno de ellos lo expresó de la siguiente manera:}
 
@@ -244,7 +242,7 @@ Graba el conocimiento con un rayo de luz.
 
 Esto quizás pueda considerarse la única mejora que ha recibido la geometría plana desde los días de Euclides, y si hubo algún geómetra de renombre antes de esa época, el éxito de Euclides ha eclipsado por completo su memoria, e incluso ha hecho que todas las cosas buenas de ese tipo se le atribuyan a él; como \AE sop entre los escritores de fábulas. También cabe señalar que, dado que los diagramas tangibles proporcionan el único medio a través del cual la geometría y otras artes lineales pueden enseñarse a los ciegos, el sistema visible es igualmente adecuado para las exigencias de los sordomudos.
 
-\charspacing{-1}{Se debe tener cuidado de mostrar que el color no tiene nada que ver con las líneas, ángulos o magnitudes, excepto meramente para nombrarlos. Una línea matemática, que es longitud sin anchura, no puede poseer color, sin embargo, la unión de dos colores en el mismo plano da una buena idea de lo que se entiende por una línea matemática; recordemos que estamos hablando familiarmente, dicha unión debe entenderse y no el color, cuando decimos la línea negra, la línea roja o las líneas, etc.}
+\charspacing{-1}{Se debe tener cuidado de mostrar que el color no tiene nada que ver con las líneas, ángulos o magnitudes, excepto meramente para nombrarlos. Una línea matemática, es una longitud sin anchura, no posee color, sin embargo, la unión de dos colores en el mismo plano da una buena idea de lo que se entiende por una línea matemática; recordemos que estamos hablando familiarmente, dicha unión debe entenderse y no el color, cuando decimos la línea negra, la línea roja o las líneas, etc.}
 
 \pagebreak
 
@@ -252,7 +250,7 @@ Los colores y los diagramas coloreados pueden parecer al principio un método to
 
 Aquí definiremos un punto, una línea y una superficie, y demostraremos una proposición para mostrar la verdad de esta afirmación.
 
-Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo posición, abstraído de la consideración de longitud, anchura y grosor. Quizás la siguiente descripción esté mejor calculada para explicar la naturaleza del punto matemático a aquellos que no han adquirido la idea, que la definición anterior, aunque especiosa.
+Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo posición, abstraído de la consideración de longitud, anchura y grosor. Quizás la siguiente descripción esté mejor calculada para explicar la naturaleza del punto matemático a aquellos que no han adquirido la idea, que la definición anterior.
 
 \defineNewPicture{
 	angleScale := 2;
@@ -267,7 +265,7 @@ Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo po
 }
 Que tres colores \drawCurrentPictureInMargin se encuentren y cubran una porción del papel, donde se encuentran no es azul, ni es amarillo, ni es rojo, ya que no ocupa ninguna porción del plano, porque si lo hiciera, pertenecería a la parte azul, roja o amarilla; sin embargo, existe y tiene posición sin magnitud, de modo que con un poco de reflexión, esta unión de tres colores en un plano da una buena idea de un punto matemático.
 
-Una línea es longitud sin anchura. Con la ayuda de colores, casi de la misma manera que antes, se puede dar así una idea de una línea:—
+Una línea es longitud sin anchura. Con la ayuda de colores, casi de la misma manera que antes, se puede dar así una idea de una línea.
 
 \defineNewPicture{
 	pair A, B, C, D, E, F;
@@ -359,9 +357,9 @@ label.rt(btex D etex, D);
 En un triángulo isósceles ABC, los ángulos internos en la base ABC, ACB son iguales, y cuando los lados AB, AC se prolongan, los ángulos externos en la base BCE, CBD también son iguales.
 
 \begin{center}
-Produce \drawUnitLine{AB} y \drawUnitLine{AC},\\
-haz $\drawUnitLine{BD} = \drawUnitLine{CE}$, dibuja \drawUnitLine{BE} y \drawUnitLine{CD}.\\
-En
+Prolonga \drawUnitLine{AB} y \drawUnitLine{AC},\\
+tal que $\drawUnitLine{BD} = \drawUnitLine{CE}$, traza \drawUnitLine{BE} y \drawUnitLine{CD}.\\
+Para
 \drawFromCurrentPicture{
 draw byNamedAngle(BAC);
 startAutoLabeling;
@@ -379,12 +377,12 @@ tenemos $\drawUnitLine{AB,BD} = \drawUnitLine{AC,CE}$,\\
 \drawAngle{BAC} común y $\drawUnitLine{AB} = \drawUnitLine{AC}$:\\
 $\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$\\
 y $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.\\
-De nuevo en \drawLine{BC,BE,CE} y \drawLine{BC,BD,CD},\\
+Igualmente para \drawLine{BC,BE,CE} y \drawLine{BC,BD,CD},\\
 $\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$\\
 y $\drawUnitLine{BE} = \drawUnitLine{CD}$;\\
 $\therefore \drawAngle{DCE,DCB} = \drawAngle{EBD,CBE}$
 y $\drawAngle{DCB} = \drawAngle{CBE}$ \byref{prop:I.IV}\\
-Pero $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$.
+Como $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$.
 \end{center}
 
 \qedNB
@@ -393,9 +391,9 @@ Pero $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = 
 \emph{Anexando las letras al diagrama.}
 \end{center}
 
-Sean los lados iguales AB y AC producidos a través de los extremos BC, del tercer lado, y en la parte producida BD de cualquiera, sea asumido cualquier punto D, y del otro sea cortado AE igual a AD \byref{prop:I.III}. Sean los puntos E y D, así tomados en los lados producidos, conectados por líneas rectas DC y BE con los extremos alternos del tercer lado del triángulo.
+Sean los lados iguales AB y AC prolongados a través de los extremos BC, del tercer lado, y en la parte prolongada BD de cualquiera, sea asumido cualquier punto D, y del otro sea cortado AE igual a AD \byref{prop:I.III}. Sean los puntos E y D, así tomados en los lados prolongados, conectados por líneas rectas DC y BE con los extremos alternos del tercer lado del triángulo.
 
-En los triángulos DAC y EAB los lados DA y AC son respectivamente iguales a EA y AB, y el ángulo incluido A es común a ambos triángulos. Por lo tanto \byref{prop:I.IV} la línea DC es igual a BE, el ángulo ADC al ángulo AEB, y el ángulo ACD al ángulo ABE; si de las líneas iguales AD y AE se toman los lados iguales AB y AC, los residuos BD y CE serán iguales. Por lo tanto en los triángulos BDC y CEB, los lados BD y DC son respectivamente iguales a CE y EB, y los ángulos D y E incluidos por esos lados también son iguales. Por lo tanto \byref{prop:I.IV} los ángulos DBC y ECB, que son los incluidos por el tercer lado BC y las producciones de los lados iguales AB y AC son iguales. También los ángulos DCB y EBC son iguales si esos iguales se toman de los ángulos DCA y EBA antes probados iguales, los residuos, que son los ángulos ABC y ACB opuestos a los lados iguales, serán iguales.
+En los triángulos DAC y EAB los lados DA y AC son respectivamente iguales a EA y AB, y el ángulo A es común a ambos triángulos. Por lo tanto \byref{prop:I.IV} la línea DC es igual a BE, el ángulo ADC al ángulo AEB, y el ángulo ACD al ángulo ABE; si de las líneas iguales AD y AE se toman los lados iguales AB y AC, los residuos BD y CE serán iguales. Por lo tanto en los triángulos BDC y CEB, los lados BD y DC son respectivamente iguales a CE y EB, y los ángulos D y E incluidos por esos lados también son iguales. Por lo tanto \byref{prop:I.IV} los ángulos DBC y ECB, que son los incluidos por el tercer lado BC y las producciones de los lados iguales AB y AC son iguales. También los ángulos DCB y EBC son iguales si esos iguales se toman de los ángulos DCA y EBA antes probados iguales, los residuos, que son los ángulos ABC y ACB opuestos a los lados iguales, serán iguales.
 
 \emph{Por lo tanto en un triángulo isósceles,} etc.
 
@@ -405,7 +403,7 @@ En los triángulos DAC y EAB los lados DA y AC son respectivamente iguales a EA 
 
 \charspacing{-2}{Nuestro objeto en este lugar es introducir el sistema en lugar de enseñar cualquier conjunto particular de proposiciones, por lo tanto hemos seleccionado las anteriores del curso regular. Para escuelas y otros lugares públicos de instrucción, las tizas teñidas servirán para describir los diagramas, etc. para uso privado los lápices de colores resultarán muy convenientes.}
 
-Estamos felices de encontrar que los Elementos de las Matemáticas ahora forman una parte considerable de toda educación femenina sólida, por lo tanto llamamos la atención de aquellos interesados o comprometidos en la educación de las damas a este modo muy atractivo de comunicar conocimiento, y al trabajo sucesivo para su futuro desarrollo.
+% Estamos felices de encontrar que \emph{Los Elementos} de Euclides ahora forman una parte considerable de toda educación femenina sólida, por lo tanto llamamos la atención de aquellos interesados o comprometidos en la educación de las damas a este modo muy atractivo de comunicar conocimiento, y al trabajo sucesivo para su futuro desarrollo.
 
 \charspacing{-2.5}{Nosotros concluiremos por el momento observando, ya que los sentidos de la vista y el oído pueden ser tan fuertemente e instantáneamente abordados por igual con mil como con uno, \emph{el millón} podría ser enseñado geometría y otras ramas de las matemáticas con gran facilidad, esto avanzaría el propósito de la educación más que cualquier cosa \emph{podría} ser nombrada, porque enseñaría a la gente cómo pensar, y no qué pensar; es en este particular donde se origina el gran error de la educación.}
 
