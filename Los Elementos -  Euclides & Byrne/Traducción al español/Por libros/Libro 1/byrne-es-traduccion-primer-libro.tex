@@ -240,9 +240,11 @@ Graba el conocimiento con un rayo de luz.
 
 \vskip 0.5\baselineskip
 
-Esto quizás pueda considerarse la única mejora que ha recibido la geometría plana desde los días de Euclides, y si hubo algún geómetra de renombre antes de esa época, el éxito de Euclides ha eclipsado por completo su memoria, e incluso ha hecho que todas las cosas buenas de ese tipo se le atribuyan a él; como \AE sop entre los escritores de fábulas. También cabe señalar que, dado que los diagramas tangibles proporcionan el único medio a través del cual la geometría y otras artes lineales pueden enseñarse a los ciegos, el sistema visible es igualmente adecuado para las exigencias de los sordomudos.
+Este puede considerarse, quizá, el único avance que la geometría elemental ha experimentado desde los tiempos de Euclides. Y si hubo geómetras destacados antes de él, su obra ha eclipsado por completo su memoria, hasta el punto de que muchos de estos aportes suelen atribuirse a su nombre, de manera similar a lo que ocurre con Esopo entre los autores de fábulas.
 
-\charspacing{-1}{Se debe tener cuidado de mostrar que el color no tiene nada que ver con las líneas, ángulos o magnitudes, excepto meramente para nombrarlos. Una línea matemática, es una longitud sin anchura, no posee color, sin embargo, la unión de dos colores en el mismo plano da una buena idea de lo que se entiende por una línea matemática; recordemos que estamos hablando familiarmente, dicha unión debe entenderse y no el color, cuando decimos la línea negra, la línea roja o las líneas, etc.}
+También es interesante notar que, así como los diagramas tangibles son el principal medio para enseñar geometría a las personas ciegas, este enfoque visual resulta igualmente adecuado para la enseñanza de personas sordas.
+
+\charspacing{-1}{Sin embargo, es importante tener presente que el color no forma parte de las líneas, los ángulos ni las magnitudes, sino que se utiliza únicamente para identificarlos. Una línea matemática, entendida como longitud sin anchura, no puede tener color. No obstante, el encuentro entre dos colores en un mismo plano puede ayudar a representar de forma intuitiva lo que entendemos por una línea. En este sentido, cuando hablamos de una línea negra o una línea roja, nos referimos a la separación entre colores, no al color en sí.}
 
 \pagebreak
 
@@ -250,7 +252,7 @@ Los colores y los diagramas coloreados pueden parecer al principio un método to
 
 Aquí definiremos un punto, una línea y una superficie, y demostraremos una proposición para mostrar la verdad de esta afirmación.
 
-Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo posición, abstraído de la consideración de longitud, anchura y grosor. Quizás la siguiente descripción esté mejor calculada para explicar la naturaleza del punto matemático a aquellos que no han adquirido la idea, que la definición anterior.
+Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo posición, abstraído de la consideración de longitud, anchura y grosor. Quizás la siguiente descripción esté mejor pensada para explicar la naturaleza del punto matemático a aquellos que no han adquirido la idea, que la definición anterior.
 
 \defineNewPicture{
 	angleScale := 2;
@@ -265,7 +267,7 @@ Un punto es aquello que tiene posición, pero no magnitud; o un punto es solo po
 }
 Que tres colores \drawCurrentPictureInMargin se encuentren y cubran una porción del papel, donde se encuentran no es azul, ni es amarillo, ni es rojo, ya que no ocupa ninguna porción del plano, porque si lo hiciera, pertenecería a la parte azul, roja o amarilla; sin embargo, existe y tiene posición sin magnitud, de modo que con un poco de reflexión, esta unión de tres colores en un plano da una buena idea de un punto matemático.
 
-Una línea es longitud sin anchura. Con la ayuda de colores, casi de la misma manera que antes, se puede dar así una idea de una línea.
+Una línea es una longitud sin anchura. Con la ayuda de colores, casi de la misma manera que antes, se puede dar una idea de una línea.
 
 \defineNewPicture{
 	pair A, B, C, D, E, F;
@@ -278,9 +280,9 @@ Una línea es longitud sin anchura. Con la ayuda de colores, casi de la misma ma
 		draw byPolygon(A,B,F,E)(byred);
 		draw byPolygon(C,D,F,E)(byblue);
 }
-\drawCurrentPictureInMargin
-Que dos colores se encuentren y cubran una porción del papel; donde se encuentran no es rojo, ni es azul; por lo tanto, la unión no ocupa ninguna porción del plano, y por lo tanto no puede tener anchura, solo longitud: así podemos darnos una idea de lo que se entiende por una línea matemática. A efectos de ilustración, un color que difiera del color del papel, o del plano sobre el que está dibujado; de aquí en adelante, si decimos la línea roja, la línea azul o las líneas, etc. se entiende que son las uniones con el plano sobre el que están dibujadas.
+\drawCurrentPictureInMargin sobre el que están dibujadas.
 
+Que dos colores se encuentren y cubran una porción del papel; donde se encuentran no es rojo, ni es azul; por lo tanto, la unión no ocupa ninguna porción del plano, y por lo tanto no puede tener anchura, solo longitud: así podemos darnos una idea de lo que se entiende por una línea matemática. A efectos de ilustración, un color que difiera del color del papel, o del plano sobre el que está dibujado; de aquí en adelante, si decimos la línea roja, la línea azul o las líneas, etc. se entiende que son las uniones con el plano
 \pagebreak
 
 Una superficie es aquello que tiene longitud y anchura sin grosor.
@@ -317,9 +319,9 @@ Una superficie es aquello que tiene longitud y anchura sin grosor.
 		label.rt(btex Q etex, B''');
 }
 \drawCurrentPictureInMargin
-Cuando consideramos un cuerpo sólido (PQ), percibimos de inmediato que tiene tres dimensiones, a saber: longitud, anchura y grosor; supongamos que una parte de este sólido (PS) es roja, y la otra parte (QR) amarilla, y que los colores son distintos sin mezclarse, la superficie azul (RS) que separa estas partes, o que es lo mismo, que divide el sólido sin pérdida de material, debe carecer de grosor, y solo posee longitud y anchura; esto aparece claramente por un razonamiento similar al que se acaba de emplear para definir, o más bien describir, un punto y una línea.
+Cuando consideramos un cuerpo sólido (PQ), percibimos de inmediato que tiene tres dimensiones: longitud, anchura y grosor; supongamos que una parte de este sólido (PS) es roja, y la otra parte (QR) amarilla, y que los colores son distintos sin mezclarse, la superficie azul (RS) que separa estas partes, o que es lo mismo, que divide el sólido sin pérdida de material, debe carecer de grosor, y solo posee longitud y anchura; esto aparece claramente por un razonamiento similar al que se acaba de emplear para definir, o más bien describir, un punto y una línea.
 
-La proposición que hemos seleccionado para elucidar la manera en que se aplican los principios, es la quinta del primer Libro.
+La proposición que hemos seleccionado para elucidar la manera en que se aplican los principios, es la quinta del primer libro.
 
 \defineNewPicture[1/4]{
 angleScale := 5/6;
@@ -391,9 +393,9 @@ Como $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = 
 \emph{Anexando las letras al diagrama.}
 \end{center}
 
-Sean los lados iguales AB y AC prolongados a través de los extremos BC, del tercer lado, y en la parte prolongada BD de cualquiera, sea asumido cualquier punto D, y del otro sea cortado AE igual a AD \byref{prop:I.III}. Sean los puntos E y D, así tomados en los lados prolongados, conectados por líneas rectas DC y BE con los extremos alternos del tercer lado del triángulo.
+Sean los lados iguales AB y AC prolongados a través de los extremos del tercer lado, la base BC, y en la parte prolongada BD se toma un punto D, tal que AE sea igual a AD \byref{prop:I.III}. Sean los puntos E y D, se conectan alternamente por líneas rectas DC y BE a los extremos del tercer lado del triángulo.
 
-En los triángulos DAC y EAB los lados DA y AC son respectivamente iguales a EA y AB, y el ángulo A es común a ambos triángulos. Por lo tanto \byref{prop:I.IV} la línea DC es igual a BE, el ángulo ADC al ángulo AEB, y el ángulo ACD al ángulo ABE; si de las líneas iguales AD y AE se toman los lados iguales AB y AC, los residuos BD y CE serán iguales. Por lo tanto en los triángulos BDC y CEB, los lados BD y DC son respectivamente iguales a CE y EB, y los ángulos D y E incluidos por esos lados también son iguales. Por lo tanto \byref{prop:I.IV} los ángulos DBC y ECB, que son los incluidos por el tercer lado BC y las producciones de los lados iguales AB y AC son iguales. También los ángulos DCB y EBC son iguales si esos iguales se toman de los ángulos DCA y EBA antes probados iguales, los residuos, que son los ángulos ABC y ACB opuestos a los lados iguales, serán iguales.
+Para los triángulos DAC y EAB, los lados DA y AC son respectivamente iguales a EA y AB, y el ángulo A es común a ambos triángulos. Por lo tanto \byref{prop:I.IV} la línea DC es igual a BE, el ángulo ADC al ángulo AEB, y el ángulo ACD al ángulo ABE; si de las líneas iguales AD y AE se toman los lados iguales AB y AC, las prolongaciones BD y CE serán iguales. Por lo tanto en los triángulos BDC y CEB, los lados BD y DC son respectivamente iguales a CE y EB, y los ángulos D y E de estos lados también son iguales. Por lo tanto \byref{prop:I.IV} los ángulos DBC y ECB y las prolongaciones de los lados iguales AB y AC son iguales. También los ángulos DCB y EBC son iguales si esos iguales se toman de los ángulos DCA y EBA ya demostrados iguales, entonces los residuos, que son los ángulos ABC y ACB opuestos a los lados iguales, serán iguales.
 
 \emph{Por lo tanto en un triángulo isósceles,} etc.
 
@@ -401,11 +403,11 @@ En los triángulos DAC y EAB los lados DA y AC son respectivamente iguales a EA 
 
 \pagebreak
 
-\charspacing{-2}{Nuestro objeto en este lugar es introducir el sistema en lugar de enseñar cualquier conjunto particular de proposiciones, por lo tanto hemos seleccionado las anteriores del curso regular. Para escuelas y otros lugares públicos de instrucción, las tizas teñidas servirán para describir los diagramas, etc. para uso privado los lápices de colores resultarán muy convenientes.}
+\charspacing{-2}{Nuestro objetivo es introducir este sistema en lugar de enseñar cualquier conjunto particular de proposiciones, hemos elegido los ejemplos anteriores fuera del orden habitual. Para su uso en escuelas y otros espacios educativos, los diagramas pueden dibujarse fácilmente con tizas de colores; en el estudio personal, los lápices de colores resultan especialmente prácticos.}
 
-% Estamos felices de encontrar que \emph{Los Elementos} de Euclides ahora forman una parte considerable de toda educación femenina sólida, por lo tanto llamamos la atención de aquellos interesados o comprometidos en la educación de las damas a este modo muy atractivo de comunicar conocimiento, y al trabajo sucesivo para su futuro desarrollo.
+Nos alegra observar que las matemáticas forman ya una parte importante de la educación, por lo que invitamos a quienes participan en la enseñanza a considerar este método, que ofrece una forma más clara y atractiva de transmitir el conocimiento, así como su posible desarrollo en trabajos futuros.
 
-\charspacing{-2.5}{Nosotros concluiremos por el momento observando, ya que los sentidos de la vista y el oído pueden ser tan fuertemente e instantáneamente abordados por igual con mil como con uno, \emph{el millón} podría ser enseñado geometría y otras ramas de las matemáticas con gran facilidad, esto avanzaría el propósito de la educación más que cualquier cosa \emph{podría} ser nombrada, porque enseñaría a la gente cómo pensar, y no qué pensar; es en este particular donde se origina el gran error de la educación.}
+\charspacing{-2.5}{Para concluir, vale la pena señalar que, dado que la vista y el oído pueden ser estimulados de manera directa y simultánea —ya sea en una persona o en muchas—, la geometría y otras ramas de las matemáticas podrían enseñarse a gran escala con relativa facilidad. Esto contribuiría de manera significativa al progreso de la educación, pues ayudaría a las personas a aprender a pensar por sí mismas, y no solo a repetir ideas, que es uno de los principales problemas de los métodos educativos tradicionales.}
 
 \pagebreak
 
@@ -426,7 +428,7 @@ La geometría tiene como objetos principales la exposición y explicación de la
 		draw byNamedLineSeq(0)(CA,BA);
 		label.urt(btex A etex, A);
 }\drawCurrentPictureInMargin
-Los ángulos podrían considerarse apropiadamente como una cuarta especie de magnitud. La magnitud angular evidentemente consta de partes, y por lo tanto debe admitirse que es una especie de cantidad. El estudiante no debe suponer que la magnitud de un ángulo es afectada por la longitud de las líneas rectas que lo incluyen y de cuya divergencia mutua es la medida. El \emph{vértice} de un ángulo es el punto donde se encuentran los \emph{lados} de las \emph{patas} del ángulo, como A.
+Los ángulos podrían considerarse apropiadamente como una cuarta especie de magnitud. La magnitud angular evidentemente consta de partes, y por lo tanto debe admitirse que es una especie de cantidad. El estudiante no debe suponer que la magnitud de un ángulo es afectada por la longitud de las líneas rectas que lo incluyen y de cuya divergencia mutua es la medida. El \emph{vértice} de un ángulo es el punto donde se encuentran los \emph{lados} del ángulo, como A.
 
 \defineNewPicture{
 	pair B, C, D, E, F, G, H;
@@ -458,17 +460,17 @@ Los ángulos podrían considerarse apropiadamente como una cuarta especie de mag
 		label.llft(btex E etex, E);
 }
 \drawCurrentPictureInMargin
-\charspacing{-2}{Un ángulo se designa a menudo por una sola letra cuando sus lados son las únicas líneas que se encuentran en su vértice. Así, las líneas roja y azul forman el ángulo amarillo, que en otros sistemas se llamaría ángulo A. Pero cuando más de dos líneas se encuentran en el mismo punto, era necesario por métodos anteriores, para evitar confusiones, emplear tres letras para designar un ángulo alrededor de ese punto, la letra que marcaba el vértice del ángulo se colocaba siempre en el medio. Así, las líneas negra y roja que se encuentran en C, forman el ángulo azul, y ha sido usualmente denominado el ángulo FCD o DCF. Las líneas FC y CD son los lados del ángulo; el punto C es su vértice. De manera similar, el ángulo negro se designaría el ángulo DCB o BCD. Los ángulos rojo y azul sumados, o el ángulo HCF sumado a FCD, forman el ángulo HCD; y así de otros ángulos.}
+\charspacing{-2}{Un ángulo se designa a menudo por una sola letra cuando sus lados son las únicas líneas que se encuentran en su vértice. Así, las líneas roja y azul forman el ángulo amarillo, que en otros sistemas se llamaría ángulo A. Pero cuando más de dos líneas se encuentran en el mismo punto, es necesario para evitar confusiones, emplear tres letras para designar un ángulo alrededor de ese punto, la letra que marca el vértice del ángulo se coloca siempre en el medio. Así, las líneas negra y roja que se encuentran en C, forman el ángulo azul, y ha sido usualmente denominado el ángulo FCD o DCF. Las líneas FC y CD son los lados del ángulo; el punto C es su vértice. De manera similar, el ángulo negro se designaría el ángulo DCB o BCD. Los ángulos rojo y azul sumados, o el ángulo HCF sumado a FCD, forman el ángulo HCD; y así de otros ángulos.}
 
-Cuando los lados de un ángulo se producen o prolongan más allá de su vértice, los ángulos formados por ellos en ambos lados del vértice se dicen que son \emph{opuestos por el vértice} entre sí: así, los ángulos rojo y amarillo se dicen que son ángulos opuestos por el vértice.
+Cuando los lados de un ángulo se prolongan más allá de su vértice, los ángulos formados por ellos en ambos lados del vértice se dicen que son \emph{opuestos por el vértice} entre sí: así, los ángulos rojo y amarillo se dicen que son ángulos opuestos por el vértice.
 
-\charspacing{-2}{\emph{La superposición} es el proceso por el cual una magnitud puede concebirse colocada sobre otra, de modo que la cubra exactamente, o de modo que cada parte de cada una coincida exactamente.}
+\charspacing{-2}{\emph{La superposición} es el proceso por el cual una magnitud puede colocarse sobre otra, de modo que la cubra exactamente, o de modo que cada parte de cada una coincida exactamente con la otra.}
 
-Una línea se dice que es \emph{producida}, cuando es extendida, prolongada, o tiene su longitud aumentada, y el aumento de longitud que recibe se llama \emph{parte producida}, o su \emph{producción}.
+Una línea se dice que es \emph{prolongada}, cuando es extendida o su longitud es aumentada, y el aumento de longitud que recibe se llama \emph{parte prolongada}, o su \emph{prolongación}.
 
 \charspacing{-2.5}{La longitud total de la línea o líneas que encierran una figura, se llama su \emph{perímetro}. Los primeros seis libros de Euclides tratan solo de figuras planas. Una línea trazada desde el centro de un círculo hasta su circunferencia, se llama \emph{radio}. El lado de un triángulo rectángulo, que es opuesto al ángulo recto, se llama \emph{hipotenusa}. Un oblongo se define en el segundo libro, y se llama \emph{rectángulo}. Se supone que todas las líneas consideradas en los primeros seis libros de los Elementos están en el mismo plano.}
 
-\charspacing{-3}{La \emph{regla} y el \emph{compás} son los únicos instrumentos cuyo uso está permitido en Euclides, o en la Geometría plana. Declarar esta restricción es el objeto de los \emph{postulados.}}
+\charspacing{-3}{La \emph{regla} y el \emph{compás} son los únicos instrumentos cuyo uso está permitido por Euclides, o en la Geometría plana. Declarar esta restricción es el objetivo de los \emph{postulados.}}
 
 Los \emph{axiomas} de la geometría son ciertas proposiciones generales, cuya verdad se toma como autoevidente e incapaz de ser establecida por demostración.
 
@@ -476,9 +478,11 @@ Las \emph{proposiciones} son aquellos resultados que se obtienen en geometría p
 
 Un \emph{problema} es una proposición en la que se propone hacer algo; como una línea que se va a trazar bajo algunas condiciones dadas, un círculo que se va a describir, alguna figura que se va a construir, etc.
 
-La \emph{solución} del problema consiste en mostrar cómo se puede hacer la cosa requerida con la ayuda de la regla o straight-edge y el compás.
+La \emph{solución} del problema consiste en mostrar cómo construir el objeto requerido con la ayuda de la regla y el compás.
 
 La \emph{demostración} consiste en probar que el proceso indicado en la solución alcanza el fin requerido.
+
+\pagebreak
 
 Un \emph{teorema} es una proposición en la que se afirma la verdad de algún principio. Este principio debe deducirse de los axiomas y definiciones, u otras verdades previamente y de forma independiente establecidas. Mostrar esto es el objeto de la demostración.
 
