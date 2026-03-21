@@ -185,11 +185,11 @@ Para comprender mejor este método y las ventajas que ofrece, consideremos un tr
 \vskip 0.5\baselineskip
 
 \begin{enumerate}
-\item El angulo BAC, junto con los angulos BCA y ABC son iguales a dos angulos rectos, o al doble del angulo ABC.
-\item El angulo CAB sumado al angulo ACB sera igual al angulo ABC.
-\item El angulo ABC es mayor que cualquiera de los angulos BAC o BCA.
-\item El angulo BCA o el angulo CAB es menor que el angulo ABC.
-\item Si del angulo ABC se toma el angulo BAC, el residuo sera igual al angulo ACB.
+\item El ángulo BAC, junto con los ángulos BCA y ABC son iguales a dos ángulos rectos, o al doble del ángulo ABC.
+\item El ángulo CAB sumado al ángulo ACB sera igual al ángulo ABC.
+\item El ángulo ABC es mayor que cualquiera de los ángulos BAC o BCA.
+\item El ángulo BCA o el ángulo CAB es menor que el ángulo ABC.
+\item Si del ángulo ABC se toma el ángulo BAC, el residuo sera igual al ángulo ACB.
 \item El cuadrado de AC es igual a la suma de los cuadrados de AB y BC.
 \end{enumerate}
 
@@ -768,7 +768,7 @@ Una figura es una superficie comprendida por un límite o varios límites.
 }
 \startdefinition{}\label{def:I.XV}
 \begin{center}
-\drawCurrentPictureInMargin Un círculo es una figura plana, delimitada por una línea continua, llamada circunferencia; dentro de él tiene un punto desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
+\drawCurrentPictureInMargin Un \emph{círculo} es una figura plana, delimitada por una línea continua, llamada circunferencia; dentro de él tiene un punto desde el cual todas las líneas rectas dibujadas a su circunferencia son iguales.
 \end{center}
 
 \startdefinition{}\label{def:I.XVI}
@@ -804,7 +804,7 @@ El punto (desde el cual se dibujan las líneas iguales) es llamado el \emph{cent
 }
 \startdefinition{}\label{def:I.XVIII}
 \begin{center}
-\drawCurrentPictureInMargin Un semicírculo es la figura contenida por el diámetro, y la parte del círculo delimitada por el diámetro.
+\drawCurrentPictureInMargin Un \emph{semicírculo} es la figura contenida por el diámetro, y la parte del círculo delimitada por el diámetro.
 \end{center}
 
 \defineNewPicture{
@@ -822,7 +822,7 @@ El punto (desde el cual se dibujan las líneas iguales) es llamado el \emph{cent
 }
 \startdefinition{}\label{def:I.XIX}
 \begin{center}
-\drawCurrentPictureInMargin Un \emph{semicírculo} es la figura contenida por el diámetro, y la parte del círculo delimitada por el diámetro.
+\drawCurrentPictureInMargin Un segmento de un círculo es la figura contenida entre una línea recta y la parte de la circunferencia que corta.
 \end{center}
 
 \startdefinition{}\label{def:I.XX}
@@ -948,8 +948,8 @@ Un triángulo escaleno es aquel que no tiene lados iguales.
 	s := u;
 	A := (0, 0);
 	B := (s, 0);
-	C := A shifted (dir(80) scaled s);
-	D := B shifted (dir(80) scaled s);
+	C := (0, s);
+	D := (s, s);
 		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
 		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
 		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
@@ -960,15 +960,14 @@ Un triángulo escaleno es aquel que no tiene lados iguales.
 \begin{center}
 \drawCurrentPictureInMargin De las figuras de cuatro lados, un cuadrado es aquel que tiene todos sus lados iguales y todos sus ángulos rectos.
 \end{center}
-
 \defineNewPicture{
 	pair A, B, C, D;
 	numeric s;
 	s := u;
 	A := (0, 0);
 	B := (s, 0);
-	C := (0, s);
-	D := (s, s);
+	C := A shifted (dir(80) scaled s);
+	D := B shifted (dir(80) scaled s);
 		byLineDefine(A, B, byred, SOLID_LINE, REGULAR_WIDTH);
 		byLineDefine(A, C, byblue, SOLID_LINE, REGULAR_WIDTH);
 		byLineDefine(B, D, byyellow, SOLID_LINE, REGULAR_WIDTH);
@@ -996,7 +995,7 @@ Un triángulo escaleno es aquel que no tiene lados iguales.
 }
 \startdefinition{}\label{def:I.XXXII}
 \begin{center}
-\drawCurrentPictureInMargin Un oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
+\drawCurrentPictureInMargin Un oblongo o rectángulo oblongo es aquel que tiene todos sus ángulos rectos, pero no todos sus lados iguales.
 \end{center}
 
 \defineNewPicture{
@@ -1015,7 +1014,7 @@ Un triángulo escaleno es aquel que no tiene lados iguales.
 }
 \startdefinition{}\label{def:I.XXXIII}
 \begin{center}
-\drawCurrentPictureInMargin Un romboide es aquel que tiene sus lados opuestos iguales entre sí, pero todos sus lados no son iguales, ni sus ángulos son ángulos rectos.
+\drawCurrentPictureInMargin Un romboide es aquel que tiene sus lados y ángulos opuestos iguales entre sí, pero no es equilátero ni sus ángulos son ángulos rectos.
 \end{center}
 
 \startdefinition{}\label{def:I.XXXIV}
@@ -1057,8 +1056,61 @@ Se puede trazar un círculo con cualquier centro y radio.
 \chapter*{Axiomas}
 
 \startaxiom{}\label{ax:I.I}
+\defineNewPicture{
+	pair A, B, C;
+	pair D, E, F;
+	pair G, H, I;
+	numeric s;
+	s := 1/2u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (s * cosd(45), s * sind(45));
+	byAngleDefine(B, A, C, byred, SOLID_SECTOR);
+	byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+	D := (0, 0);
+	E := (s, 0);
+	F := (s * cosd(45), s * sind(45));
+	byAngleDefine(E, D, F, byblue, SOLID_SECTOR);
+	byLineDefine(D, E, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(D, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+	G := (0, 0);
+	H := (s, 0);
+	I := (s * cosd(45), s * sind(45));
+	byAngleDefine(H, G, I, byyellow, SOLID_SECTOR);
+	byLineDefine(G, H, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(G, I, byblack, SOLID_LINE, REGULAR_WIDTH);
+}
 \begin{center}
-Magnitudes iguales a otra magnitud son iguales entre sí.
+
+
+Magnitudes iguales a otra magnitud son iguales entre sí.\\
+\vskip 0.5\baselineskip
+Si
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BAC);
+	draw byNamedLineSeq(0)(AB,AC);
+}} $=$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(HGI);
+	draw byNamedLineSeq(0)(GH,GI);
+}} \ y \ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(EDF);
+	draw byNamedLineSeq(0)(DE,DF);
+}} $=$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(HGI);
+	draw byNamedLineSeq(0)(GH,GI);
+}}\\ \vskip 0.5\baselineskip entonces \\ \vskip 0.5\baselineskip
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BAC);
+	draw byNamedLineSeq(0)(AB,AC);
+}} $=$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(EDF);
+	draw byNamedLineSeq(0)(DE,DF);
+}}
 \end{center}
 
 \startaxiom{}\label{ax:I.II}
@@ -1837,7 +1889,7 @@ draw byLabelPoint(B, lineAngle.AB + 90, 1);
 draw byLabelPoint(D, lineAngle.CD - 90, 1);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}) se intersectan, los angulos opuestos \drawAngle{BEC} y \drawAngle{AED}, \drawAngle{CEA} y \drawAngle{DEB} son iguales.}
+\problem{S}{i}{dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}) se intersectan, los ángulos opuestos \drawAngle{BEC} y \drawAngle{AED}, \drawAngle{CEA} y \drawAngle{DEB} son iguales.}
 
 \begin{center}
 $\drawAngle{BEC} + \drawAngle{CEA} = \drawTwoRightAngles$ \byref{prop:I.XIII}% Here and in the next line should be a link to prop I.XIII
@@ -1928,7 +1980,7 @@ draw byNamedLineSeq(0)(noLine,BC,AB,AC,CD);
 draw byLabelsOnPolygon(D, C, A, B)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{L}{a}{suma de dos angulos cualesquiera de un triangulo es menor que dos angulos rectos.}
+\problem{L}{a}{suma de dos ángulos cualesquiera de un triángulo es menor que dos ángulos rectos.}
 
 \begin{center}
 Prolonga \drawUnitLine{AC}, entonces\\
@@ -1939,7 +1991,7 @@ Pero $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
 $\therefore \drawAngle{ACB} + \drawAngle{A} < \drawTwoRightAngles$,
 \end{center}
 
-\noindent y de la misma manera se puede demostrar que la suma de cualquier otro par de angulos del triangulo es menor que dos angulos rectos.
+\noindent y de la misma manera se puede demostrar que la suma de cualquier otro par de ángulos del triángulo es menor que dos ángulos rectos.
 
 \qed
 
@@ -1969,7 +2021,7 @@ draw byNamedLineSeq(0)(DC,BC,BA,AD);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{E}{n}{cualquier triangulo \drawLine{DC,BC,BA,AD} si un lado \drawUnitLine{AD,DC}es mayor que otro \drawUnitLine{BC}, el angulo opuesto al lado mayor es mayor que el angulo opuesto al lado menor $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
+\problem[3]{E}{n}{cualquier triángulo \drawLine{DC,BC,BA,AD} si un lado \drawUnitLine{AD,DC}es mayor que otro \drawUnitLine{BC}, el ángulo opuesto al lado mayor es mayor que el ángulo opuesto al lado menor $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
 
 \begin{center}
 Toma $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, traza \drawUnitLine{DB}.
@@ -1999,7 +2051,7 @@ draw byNamedLineSeq(0)(CA,BC,AB);
 draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{en cualquier triangulo \drawLine[bottom]{CA,BC,AB} un ángulo \drawAngle{A} es mayor que otro \drawAngle{B} el lado \drawUnitLine{BC} opuesto al ángulo mayor es mayor que el lado \drawUnitLine{CA} opuesto al ángulo menor.}
+\problem{S}{i}{en cualquier triángulo \drawLine[bottom]{CA,BC,AB} un ángulo \drawAngle{A} es mayor que otro \drawAngle{B} el lado \drawUnitLine{BC} opuesto al ángulo mayor es mayor que el lado \drawUnitLine{CA} opuesto al ángulo menor.}
 
 \begin{center}
 Si \drawUnitLine{BC} no es mayor que \drawUnitLine{CA} entonces debe ser\\
@@ -2041,7 +2093,7 @@ draw byNamedLineSeq(0)(DA,CD,BC,AB);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{L}{a}{suma de dos lados cualesquiera \drawUnitLine{DA} y \drawUnitLine{BD} de un triangulo \drawLine[bottom]{DA,BD,AB} es mayor que el tercer lado (\drawUnitLine{AB}).}
+\problem{L}{a}{suma de dos lados cualesquiera \drawUnitLine{DA} y \drawUnitLine{BD} de un triángulo \drawLine[bottom]{DA,BD,AB} es mayor que el tercer lado (\drawUnitLine{AB}).}
 
 \begin{center}
 Prolonga \drawUnitLine{DA}, y\\
@@ -2086,7 +2138,7 @@ draw byLabelsOnPolygon(A, C, E, B)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(A, D, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem[2]{S}{i}{desde cualquier punto (\drawPointL[middle][DE]{D}) dentro de un triangulo \drawLine[bottom]{CA,EC,BE,AB} se trazan lineas rectas a los extremos de uno de los lados (\drawSizedLine{AB}), la suma de esas líneas será menor que la de los otros dos lados del triángulo, y contendrán un angulo mayor.}
+\problem[2]{S}{i}{desde cualquier punto (\drawPointL[middle][DE]{D}) dentro de un triángulo \drawLine[bottom]{CA,EC,BE,AB} se trazan lineas rectas a los extremos de uno de los lados (\drawSizedLine{AB}), la suma de esas líneas será menor que la de los otros dos lados del triángulo, y contendrán un ángulo mayor.}
 
 \begin{center}
 Prolonga \drawSizedLine{AD},\\
@@ -2153,7 +2205,7 @@ draw byLabelLine(0)(L', L'', L''');
 \nointerlineskip\hbox{\drawSizedLine{L'}}
 \nointerlineskip\hbox{\drawSizedLine{L''}}
 \nointerlineskip\hbox{\drawSizedLine{L'''}}}\right.$
-cuya suma de dos cualesquiera sea mayor que la tercera, construir un triangulo cuyos lados sean respectivamente iguales a las lineas dadas.}
+cuya suma de dos cualesquiera sea mayor que la tercera, construir un triángulo cuyos lados sean respectivamente iguales a las lineas dadas.}
 
 \begin{center}
 Toma $\drawSizedLine{AB} = \drawSizedLine{L'}$ \byref{prop:I.III}.
@@ -2221,9 +2273,9 @@ draw byLabelsOnPolygon(D, B, A, C, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(noPoint,J, G, F, H, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{D}{esde}{un punto dado (\drawPointL{F}) en una linea recta dada (\drawUnitLine{FG,GJ}), construir un angulo igual a un angulo dado (\drawAngle{A}).}
+\problem{D}{esde}{un punto dado (\drawPointL{F}) en una linea recta dada (\drawUnitLine{FG,GJ}), construir un ángulo igual a un ángulo dado (\drawAngle{A}).}
 
-Traza \drawUnitLine{BC} en dos puntos cualesquiera de los lados del angulo dado.
+Traza \drawUnitLine{BC} en dos puntos cualesquiera de los lados del ángulo dado.
 
 \begin{center}
 Traza \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
@@ -2280,7 +2332,7 @@ draw byLabelsOnPolygon(D, A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(G, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{un triangulo tiene dos lados respectivamente iguales a dos lados de otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y si uno de los ángulos
+\problem{S}{i}{un triángulo tiene dos lados respectivamente iguales a dos lados de otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y si uno de los ángulos
 (\drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 draw byNamedAngleSides(BAC,CAD)(AB,CA,AD);
@@ -2292,7 +2344,7 @@ startAutoLabeling;
 draw byNamedAngleSides(FEG)(EF, GE);
 stopAutoLabeling;
 }),
-el lado (\drawUnitLine{DB}) opuesto al mayor angulo es mayor que el lado (\drawUnitLine{FG}) opuesto al angulo menor.
+el lado (\drawUnitLine{DB}) opuesto al mayor ángulo es mayor que el lado (\drawUnitLine{FG}) opuesto al ángulo menor.
 }
 
 \begin{center}
@@ -2343,7 +2395,7 @@ draw byLabelsOnPolygon(A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(D, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{un triangulo tiene dos lados (\drawUnitLine[0.7cm]{AB} y \drawUnitLine[0.7cm]{CA}) respectivamente iguales a dos lados (\drawUnitLine{DE} y \drawUnitLine{FD}) de otro triangulo, pero con bases diferentes, el ángulo creado por la base mayor (\drawUnitLine{BC}), debe ser mayor que el ángulo creado por la base menor (\drawUnitLine{EF}).}
+\problem{S}{i}{un triángulo tiene dos lados (\drawUnitLine[0.7cm]{AB} y \drawUnitLine[0.7cm]{CA}) respectivamente iguales a dos lados (\drawUnitLine{DE} y \drawUnitLine{FD}) de otro triángulo, pero con bases diferentes, el ángulo creado por la base mayor (\drawUnitLine{BC}), debe ser mayor que el ángulo creado por la base menor (\drawUnitLine{EF}).}
 
 \begin{center}
 $\drawAngle{A} = \drawAngle{D} \mbox{ , } \drawAngle{A} > \drawAngle{D} \mbox{ ó } \drawAngle{A} < \drawAngle{D}$
@@ -2395,7 +2447,7 @@ draw byNamedLineSeq(0)(GD,FG,EF,DE);
 draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(D, G, F, E)(ALL_LABELS, 0);
 }
-\problem{S}{i}{dos triangulos tienen dos ángulos respectivamente iguales entre si ($\drawAngle{A} = \drawAngle{D}$ y $\drawAngle{B} = \drawAngle{GED,FEG}$), y un lado de uno es igual a un lado del otro, los lados y ángulos restantes son respectivamente iguales entre sí.}
+\problem{S}{i}{dos triángulos tienen dos ángulos respectivamente iguales entre si ($\drawAngle{A} = \drawAngle{D}$ y $\drawAngle{B} = \drawAngle{GED,FEG}$), y un lado de uno es igual a un lado del otro, los lados y ángulos restantes son respectivamente iguales entre sí.}
 \drawCurrentPictureInMargin
 \startsubproposition{Caso I.}
 \begin{center}
@@ -2532,7 +2584,7 @@ draw byLabelsOnPolygon(G, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{una linea recta (\drawUnitLine{GH}) corta a otras dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}) de tal forma que el angulo externo es igual al angulo interno y opuesto en el mismo lado de la linea que corta (es decir $\drawAngle{GEA} = \drawAngle{CFG}$ o $\drawAngle{BEG} = \drawAngle{GFD}$), o si los dos angulos internos en el mismo lado (\drawAngle{GFD} y \drawAngle{HEB}, o \drawAngle{CFG} y \drawAngle{AEH}) son iguales a dos angulos rectos, entonces las dos lineas rectas son paralelas.}
+\problem{S}{i}{una linea recta (\drawUnitLine{GH}) corta a otras dos lineas rectas (\drawUnitLine{AB} y \drawUnitLine{CD}) de tal forma que el ángulo externo es igual al ángulo interno y opuesto en el mismo lado de la linea que corta (es decir $\drawAngle{GEA} = \drawAngle{CFG}$ o $\drawAngle{BEG} = \drawAngle{GFD}$), o si los dos ángulos internos en el mismo lado (\drawAngle{GFD} y \drawAngle{HEB}, o \drawAngle{CFG} y \drawAngle{AEH}) son iguales a dos ángulos rectos, entonces las dos lineas rectas son paralelas.}
 
 \begin{center}
 En primer lugar, si $\drawAngle{GEA} = \drawAngle{CFG}$, \\ entonces $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV}, $\therefore \drawAngle{CFG} = \drawAngle{HEB}
@@ -2584,13 +2636,13 @@ draw byLabelPoint(I, lineAngle.IE - 90, 1);
 draw byLabelPoint(J, lineAngle.EJ + 90, 1);
 }
 \drawCurrentPictureInMargin
-\problem{U}{na}{linea recta (\drawUnitLine{GH}) que corta a dos lineas paralelas (\drawUnitLine{AB} y \drawUnitLine{CD}), hace que los angulos alternos sean iguales entre si; tambien el angulo externo resulta ser igual al interno y opuesto en el mismo lado; y los dos angulos internos en el mismo lado resultan ser iguales a dos angulos rectos.}
+\problem{U}{na}{linea recta (\drawUnitLine{GH}) que corta a dos lineas paralelas (\drawUnitLine{AB} y \drawUnitLine{CD}), hace que los ángulos alternos sean iguales entre si; tambien el ángulo externo resulta ser igual al interno y opuesto en el mismo lado; y los dos ángulos internos en el mismo lado resultan ser iguales a dos ángulos rectos.}
 
-Supongamos que los angulos alternos \drawAngle{IEA,HEI} y \drawAngle{GFD} no son iguales, trazamos \drawUnitLine{IE}, haciendo que $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.
+Supongamos que los ángulos alternos \drawAngle{IEA,HEI} y \drawAngle{GFD} no son iguales, trazamos \drawUnitLine{IE}, haciendo que $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.
 
 Por lo tanto, \drawUnitLine{IE,EJ} \parallel \drawUnitLine{CD} \byref{prop:I.XXVII} y por lo tanto dos lineas rectas que se intersectan son paralelas a la misma linea recta, lo cual es imposible \byref{ax:I.XII}.
 
-Por lo tanto, los angulos alternos \drawAngle{IEA,HEI} y \drawAngle{GFD} son iguales: $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; $\therefore \drawAngle{GEB} = \drawAngle{GFD}$, el ángulo externo igual al interno y opuesto en el mismo lado: si \drawAngle{BEH} se suma a ambos, entonces $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. Es decir, los dos ángulos internos en el mismo lado de la línea que corta son iguales a dos ángulos rectos.
+Por lo tanto, los ángulos alternos \drawAngle{IEA,HEI} y \drawAngle{GFD} son iguales: $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; $\therefore \drawAngle{GEB} = \drawAngle{GFD}$, el ángulo externo igual al interno y opuesto en el mismo lado: si \drawAngle{BEH} se suma a ambos, entonces $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. Es decir, los dos ángulos internos en el mismo lado de la línea que corta son iguales a dos ángulos rectos.
 
 \qed
 
@@ -2695,7 +2747,7 @@ draw byNamedLineSeq(0)(CA,noLine,AD,AB,BC);
 draw byLabelsOnPolygon(C, B, A, D, noPoint, E, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{S}{i}{ cualquier lado (\drawUnitLine{AB}) de un triangulo es prolongado el angulo externo (\drawAngle{DAE,EAC}) es igual a la suma de los dos angulos internos opuestos (\drawAngle{B} y \drawAngle{C}), y la suma de los tres angulos internos de cualquier triangulo son iguales a dos angulos rectos.}
+\problem[3]{S}{i}{ cualquier lado (\drawUnitLine{AB}) de un triángulo es prolongado el ángulo externo (\drawAngle{DAE,EAC}) es igual a la suma de los dos ángulos internos opuestos (\drawAngle{B} y \drawAngle{C}), y la suma de los tres ángulos internos de cualquier triángulo son iguales a dos ángulos rectos.}
 
 \begin{center}
 Desde el punto \drawPointL[middle][AD,AE]{A} traza\\
@@ -2746,7 +2798,7 @@ Traza la diagonal \drawUnitLine{AD}.
 
 $\drawUnitLine{AB} = \drawUnitLine{CD}$ \byref{\hypref}\\
 $\drawAngle{BAD} = \drawAngle{CDA}$ \byref{prop:I.XXIX}\\
-y como \drawUnitLine{AD} es común a los dos triangulos;
+y como \drawUnitLine{AD} es común a los dos triángulos;
 
 $\therefore \drawUnitLine{AC} = \drawUnitLine{BD}$, y $\drawAngle{ADB} = \drawAngle{DAC}$ \byref{prop:I.IV};
 
@@ -2780,7 +2832,7 @@ draw byNamedLineSeq(0)(AB,BD,CD,AC);
 draw byLabelsOnPolygon(A, B, D, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{L}{os}{lados opuestos y angulos de cualquier paralelogramo son iguales, y la diagonal (\drawUnitLine{AD}) lo divide en dos partes iguales.}
+\problem{L}{os}{lados opuestos y ángulos de cualquier paralelogramo son iguales, y la diagonal (\drawUnitLine{AD}) lo divide en dos partes iguales.}
 
 \begin{center}
 Como $\left\{
@@ -2790,7 +2842,7 @@ Como $\left\{
 	\end{aligned}
 	\right\}$ \byref{prop:I.XXIX}
 
-y como \drawUnitLine{AD} es común a los dos triangulos;
+y como \drawUnitLine{AD} es común a los dos triángulos;
 
 $\therefore \left\{
 	\begin{aligned}
@@ -2802,7 +2854,7 @@ $\therefore \left\{
 y $\drawAngle{BAD,DAC} = \drawAngle{CDA,ADB}$ \byref{ax:I.II}.
 \end{center}
 
-Por lo tanto, los lados opuestos y los angulos de cualquier paralelogramo son iguales: y como los triangulos \drawLine{AD,CD,AC} y \drawLine{AB,BD,AD} son iguales en todo sentido \byref{prop:I.IV}, la diagonal divide al paralelogramo en dos partes iguales.
+Por lo tanto, los lados opuestos y los ángulos de cualquier paralelogramo son iguales: y como los triángulos \drawLine{AD,CD,AC} y \drawLine{AB,BD,AD} son iguales en todo sentido \byref{prop:I.IV}, la diagonal divide al paralelogramo en dos partes iguales.
 
 \qed
 
@@ -2971,7 +3023,7 @@ draw byLabelsOnPolygon(H, A, B, E, F, I, noPoint)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, D, C, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riangulos}{
+\problem{T}{riángulos}{
 \drawPolygon[bottom][polygonBCD]{BCG, CDG} y~\drawPolygon[bottom][polygonCDE]{DGE, CDG}
 con la misma base (\drawUnitLine{CD}) y entre las mismas paralelas son iguales.
 }
@@ -3036,7 +3088,7 @@ draw byLabelsOnPolygon(A, B, E, F, noPoint)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(H, G, D, C, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riangulos}{(\drawPolygon[bottom][polygonBCD]{BCD} y \drawPolygon[bottom][polygonEGH]{EGH}) sobre bases iguales y entre las mismas paralelas son iguales.}
+\problem{T}{riángulos}{(\drawPolygon[bottom][polygonBCD]{BCD} y \drawPolygon[bottom][polygonEGH]{EGH}) sobre bases iguales y entre las mismas paralelas son iguales.}
 
 \begin{center}
 $\left.
@@ -3081,7 +3133,7 @@ draw byLabelsOnPolygon(A, B, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(A, F, G, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riangulos}{iguales
+\problem{T}{riángulos}{iguales
 \drawPolygon[bottom][polygonADC]{AEC, ECD} y~\drawPolygon[bottom][polygonBDC]{BED, ECD}
 con la misma base (\drawUnitLine{CD}) y del mismo lado de ella, están entre las mismas paralelas.}
 
@@ -3130,7 +3182,7 @@ draw byLabelsOnPolygon(A, B, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(A, G, H, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{T}{riangulos}{iguales 
+\problem{T}{riángulos}{iguales 
 (\drawFromCurrentPicture[bottom][polygonACD]{
 startAutoLabeling;
 draw byNamedPolygon (ACD);
@@ -3584,7 +3636,7 @@ draw byLabelsOnPolygon(B, E, D, A, G, F, C, I, K, H)(ALL_LABELS, -1);
 draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 }
 \drawCurrentPictureInMargin
-\problem[4]{E}{n}{un triangulo con un ángulo recto \drawLine[bottom][triangleABC]{CA,BC,AB} el cuadrado de la hipotenusa \drawUnitLine{BC} es igual a la suma de los cuadrados de los lados \drawUnitLine{CA} y \drawUnitLine{AB}.}
+\problem[4]{E}{n}{un triángulo con un ángulo recto \drawLine[bottom][triangleABC]{CA,BC,AB} el cuadrado de la hipotenusa \drawUnitLine{BC} es igual a la suma de los cuadrados de los lados \drawUnitLine{CA} y \drawUnitLine{AB}.}
 
 \begin{center}
 Para \drawUnitLine{BC}, \drawUnitLine{CA}, \drawUnitLine{AB} crea sus cuadrados, \byref{prop:I.XLVI}

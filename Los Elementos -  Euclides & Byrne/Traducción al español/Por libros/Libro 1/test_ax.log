@@ -1,0 +1,1247 @@
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.20)  21 MAR 2026 10:26
+ restricted system commands enabled.
+**test_ax.tex
+(./test_ax.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/texlive/2026/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "c:/texlive/2026/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-
+28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2026/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (c:/texlive/2026/texmf-
+dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2026/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\c@figure=\count280
+\c@table=\count281
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+) (./byrne.sty
+Package: byrne 2025/12/05 Byrne
+
+(c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count282
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+(c:/texlive/2026/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)
+(c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.sty
+Package: luamplib 2026/03/17 v2.40.1 mplib package for LuaTeX
+Lua module: luamplib 2026/03/17 v2.40.1 Lua package to typeset Metapost with Lua
+TeX's MPLib.
+\luamplibcctabexplat=\catcodetable14
+\mplibtmptoks=\toks17
+\mplibscratchbox=\box53
+)
+\mpInst=\count283
+\mpLastInst=\count284
+\pictOffsetTop=\dimen148
+\pictOffsetBottom=\dimen149
+\pictVMargins=\dimen150
+\midht=\dimen151
+\middp=\dimen152
+) (./test_ax.aux)
+\openout1 = test_ax.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Runaway argument?
+{ pair A, B, C; pair D, E, F; pair G, H, J; numeric s; s := u; B := (\ETC.
+! Paragraph ended before \defineNewPicture  was complete.
+<to be read again> 
+                   \par 
+l.14 	
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 	byAngleDefine(E, D, F, byblue, SOLID_
+                                           SECTOR);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 	
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (284.32095pt too wide) in paragraph at lines 15--19
+\TU/lmr/m/n/10 SOLID$[][]\OML/cmm/m/it/10 ECTOR\OT1/cmr/m/n/10 ); \OML/cmm/m/it
+/10 byLineDefine\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 D; E; byblack; SOLID[]INE; THI
+N[]IDTH\OT1/cmr/m/n/10 ); \OML/cmm/m/it/10 byLineDefine\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 D; F; byblack; SOLID[]INE; THIN[]IDTH\OT1/cmr/m/n/10 );$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 	byAngleDefine(H, G, J, byyellow, SOLID_
+                                             SECTOR);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.24 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 $\drawAngle{A}
+                    = \drawAngle{G}$ and $\drawAngle{D} = \drawAngle{G}$ the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> startOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> startOffspringPictureMode;
+                                     linecap:=butt;startAutoLabeling;draw.by...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> startAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...ode;linecap:=butt;startAutoLabeling;
+                                                  draw.byNamedAngleWithDummy...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> byNamedAngleWithDummySides
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  A);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+This expression should have specified a known path.
+So I'll not change anything just now.
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  A);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+>> stopAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...eWithDummySides(A);stopAutoLabeling;
+                                                  stopOffspringPictureMode;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> stopOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 $\drawAngle{A}
+                    = \drawAngle{G}$ and $\drawAngle{D} = \drawAngle{G}$ the...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+\defineFromCurrentPicture ...e {{\currentInstance 
+                                                  }}
+l.26 $\drawAngle{A}
+                    = \drawAngle{G}$ and $\drawAngle{D} = \drawAngle{G}$ the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 $\drawAngle{A}
+                    = \drawAngle{G}$ and $\drawAngle{D} = \drawAngle{G}$ the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> instanceOffspringPictureangleA
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   ;
+<*> draw instanceOffspringPictureangleA;
+                                         
+This expression should have specified a known path.
+So I'll not change anything just now.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 $\drawAngle{A}
+                    = \drawAngle{G}$ and $\drawAngle{D} = \drawAngle{G}$ the...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 $\drawAngle{A} = \drawAngle{G}
+                                   $ and $\drawAngle{D} = \drawAngle{G}$ the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> startOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> startOffspringPictureMode;
+                                     linecap:=butt;startAutoLabeling;draw.by...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> startAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...ode;linecap:=butt;startAutoLabeling;
+                                                  draw.byNamedAngleWithDummy...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> byNamedAngleWithDummySides
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  G);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+This expression should have specified a known path.
+So I'll not change anything just now.
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  G);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+>> stopAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...eWithDummySides(G);stopAutoLabeling;
+                                                  stopOffspringPictureMode;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> stopOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 $\drawAngle{A} = \drawAngle{G}
+                                   $ and $\drawAngle{D} = \drawAngle{G}$ the...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+\defineFromCurrentPicture ...e {{\currentInstance 
+                                                  }}
+l.26 $\drawAngle{A} = \drawAngle{G}
+                                   $ and $\drawAngle{D} = \drawAngle{G}$ the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 $\drawAngle{A} = \drawAngle{G}
+                                   $ and $\drawAngle{D} = \drawAngle{G}$ the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> instanceOffspringPictureangleG
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   ;
+<*> draw instanceOffspringPictureangleG;
+                                         
+This expression should have specified a known path.
+So I'll not change anything just now.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 $\drawAngle{A} = \drawAngle{G}
+                                   $ and $\drawAngle{D} = \drawAngle{G}$ the...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...gle{A} = \drawAngle{G}$ and $\drawAngle{D}
+                                                   = \drawAngle{G}$ then $\d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> startOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> startOffspringPictureMode;
+                                     linecap:=butt;startAutoLabeling;draw.by...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> startAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...ode;linecap:=butt;startAutoLabeling;
+                                                  draw.byNamedAngleWithDummy...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> byNamedAngleWithDummySides
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  D);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+This expression should have specified a known path.
+So I'll not change anything just now.
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  D);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+>> stopAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...eWithDummySides(D);stopAutoLabeling;
+                                                  stopOffspringPictureMode;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> stopOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...gle{A} = \drawAngle{G}$ and $\drawAngle{D}
+                                                   = \drawAngle{G}$ then $\d...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+\defineFromCurrentPicture ...e {{\currentInstance 
+                                                  }}
+l.26 ...gle{A} = \drawAngle{G}$ and $\drawAngle{D}
+                                                   = \drawAngle{G}$ then $\d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...gle{A} = \drawAngle{G}$ and $\drawAngle{D}
+                                                   = \drawAngle{G}$ then $\d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> instanceOffspringPictureangleD
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   ;
+<*> draw instanceOffspringPictureangleD;
+                                         
+This expression should have specified a known path.
+So I'll not change anything just now.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...gle{A} = \drawAngle{G}$ and $\drawAngle{D}
+                                                   = \drawAngle{G}$ then $\d...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...gle{G}$ and $\drawAngle{D} = \drawAngle{G}
+                                                  $ then $\drawAngle{A} = \d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> startOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> startOffspringPictureMode;
+                                     linecap:=butt;startAutoLabeling;draw.by...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> startAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...ode;linecap:=butt;startAutoLabeling;
+                                                  draw.byNamedAngleWithDummy...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> byNamedAngleWithDummySides
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  G);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+This expression should have specified a known path.
+So I'll not change anything just now.
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  G);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+>> stopAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...eWithDummySides(G);stopAutoLabeling;
+                                                  stopOffspringPictureMode;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> stopOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...gle{G}$ and $\drawAngle{D} = \drawAngle{G}
+                                                  $ then $\drawAngle{A} = \d...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+\defineFromCurrentPicture ...e {{\currentInstance 
+                                                  }}
+l.26 ...gle{G}$ and $\drawAngle{D} = \drawAngle{G}
+                                                  $ then $\drawAngle{A} = \d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...gle{G}$ and $\drawAngle{D} = \drawAngle{G}
+                                                  $ then $\drawAngle{A} = \d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> instanceOffspringPictureangleG
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   ;
+<*> draw instanceOffspringPictureangleG;
+                                         
+This expression should have specified a known path.
+So I'll not change anything just now.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...gle{G}$ and $\drawAngle{D} = \drawAngle{G}
+                                                  $ then $\drawAngle{A} = \d...
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...le{D} = \drawAngle{G}$ then $\drawAngle{A}
+                                                   = \drawAngle{D}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> startOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> startOffspringPictureMode;
+                                     linecap:=butt;startAutoLabeling;draw.by...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> startAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...ode;linecap:=butt;startAutoLabeling;
+                                                  draw.byNamedAngleWithDummy...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> byNamedAngleWithDummySides
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  A);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+This expression should have specified a known path.
+So I'll not change anything just now.
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  A);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+>> stopAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...eWithDummySides(A);stopAutoLabeling;
+                                                  stopOffspringPictureMode;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> stopOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...le{D} = \drawAngle{G}$ then $\drawAngle{A}
+                                                   = \drawAngle{D}$
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+\defineFromCurrentPicture ...e {{\currentInstance 
+                                                  }}
+l.26 ...le{D} = \drawAngle{G}$ then $\drawAngle{A}
+                                                   = \drawAngle{D}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...le{D} = \drawAngle{G}$ then $\drawAngle{A}
+                                                   = \drawAngle{D}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> instanceOffspringPictureangleA
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   ;
+<*> draw instanceOffspringPictureangleA;
+                                         
+This expression should have specified a known path.
+So I'll not change anything just now.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...le{D} = \drawAngle{G}$ then $\drawAngle{A}
+                                                   = \drawAngle{D}$
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...le{G}$ then $\drawAngle{A} = \drawAngle{D}
+                                                  $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> startOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> startOffspringPictureMode;
+                                     linecap:=butt;startAutoLabeling;draw.by...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> startAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...ode;linecap:=butt;startAutoLabeling;
+                                                  draw.byNamedAngleWithDummy...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> byNamedAngleWithDummySides
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  D);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+This expression should have specified a known path.
+So I'll not change anything just now.
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+<argument> ...ing;draw.byNamedAngleWithDummySides(
+                                                  D);stopAutoLabeling;stopOf...
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+>> stopAutoLabeling
+! Isolated expression.
+<to be read again> 
+                   ;
+<argument> ...eWithDummySides(D);stopAutoLabeling;
+                                                  stopOffspringPictureMode;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+>> stopOffspringPictureMode
+! Isolated expression.
+<to be read again> 
+                   ;
+image->...ture;currentpicture:=nullpicture;(TEXT3)
+                                                  ;currentpicture.if.str(SUF...
+<*> ...opAutoLabeling; stopOffspringPictureMode; )
+                                                  ; 
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...le{G}$ then $\drawAngle{A} = \drawAngle{D}
+                                                  $
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Undefined control sequence.
+\defineFromCurrentPicture ...e {{\currentInstance 
+                                                  }}
+l.26 ...le{G}$ then $\drawAngle{A} = \drawAngle{D}
+                                                  $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \currentInstance 
+                            
+l.26 ...le{G}$ then $\drawAngle{A} = \drawAngle{D}
+                                                  $
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Module luamplib Warning:
+>> instanceOffspringPictureangleD
+! Improper `addto'.
+<to be read again> 
+                   withpen
+draw->...:also(EXPR0)else:doublepath(EXPR0)withpen
+                                                  .currentpen.fi._op_
+<to be read again> 
+                   ;
+<*> draw instanceOffspringPictureangleD;
+                                         
+This expression should have specified a known path.
+So I'll not change anything just now.
+(luamplib)      on input line 26
+Module luamplib Error: see above messages on input line 26
+stack traceback:
+	[C]: in function 'error'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:45: in upvalue 'ter
+morlog'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:55: in upvalue 'err
+'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:281: in upvalue 're
+porterror'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:351: in upvalue 'pr
+ocess'
+	c:/texlive/2026/texmf-dist/tex/luatex/luamplib/luamplib.lua:1861: in field 'pro
+cess_mplibcode'
+	[\directlua]:1: in main chunk.
+<inserted text> BAD
+                   
+l.26 ...le{G}$ then $\drawAngle{A} = \drawAngle{D}
+                                                  $
+The lua interpreter ran into a problem, so the
+remainder of this lua chunk will be ignored.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 \end{document}
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (325.6935pt too wide) in paragraph at lines 20--27
+\TU/lmr/m/n/10 low, SOLID$[][]\OML/cmm/m/it/10 ECTOR\OT1/cmr/m/n/10 ); \OML/cmm
+/m/it/10 byLineDefine\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 G; H; byblack; SOLID[]INE
+; THIN[]IDTH\OT1/cmr/m/n/10 ); \OML/cmm/m/it/10 byLineDefine\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 G; J; byblack; SOLID[]INE; THIN[]IDTH\OT1/cmr/m/n/10 ); \OML/cmm
+/m/it/10 Test$[]
+ []
+
+[1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+(./test_ax.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 818 strings out of 476076
+ 100000,460012 words of node,token memory allocated
+ 406 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:88,3:107,4:4,5:236,6:4,7:962,8:101,9:76,10:3,11:12
+ 23323 multiletter control sequences out of 65536+600000
+ 26 fonts using 1476743 bytes
+ 73i,5n,73p,217b,186s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/t
+exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/202
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2026/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on test_ax.pdf (1 page, 37952 bytes).
+
+PDF statistics: 27 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 1048576)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
