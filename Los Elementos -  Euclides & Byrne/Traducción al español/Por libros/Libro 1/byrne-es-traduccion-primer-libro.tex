@@ -95,7 +95,7 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \section*{Créditos y atribución}
 
 \small
-\textit{Los Elementos} es una recopilación de trabajos previos de matemáticos como Pitágoras, Eudoxo y Teeteto. Euclides recopiló y organizó estos trabajos aproximadamente hace 2300 años en Alejandría.
+\textit{Los Elementos} es una obra que reúne trabajos de matemáticos como Pitágoras, Eudoxo y Teeteto. Euclides recopiló y les dio forma sistemática aproximadamente hace 2300 años en Alejandría.
 \\[\baselineskip]
 La edición visual en color fue publicada en Londres por 
 Oliver Byrne en 1847, bajo el título 
@@ -1083,34 +1083,27 @@ Se puede trazar un círculo con cualquier centro y radio.
 }
 \begin{center}
 
-
 Magnitudes iguales a otra magnitud son iguales entre sí.\\
-\vskip 0.5\baselineskip
-Si
+\marginpar{\centering
+
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(BAC);
-	draw byNamedLineSeq(0)(AB,AC);
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(HGI);
-	draw byNamedLineSeq(0)(GH,GI);
 }} \ y \ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(EDF);
-	draw byNamedLineSeq(0)(DE,DF);
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(HGI);
-	draw byNamedLineSeq(0)(GH,GI);
-}}\\ \vskip 0.5\baselineskip entonces \\ \vskip 0.5\baselineskip
+}}\\ \vskip 0.5\baselineskip,\vskip 0.5\baselineskip
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(BAC);
-	draw byNamedLineSeq(0)(AB,AC);
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(EDF);
-	draw byNamedLineSeq(0)(DE,DF);
-}}
+}}\par}
 \end{center}
 
 \startaxiom{}\label{ax:I.II}
