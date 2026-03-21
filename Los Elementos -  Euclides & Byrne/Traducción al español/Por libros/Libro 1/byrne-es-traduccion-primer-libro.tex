@@ -1061,7 +1061,7 @@ Se puede trazar un círculo con cualquier centro y radio.
 	pair D, E, F;
 	pair G, H, I;
 	numeric s;
-	s := 1/2u;
+	s := 1u;
 	A := (0, 0);
 	B := (s, 0);
 	C := (s * cosd(45), s * sind(45));
@@ -1083,7 +1083,6 @@ Se puede trazar un círculo con cualquier centro y radio.
 }
 \begin{center}
 
-Magnitudes iguales a otra magnitud son iguales entre sí.\\
 \marginpar{\centering
 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
@@ -1097,17 +1096,52 @@ Magnitudes iguales a otra magnitud son iguales entre sí.\\
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(HGI);
-}}\\ \vskip 0.5\baselineskip,\vskip 0.5\baselineskip
+}}\\ \vskip 0.5\baselineskip , 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(BAC);
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(EDF);
 }}\par}
+Magnitudes iguales a otra magnitud son iguales entre sí.\\
 \end{center}
 
 \startaxiom{}\label{ax:I.II}
+\defineNewPicture{
+	pair A, B;
+	pair C, D;
+	pair E, F;
+	numeric s;
+	s := 2u;
+	A := (0, 0); B := (s, 0);
+	byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+	C := (0, 0); D := (s, 0);
+	byLineDefine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+	E := (0, 0); F := (s, 0);
+	byLineDefine(E, F, byyellow, SOLID_LINE, REGULAR_WIDTH);
+}
 \begin{center}
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(AB);
+}} $=$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(CD);
+}}\\ \vskip 0.5\baselineskip , 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(AB);
+}} $+$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(EF);
+}} $=$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(CD);
+}} $+$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(EF);
+}}\par}
 Si se suman iguales, las sumas serán iguales.
 \end{center}
 
