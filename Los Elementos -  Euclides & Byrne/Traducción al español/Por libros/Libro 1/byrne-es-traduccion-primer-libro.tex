@@ -606,9 +606,9 @@ draw byNamedLineSeq(0)(AD,BD);
 }}
 designa un \emph{punto}.
 
-El cuadrado descrito sobre una línea se escribe concisamente así, $\drawUnitLine{AD}^2$.
+El cuadrado descrito sobre una línea se escribe $\drawUnitLine{AD}^2$.
 
-De la misma manera, el doble del cuadrado de, se expresa por $2 \cdot \drawUnitLine{AD}^2$.
+De la misma manera, el doble del cuadrado de una línea, se expresa por $2 \cdot \drawUnitLine{AD}^2$.
 
 \symb{\indefstr}
  significa \emph{definición}.
@@ -910,8 +910,6 @@ Un triángulo escaleno es aquel que no tiene lados iguales.
 \drawCurrentPictureInMargin Un triángulo rectángulo es aquel que tiene un ángulo recto.
 \end{center}
 
-\vskip \baselineskip
-
 \defineNewPicture{
 	pair A, B, C;
 	A := (-1/4u, 0);
@@ -1043,19 +1041,26 @@ Todas las demás figuras cuadriláteras se llaman trapecios.
 \chapter*{Postulados}
 
 \startpostulate{}\label{post:I.I}
+\begin{center}
 Se puede trazar una línea recta desde cualquier punto a cualquier otro punto.
+\end{center}
 
 \startpostulate{}\label{post:I.II}
+\begin{center}
 Se puede prolongar una línea recta indefinidamente.
+\end{center}
 
 \startpostulate{}\label{post:I.III}
+\begin{center}
 Se puede trazar un círculo con cualquier centro y radio.
+\end{center}
 
 \pagebreak
 
 \chapter*{Axiomas}
 
 \startaxiom{}\label{ax:I.I}
+
 \defineNewPicture{
 	pair A, B, C;
 	pair D, E, F;
@@ -1096,17 +1101,20 @@ Se puede trazar un círculo con cualquier centro y radio.
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(HGI);
-}}\\ \vskip 0.5\baselineskip , 
+}} , \\ \vskip 0.5\baselineskip
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(BAC);
 }} $=$ 
 \offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
 	draw byNamedAngle(EDF);
 }}\par}
+
 Magnitudes iguales a otra magnitud son iguales entre sí.\\
+
 \end{center}
 
 \startaxiom{}\label{ax:I.II}
+
 \defineNewPicture{
 	pair A, B;
 	pair C, D;
@@ -1129,7 +1137,7 @@ Magnitudes iguales a otra magnitud son iguales entre sí.\\
 }} $=$ 
 \offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
 	draw byNamedLine(CD);
-}}\\ \vskip 0.5\baselineskip , 
+}} , \\ \vskip 0.5\baselineskip
 \offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
 	draw byNamedLine(AB);
 }} $+$ 
@@ -1146,23 +1154,189 @@ Si se suman iguales, las sumas serán iguales.
 \end{center}
 
 \startaxiom{}\label{ax:I.III}
+
+\defineNewPicture{
+	pair A, B, C;
+	pair D, E, F;
+	pair G, H, I;
+	numeric s;
+	s := 1u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (s * cosd(30), s * sind(30));
+	byAngleDefine(B, A, C, byred, SOLID_SECTOR);
+	byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+	D := (0, 0);
+	E := (s, 0);
+	F := (s * cosd(90), s * sind(90));
+	byAngleDefine(E, D, F, byblue, SOLID_SECTOR);
+	byLineDefine(D, E, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(D, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+	G := (0, 0);
+	H := (s, 0);
+	I := (s * cosd(30), s * sind(30));
+	byAngleDefine(H, G, I, byyellow, SOLID_SECTOR);
+	byLineDefine(G, H, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(G, I, byblack, SOLID_LINE, REGULAR_WIDTH);
+}
+
 \begin{center}
-Si se restan iguales, el residuo será igual.
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BAC);
+}} $=$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(HGI);
+}} , \vskip 0.5\baselineskip
+
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BAC);
+}} $-$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(EDF);
+}} $=$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(HGI);
+}} $-$
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(EDF);
+}}\par}
+Si se restan iguales, su resta será igual.
 \end{center}
 
 \startaxiom{}\label{ax:I.IV}
+
+\defineNewPicture{
+	pair A, B;
+	pair C, D;
+	pair E, F;
+	numeric s;
+	s := 2u;
+	A := (0, 0); B := (2*s, 0);
+	byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+	C := (0, 0); D := (1.5*s, 0);
+	byLineDefine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+	E := (0, 0); F := (s, 0);
+	byLineDefine(E, F, byyellow, SOLID_LINE, REGULAR_WIDTH);
+}
 \begin{center}
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(AB);
+}} $>$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(CD);
+}} , \\ \vskip 0.5\baselineskip
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(AB);
+}} $+$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(EF);
+}} $>$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(CD);
+}} $+$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(EF);
+}}\par}
+
 Si se suman iguales a desiguales, las sumas serán desiguales.
 \end{center}
 
 \startaxiom{}\label{ax:I.V}
+
+\defineNewPicture{
+	pair A, B, C;
+	pair D, E, F;
+	pair G, H, I;
+	numeric s;
+	s := 1u;
+	A := (0, 0);
+	B := (s, 0);
+	C := (s * cosd(90), s * sind(90));
+	byAngleDefine(B, A, C, byred, SOLID_SECTOR);
+	byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
+	D := (0, 0);
+	E := (s, 0);
+	F := (s * cosd(30), s * sind(30));
+	byAngleDefine(E, D, F, byblue, SOLID_SECTOR);
+	byLineDefine(D, E, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(D, F, byblack, SOLID_LINE, REGULAR_WIDTH);
+	G := (0, 0);
+	H := (s, 0);
+	I := (s * cosd(60), s * sind(60));
+	byAngleDefine(H, G, I, byyellow, SOLID_SECTOR);
+	byLineDefine(G, H, byblack, SOLID_LINE, REGULAR_WIDTH);
+	byLineDefine(G, I, byblack, SOLID_LINE, REGULAR_WIDTH);
+}
+
 \begin{center}
-Si se restan iguales a desiguales, el residuo será desigual.
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BAC);
+}} $>$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(HGI);
+}} , \vskip 0.5\baselineskip 
+
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BAC);
+}} $-$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(EDF);
+}} $>$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(HGI);
+}} $-$
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(EDF);
+}}\par}
+
+Si se restan iguales a desiguales, su resta será desigual.
 \end{center}
 
 \startaxiom{}\label{ax:I.VI}
+
+\defineNewPicture{
+	pair A, B;
+	pair C, D;
+	pair E, F;
+	numeric s;
+	s := 2u;
+	A := (0, 0); B := (s, 0);
+	byLineDefine(A, B, byblue, SOLID_LINE, REGULAR_WIDTH);
+	C := (0, 0); D := (s, 0);
+	byLineDefine(C, D, byred, SOLID_LINE, REGULAR_WIDTH);
+	E := (0, 0); F := (s, 0);
+	byLineDefine(E, F, byyellow, SOLID_LINE, REGULAR_WIDTH);
+}
 \begin{center}
-Magnitudes iguales a una misma magnitud son iguales entre sí.
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(AB);
+}} $=$ 
+\offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(CD);
+}} , \\ \vskip 0.5\baselineskip
+2 \cdot \offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(AB);
+}} 
+$=$ 
+2 \cdot \offsetPicture{2pt}{3pt}{\drawFromCurrentPicture{
+	draw byNamedLine(CD);
+}}\par}
+
+Los dobles de magnitudes iguales son iguales.
 \end{center}
 
 \startaxiom{}\label{ax:I.VII}
@@ -1176,7 +1350,50 @@ Magnitudes que coinciden entre sí, o que llenan exactamente el mismo espacio, s
 \end{center}
 
 \startaxiom{}\label{ax:I.IX}
+
+\defineNewPicture{
+	pair O, A, B, C, D;
+	numeric s;
+	s := 1u;
+	O := (0, 0);
+	A := (s, 0);
+	B := dir(50) scaled s;
+	C := (0, s);
+	D := (-s, 0);
+	byAngleDefine(A, O, B, byblue, SOLID_SECTOR);
+	byAngleDefine(B, O, C, byred, SOLID_SECTOR);
+	byAngleDefine(C, O, D, byyellow, SOLID_SECTOR);
+}
+
 \begin{center}
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(AOB);
+	draw byNamedAngle(BOC);
+	draw byNamedAngle(COD);
+}} $>$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(COD);
+}} , \\ \vskip 0.5\baselineskip
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(AOB);
+	draw byNamedAngle(BOC);
+	draw byNamedAngle(COD);
+}} $>$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BOC);
+}} , \\ \vskip 0.5\baselineskip
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(AOB);
+	draw byNamedAngle(BOC);
+	draw byNamedAngle(COD);
+}} $>$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(AOB);
+}} \par}
+
 El todo es mayor que sus partes.
 \end{center}
 
@@ -1186,7 +1403,40 @@ Dos líneas rectas no pueden contener un espacio.
 \end{center}
 
 \startaxiom{}\label{ax:I.XI}
+
+
+\defineNewPicture{
+	pair O, A, B, C, D;
+	numeric s;
+	s := 1u;
+	O := (0, 0);
+	A := (s, 0);
+	B := (0, s);
+	C := (-s, 0);
+	D := (0, -s);
+	byAngleDefine(A, O, B, byblack, SOLID_SECTOR);
+	byAngleDefine(B, O, C, byblack, SOLID_SECTOR);
+	byAngleDefine(C, O, D, byblack, SOLID_SECTOR);
+	byAngleDefine(D, O, A, byblack, SOLID_SECTOR);
+}
+
 \begin{center}
+
+\marginpar{\centering
+
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(AOB);
+}} $=$ 
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(COD);
+}} $=$
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(BOC);
+}} $=$
+\offsetPicture{2pt}{0pt}{\drawFromCurrentPicture{
+	draw byNamedAngle(DOA);
+}}\par}
+
 Todos los ángulos rectos son iguales.
 \end{center}
 
@@ -1213,14 +1463,14 @@ Todos los ángulos rectos son iguales.
 		draw byLabelsOnPolygon(E, H, D)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 		draw byLabelsOnPolygon(B, G, F)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
-\drawCurrentPictureInMargin
-Si dos líneas rectas $\left(\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}}\right)$ se encuentran con una tercera línea recta (\drawUnitLine{EF}) para hacer que los dos ángulos interiores (\drawAngle{H} y \drawAngle{G}) en el mismo lado sean menores que dos ángulos rectos, estas dos líneas rectas se encontrarán si se prolongan en el lado en el que los ángulos son menores que dos ángulos rectos.
 
+Si dos líneas rectas $\left(\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}}\right)$ se encuentran con una tercera línea recta (\drawUnitLine{EF})\drawCurrentPictureInMargin de tal forma que los ángulos interiores que se forman en un mismo lado (\drawAngle{H} y \drawAngle{G}) suman menos de dos ángulos rectos, entonces esas dos líneas rectas se encontrarán al prolongarse por el lado donde los ángulos son menores. \\
+\\
 El duodécimo axioma puede ser expresado en cualquiera de las siguientes maneras:
 \begin{enumerate}
-\item Dos líneas rectas divergentes no pueden ser ambas paralelas a la misma línea recta.
-\item Si una línea recta corta una de dos líneas rectas paralelas, debe también cortar la otra.
-\item Solo se puede trazar una línea recta a través de un punto dado, paralela a una línea recta dada.
+\item Dos líneas rectas que se encuentran no pueden ser ambas paralelas a una misma recta.
+\item Si una recta corta a una de dos rectas paralelas, necesariamente también cortará a la otra.
+\item Por un punto dado solo puede trazarse una única recta paralela a una recta dada.
 \end{enumerate}
 
 \pagebreak
@@ -1267,8 +1517,8 @@ Entonces \drawLine[bottom][triangleABC]{AB,CA,BC} será equilátero.
 \\[\baselineskip]
 Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV};\\
 y $\drawUnitLine{AB} = \drawUnitLine{BC}$ \byref{def:I.XV};\\
-$\therefore \drawUnitLine{CA} = \drawUnitLine{BC}$ \byref{ax:I.I};\\
-y por lo tanto \triangleABC\ es el triángulo equilátero requerido.
+$\therefore \drawUnitLine{CA} = \drawUnitLine{BC}$ \byref{ax:I.I}.\\
+Por lo tanto \triangleABC\ es el triángulo equilátero requerido.
 \end{center}
 
 \qed
@@ -1306,14 +1556,14 @@ draw byLabelsOnCircle(C)(B);
 draw byLabelsOnCircle(E, F)(A);
 }
 \drawCurrentPictureInMargin
-\problem{D}{e}{un punto dado (\drawFromCurrentPicture[middle][pointA]{
+\problem{D}{esde}{un punto dado (\drawFromCurrentPicture[middle][pointA]{
 startGlobalRotation(-lineAngle.DA);
 draw byNamedPointLines(A,"AB");
 stopGlobalRotation;
 }), dibujar una línea recta igual a una línea recta finita dada (\drawUnitLine{BC}).}
 
 \begin{center}
-Dibuja \drawUnitLine{AB} \byref{post:I.I}, traza \drawFromCurrentPicture[bottom]{
+Traza \drawUnitLine{AB} \byref{post:I.I}, construye \drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 startTempScale(scaleFactor*3);
 startGlobalRotation(180-lineAngle.AB);
@@ -1331,14 +1581,14 @@ draw byNamedLineSeq(0)(BD, BE);
 draw byNamedCircle(A);
 draw byLabelLineEnd(D, E, 0);
 draw byLabelLineEnd(E, D, 1);
-} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida.\\
+} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida. \newline
 
 Porque $\drawUnitLine{BE,BD} = \drawUnitLine{DA,AF}$ \byref{def:I.XV},\\
 y $\drawUnitLine{BD} = \drawUnitLine{DA}$ \byref{\constref},\\
 $\therefore \drawUnitLine{BE} = \drawUnitLine{AF}$ \byref{post:I.III},\\
-pero \byref{def:I.XV} $\drawUnitLine{BC} = \drawUnitLine{BE} = \drawUnitLine{AF}$;
+y como \byref{def:I.XV} $\drawUnitLine{BC} = \drawUnitLine{BE} = \drawUnitLine{AF}$;
 
-$\therefore \drawUnitLine{AF}$ dibujada de un punto dado (\pointA), es igual a la línea dada \drawUnitLine{BC}.
+$\therefore$ $\drawUnitLine{AF}$ trazada desde el punto dado (\pointA), \\ es igual a la línea dada \drawUnitLine{BC}.
 \end{center}
 
 \qed
@@ -1368,7 +1618,7 @@ draw byLabelPoint(B, angle(B-A) + 45, 2);
 draw byLabelsOnPolygon(E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{D}{e}{la mayor (\drawUnitLine{AB,BC}) de dos líneas rectas dadas, cortar una parte igual a la menor de ellas (\drawUnitLine{EF}).}
+\problem{D}{e}{la mayor (\drawUnitLine{AB,BC}) de dos líneas rectas dadas, tomar una parte igual a la menor de ellas (\drawUnitLine{EF}).}
 
 \begin{center}
 Dibuja $\drawUnitLine{AD} = \drawUnitLine{EF}$ \byref{prop:I.II};\\
@@ -1379,7 +1629,7 @@ draw byNamedCircle(A);
 draw byLabelLineEnd(D, A, 0);
 draw byLabelLineEnd(A, D, 0);
 } \byref{post:I.III},\\
-entonces $\drawUnitLine{EF} = \drawUnitLine{AB}$
+entonces $\drawUnitLine{EF} = \drawUnitLine{AB}$. \newline
 
 Porque $\drawUnitLine{AD} = \drawUnitLine{AB}$ \byref{def:I.XV},\\
 y $\drawUnitLine{EF} = \drawUnitLine{AD}$ \byref{\constref};
@@ -1419,10 +1669,11 @@ draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 1);
 }
 \drawCurrentPictureInMargin
-\problem[4]{S}{i}{dos triángulos tienen dos lados respectivamente iguales, (\drawUnitLine{AB} con \drawUnitLine{DE} y \drawUnitLine{CA} con \drawUnitLine{FD}) y los ángulos (\drawAngle{A} con \drawAngle{D}) contenidos por esos lados también iguales; entonces sus bases o sus lados (\drawUnitLine{BC} con \drawUnitLine{EF}) también son iguales: y los ángulos restantes opuestos son respectivamente iguales ($\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$): y los triángulos son iguales en todo aspecto.}
+\problem[4]{S}{i}{dos triángulos tienen dos lados respectivamente iguales, (\drawUnitLine{AB} con \drawUnitLine{DE} y \drawUnitLine{CA} con \drawUnitLine{FD}) y los ángulos (\drawAngle{A} con \drawAngle{D}) contenidos por esos lados también son iguales; entonces sus lados (\drawUnitLine{BC} con \drawUnitLine{EF}) también son iguales: y los ángulos restantes son respectivamente iguales ($\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$), es decir, los triángulos son iguales en todo aspecto.}
 
 Sean dos triángulos, se colocan de tal manera, que el vértice de uno de los ángulos iguales, \drawAngle{A} o \drawAngle{D};
-se superponga sobre el del otro, y \drawUnitLine{AB} coincida con \drawUnitLine{DE}, entonces \drawUnitLine{CA} coincidirá con \drawUnitLine{FD} si se superpone: consecuentemente \drawUnitLine{BC} coincidirá con \drawUnitLine{EF}, o dos líneas rectas encerrarán un espacio, lo cual es imposible \byref{ax:I.X}, por lo tanto $\drawUnitLine{BC} = \drawUnitLine{EF}$, $\drawAngle{B} = \drawAngle{E}$ y $\drawAngle{C} = \drawAngle{F}$, y como los triángulos \drawLine{CA,BC,AB} y \drawLine{FD,EF,DE} coinciden, cuando se superponen, son iguales en todo aspecto.
+se superponga sobre el del otro, y \drawUnitLine{AB} coincida con \drawUnitLine{DE}, entonces \drawUnitLine{CA} coincidirá con \drawUnitLine{FD} si se superpone. \\ Consecuentemente \drawUnitLine{BC} coincidirá con \drawUnitLine{EF}, o dos líneas rectas encerrarán un espacio, lo cual es una contradicción a \byref{ax:I.X}, por lo tanto: \begin{center} $\drawUnitLine{BC} = \drawUnitLine{EF}$, \\ $\drawAngle{B} = \drawAngle{E}$, \\ y $\drawAngle{C} = \drawAngle{F}$. \end{center} 
+Como los triángulos \drawLine{CA,BC,AB} y \drawLine{FD,EF,DE} coinciden al superponerse, son iguales en todo aspecto.
 
 \qed
 
@@ -1455,12 +1706,12 @@ draw byNamedLineSeq(0)(CD,noLine,BC,noLine,BE,CE,AC,AB,BD);
 draw byLabelsOnPolygon(E, C, A, B, D, C, B)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[4]{E}{n}{cualquier triángulo isósceles \drawLine[bottom]{BC,AC,AB} si los lados iguales se prolongan, los ángulos externos en la base son iguales, y los ángulos internos en la base también son iguales.}
+\problem[4]{E}{n}{cualquier triángulo isósceles \drawLine[bottom]{BC,AC,AB} los ángulos internos de la base son iguales y si se prolongan los lados iguales, los ángulos externos también son iguales.}
 
 \begin{center}
 Prolonga \drawUnitLine{AB} y \drawUnitLine{AC} \byref{post:I.II},\\
-de tal forma que $\drawUnitLine{BD} = \drawUnitLine{CE}$ \byref{prop:I.III};\\
-dibuja \drawUnitLine{BE} y \drawUnitLine{CD}.
+tal que $\drawUnitLine{BD} = \drawUnitLine{CE}$ \byref{prop:I.III};\\
+traza \drawUnitLine{BE} y \drawUnitLine{CD}.
 
 Entonces para los triángulos
 \drawFromCurrentPicture{
@@ -1482,9 +1733,9 @@ y $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\hypref}\\
 $\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$ y $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.
 
 Igualmente para los triángulos \drawLine{BE,CE,BC} y \drawLine{BD,CD,BC}\\
-temos que $\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$ y $\drawUnitLine{BE} = \drawUnitLine{CD}$,\\
+se tiene $\drawUnitLine{BD} = \drawUnitLine{CE}$, $\drawAngle{CEB} = \drawAngle{BDC}$ y $\drawUnitLine{BE} = \drawUnitLine{CD}$,\\
 $\therefore \drawAngle{DCE,DCB} = \drawAngle{EBD,CBE}$ y $\drawAngle{DCB} = \drawAngle{CBE}$ \byref{prop:I.IV}\\
-pero $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$ \byref{ax:I.III}.
+y como $\drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\therefore \drawAngle{BCA} = \drawAngle{ABC}$ \byref{ax:I.III}.
 \end{center}
 
 \qed
@@ -1511,14 +1762,14 @@ draw byLabelsOnPolygon(A, C, D, B)(ALL_LABELS, 0);
 \drawCurrentPictureInMargin
 \problem{E}{n}{cualquier triángulo (\drawLine[bottom][triangleABD]{CA,CD,BD,AB}) si dos ángulos (\drawAngle{A} y \drawAngle{B}) son iguales, los lados (\drawUnitLine{CA,CD} y \drawUnitLine{BD}) opuestos a ellos son también iguales.}
 
-Supongamos que los lados no son iguales, entonces uno de ellos \drawUnitLine{CA,CD} es mayor que el otro \drawUnitLine{BD}, entonces se toma $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{prop:I.III}, y se traza \drawUnitLine{BC}.
-
 \begin{center}
+
+Supongamos que los lados no son iguales,\\ entonces \drawUnitLine{CA,CD} es mayor que \drawUnitLine{BD}, \\ se toma $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{prop:I.III}, \\ y traza \drawUnitLine{BC}. \\
 Luego para \drawLine[bottom]{BC,AB,CA} y \triangleABD,\\
 se tiene que $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{\constref},\\
 $\drawAngle{A} = \drawAngle{B}$ \byref{\hypref} y \drawUnitLine{AB} común,\\
 $\therefore$ los triángulos son iguales \byref{prop:I.IV}\\
-es decir una parte es igual al todo, lo cual es absurdo;\\
+es decir una parte es igual al todo, lo cual es una contradicción \byref{ax:I.IX};\\
 $\therefore$ ninguno de los lados \drawUnitLine{CA,CD} o \drawUnitLine{BD} es mayor que el otro, por lo tanto son iguales.
 \end{center}
 
@@ -1567,20 +1818,21 @@ draw byLabelsOnPolygon(A, E, B)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(H, F, A)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{E}{n}{la misma base (\drawUnitLine{AB}), y en el mismo lado de ella no puede haber dos triángulos que tengan sus lados contiguos (\drawUnitLine{CA} y \drawUnitLine{DA}, \drawUnitLine{BC} y \drawUnitLine{BD}) en ambos extremos de la base, iguales entre sí.}
+\problem{E}{n}{una misma base (\drawUnitLine{AB}) y del mismo lado de ella, no pueden existir dos triángulos distintos que tengan lados iguales \\ (\drawUnitLine{CA} y \drawUnitLine{DA}, \drawUnitLine{BC} y \drawUnitLine{BD}).}
 
-Cuando dos triángulos tienen la misma base, y están del mismo lado de ella, el vértice de uno caerá fuera del otro triángulo, dentro de él o sobre uno de sus lados.
+Cuando dos triángulos tienen la misma base, y están del mismo lado de ella, el vértice de uno de ellos está fuera del otro triángulo, dentro de él o sobre uno de sus lados. \\
 
-Supongamos que es posible construir los dos triángulos de modo que 
-$\left\{
+Supongamos que es posible construir dos triángulos
+\begin{center}
+tal que:
+	$\left\{
 	\begin{aligned}
 		\drawUnitLine{CA}&=\drawUnitLine{DA}\\
 		\drawUnitLine{BC}&=\drawUnitLine{BD}\\
 	\end{aligned}
 	\right\}$
-, \\ entonces se traza \drawUnitLine{CD} y,
+, \newline traza \drawUnitLine{CD} y,
 
-\begin{center}
 $\drawAngle{C,DCB} = \drawAngle{CDA}$ \byref{prop:I.V}
 
 $\therefore \drawAngle{DCB} < \drawAngle{CDA}$ y
@@ -1588,12 +1840,12 @@ $\therefore \drawAngle{DCB} < \drawAngle{CDA}$ y
 $\left.
 	\begin{aligned}
 		\therefore\drawAngle{DCB} &< \drawAngle{CDA,D}\\
-		\mbox{pero \byref{prop:I.V}} \drawAngle{DCB} &= \drawAngle{CDA,D}\\
+		\mbox{por \byref{prop:I.V}} \drawAngle{DCB} &= \drawAngle{CDA,D}\\
 	\end{aligned}
-	\right\}\mbox{lo cual es absurdo,}$
+	\right\}\mbox{lo cual es una contradicción,}$
 \end{center}
 
-\noindent por lo tanto los dos triángulos no pueden tener sus lados contiguos iguales en ambos extremos de la base.
+\noindent por lo tanto dos triángulos diferentes no pueden tener lados iguales sobre una misma base. Es decir, existe un único triángulo con dichos lados.
 
 \qed
 
@@ -1622,25 +1874,12 @@ draw byLabelsOnPolygon(C, B, A)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(F, E, D)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{ dos triángulos tienen dos lados de uno respectivamente iguales a dos lados del otro ($\drawUnitLine{CA} = \drawUnitLine{FD}$ y $\drawUnitLine{AB} = \drawUnitLine{DE}$) y también sus bases ($\drawUnitLine{BC} = \drawUnitLine{EF}$), iguales; entonces los ángulos
-(\drawFromCurrentPicture{
-startAutoLabeling;
-startGlobalRotation(-getAttribute("angle","Direction","A"));
-draw byNamedAngleWithDummySides(A);
-stopGlobalRotation;
-stopAutoLabeling;
-} y
-\drawFromCurrentPicture{
-startAutoLabeling;
-startGlobalRotation(-getAttribute("angle","Direction","D"));
-draw byNamedAngleWithDummySides(D);
-stopGlobalRotation;
-stopAutoLabeling;
-}) contenidos por sus lados iguales son también iguales.}
+\problem{S}{i}{ dos triángulos tienen dos lados respectivamente iguales ($\drawUnitLine{CA} = \drawUnitLine{FD}$ y $\drawUnitLine{AB} = \drawUnitLine{DE}$) y también sus bases son iguales ($\drawUnitLine{BC} = \drawUnitLine{EF}$) , entonces los ángulos (\drawAngle{A} y \drawAngle{D}) contenidos por sus lados iguales también son iguales.}
 
-Si las bases iguales \drawUnitLine{BC} y \drawUnitLine{EF} se colocan una sobre la otra, de modo que los triángulos estén en el mismo lado de ellas, y que los lados iguales \drawUnitLine{AB} y \drawUnitLine{DE}, \drawUnitLine{CA} y \drawUnitLine{FD} sean contiguos, el vértice de uno debe caer sobre el vértice del otro; pues al suponerlos y no fueran coincidentes se contradiría la anterior proposición.
+Si las bases son iguales $\drawUnitLine{BC} y \drawUnitLine{EF}$, se coloca una sobre la otra, de modo que los triángulos estén en el mismo lado de ellas, por lo que los lados iguales \drawUnitLine{AB} y \drawUnitLine{DE}, \drawUnitLine{CA} y \drawUnitLine{FD} son adyacentes, entonces el vértice de uno de los triángulos (\drawPointL{A}) coincide con el vértice del otro (\drawPointL{D}); pues si al suponerlos éstos no fueran coincidentes se contradiría la proposición anterior \byref{prop:I.VII}.
 
-Por lo tanto los lados \drawUnitLine{AB} y \drawUnitLine{CA}, coinciden con \drawUnitLine{DE} y \drawUnitLine{FD}, $\therefore \drawAngle{A} = \drawAngle{D}$.
+Por lo tanto los lados \drawUnitLine{AB} y \drawUnitLine{CA} de un triángulo, coinciden con \drawUnitLine{DE} y \drawUnitLine{FD} del otro, 
+\begin{center} $\therefore \drawAngle{A} = \drawAngle{D}$. \end{center}
 
 \qed
 
@@ -1675,11 +1914,11 @@ draw byLabelsOnPolygon(D, B, A, C)(ALL_LABELS, 0);
 \begin{center}
 Toma $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
 
-dibuja \drawUnitLine{BC}, sobre el cual construye \drawLine{CD,DB,BC} \byref{prop:I.I},\\
-dibuja \drawUnitLine{AD}.
+traza \drawUnitLine{BC}, y construye \drawLine{CD,DB,BC} \byref{prop:I.I},\\
+traza \drawUnitLine{AD}. \newline
 
-$\because \drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\ %Because
-y \drawUnitLine{AD} común a los dos triángulos\\  % what triangles?
+Como $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref},\\ %Because
+\drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \\  % what triangles?
 y $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref},
 
 $\therefore \drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.VIII}.
@@ -1709,14 +1948,12 @@ draw byLabelsOnPolygon(B, A, C, D)(ALL_LABELS, 0);
 \problem{B}{isecar}{una línea recta finita dada (\drawUnitLine{DB,CD}).}
 
 \begin{center}
-Se construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
-dibuja \drawUnitLine{AD}, tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}.
+Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
+traza \drawUnitLine{AD}, tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}. \\
+Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ por \byref{prop:I.IV}.\newline
 
-Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ por \byref{prop:I.IV}.\\
-
-Porque $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref} $\drawAngle{BAD} = \drawAngle{CAD}$\\
-y \drawUnitLine{AD} es común a los dos triángulos. % what triangles? obviously DBA and DAC
-
+Porque $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref}, $\drawAngle{BAD} = \drawAngle{CAD}$\\
+y \drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \newline \newline
 Por lo tanto la línea dada está bisecada.
 \end{center}
 
@@ -1747,18 +1984,17 @@ draw byLabelsOnPolygon(F, C, D, B, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(B, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem{D}{esde}{un punto (\drawPointL[middle][AD]{D}), en una línea recta dada (\drawUnitLine[3/2cm]{BD,DC}), dibujar una perpendicular.}
+\problem{D}{esde}{un punto dado(\drawPointL[middle][AD]{D}), en una línea recta dada (\drawUnitLine[3/2cm]{BD,DC}), dibujar una perpendicular a la recta.}
 
 \begin{center}
-Se toma cualquier punto (\drawPointL[middle][CA]{C}) en la línea dada,\\
-se toman rectas finitas tal que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
-se construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
-dibuja \drawUnitLine{AD} y será perpendicular a la línea dada. \newline
+Toma cualquier punto (\drawPointL[middle][CA]{C}) en la línea,\\
+toma rectas finitas tal que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
+Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I}.\\
+traza \drawUnitLine{AD} y ésta será perpendicular a la línea. \newline
 
-Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref}\\
+Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref},\\
 $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref}\\
-y \drawUnitLine{AD} es común a los dos triángulos. % what triangles? obviously DBA and DAC
-
+y \drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \newline \newline
 Por lo tanto $\drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
 
 $\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
@@ -1805,17 +2041,17 @@ draw byLabelLineEnd(C, A, 0);
 \problem{D}{ibujar}{una recta perpendicular a una línea recta indefinida dada (\drawUnitLine[1.2cm]{DB,CD}) desde un punto dado (\drawPointL{A}).}
 
 \begin{center}
-Desde un punto dado \drawPointL{A} como centro, desde un lado de la línea y a una distancia \drawUnitLine{DB} capaz de extenderse al otro lado, se traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB
+Desde el punto dado \drawPointL{A} como centro y a una distancia \drawUnitLine{AB} capaz de extenderse al otro lado, se traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB, tomé la distancia DA como referencia.
 
 Toma $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.X},\\
 traza \drawUnitLine{AB}, \drawUnitLine{CA} y \drawUnitLine{AD},\\
-entonces $\drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$.
+entonces $\drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$. \newline
 
 Por \byref{prop:I.VIII} ya que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{\constref},\\
-\drawUnitLine{AD} es común a ambos triángulos,\\ % to both what? obviously DBA and DAC
+\drawUnitLine{AD} es común a \drawLine{AB,BD,DA} y \drawLine{AC,CD,DA}\\
 y $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV},
 
-$\therefore \drawAngle{ADB} = \drawAngle{CDA}$, y
+$\therefore \drawAngle{ADB} = \drawAngle{CDA}$, 
 
 $\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
 \end{center}
@@ -1842,13 +2078,13 @@ draw byLabelLineEnd(E, D, 0);
 draw byLabelLineEnd(A, D, 0);
 }
 \drawCurrentPictureInMargin
-\problem{C}{uando}{una linea recta (\drawUnitLine{ED}) se encuentra con otra linea recta (\drawUnitLine{BC}) se forman ángulos; estos pueden ser dos ángulos rectos o la suma de ambos ángulos es igual a dos ángulos rectos.}
+\problem{C}{uando}{una linea recta (\drawUnitLine{ED}) se encuentra con otra linea recta (\drawUnitLine{BC}) se forman ángulos; pueden ser dos ángulos rectos o la suma de ambos ángulos será igual a dos ángulos rectos.}
 
 \begin{center}
 Supongamos que \drawUnitLine{ED} $\perp$ \drawUnitLine{BC}, entonces\\
-\drawAngle{ADB,EDA} + $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}, % improvement: def. 7 in the original is likely to be a mistake
+\drawAngle{ADB,EDA} + $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}. \newline % improvement: def. 7 in the original is likely to be a mistake
 
-pero si \drawUnitLine{ED} no es $\perp$ a \drawUnitLine{BC},\\
+Pero si \drawUnitLine{ED} no es $\perp$ a \drawUnitLine{BC},\\
 traza $\drawUnitLine{AD} \perp \drawUnitLine{BC}$ \byref{prop:I.XI};\\
 entonces $\drawAngle{ADB} +\drawAngle{CDE,EDA} = \drawTwoRightAngles$ \byref{\constref},\\
 $\drawAngle{ADB} = \drawAngle{CDE,EDA} = \drawAngle{EDA} + \drawAngle{CDE}$
@@ -1881,15 +2117,15 @@ draw byLabelsOnPolygon(C, B, noPoint)(OMIT_LAST_LABEL, 0);
 draw byLabelLineEnd(A, D, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{dos lineas rectas (\drawUnitLine{BD} y \drawUnitLine{DC}), se encuentran con una tercera linea recta (\drawUnitLine{AD}) en el mismo punto y en lados opuestos, con ángulos adyacentes (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} y \drawAngle{CDA}) iguales a dos ángulos rectos; entonces estas lineas rectas forman una sola linea recta.}
+\problem{S}{i}{dos lineas rectas (\drawUnitLine{BD} y \drawUnitLine{DC}), se encuentran con una tercera linea recta (\drawUnitLine{AD}) en el mismo punto y en lados opuestos, con ángulos adyacentes (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} y \drawAngle{CDA}) iguales a dos ángulos rectos; entonces estas lineas forman una sola linea recta.}
 
 \begin{center}
 Supongamos que \drawUnitLine{ED}, es la continuación de \drawUnitLine{BD}, y no \drawUnitLine{DC},\\
 entonces $\drawAngle{BDA} + \drawAngle{CDA,EDC} = \drawTwoRightAngles$
 
-pero por la hipótesis $\drawAngle{BDA} + \drawAngle{CDA} = \drawTwoRightAngles$
+pero por hipótesis $\drawAngle{BDA} + \drawAngle{CDA} = \drawTwoRightAngles$
 
-$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III}; lo cual es absurdo \byref{ax:I.IX}.
+$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III}; lo cual es una contradicción \byref{ax:I.IX}.
 
 $\therefore \drawUnitLine{ED}$ no es la continuación de \drawUnitLine{BD}, y lo mismo puede ser demostrado de cualquier otra línea recta excepto \drawUnitLine{DC}, \\ $\therefore \drawUnitLine{DC}$ es la continuación de \drawUnitLine{BD}.
 \end{center}
@@ -1964,11 +2200,11 @@ draw byLabelsOnPolygon(F, A, B, E, D, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 draw byLabelsOnPolygon(F, C, G, noPoint)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{el lado de un triángulo (\drawLine[bottom]{BE,EC,AC,AB}) es alargado, el ángulo externo formado (\drawFromCurrentPicture[middle][anglesECDpDCF]{
+\problem{S}{i}{el lado de un triángulo (\drawLine[bottom]{BE,EC,AC,AB}) es prolongado, el ángulo externo formado (\drawFromCurrentPicture[middle][anglesECDpDCF]{
 startAutoLabeling;
 draw byNamedAngleSides(ECD,DCF)(CF);
 stopAutoLabeling;
-}) es mayor que cualquiera de los ángulos internos (\drawAngle{B} or \drawAngle{A}).
+}) es mayor que cualquiera de los ángulos internos (\drawAngle{B} o \drawAngle{A}).
 }
 
 \begin{center}
@@ -1976,12 +2212,12 @@ Toma $\drawUnitLine{BE} = \drawUnitLine{EC}$ \byref{prop:I.X};\\
 traza \drawUnitLine{AE} tal que $\drawUnitLine{ED} = \drawUnitLine{AE}$;\\
 traza \drawUnitLine{CD}.
 
-Para \drawLine{BE,AE,AB} y \drawLine{EC,ED,CD};\\
-$\drawUnitLine{BE} = \drawUnitLine{EC}$, $\drawAngle{AEB} = \drawAngle{DEC}$ \\ y $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref,prop:I.XV},\\
+Para \drawLine{BE,AE,AB} y \drawLine{EC,ED,CD}, se tiene que:\\
+$\drawUnitLine{BE} = \drawUnitLine{EC}$, \\$\drawAngle{AEB} = \drawAngle{DEC}$ \\ y $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref} y \byref{prop:I.XV},\\
 $\therefore \drawAngle{B} = \drawAngle{ECD}$ \byref{prop:I.IV},\\
 $\therefore \anglesECDpDCF\ > \drawAngle{B}$.
 
-En la misma manera se puede demostrar que si se extiende \drawUnitLine{BC}, $\drawAngle{GCA} > \drawAngle{A}$ \\
+De la misma manera se puede demostrar que si se extiende \drawUnitLine{BC}, $\drawAngle{GCA} > \drawAngle{A}$ \\
 por lo tanto \anglesECDpDCF\ $= \drawAngle{GCA}$ $> \drawAngle{A}$.
 \end{center}
 
@@ -2013,7 +2249,7 @@ draw byLabelsOnPolygon(D, C, A, B)(ALL_LABELS, 0);
 Prolonga \drawUnitLine{AC}, entonces\\
 $\drawAngle{ACB} + \drawAngle{BCD} = \drawTwoRightAngles$.
 
-Pero $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
+Como $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
 
 $\therefore \drawAngle{ACB} + \drawAngle{A} < \drawTwoRightAngles$,
 \end{center}
@@ -2048,16 +2284,16 @@ draw byNamedLineSeq(0)(DC,BC,BA,AD);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem[3]{E}{n}{cualquier triángulo \drawLine{DC,BC,BA,AD} si un lado \drawUnitLine{AD,DC}es mayor que otro \drawUnitLine{BC}, el ángulo opuesto al lado mayor es mayor que el ángulo opuesto al lado menor $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
+\problem[3]{E}{n}{cualquier triángulo \drawLine{DC,BC,BA,AD} si un lado (\drawUnitLine{AD,DC}) es mayor que otro (\drawUnitLine{BC}), el ángulo opuesto al lado mayor es mayor que el ángulo opuesto al lado menor, es decir $\drawAngle{DBC,ABD} > \drawAngle{A}$.}
 
 \begin{center}
-Toma $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, traza \drawUnitLine{DB}.
+Toma $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, \\ traza \drawUnitLine{DB}.
 
 Entonces $\drawAngle{D} = \drawAngle{DBC}$ \byref{prop:I.V};
 
 pero $\drawAngle{D} > \drawAngle{A}$ \byref{prop:I.XVI}
 
-$\therefore \drawAngle{DBC} > \drawAngle{A}$, más aún\\ $\drawAngle{DBC,ABD} > \drawAngle{A}$.
+$\therefore \drawAngle{DBC} > \drawAngle{A}$,\\ \therefore $\drawAngle{DBC,ABD} > \drawAngle{A}$.
 \end{center}
 
 \qed
@@ -2078,10 +2314,10 @@ draw byNamedLineSeq(0)(CA,BC,AB);
 draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{en cualquier triángulo \drawLine[bottom]{CA,BC,AB} un ángulo \drawAngle{A} es mayor que otro \drawAngle{B} el lado \drawUnitLine{BC} opuesto al ángulo mayor es mayor que el lado \drawUnitLine{CA} opuesto al ángulo menor.}
+\problem{E}{n}{en cualquier triángulo \drawLine[bottom]{CA,BC,AB} si un ángulo \drawAngle{A} es mayor que otro \drawAngle{B} el lado \drawUnitLine{BC} opuesto al ángulo mayor es mayor que el lado \drawUnitLine{CA} opuesto al ángulo menor.}
 
 \begin{center}
-Si \drawUnitLine{BC} no es mayor que \drawUnitLine{CA} entonces debe ser\\
+Supongamos que \drawUnitLine{BC} no es mayor que \drawUnitLine{CA} entonces debe ocurrir que:\\ 
 $\drawUnitLine{BC} = \drawUnitLine{CA}$ 
 ó 
 $\drawUnitLine{BC} < \drawUnitLine{CA}$. \\
@@ -2090,8 +2326,8 @@ Si $\drawUnitLine{BC} = \drawUnitLine{CA}$ entonces\\
 $\drawAngle{A} = \drawAngle{B}$ \byref{prop:I.V};\\
 lo cual es contrario a la hipótesis.
 
-\drawUnitLine{BC} no es menor que \drawUnitLine{CA}; porque si lo fuera,\\
-$\drawAngle{A} < \drawAngle{B}$ \byref{prop:I.XVIII}\\
+Si \drawUnitLine{BC} no es menor que \drawUnitLine{CA},\\
+entonces $\drawAngle{A} < \drawAngle{B}$ \byref{prop:I.XVIII}\\
 lo cual es contrario a la hipótesis:
 
 $\therefore \drawUnitLine{BC} > \drawUnitLine{CA}$.
@@ -2120,15 +2356,15 @@ draw byNamedLineSeq(0)(DA,CD,BC,AB);
 draw byLabelsOnPolygon(D, C, B, A)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{L}{a}{suma de dos lados cualesquiera \drawUnitLine{DA} y \drawUnitLine{BD} de un triángulo \drawLine[bottom]{DA,BD,AB} es mayor que el tercer lado (\drawUnitLine{AB}).}
+\problem{L}{a}{suma de dos lados cualesquiera (\drawUnitLine{DA} y \drawUnitLine{BD}) de un triángulo \drawLine[bottom]{DA,BD,AB} es mayor que el tercer lado (\drawUnitLine{AB}).}
 
 \begin{center}
-Prolonga \drawUnitLine{DA}, y\\
+Prolonga \drawUnitLine{DA}, \\
 toma $\drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{prop:I.III};\\
 traza \drawUnitLine{BC}.
 
 Entonces $\drawUnitLine{CD} = \drawUnitLine{BD}$ \byref{\constref},\\ %because
-$\drawAngle{CBD} = \drawAngle{C}$ \byref{prop:I.V}
+$\drawAngle{CBD} = \drawAngle{C}$ \byref{prop:I.V}.
 
 $\therefore \drawAngle{CBD,DBA} > \drawAngle{C}$ \byref{ax:I.IX}
 
@@ -2165,7 +2401,7 @@ draw byLabelsOnPolygon(A, C, E, B)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(A, D, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 }
 \drawCurrentPictureInMargin
-\problem[2]{S}{i}{desde cualquier punto (\drawPointL[middle][DE]{D}) dentro de un triángulo \drawLine[bottom]{CA,EC,BE,AB} se trazan lineas rectas a los extremos de uno de los lados (\drawSizedLine{AB}), la suma de esas líneas será menor que la de los otros dos lados del triángulo, y contendrán un ángulo mayor.}
+\problem[2]{S}{i}{desde cualquier punto (\drawPointL[middle][DE]{D}) dentro de un triángulo \drawLine[bottom]{CA,EC,BE,AB} se trazan lineas rectas a los extremos de uno de los lados (\drawSizedLine{AB}), la suma de esas líneas será menor que la de los otros dos lados del triángulo, y el ángulo que forman será mayor.}
 
 \begin{center}
 Prolonga \drawSizedLine{AD},\\
@@ -2176,7 +2412,7 @@ $\drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD,DE} + \drawSized
 en la misma manera se puede demostrar que\\
 $\drawSizedLine{AD,DE} + \drawSizedLine{BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
 $\therefore \drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
-que era lo que se debía demostrar.
+que era lo que se debía demostrar. \newline
 
 Asi mismo $\drawAngle{E} > \drawAngle{C}$ \byref{prop:I.XVI},\\
 y también $\drawAngle{D} > \drawAngle{E}$ \byref{prop:I.XVI},
@@ -2232,7 +2468,7 @@ draw byLabelLine(0)(L', L'', L''');
 \nointerlineskip\hbox{\drawSizedLine{L'}}
 \nointerlineskip\hbox{\drawSizedLine{L''}}
 \nointerlineskip\hbox{\drawSizedLine{L'''}}}\right.$
-cuya suma de dos cualesquiera sea mayor que la tercera, construir un triángulo cuyos lados sean respectivamente iguales a las lineas dadas.}
+tal que la suma de dos cualesquiera es mayor que la tercera, construir un triángulo cuyos lados sean respectivamente iguales a las lineas dadas.}
 
 \begin{center}
 Toma $\drawSizedLine{AB} = \drawSizedLine{L'}$ \byref{prop:I.III}.
@@ -2256,11 +2492,11 @@ draw byLabelLineEnd(B, E, 0);
 draw byLabelLineEnd(E, B, 0);
 }} \byref{post:I.III};\\
 traza \drawSizedLine{CA} y \drawSizedLine{BC},\\
-entonces \drawLine[bottom]{CA,BC,AB} es el triángulo requerido. \newline
+entonces \drawLine[bottom]{CA,BC,AB} es el triángulo requerido. \newline \newline
 
 $\left.
 	\begin{aligned}
-		\mbox{Pues } \drawSizedLine{AB} &= \drawSizedLine{L'} \mbox{,} \\
+		\mbox{Porque } \drawSizedLine{AB} &= \drawSizedLine{L'} \mbox{,} \\
 		\drawSizedLine{BC} &= \drawSizedLine{BE} = \drawSizedLine{L''} \mbox{,} \\
 		\mbox{y } \drawSizedLine{CA} &= \drawSizedLine{AD} = \drawSizedLine{L'''} \mbox{.} \\
 	\end{aligned}
@@ -2302,10 +2538,9 @@ draw byLabelsOnPolygon(noPoint,J, G, F, H, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 
 \drawCurrentPictureInMargin
 \problem{D}{esde}{un punto dado (\drawPointL{F}) en una linea recta dada (\drawUnitLine{FG,GJ}), construir un ángulo igual a un ángulo dado (\drawAngle{A}).}
 
-Traza \drawUnitLine{BC} en dos puntos cualesquiera de los lados del ángulo dado.
-
 \begin{center}
-Traza \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
+Traza \drawUnitLine{BC} en cualquier punto \\ de los lados del ángulo dado.\\ 
+Construye \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
 tal que $\drawUnitLine{FG} = \drawUnitLine{AB}$, $\drawUnitLine{HF} = \drawUnitLine{CA}$\\
 y $\drawUnitLine{GH} = \drawUnitLine{BC}$.
 
@@ -2359,7 +2594,7 @@ draw byLabelsOnPolygon(D, A, B, C)(ALL_LABELS, 0);
 draw byLabelsOnPolygon(G, E, F)(ALL_LABELS, 0);
 }
 \drawCurrentPictureInMargin
-\problem{S}{i}{un triángulo tiene dos lados respectivamente iguales a dos lados de otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y si uno de los ángulos
+\problem{S}{i}{un triángulo tiene dos lados respectivamente iguales a dos lados de otro (\drawUnitLine{AB} con \drawUnitLine{EF} y \drawUnitLine{AD} con \drawUnitLine{GE}), y uno de los ángulos
 (\drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 draw byNamedAngleSides(BAC,CAD)(AB,CA,AD);
@@ -2371,7 +2606,7 @@ startAutoLabeling;
 draw byNamedAngleSides(FEG)(EF, GE);
 stopAutoLabeling;
 }),
-el lado (\drawUnitLine{DB}) opuesto al mayor ángulo es mayor que el lado (\drawUnitLine{FG}) opuesto al ángulo menor.
+el lado opuesto al ángulo mayor (\drawUnitLine{DB}) es mayor que el lado opuesto al ángulo menor (\drawUnitLine{FG}).
 }
 
 \begin{center}
@@ -2383,7 +2618,7 @@ stopAutoLabeling;
 y $\drawUnitLine{CA} = \drawUnitLine{GE}$ \byref{prop:I.III},\\
 traza \drawUnitLine{CD} y \drawUnitLine{BC}.
 
-$\because \drawUnitLine{CA} = \drawUnitLine{AD}$ \byref{ax:I.I,\hypref,\constref}\\ %because
+$\because \drawUnitLine{CA} = \drawUnitLine{AD}$ \byref{ax:I.I,\hypref} y \byref{\constref}\\ %because
 $\therefore \drawAngle{BDA,CDB} = \drawAngle{DCA}$ \byref{prop:I.V}\\
 pero $\drawAngle{CDB} < \drawAngle{DCA}$,\\
 $\therefore \drawAngle{CDB} < \drawAngle{DCA,ACB}$,
