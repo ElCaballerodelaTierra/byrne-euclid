@@ -95,21 +95,18 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \section*{Créditos y atribución}
 
 \small
-\textit{Los Elementos} es una obra que reúne trabajos de matemáticos como Pitágoras, Eudoxo y Teeteto. Euclides recopiló y les dio forma sistemática aproximadamente hace 2300 años en Alejandría.
+\textit{Los Elementos} es una obra que reúne trabajos de matemáticos como Pitágoras, Eudoxo y Teeteto, entre otros. Euclides los recopiló y les dio forma sistemática aproximadamente hace 2300 años en Alejandría.
 \\[\baselineskip]
-La edición visual en color fue publicada en Londres por 
-Oliver Byrne en 1847, bajo el título 
-\textit{The First Six Books of the Elements of Euclid}. 
+La edición a color fue publicada en Londres en 1847 por Oliver Byrne, bajo el título \textit{The First Six Books of the Elements of Euclid}. 
 \\[\baselineskip]
-La edición en \LaTeX\ fue creada en 2017 por Slyusarev Sergey, se encuentra disponible en inglés y ruso en Github.
+La versión en \LaTeX\ fue desarrollada por Slyusarev Sergey en 2017, se encuentra disponible en inglés y ruso en Github.
 \url{https://github.com/jemmybutton/byrne-euclid}
 \\[\baselineskip]
-La traducción al español y mejoras a la edición digital fueron realizadas en 2026 por \href{https://abstractions.blog}{Carlos Villarreal}
- en México.
+La traducción al español, así como diversas mejoras a la edición digital fueron realizadas por \href{https://abstractions.blog}{Carlos Villarreal} en México en 2026.
 \\[\baselineskip]
-Desde la publicación de esta obra por Byrne, la notación matemática y el estilo de exposición de las demostraciones han evolucionado en los últimos siglos. 
-Se procuró conservar la esencia de la obra original, pero con un lenguaje más accesible y moderno. \\
-Espero que este libro llegue a las manos de muchas personas y contribuya a despertar en ellas el interés por la verdadera esencia de las matemáticas.
+Desde la publicación de esta obra por Byrne, la notación matemática y el estilo de exposición de las demostraciones han evolucionado en los últimos siglos.
+Esta edición conserva la esencia de la obra original, pero con un lenguaje más claro y con algunas demostraciones reescritas para facilitar su comprensión.\\
+Espero que este libro llegue a muchas personas y contribuya a despertar en ellas el interés por la verdadera esencia de las matemáticas.
 
 \begin{center}
 \ccbysa 
@@ -540,9 +537,9 @@ expresa la palabra \emph{por lo tanto}.
 \symb{$:\ ::\ :$}
  expresa una \emph{analogía} o \emph{proporción}. \\ Así, si $A$, $B$, $C$ y $D$ representan cuatro magnitudes, y $A$ tiene con $B$ la misma proporción que $C$ tiene con $D$, la proporción se escribe así:
 
-$A : B :: C : D$ , $A : B = C : D$ , $\dfrac{A}{B} = \dfrac{C}{D}$.
+$A : B :: C : D$ , $A : B = C : D$ , $\dfrac{A}{B} = \dfrac{C}{D}$. \\
 
-Esta igualdad o proporción se lee:
+Esta igualdad o proporción se lee:\\
 
 Como A es a B, así es C a D,
 
@@ -3929,7 +3926,8 @@ y \drawPolygon[middle][polygonABED]{ABED}  \\[0.5em]
 \byref{prop:I.XLVI}.\\[0.5em]
 
 Traza $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$ \byref{prop:I.XXXI}, \\[0.5em]
-traza \drawUnitLine{BF} y \drawUnitLine{AI}.\\[0.5em]
+desde \drawPointL{A} traza \drawUnitLine{BF}, \\
+desde \drawPointL{B} traza \drawUnitLine{AI}.\\[0.5em]
 Como $\drawAngle{BCI} = \drawAngle{FCA}$ \byref{\constref}, \\[0.5em]
 
 entonces al sumar \drawAngle{ACB}: \\[0.5em]
@@ -3956,8 +3954,8 @@ $. \\[0.5em]
 \pagebreak
 Como $\drawUnitLine{AB} \parallel \drawUnitLine{CF}$\\[0.5em] %because
 $\therefore \drawPolygon[middle][polygonACFG]{LAGF,CLF} = \mbox{ 2 } \polygonBLC$,\\[0.5em]
-y $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$\\
- $\therefore \drawPolygon[middle][polygonJMCK]{JMIK,MCI} = \mbox{ 2 } \polygonAFC$;\\[0.5em]
+también $\drawUnitLine{AK} \parallel \drawUnitLine{CI}$\\
+$\therefore \drawPolygon[middle][polygonJMCK]{JMIK,MCI} = \mbox{ 2 } \polygonAFC$;\\[0.5em]
 
 $\therefore \polygonACFG = \polygonJMCK$.\\[0.5em]
 
