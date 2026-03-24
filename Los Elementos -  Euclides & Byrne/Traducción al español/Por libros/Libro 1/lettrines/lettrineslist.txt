@@ -35,7 +35,7 @@ D
 S
 S
 L
-L
+P
 P
 T
 T
