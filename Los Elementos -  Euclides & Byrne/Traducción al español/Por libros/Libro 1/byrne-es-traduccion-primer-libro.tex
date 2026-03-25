@@ -504,8 +504,9 @@ Un \emph{escolio} es una nota u observación sobre una proposición que no const
 \symb{$\therefore$}
 expresa la palabra \emph{por lo tanto}.
 
-\symb{$\because$}
- expresa la palabra \emph{porque}.
+% \symb{$\because$}
+%  expresa la palabra \emph{porque}.
+% Se elimina el símbolo porque no se usa en las demostraciones actuales.
 
 \symb{$=$}
  expresa la palabra \emph{igual}. \\ Este signo de igualdad puede leerse \emph{igual a}, o \emph{es igual a}, o \emph{son iguales a}; pero la discrepancia con respecto a la introducción de los verbos auxiliares \emph{es}, \emph{son}, etc. no puede afectar el rigor geométrico.
@@ -659,7 +660,7 @@ Una superficie es aquella que sólo tiene longitud y anchura, sin espesor.
 
 \startdefinition{}\label{def:I.VI}
 \begin{center}
-Los extremos de una superficie son rectas.
+Los extremos de una superficie son líneas.
 \end{center}
 
 \startdefinition{}\label{def:I.VII}
@@ -1160,19 +1161,19 @@ Si se suman iguales, las sumas serán iguales.
 	s := 1u;
 	A := (0, 0);
 	B := (s, 0);
-	C := (s * cosd(30), s * sind(30));
+	C := (s * cosd(90), s * sind(90));
 	byAngleDefine(B, A, C, byred, SOLID_SECTOR);
 	byLineDefine(A, B, byblack, SOLID_LINE, REGULAR_WIDTH);
 	byLineDefine(A, C, byblack, SOLID_LINE, REGULAR_WIDTH);
 	D := (0, 0);
 	E := (s, 0);
-	F := (s * cosd(90), s * sind(90));
+	F := (s * cosd(30), s * sind(30));
 	byAngleDefine(E, D, F, byblue, SOLID_SECTOR);
 	byLineDefine(D, E, byblack, SOLID_LINE, REGULAR_WIDTH);
 	byLineDefine(D, F, byblack, SOLID_LINE, REGULAR_WIDTH);
 	G := (0, 0);
 	H := (s, 0);
-	I := (s * cosd(30), s * sind(30));
+	I := (s * cosd(90), s * sind(90));
 	byAngleDefine(H, G, I, byyellow, SOLID_SECTOR);
 	byLineDefine(G, H, byblack, SOLID_LINE, REGULAR_WIDTH);
 	byLineDefine(G, I, byblack, SOLID_LINE, REGULAR_WIDTH);
@@ -1560,7 +1561,8 @@ stopGlobalRotation;
 }), dibujar una línea recta igual a una línea recta finita dada (\drawUnitLine{BC}).}
 
 \begin{center}
-Traza \drawUnitLine{AB} \byref{post:I.I}, construye \drawFromCurrentPicture[bottom]{
+Traza \drawUnitLine{AB} \byref{post:I.I},\\
+construye \drawFromCurrentPicture[bottom]{
 startAutoLabeling;
 startTempScale(scaleFactor*3);
 startGlobalRotation(180-lineAngle.AB);
@@ -1568,24 +1570,28 @@ draw byNamedLineSeq(0)(AB,BD,DA);
 stopGlobalRotation;
 stopTempScale;
 stopAutoLabeling;
-} \byref{prop:I.I}, prolonga \drawUnitLine{BD} \byref{post:I.II}, traza \drawFromCurrentPicture{
+} \byref{prop:I.I},\\
+prolonga \drawUnitLine{BD} \byref{post:I.II},\\
+traza \drawFromCurrentPicture{
 draw byNamedLine (BC);
 draw byNamedCircle(B);
 draw byLabelLineEnd(B, C, 0);
 draw byLabelLineEnd(C, B, 0);
-} \byref{post:I.III}, y \drawFromCurrentPicture{
+} \byref{post:I.III} y \drawFromCurrentPicture{
 draw byNamedLineSeq(0)(BD, BE);
 draw byNamedCircle(A);
 draw byLabelLineEnd(D, E, 0);
 draw byLabelLineEnd(E, D, 1);
-} \byref{post:I.III}; prolonga \drawUnitLine{DA} \byref{post:I.II}, \\ entonces \drawUnitLine{AF} es la línea requerida. \newline
+} \byref{post:I.III}, 
+\\prolonga \drawUnitLine{DA} \byref{post:I.II} \\
+entonces \drawUnitLine{AF} es la línea requerida. \newline
 
 Porque $\drawUnitLine{BE,BD} = \drawUnitLine{DA,AF}$ \byref{def:I.XV},\\
 y $\drawUnitLine{BD} = \drawUnitLine{DA}$ \byref{\constref},\\
 $\therefore \drawUnitLine{BE} = \drawUnitLine{AF}$ \byref{post:I.III},\\
-y como \byref{def:I.XV} $\drawUnitLine{BC} = \drawUnitLine{BE} = \drawUnitLine{AF}$;
+y como $\drawUnitLine{BC} = \drawUnitLine{BE} = \drawUnitLine{AF}$ \byref{def:I.XV};
 
-$\therefore$ $\drawUnitLine{AF}$ trazada desde el punto dado (\pointA), \\ es igual a la línea dada \drawUnitLine{BC}.
+$\therefore$ $\drawUnitLine{AF}$ trazada desde el punto (\pointA), \\ es igual a la línea \drawUnitLine{BC}.
 \end{center}
 
 \qed
@@ -1767,7 +1773,7 @@ se tiene que $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{\constref},\\
 $\drawAngle{A} = \drawAngle{B}$ \byref{\hypref} y \drawUnitLine{AB} común,\\
 $\therefore$ los triángulos son iguales \byref{prop:I.IV}\\
 es decir una parte es igual al todo, lo cual es una contradicción \byref{ax:I.IX};\\
-$\therefore$ ninguno de los lados \drawUnitLine{CA,CD} o \drawUnitLine{BD} es mayor que el otro, por lo tanto son iguales.
+$\therefore$ ninguno de los lados \drawUnitLine{CA,CD} o \drawUnitLine{BD} es mayor que el otro, es decir, son iguales.
 \end{center}
 
 \qed
@@ -1911,12 +1917,13 @@ draw byLabelsOnPolygon(D, B, A, C)(ALL_LABELS, 0);
 \begin{center}
 Toma $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{prop:I.III}
 
-traza \drawUnitLine{BC}, y construye \drawLine{CD,DB,BC} \byref{prop:I.I},\\
-traza \drawUnitLine{AD}. \newline
+traza \drawUnitLine{BC}, \\
+construye \drawLine{CD,DB,BC} \byref{prop:I.I},\\
+traza \drawUnitLine{AD}. \\[1em]
 
 Como $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref},\\ %Because
 \drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \\  % what triangles?
-y $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref},
+y $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref},\\[1em] 
 
 $\therefore \drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.VIII}.
 \end{center}
@@ -1946,12 +1953,12 @@ draw byLabelsOnPolygon(B, A, C, D)(ALL_LABELS, 0);
 
 \begin{center}
 Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
-traza \drawUnitLine{AD}, tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}. \\
-Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ por \byref{prop:I.IV}.\newline
+traza \drawUnitLine{AD} tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}. \\
+Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ \byref{prop:I.IV}.\newline
 
-Porque $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref}, $\drawAngle{BAD} = \drawAngle{CAD}$\\
+Porque $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref},\\ $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{\constref}\\
 y \drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \newline \newline
-Por lo tanto la línea dada está bisecada.
+\therefore \drawUnitLine{DB,CD} está bisecada.
 \end{center}
 
 \qed
@@ -1992,7 +1999,7 @@ traza \drawUnitLine{AD} y ésta será perpendicular a la línea. \newline
 Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref},\\
 $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref}\\
 y \drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \newline \newline
-Por lo tanto $\drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
+$\therefore \drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
 
 $\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
 \end{center}
@@ -2038,17 +2045,18 @@ draw byLabelLineEnd(C, A, 0);
 \problem{D}{ibujar}{una recta perpendicular a una línea recta indefinida dada (\drawUnitLine[1.2cm]{DB,CD}) desde un punto dado (\drawPointL{A}).}
 
 \begin{center}
-Desde el punto dado \drawPointL{A} como centro y a una distancia \drawUnitLine{AB} capaz de extenderse al otro lado, se traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB, tomé la distancia DA como referencia.
+Desde el punto dado \drawPointL{A} como centro y a una distancia \drawUnitLine{AB} capaz de extenderse al otro lado, \\ 
+se traza con el compás \drawArc{O}. % improvement: the distance mentioned here seems not to be in the original drawing, it should either be drawn, or not be referenced graphically as DB, tomé la distancia DA como referencia.
 
 Toma $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.X},\\
 traza \drawUnitLine{AB}, \drawUnitLine{CA} y \drawUnitLine{AD},\\
 entonces $\drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$. \newline
 
 Por \byref{prop:I.VIII} ya que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{\constref},\\
-\drawUnitLine{AD} es común a \drawLine{AB,BD,DA} y \drawLine{AC,CD,DA}\\
-y $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV},
+\drawUnitLine{AD} es común a \drawLine{AB,BD,DA} y \drawLine{AC,CD,DA}\\[0.5em]
+y $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{def:I.XV},\\[0.5em]
 
-$\therefore \drawAngle{ADB} = \drawAngle{CDA}$, 
+$\therefore \drawAngle{ADB} = \drawAngle{CDA}$, \\[0.5em]
 
 $\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
 \end{center}
@@ -2078,10 +2086,10 @@ draw byLabelLineEnd(A, D, 0);
 \problem{C}{uando}{una linea recta (\drawUnitLine{ED}) se encuentra con otra linea recta (\drawUnitLine{BC}) se forman ángulos; pueden ser dos ángulos rectos o la suma de ambos ángulos será igual a dos ángulos rectos.}
 
 \begin{center}
-Supongamos que \drawUnitLine{ED} $\perp$ \drawUnitLine{BC}, entonces\\
-\drawAngle{ADB,EDA} + $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}. \newline % improvement: def. 7 in the original is likely to be a mistake
+Supongamos que \drawUnitLine{ED} $\perp$ \drawUnitLine{BC}, \\ 
+entonces \drawAngle{ADB,EDA} + $\drawAngle{CDE} = \drawTwoRightAngles$ \byref{def:I.X}. \newline % improvement: def. 7 in the original is likely to be a mistake
 
-Pero si \drawUnitLine{ED} no es $\perp$ a \drawUnitLine{BC},\\
+Si \drawUnitLine{ED} no es $\perp$ a \drawUnitLine{BC},\\
 traza $\drawUnitLine{AD} \perp \drawUnitLine{BC}$ \byref{prop:I.XI};\\
 entonces $\drawAngle{ADB} +\drawAngle{CDE,EDA} = \drawTwoRightAngles$ \byref{\constref},\\
 $\drawAngle{ADB} = \drawAngle{CDE,EDA} = \drawAngle{EDA} + \drawAngle{CDE}$
@@ -2117,14 +2125,14 @@ draw byLabelLineEnd(A, D, 0);
 \problem{S}{i}{dos lineas rectas (\drawUnitLine{BD} y \drawUnitLine{DC}), se encuentran con una tercera linea recta (\drawUnitLine{AD}) en el mismo punto y en lados opuestos, con ángulos adyacentes (\offsetPicture{0pt}{15pt}{\drawAngle{BDA}} y \drawAngle{CDA}) iguales a dos ángulos rectos; entonces estas lineas forman una sola linea recta.}
 
 \begin{center}
-Supongamos que \drawUnitLine{ED}, es la continuación de \drawUnitLine{BD}, y no \drawUnitLine{DC},\\
-entonces $\drawAngle{BDA} + \drawAngle{CDA,EDC} = \drawTwoRightAngles$
+Supongamos que \drawUnitLine{DC} no es la continuación de \drawUnitLine{BD}, entonces existe otra linea \drawUnitLine{ED} que es su continuación. \\
+Entonces $\drawAngle{BDA} + \drawAngle{CDA,EDC} = \drawTwoRightAngles$
 
 pero por hipótesis $\drawAngle{BDA} + \drawAngle{CDA} = \drawTwoRightAngles$
 
-$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III}; lo cual es una contradicción \byref{ax:I.IX}.
+$\therefore\drawAngle{CDA,EDC} = \drawAngle{CDA}$ \byref{ax:I.III} \\ lo cual es una contradicción \byref{ax:I.IX}.
 
-$\therefore \drawUnitLine{ED}$ no es la continuación de \drawUnitLine{BD}, y lo mismo puede ser demostrado de cualquier otra línea recta excepto \drawUnitLine{DC}, \\ $\therefore \drawUnitLine{DC}$ es la continuación de \drawUnitLine{BD}.
+$\therefore \drawUnitLine{ED}$ no es la continuación de \drawUnitLine{BD}, y lo mismo puede ser demostrado para cualquier otra línea recta excepto \drawUnitLine{DC}, \\ $\therefore \drawUnitLine{DC}$ es la continuación de \drawUnitLine{BD}.
 \end{center}
 
 \qed
@@ -2158,7 +2166,7 @@ $\drawAngle{AED} + \drawAngle{CEA} = \drawTwoRightAngles$ \byref{prop:I.XIII}
 
 $\therefore \drawAngle{BEC} = \drawAngle{AED}$ \byref{ax:I.III}. % And this is according to \byref{ax:I.III}
 
-Del mismo modo se puede demostrar que\\
+Con el mismo razonamiento se demuestra \\
 $\drawAngle{CEA} = \drawAngle{DEB}$.
 \end{center}
 
@@ -2288,7 +2296,7 @@ Toma $\drawUnitLine{DC} = \drawUnitLine{BC}$ \byref{prop:I.III}, \\ traza \drawU
 
 Entonces $\drawAngle{D} = \drawAngle{DBC}$ \byref{prop:I.V};
 
-pero $\drawAngle{D} > \drawAngle{A}$ \byref{prop:I.XVI}
+y como $\drawAngle{D} > \drawAngle{A}$ \byref{prop:I.XVI}
 
 $\therefore \drawAngle{DBC} > \drawAngle{A}$,\\ \therefore $\drawAngle{DBC,ABD} > \drawAngle{A}$.
 \end{center}
@@ -2314,18 +2322,19 @@ draw byLabelsOnPolygon(B, A, C)(ALL_LABELS, 0);
 \problem{E}{n}{en cualquier triángulo \drawLine[bottom]{CA,BC,AB} si un ángulo \drawAngle{A} es mayor que otro \drawAngle{B} el lado \drawUnitLine{BC} opuesto al ángulo mayor es mayor que el lado \drawUnitLine{CA} opuesto al ángulo menor.}
 
 \begin{center}
-Supongamos que \drawUnitLine{BC} no es mayor que \drawUnitLine{CA} entonces debe ocurrir que:\\ 
+Supongamos que \drawUnitLine{BC} \ngtr \drawUnitLine{CA} \\
+entonces debe ocurrir:\\[1em]
 $\drawUnitLine{BC} = \drawUnitLine{CA}$ 
 ó 
 $\drawUnitLine{BC} < \drawUnitLine{CA}$. \\
 
-Si $\drawUnitLine{BC} = \drawUnitLine{CA}$ entonces\\
-$\drawAngle{A} = \drawAngle{B}$ \byref{prop:I.V};\\
-lo cual es contrario a la hipótesis.
+Si $\drawUnitLine{BC} = \drawUnitLine{CA}$ \\
+entonces $\drawAngle{A} = \drawAngle{B}$ \byref{prop:I.V};\\
+lo cual es contrario a la hipótesis. \\[1em]
 
-Si \drawUnitLine{BC} no es menor que \drawUnitLine{CA},\\
+Si \drawUnitLine{BC} < \drawUnitLine{CA},\\
 entonces $\drawAngle{A} < \drawAngle{B}$ \byref{prop:I.XVIII}\\
-lo cual es contrario a la hipótesis:
+lo cual es contrario a la hipótesis. \\[1em]
 
 $\therefore \drawUnitLine{BC} > \drawUnitLine{CA}$.
 \end{center}
@@ -2403,13 +2412,13 @@ draw byLabelsOnPolygon(A, D, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 \begin{center}
 Prolonga \drawSizedLine{AD},\\
 $\drawSizedLine{CA} + \drawSizedLine{EC} > \drawSizedLine{AD,DE}$ \byref{prop:I.XX},\\
-añade \drawSizedLine{BE} a cada parte,\\
+suma \drawSizedLine{BE},\\
 $\drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD,DE} + \drawSizedLine{BE}$ \byref{ax:I.IV}
 
-en la misma manera se puede demostrar que\\
+de la misma manera se demuestra:\\
 $\drawSizedLine{AD,DE} + \drawSizedLine{BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
 $\therefore \drawSizedLine{CA} + \drawSizedLine{EC,BE} > \drawSizedLine{AD} + \drawSizedLine{BD}$,\\
-que era lo que se debía demostrar. \newline
+que era lo que se debía demostrar. \\[1em]
 
 Asi mismo $\drawAngle{E} > \drawAngle{C}$ \byref{prop:I.XVI},\\
 y también $\drawAngle{D} > \drawAngle{E}$ \byref{prop:I.XVI},
@@ -2536,9 +2545,10 @@ draw byLabelsOnPolygon(noPoint,J, G, F, H, G)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 
 \problem{D}{esde}{un punto dado (\drawPointL{F}) en una linea recta dada (\drawUnitLine{FG,GJ}), construir un ángulo igual a un ángulo dado (\drawAngle{A}).}
 
 \begin{center}
-Traza \drawUnitLine{BC} en cualquier punto \\ de los lados del ángulo dado.\\ 
+Traza \drawUnitLine{BC} desde cualquier punto \\ en cada uno de los lados del ángulo dado.\\ 
 Construye \drawLine[bottom]{HF,GH,FG} \byref{prop:I.XXII}\\
-tal que $\drawUnitLine{FG} = \drawUnitLine{AB}$, $\drawUnitLine{HF} = \drawUnitLine{CA}$\\
+tal que $\drawUnitLine{FG} = \drawUnitLine{AB}$,\\
+$\drawUnitLine{HF} = \drawUnitLine{CA}$\\
 y $\drawUnitLine{GH} = \drawUnitLine{BC}$.
 
 Entonces $\drawAngle{A} = \drawAngle{F}$ \byref{prop:I.VIII}.
@@ -2812,10 +2822,10 @@ draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 
 \begin{center}
 
-Supongamos que \drawUnitLine{CD} \nparallel \drawUnitLine{AB}, \\ es decir, se encontrarán en algún punto (\drawPointL{I}) cuando se prolonguen,\\ entonces \drawAngle{HEB} > \drawAngle{CFG} \byref{prop:I.XVI}, \\
-pero \drawAngle{HEB} = \drawAngle{CFG} \byref{\hypref}, lo cual es una contradicción.\\
+Supongamos que \drawUnitLine{CD} \nparallel \drawUnitLine{AB}, \\ por lo que se encontrarán en algún punto (\drawPointL{I}),\\ entonces \drawAngle{HEB} > \drawAngle{CFG} \byref{prop:I.XVI}, \\
+pero \drawAngle{HEB} = \drawAngle{CFG} \byref{\hypref}, lo cual es una contradicción.\\[0.5em]
 
-De la misma manera se puede demostrar que no pueden encontrarse en el otro lado, \\ 
+De la misma manera se puede demostrar que no pueden encontrarse en algún otro punto del otro lado, \\[0.5em] 
  $\therefore$ \drawUnitLine{CD} \parallel \drawUnitLine{AB}.
 
 \end{center}
@@ -2911,7 +2921,10 @@ traza \drawUnitLine{IE} tal que $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:
 
 Por lo tanto $\drawAngle{IEA,HEI} = \drawAngle{GFD}$, \\ 
  y como $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; \\
-$\therefore \drawAngle{GEB} = \drawAngle{GFD}$, \\ el ángulo externo es igual al interno y opuesto en el mismo lado. \\ Si \drawAngle{BEH} se suma a ambos, \\ entonces $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. \\ 
+$\therefore \drawAngle{GEB} = \drawAngle{GFD}$, \\ 
+el ángulo externo es igual al interno y opuesto en el mismo lado. \\ 
+Suma \drawAngle{BEH} a la igualdad, \\ 
+entonces $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. \\ 
 Es decir, los dos ángulos internos en el mismo lado de la línea que corta son iguales a dos ángulos rectos.
 
 \end{center}
@@ -3121,7 +3134,7 @@ $\therefore \left\{
 		\drawAngle{B} &= \drawAngle{C}\\
 	\end{aligned}
 	\right\}$ \byref{prop:I.XXVI}\\
-y $\drawAngle{BAD,DAC} = \drawAngle{CDA,ADB}$ \byref{ax:I.II}.
+y $\drawAngle{BAD,DAC} = \drawAngle{CDA,ADB}$ \byref{ax:I.II}.\\[0.5em]
 
 Por lo tanto, los lados y los ángulos opuestos de cualquier paralelogramo son iguales, \\ 
 y como \drawLine{AD,CD,AC} = \drawLine{AB,BD,AD} \byref{prop:I.IV},\\ 
@@ -3255,10 +3268,10 @@ $\therefore \drawUnitLine{CD} = \drawUnitLine{EF} \mbox{ y } \drawUnitLine{CD} \
 
 $\therefore \drawUnitLine{CE} = \drawUnitLine{DF} \mbox{ y } \drawUnitLine{CE} \parallel \drawUnitLine{DF}$ \byref{prop:I.XXXIII}
 
-Por lo tanto \drawPolygon[bottom][polygonCDFE]{CDI, IDJE, EFJ}
+Entonces \drawPolygon[bottom][polygonCDFE]{CDI, IDJE, EFJ}
 es un paralelogramo,
 
-entonces $\polygonABDC = \polygonCDFE = \polygonEFHG$ \byref{prop:I.XXXV}
+y como $\polygonABDC = \polygonCDFE = \polygonEFHG$ \byref{prop:I.XXXV}
 
 $\therefore \polygonABDC = \polygonEFHG$ \byref{ax:I.I}.
 \end{center}
