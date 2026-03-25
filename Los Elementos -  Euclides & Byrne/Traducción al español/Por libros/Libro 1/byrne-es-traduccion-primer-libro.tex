@@ -95,17 +95,18 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \section*{Créditos y atribución}
 
 \small
-\textit{Los Elementos} es una obra que reúne trabajos de matemáticos como Pitágoras, Eudoxo y Teeteto, entre otros. Euclides los recopiló y les dio forma sistemática aproximadamente hace 2300 años en Alejandría.
+\textit{Los Elementos} es una obra que reúne trabajos de matemáticos como Pitágoras, Eudoxo y Teeteto, entre otros. Euclides recopiló sus resultados y les dio forma sistemática aproximadamente hace 2300 años en Alejandría.
 \\[\baselineskip]
 La edición a color fue publicada en Londres en 1847 por Oliver Byrne, bajo el título \textit{The First Six Books of the Elements of Euclid}. 
 \\[\baselineskip]
-La versión en \LaTeX\ fue desarrollada por Slyusarev Sergey en 2017, se encuentra disponible en inglés y ruso en Github.
+La versión en \LaTeX\ fue desarrollada por Slyusarev Sergey en 2017, se encuentra disponible en Github en inglés y ruso.
 \url{https://github.com/jemmybutton/byrne-euclid}
 \\[\baselineskip]
 La traducción al español, así como diversas mejoras a la edición digital fueron realizadas por \href{https://abstractions.blog}{Carlos Villarreal} en México en 2026.
 \\[\baselineskip]
 Desde la publicación de esta obra por Byrne, la notación matemática y el estilo de exposición de las demostraciones han evolucionado en los últimos siglos.
-Esta edición conserva la esencia de la obra original, pero con un lenguaje más claro y con algunas demostraciones reescritas para facilitar su comprensión.\\
+Esta edición conserva la esencia de la obra original, pero con ligeras modificaciones para facilitar su lectura.
+\\[\baselineskip]
 Espero que este libro llegue a muchas personas y contribuya a despertar en ellas el interés por la verdadera esencia de las matemáticas.
 
 \begin{center}
@@ -114,11 +115,12 @@ Espero que este libro llegue a muchas personas y contribuya a despertar en ellas
 
 \vskip 0.25\baselineskip
 
-\noindent \footnotesize Esta traducción de \emph{El primer libro de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0
+\noindent \footnotesize Esta traducción de \emph{El primer libro de los elementos de Euclides} de Oliver Byrne se distribuye bajo licencia CC-BY-SA~4.0, lo que permite su copia, distribución y modificación, siempre que se reconozca la autoría original y se indiquen los cambios realizados.
 
 \vskip -\baselineskip
 
 \normalsize
+
 
 \pagebreak
 
@@ -1834,11 +1836,12 @@ tal que:
 		\drawUnitLine{BC}&=\drawUnitLine{BD}\\
 	\end{aligned}
 	\right\}$
-, \newline traza \drawUnitLine{CD} y,
+, \\[0.5em] 
+traza \drawUnitLine{CD}, \\[0.5em]
 
-$\drawAngle{C,DCB} = \drawAngle{CDA}$ \byref{prop:I.V}
+y $\drawAngle{C,DCB} = \drawAngle{CDA}$ \byref{prop:I.V}\\[0.5em]
 
-$\therefore \drawAngle{DCB} < \drawAngle{CDA}$ y
+$\therefore \drawAngle{DCB} < \drawAngle{CDA}$ y \\[0.5em]
 
 $\left.
 	\begin{aligned}
@@ -2164,9 +2167,9 @@ $\drawAngle{BEC} + \drawAngle{CEA} = \drawTwoRightAngles$ \byref{prop:I.XIII}% H
 
 $\drawAngle{AED} + \drawAngle{CEA} = \drawTwoRightAngles$ \byref{prop:I.XIII}
 
-$\therefore \drawAngle{BEC} = \drawAngle{AED}$ \byref{ax:I.III}. % And this is according to \byref{ax:I.III}
+$\therefore \drawAngle{BEC} = \drawAngle{AED}$ \byref{ax:I.III}.\\[0.5em] % And this is according to \byref{ax:I.III}
 
-Con el mismo razonamiento se demuestra \\
+Con el mismo razonamiento se demuestra \\[0.5em]
 $\drawAngle{CEA} = \drawAngle{DEB}$.
 \end{center}
 
@@ -2220,9 +2223,10 @@ traza \drawUnitLine{CD}.
 Para \drawLine{BE,AE,AB} y \drawLine{EC,ED,CD}, se tiene que:\\
 $\drawUnitLine{BE} = \drawUnitLine{EC}$, \\$\drawAngle{AEB} = \drawAngle{DEC}$ \\ y $\drawUnitLine{AE} = \drawUnitLine{ED}$ \byref{\constref} y \byref{prop:I.XV},\\
 $\therefore \drawAngle{B} = \drawAngle{ECD}$ \byref{prop:I.IV},\\
-$\therefore \anglesECDpDCF\ > \drawAngle{B}$.
+$\therefore \anglesECDpDCF\ > \drawAngle{B}$. \\[0.5em]
 
-De la misma manera se puede demostrar que si se extiende \drawUnitLine{BC}, $\drawAngle{GCA} > \drawAngle{A}$ \\
+De la misma manera se puede demostrar que \\[0.5em] 
+si se extiende \drawUnitLine{BC}, $\drawAngle{GCA} > \drawAngle{A}$ \\
 por lo tanto \anglesECDpDCF\ $= \drawAngle{GCA}$ $> \drawAngle{A}$.
 \end{center}
 
@@ -2251,8 +2255,8 @@ draw byLabelsOnPolygon(D, C, A, B)(ALL_LABELS, 0);
 \problem{L}{a}{suma de dos ángulos cualesquiera de un triángulo es menor que dos ángulos rectos.}
 
 \begin{center}
-Prolonga \drawUnitLine{AC}, entonces\\
-$\drawAngle{ACB} + \drawAngle{BCD} = \drawTwoRightAngles$.
+Prolonga \drawUnitLine{AC},\\
+entonces $\drawAngle{ACB} + \drawAngle{BCD} = \drawTwoRightAngles$.
 
 Como $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
 
@@ -2326,7 +2330,7 @@ Supongamos que \drawUnitLine{BC} \ngtr \drawUnitLine{CA} \\
 entonces debe ocurrir:\\[1em]
 $\drawUnitLine{BC} = \drawUnitLine{CA}$ 
 ó 
-$\drawUnitLine{BC} < \drawUnitLine{CA}$. \\
+$\drawUnitLine{BC} < \drawUnitLine{CA}$. \\[1em]
 
 Si $\drawUnitLine{BC} = \drawUnitLine{CA}$ \\
 entonces $\drawAngle{A} = \drawAngle{B}$ \byref{prop:I.V};\\
