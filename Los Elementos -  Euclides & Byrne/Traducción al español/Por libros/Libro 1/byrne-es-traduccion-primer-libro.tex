@@ -10,9 +10,9 @@
 
 \begin{center}
 
-\Large \uppercase{El primer libro de}
+\Large \textsc{El primer libro de}
 
-\LARGE \uppercase{Los elementos de Euclides}
+\LARGE \textsc{Los elementos de Euclides}
 
 %{\uppercase{SURVEYOR OF HER MAJESTY'S SETTLEMENTS IN THE FALKLAND ISLANDS AND AUTHOR OF NUMEROUS MATHEMATICAL WORKS}}
 
@@ -92,7 +92,7 @@ draw byLabelsOnPolygon(A, J, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 1);
 \pagebreak
 \thispagestyle{empty}
 
-\section*{Créditos y atribución}
+\section*{\textsc{Créditos y atribución}}
 
 \small
 \textit{Los Elementos} es una obra que reúne trabajos de matemáticos como Pitágoras, Eudoxo y Teeteto, entre otros. Euclides recopiló sus resultados y les dio forma sistemática aproximadamente hace 2300 años en Alejandría.
@@ -4031,5 +4031,95 @@ por lo tanto \drawAngle{BAC} es un ángulo recto.
 \qed
 
 % \tableofcontents % Se necesita mejorar el formato del índice 
+
+\clearpage
+\newgeometry{top=1cm, bottom=1cm, left=2cm, right=2cm}
+\pagestyle{empty}
+\chapter*{Índice}
+
+\makeatletter
+\def\drawPictureByIndex#1{%
+    \bgroup
+    \global\mpInst = #1\relax
+    \global\def\currentInstance{byInstance\the\mpInst}%
+    $\vcenter{\hbox{\scalebox{0.65}{\drawCurrentPicture}}}$%
+    \egroup
+}
+\makeatother
+
+% Página 1
+\begin{center}
+\setlength{\tabcolsep}{0.5cm}
+\renewcommand{\arraystretch}{1}
+\makebox[\textwidth][c]{%
+\begin{tabular}{c c c}
+\textbf{Prop. I} & \textbf{Prop. II} & \textbf{Prop. III} \\
+\drawPictureByIndex{39} & \drawPictureByIndex{40} & \drawPictureByIndex{41} \\[0.5cm]
+\textbf{Prop. IV} & \textbf{Prop. V} & \textbf{Prop. VI} \\
+\drawPictureByIndex{42} & \drawPictureByIndex{43} & \drawPictureByIndex{44} \\[0.5cm]
+\textbf{Prop. VII} & \textbf{Prop. VIII} & \textbf{Prop. IX} \\
+\drawPictureByIndex{45} & \drawPictureByIndex{46} & \drawPictureByIndex{47} \\[0.5cm]
+\textbf{Prop. X} & \textbf{Prop. XI} & \textbf{Prop. XII} \\
+\drawPictureByIndex{48} & \drawPictureByIndex{49} & \drawPictureByIndex{50} \\
+\end{tabular}%
+}
+\end{center}
+
+\pagebreak
+% Página 2
+\begin{center}
+\setlength{\tabcolsep}{0.5cm}
+\renewcommand{\arraystretch}{1}
+\makebox[\textwidth][c]{%
+\begin{tabular}{c c c}
+\textbf{Prop. XIII} & \textbf{Prop. XIV} & \textbf{Prop. XV} \\
+\drawPictureByIndex{51} & \drawPictureByIndex{52} & \drawPictureByIndex{53} \\[0.5cm]
+\textbf{Prop. XVI} & \textbf{Prop. XVII} & \textbf{Prop. XVIII} \\
+\drawPictureByIndex{54} & \drawPictureByIndex{55} & \drawPictureByIndex{56} \\[0.5cm]
+\textbf{Prop. XIX} & \textbf{Prop. XX} & \textbf{Prop. XXI} \\
+\drawPictureByIndex{57} & \drawPictureByIndex{58} & \drawPictureByIndex{59} \\[0.5cm]
+\textbf{Prop. XXII} & \textbf{Prop. XXIII} & \textbf{Prop. XXIV} \\
+\drawPictureByIndex{60} & \drawPictureByIndex{61} & \drawPictureByIndex{62} \\
+\end{tabular}%
+}
+\end{center}
+
+\pagebreak
+% Página 3
+\begin{center}
+\setlength{\tabcolsep}{0.5cm}
+\renewcommand{\arraystretch}{1}
+\makebox[\textwidth][c]{%
+\begin{tabular}{c c c}
+\textbf{Prop. XXV} & \textbf{Prop. XXVI} & \textbf{Prop. XXVII} \\
+\drawPictureByIndex{63} & \drawPictureByIndex{64} & \drawPictureByIndex{66} \\[0.5cm]
+\textbf{Prop. XXVIII} & \textbf{Prop. XXIX} & \textbf{Prop. XXX} \\
+\drawPictureByIndex{67} & \drawPictureByIndex{68} & \drawPictureByIndex{69} \\[0.5cm]
+\textbf{Prop. XXXI} & \textbf{Prop. XXXII} & \textbf{Prop. XXXIII} \\
+\drawPictureByIndex{70} & \drawPictureByIndex{71} & \drawPictureByIndex{72} \\[0.5cm]
+\textbf{Prop. XXXIV} & \textbf{Prop. XXXV} & \textbf{Prop. XXXVI} \\
+\drawPictureByIndex{73} & \drawPictureByIndex{74} & \drawPictureByIndex{75} \\
+\end{tabular}%
+}
+\end{center}
+
+\pagebreak
+% Página 4
+\begin{center}
+\setlength{\tabcolsep}{0.5cm}
+\renewcommand{\arraystretch}{1}
+\makebox[\textwidth][c]{%
+\begin{tabular}{c c c}
+\textbf{Prop. XXXVII} & \textbf{Prop. XXXVIII} & \textbf{Prop. XXXIX} \\
+\drawPictureByIndex{76} & \drawPictureByIndex{77} & \drawPictureByIndex{78} \\[0.5cm]
+\textbf{Prop. XL} & \textbf{Prop. XLI} & \textbf{Prop. XLII} \\
+\drawPictureByIndex{79} & \drawPictureByIndex{80} & \drawPictureByIndex{81} \\[0.5cm]
+\textbf{Prop. XLIII} & \textbf{Prop. XLIV} & \textbf{Prop. XLV} \\
+\drawPictureByIndex{82} & \drawPictureByIndex{83} & \drawPictureByIndex{84} \\[0.5cm]
+\textbf{Prop. XLVI} & \textbf{Prop. XLVII} & \textbf{Prop. XLVIII} \\
+\drawPictureByIndex{85} & \drawPictureByIndex{86} & \drawPictureByIndex{87} \\
+\end{tabular}%
+}
+\end{center}
 
 \end{document}	
