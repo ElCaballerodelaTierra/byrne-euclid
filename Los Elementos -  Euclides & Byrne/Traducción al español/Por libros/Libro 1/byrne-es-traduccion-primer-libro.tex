@@ -128,6 +128,7 @@ Espero que este libro llegue a muchas personas y contribuya a despertar en ellas
 \setcounter{page}{1} %Se inicia la numeración de página en la introducción
 \fancyhead[CO,CE]{} %Se oculta la leyenda "Book" en la cabecera en todas las páginas anteriores a esta
 
+\phantomsection
 \part*{Introducción}\label{sec:intro}
 
 \charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su enseñanza es tan importante como extender sus límites. Las ilustraciones aquí expuestas, tal vez no acorten el tiempo de estudio, pero al menos lo harán más agradable. Este trabajo tiene un objetivo mayor que las meras ilustraciones; no se introducen colores con el propósito de entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
@@ -412,6 +413,7 @@ Nos alegra observar que las matemáticas forman ya una parte importante de la ed
 
 \pagebreak
 
+\phantomsection
 \chapter*{Elucidaciones}\label{sec:elu}
 
 La geometría tiene como objetos principales la exposición y explicación de las propiedades de la \emph{figura}, y la figura se define como la relación que existe entre los límites del espacio. El espacio o la magnitud es de tres clases, \emph{lineal}, \emph{superficial} y \emph{sólida}.
@@ -501,6 +503,7 @@ Un \emph{escolio} es una nota u observación sobre una proposición que no const
 
 \pagebreak
 
+\phantomsection
 \chapter*{Símbolos y abreviaturas}\label{sec:simb}
 
 \symb{$\therefore$}
@@ -1038,6 +1041,7 @@ Todas las demás figuras cuadriláteras se llaman trapecios.
 
 \pagebreak
 
+\phantomsection
 \chapter*{Postulados}\label{sec:post}
 
 \startpostulate{}\label{post:I.I}
@@ -1045,18 +1049,43 @@ Todas las demás figuras cuadriláteras se llaman trapecios.
 Se puede trazar una línea recta desde cualquier punto a cualquier otro punto.
 \end{center}
 
+\CreateNewInstanceForPicturefalse
+\defineNewPicture{
+	pair A, B, C, D;
+	numeric s, ds;
+	s := 1.5u;
+	ds := 1u;
+	B := (0, 0);
+	C := (s, 0);
+	A := (-ds, 0);
+	D := (s + ds, 0);
+	draw byLine(B, C)(byblack, SOLID_LINE, REGULAR_WIDTH);
+	draw byLine(A, B)(byblack, DASHED_LINE, REGULAR_WIDTH);
+	draw byLine(C, D)(byblack, DASHED_LINE, REGULAR_WIDTH);
+}
 \startpostulate{}\label{post:I.II}
 \begin{center}
-Se puede prolongar una línea recta indefinidamente.
+\drawCurrentPictureInMargin Se puede prolongar una línea recta indefinidamente.
 \end{center}
 
+\defineNewPicture{
+	pair O, A;
+	numeric r;
+	r := 0.75u;
+	O := (0, 0);
+	A := dir(0) scaled r;
+	draw byCircleR(O, r, byblue, 0, 0, 0);
+	draw byLine(O, A)(byblack, DASHED_LINE, REGULAR_WIDTH);
+}
 \startpostulate{}\label{post:I.III}
 \begin{center}
-Se puede trazar un círculo con cualquier centro y radio.
+\drawCurrentPictureInMargin Se puede trazar un círculo con cualquier centro y radio.
 \end{center}
+\CreateNewInstanceForPicturetrue
 
 \pagebreak
 
+\phantomsection
 \chapter*{Axiomas}\label{sec:ax}
 
 \startaxiom{}\label{ax:I.I}
@@ -4035,7 +4064,7 @@ por lo tanto \drawAngle{BAC} es un ángulo recto.
 \clearpage
 \newgeometry{top=1cm, bottom=1cm, left=2cm, right=2cm}
 \pagestyle{empty}
-\chapter*{Índice General}
+\chapter*{Índice}
 
 \makeatletter
 \def\drawPictureByIndex#1{%
@@ -4045,42 +4074,88 @@ por lo tanto \drawAngle{BAC} es un ángulo recto.
     $\vcenter{\hbox{\scalebox{0.55}{\drawCurrentPicture}}}$%
     \egroup
 }
+\def\drawPictureByIndexBig#1{%
+    \bgroup
+    \global\mpInst = #1\relax
+    \global\def\currentInstance{byInstance\the\mpInst}%
+    $\vcenter{\hbox{\scalebox{1}{\drawCurrentPicture}}}$%
+    \egroup
+}
 \makeatother
 
 \vspace*{\fill}
 
 \noindent
 \begin{minipage}[c]{0.5\textwidth}
-\centering \hyperref[sec:intro]{\drawPictureByIndex{3}} \\[1cm]
-\hyperref[sec:intro]{\textbf{Introducción} \dotfill \pageref{sec:intro}}
+\centering \hyperref[sec:intro]{\drawPictureByIndexBig{3}}
 \end{minipage}%
 \begin{minipage}[c]{0.5\textwidth}
-\centering \hyperref[sec:elu]{\drawPictureByIndex{8}} \\[1cm]
-\hyperref[sec:elu]{\textbf{Elucidaciones} \dotfill \pageref{sec:elu}}
+\centering \hyperref[sec:elu]{\drawPictureByIndexBig{8}}
+\end{minipage}\\[0.75cm]
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\centering \hyperref[sec:intro]{\textbf{Introducción} (\pageref{sec:intro})}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\centering \hyperref[sec:elu]{\textbf{Elucidaciones} (\pageref{sec:elu})}
 \end{minipage}
 
 \vfill
 
 \noindent
 \begin{minipage}[c]{0.5\textwidth}
-\centering \hyperref[sec:simb]{\drawPictureByIndex{9}} \\[1cm]
-\hyperref[sec:simb]{\textbf{Símbolos y abreviaturas} \dotfill \pageref{sec:simb}}
+\centering \hyperref[sec:simb]{%
+\bgroup
+\global\mpInst = 9\relax
+\global\def\currentInstance{byInstance\the\mpInst}%
+$\vcenter{\hbox{\scalebox{1}{\drawFromCurrentPicture{draw byNamedAngleWithDummySides(BAD);}}}}$%
+\egroup
+}
 \end{minipage}%
 \begin{minipage}[c]{0.5\textwidth}
-\centering \hyperref[sec:def]{\drawPictureByIndex{15}} \\[1cm]
-\hyperref[sec:def]{\textbf{Definiciones} \dotfill \pageref{sec:def}}
+\centering \hyperref[sec:def]{\drawPictureByIndexBig{15}}
+\end{minipage}\\[0.75cm]
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\centering \hyperref[sec:simb]{\textbf{Símbolos y abreviaturas} (\pageref{sec:simb})}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\centering \hyperref[sec:def]{\textbf{Definiciones} (\pageref{sec:def})}
 \end{minipage}
 
 \vfill
 
 \noindent
 \begin{minipage}[c]{0.5\textwidth}
-\centering \vspace*{4cm}
-\hyperref[sec:post]{\textbf{Postulados} \dotfill \pageref{sec:post}}
+\centering \hyperref[sec:post]{%
+\bgroup
+\global\mpInst = 1\relax
+\global\def\currentInstance{byInstance\the\mpInst}%
+$\vcenter{\hbox{\scalebox{1}{\drawFromCurrentPicture{
+	pair A, B, C, D;
+	numeric s, ds;
+	s := 1.5u;
+	ds := 1u;
+	B := (0, 0);
+	C := (s, 0);
+	A := (-ds, 0);
+	D := (s + ds, 0);
+	draw byLine(B, C)(byblack, SOLID_LINE, REGULAR_WIDTH);
+	draw byLine(A, B)(byblack, DASHED_LINE, REGULAR_WIDTH);
+	draw byLine(C, D)(byblack, DASHED_LINE, REGULAR_WIDTH);
+}}}}$%
+\egroup
+}
 \end{minipage}%
 \begin{minipage}[c]{0.5\textwidth}
-\centering \hyperref[sec:ax]{\drawPictureByIndex{38}} \\[1cm]
-\hyperref[sec:ax]{\textbf{Axiomas} \dotfill \pageref{sec:ax}}
+\centering \hyperref[sec:ax]{\drawPictureByIndexBig{38}}
+\end{minipage}\\[0.75cm]
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\centering \hyperref[sec:post]{\textbf{Postulados} (\pageref{sec:post})}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\centering \hyperref[sec:ax]{\textbf{Axiomas} (\pageref{sec:ax})}
 \end{minipage}
 
 \vspace*{\fill}
@@ -4088,21 +4163,27 @@ por lo tanto \drawAngle{BAC} es un ángulo recto.
 \clearpage
 \newgeometry{top=1cm, bottom=1cm, left=2cm, right=2cm}
 \pagestyle{empty}
-\chapter*{Índice}
 
 \newcommand{\indexRow}[6]{%
 \noindent
 \begin{minipage}[c]{0.33\textwidth}
-\centering \hyperref[prop:I.#1]{#2} \\[0.5cm]
-\hyperref[prop:I.#1]{\textbf{Prop. #1}} (\pageref{prop:I.#1})
+\centering \hyperref[prop:I.#1]{#2}
 \end{minipage}%
 \begin{minipage}[c]{0.33\textwidth}
-\centering \hyperref[prop:I.#3]{#4} \\[0.5cm]
-\hyperref[prop:I.#3]{\textbf{Prop. #3}} (\pageref{prop:I.#3})
+\centering \hyperref[prop:I.#3]{#4}
 \end{minipage}%
 \begin{minipage}[c]{0.33\textwidth}
-\centering \hyperref[prop:I.#5]{#6} \\[0.5cm]
-\hyperref[prop:I.#5]{\textbf{Prop. #5}} (\pageref{prop:I.#5})
+\centering \hyperref[prop:I.#5]{#6}
+\end{minipage}\\[0.5cm]
+\noindent
+\begin{minipage}[t]{0.33\textwidth}
+\centering \hyperref[prop:I.#1]{\textbf{Prop. #1}} (\pageref{prop:I.#1})
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+\centering \hyperref[prop:I.#3]{\textbf{Prop. #3}} (\pageref{prop:I.#3})
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+\centering \hyperref[prop:I.#5]{\textbf{Prop. #5}} (\pageref{prop:I.#5})
 \end{minipage}%
 }
 
