@@ -1,4 +1,4 @@
-﻿\documentclass[booklanguage=english]{byrnebook}
+\documentclass[booklanguage=english]{byrnebook}
 %\usepackage{lua-visual-debug}
 
 \def\bookString{Libro}
@@ -128,7 +128,7 @@ Espero que este libro llegue a muchas personas y contribuya a despertar en ellas
 \setcounter{page}{1} %Se inicia la numeración de página en la introducción
 \fancyhead[CO,CE]{} %Se oculta la leyenda "Book" en la cabecera en todas las páginas anteriores a esta
 
-\part*{Introducción}
+\part*{Introducción}\label{sec:intro}
 
 \charspacing{-2}{\regularLettrine{L}{as} artes y ciencias se han vuelto tan extensas, que facilitar su enseñanza es tan importante como extender sus límites. Las ilustraciones aquí expuestas, tal vez no acorten el tiempo de estudio, pero al menos lo harán más agradable. Este trabajo tiene un objetivo mayor que las meras ilustraciones; no se introducen colores con el propósito de entretener \emph{con ciertas combinaciones de matiz y forma}, % no sé de dónde es esto
 sino para facilitarle a la mente la búsqueda de la verdad y difundir el conocimiento. Si buscáramos autoridades para verificar la importancia y utilidad de la geometría, podríamos citar a todos los filósofos desde el día de Platón. Entre los griegos de la antigüedad, como en la escuela de Pestalozzi y otros en tiempos recientes, la geometría fue adoptada como el mejor gimnasio de la mente. De hecho, \emph{Los Elementos} de Euclides se han convertido, por defecto, en la base de la ciencia matemática en todo el mundo civilizado. Pero esto no parece extraordinario, si consideramos que esta ciencia no solo es la mejor para despertar un espíritu investigador, elevar la mente y fortalecer el razonamiento, sino que también constituye la mejor introducción a la mayoría de las vocaciones útiles e importantes de la vida humana. La aritmética, la topografía, la hidrostática, la neumática, la óptica, la astronomía física, etc. dependen todas de las proposiciones de la geometría.}
@@ -412,7 +412,7 @@ Nos alegra observar que las matemáticas forman ya una parte importante de la ed
 
 \pagebreak
 
-\chapter*{Elucidaciones}
+\chapter*{Elucidaciones}\label{sec:elu}
 
 La geometría tiene como objetos principales la exposición y explicación de las propiedades de la \emph{figura}, y la figura se define como la relación que existe entre los límites del espacio. El espacio o la magnitud es de tres clases, \emph{lineal}, \emph{superficial} y \emph{sólida}.
 
@@ -501,7 +501,7 @@ Un \emph{escolio} es una nota u observación sobre una proposición que no const
 
 \pagebreak
 
-\chapter*{Símbolos y abreviaturas}
+\chapter*{Símbolos y abreviaturas}\label{sec:simb}
 
 \symb{$\therefore$}
 expresa la palabra \emph{por lo tanto}.
@@ -633,7 +633,7 @@ significa \emph{Quod erat demonstrandum}. Lo que se quería demostrar.
 \part{Libro I}
 \fancyhead[CO,CE]{Libro\ \thepart.~\rightmark} % Se muestra la leyenda "Libro I." en la cabecera a partir de esta página
 
-\chapter*{Definiciones}
+\chapter*{Definiciones}\label{sec:def}
 
 \startdefinition{}\label{def:I.I}
 \begin{center}
@@ -1038,7 +1038,7 @@ Todas las demás figuras cuadriláteras se llaman trapecios.
 
 \pagebreak
 
-\chapter*{Postulados}
+\chapter*{Postulados}\label{sec:post}
 
 \startpostulate{}\label{post:I.I}
 \begin{center}
@@ -1057,7 +1057,7 @@ Se puede trazar un círculo con cualquier centro y radio.
 
 \pagebreak
 
-\chapter*{Axiomas}
+\chapter*{Axiomas}\label{sec:ax}
 
 \startaxiom{}\label{ax:I.I}
 
@@ -1994,15 +1994,15 @@ draw byLabelsOnPolygon(B, A, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 \problem{D}{esde}{un punto dado(\drawPointL[middle][AD]{D}), en una línea recta dada (\drawUnitLine[3/2cm]{BD,DC}), dibujar una perpendicular a la recta.}
 
 \begin{center}
-Toma cualquier punto (\drawPointL[middle][CA]{C}) en la línea,\\
+Toma cualquier punto (\drawPointL[middle][CA]{C}) en la línea,\\[0.5em]
 toma rectas finitas tal que $\drawUnitLine{DB} = \drawUnitLine{CD}$ \byref{prop:I.III},\\
-Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I}.\\
-traza \drawUnitLine{AD} y ésta será perpendicular a la línea. \newline
+Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I}.\\[0.5em]
+traza \drawUnitLine{AD} y ésta será perpendicular a la línea. \\[1em]
 
-Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref},\\
+Porque $\drawUnitLine{AB} = \drawUnitLine{CA}$ \byref{\constref},\\[0.5em]
 $\drawUnitLine{CD} = \drawUnitLine{DB}$ \byref{\constref}\\
 y \drawUnitLine{AD} es común a \drawLine{AB,AD,BD} y \drawLine{AC,AD,CD} \newline \newline
-$\therefore \drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII}
+$\therefore \drawAngle{ADB} = \drawAngle{CDA}$ \byref{prop:I.VIII} \\[0.5em]
 
 $\therefore \drawUnitLine{AD} \perp \drawUnitLine{DB,CD}$ \byref{def:I.X}.
 \end{center}
@@ -4035,91 +4035,186 @@ por lo tanto \drawAngle{BAC} es un ángulo recto.
 \clearpage
 \newgeometry{top=1cm, bottom=1cm, left=2cm, right=2cm}
 \pagestyle{empty}
-\chapter*{Índice}
+\chapter*{Índice General}
 
 \makeatletter
 \def\drawPictureByIndex#1{%
     \bgroup
     \global\mpInst = #1\relax
     \global\def\currentInstance{byInstance\the\mpInst}%
-    $\vcenter{\hbox{\scalebox{0.65}{\drawCurrentPicture}}}$%
+    $\vcenter{\hbox{\scalebox{0.55}{\drawCurrentPicture}}}$%
     \egroup
 }
 \makeatother
 
+\vspace*{\fill}
+
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
+\centering \hyperref[sec:intro]{\drawPictureByIndex{3}} \\[1cm]
+\hyperref[sec:intro]{\textbf{Introducción} \dotfill \pageref{sec:intro}}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering \hyperref[sec:elu]{\drawPictureByIndex{8}} \\[1cm]
+\hyperref[sec:elu]{\textbf{Elucidaciones} \dotfill \pageref{sec:elu}}
+\end{minipage}
+
+\vfill
+
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
+\centering \hyperref[sec:simb]{\drawPictureByIndex{9}} \\[1cm]
+\hyperref[sec:simb]{\textbf{Símbolos y abreviaturas} \dotfill \pageref{sec:simb}}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering \hyperref[sec:def]{\drawPictureByIndex{15}} \\[1cm]
+\hyperref[sec:def]{\textbf{Definiciones} \dotfill \pageref{sec:def}}
+\end{minipage}
+
+\vfill
+
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
+\centering \vspace*{4cm}
+\hyperref[sec:post]{\textbf{Postulados} \dotfill \pageref{sec:post}}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering \hyperref[sec:ax]{\drawPictureByIndex{38}} \\[1cm]
+\hyperref[sec:ax]{\textbf{Axiomas} \dotfill \pageref{sec:ax}}
+\end{minipage}
+
+\vspace*{\fill}
+
+\clearpage
+\newgeometry{top=1cm, bottom=1cm, left=2cm, right=2cm}
+\pagestyle{empty}
+\chapter*{Índice}
+
+\newcommand{\indexRow}[6]{%
+\noindent
+\begin{minipage}[c]{0.33\textwidth}
+\centering \hyperref[prop:I.#1]{#2} \\[0.5cm]
+\hyperref[prop:I.#1]{\textbf{Prop. #1}} (\pageref{prop:I.#1})
+\end{minipage}%
+\begin{minipage}[c]{0.33\textwidth}
+\centering \hyperref[prop:I.#3]{#4} \\[0.5cm]
+\hyperref[prop:I.#3]{\textbf{Prop. #3}} (\pageref{prop:I.#3})
+\end{minipage}%
+\begin{minipage}[c]{0.33\textwidth}
+\centering \hyperref[prop:I.#5]{#6} \\[0.5cm]
+\hyperref[prop:I.#5]{\textbf{Prop. #5}} (\pageref{prop:I.#5})
+\end{minipage}%
+}
+
 % Página 1
-\begin{center}
-\setlength{\tabcolsep}{0.5cm}
-\renewcommand{\arraystretch}{1}
-\makebox[\textwidth][c]{%
-\begin{tabular}{c c c}
-\textbf{Prop. I} & \textbf{Prop. II} & \textbf{Prop. III} \\
-\drawPictureByIndex{39} & \drawPictureByIndex{40} & \drawPictureByIndex{41} \\[0.5cm]
-\textbf{Prop. IV} & \textbf{Prop. V} & \textbf{Prop. VI} \\
-\drawPictureByIndex{42} & \drawPictureByIndex{43} & \drawPictureByIndex{44} \\[0.5cm]
-\textbf{Prop. VII} & \textbf{Prop. VIII} & \textbf{Prop. IX} \\
-\drawPictureByIndex{45} & \drawPictureByIndex{46} & \drawPictureByIndex{47} \\[0.5cm]
-\textbf{Prop. X} & \textbf{Prop. XI} & \textbf{Prop. XII} \\
-\drawPictureByIndex{48} & \drawPictureByIndex{49} & \drawPictureByIndex{50} \\
-\end{tabular}%
-}
-\end{center}
+\vspace*{\fill}
 
+\indexRow{I}{\drawPictureByIndex{39}}%
+{II}{\drawPictureByIndex{40}}%
+{III}{\drawPictureByIndex{41}}
+
+\vfill
+
+\indexRow{IV}{\drawPictureByIndex{42}}%
+{V}{\drawPictureByIndex{43}}%
+{VI}{\drawPictureByIndex{44}}
+
+\vfill
+
+\indexRow{VII}{\drawPictureByIndex{45}}%
+{VIII}{\drawPictureByIndex{46}}%
+{IX}{\drawPictureByIndex{47}}
+
+\vfill
+
+\indexRow{X}{\drawPictureByIndex{48}}%
+{XI}{\drawPictureByIndex{49}}%
+{XII}{\drawPictureByIndex{50}}
+
+\vspace*{\fill}
 \pagebreak
+
 % Página 2
-\begin{center}
-\setlength{\tabcolsep}{0.5cm}
-\renewcommand{\arraystretch}{1}
-\makebox[\textwidth][c]{%
-\begin{tabular}{c c c}
-\textbf{Prop. XIII} & \textbf{Prop. XIV} & \textbf{Prop. XV} \\
-\drawPictureByIndex{51} & \drawPictureByIndex{52} & \drawPictureByIndex{53} \\[0.5cm]
-\textbf{Prop. XVI} & \textbf{Prop. XVII} & \textbf{Prop. XVIII} \\
-\drawPictureByIndex{54} & \drawPictureByIndex{55} & \drawPictureByIndex{56} \\[0.5cm]
-\textbf{Prop. XIX} & \textbf{Prop. XX} & \textbf{Prop. XXI} \\
-\drawPictureByIndex{57} & \drawPictureByIndex{58} & \drawPictureByIndex{59} \\[0.5cm]
-\textbf{Prop. XXII} & \textbf{Prop. XXIII} & \textbf{Prop. XXIV} \\
-\drawPictureByIndex{60} & \drawPictureByIndex{61} & \drawPictureByIndex{62} \\
-\end{tabular}%
-}
-\end{center}
+\vspace*{\fill}
 
+\indexRow{XIII}{\drawPictureByIndex{51}}%
+{XIV}{\drawPictureByIndex{52}}%
+{XV}{\drawPictureByIndex{53}}
+
+\vfill
+
+\indexRow{XVI}{\drawPictureByIndex{54}}%
+{XVII}{\drawPictureByIndex{55}}%
+{XVIII}{\drawPictureByIndex{56}}
+
+\vfill
+
+\indexRow{XIX}{\drawPictureByIndex{57}}%
+{XX}{\drawPictureByIndex{58}}%
+{XXI}{\drawPictureByIndex{59}}
+
+\vfill
+
+\indexRow{XXII}{\drawPictureByIndex{60}}%
+{XXIII}{\drawPictureByIndex{61}}%
+{XXIV}{\drawPictureByIndex{62}}
+
+\vspace*{\fill}
 \pagebreak
+
 % Página 3
-\begin{center}
-\setlength{\tabcolsep}{0.5cm}
-\renewcommand{\arraystretch}{1}
-\makebox[\textwidth][c]{%
-\begin{tabular}{c c c}
-\textbf{Prop. XXV} & \textbf{Prop. XXVI} & \textbf{Prop. XXVII} \\
-\drawPictureByIndex{63} & \drawPictureByIndex{64} & \drawPictureByIndex{66} \\[0.5cm]
-\textbf{Prop. XXVIII} & \textbf{Prop. XXIX} & \textbf{Prop. XXX} \\
-\drawPictureByIndex{67} & \drawPictureByIndex{68} & \drawPictureByIndex{69} \\[0.5cm]
-\textbf{Prop. XXXI} & \textbf{Prop. XXXII} & \textbf{Prop. XXXIII} \\
-\drawPictureByIndex{70} & \drawPictureByIndex{71} & \drawPictureByIndex{72} \\[0.5cm]
-\textbf{Prop. XXXIV} & \textbf{Prop. XXXV} & \textbf{Prop. XXXVI} \\
-\drawPictureByIndex{73} & \drawPictureByIndex{74} & \drawPictureByIndex{75} \\
-\end{tabular}%
-}
-\end{center}
+\vspace*{\fill}
 
+\indexRow{XXV}{\drawPictureByIndex{63}}%
+{XXVI}{\drawPictureByIndex{64}}%
+{XXVII}{\drawPictureByIndex{66}}
+
+\vfill
+
+\indexRow{XXVIII}{\drawPictureByIndex{67}}%
+{XXIX}{\drawPictureByIndex{68}}%
+{XXX}{\drawPictureByIndex{69}}
+
+\vfill
+
+\indexRow{XXXI}{\drawPictureByIndex{70}}%
+{XXXII}{\drawPictureByIndex{71}}%
+{XXXIII}{\drawPictureByIndex{72}}
+
+\vfill
+
+\indexRow{XXXIV}{\drawPictureByIndex{73}}%
+{XXXV}{\drawPictureByIndex{74}}%
+{XXXVI}{\drawPictureByIndex{75}}
+
+\vspace*{\fill}
 \pagebreak
+
 % Página 4
-\begin{center}
-\setlength{\tabcolsep}{0.5cm}
-\renewcommand{\arraystretch}{1}
-\makebox[\textwidth][c]{%
-\begin{tabular}{c c c}
-\textbf{Prop. XXXVII} & \textbf{Prop. XXXVIII} & \textbf{Prop. XXXIX} \\
-\drawPictureByIndex{76} & \drawPictureByIndex{77} & \drawPictureByIndex{78} \\[0.5cm]
-\textbf{Prop. XL} & \textbf{Prop. XLI} & \textbf{Prop. XLII} \\
-\drawPictureByIndex{79} & \drawPictureByIndex{80} & \drawPictureByIndex{81} \\[0.5cm]
-\textbf{Prop. XLIII} & \textbf{Prop. XLIV} & \textbf{Prop. XLV} \\
-\drawPictureByIndex{82} & \drawPictureByIndex{83} & \drawPictureByIndex{84} \\[0.5cm]
-\textbf{Prop. XLVI} & \textbf{Prop. XLVII} & \textbf{Prop. XLVIII} \\
-\drawPictureByIndex{85} & \drawPictureByIndex{86} & \drawPictureByIndex{87} \\
-\end{tabular}%
-}
-\end{center}
+\vspace*{\fill}
+
+\indexRow{XXXVII}{\drawPictureByIndex{76}}%
+{XXXVIII}{\drawPictureByIndex{77}}%
+{XXXIX}{\drawPictureByIndex{78}}
+
+\vfill
+
+\indexRow{XL}{\drawPictureByIndex{79}}%
+{XLI}{\drawPictureByIndex{80}}%
+{XLII}{\drawPictureByIndex{81}}
+
+\vfill
+
+\indexRow{XLIII}{\drawPictureByIndex{82}}%
+{XLIV}{\drawPictureByIndex{83}}%
+{XLV}{\drawPictureByIndex{84}}
+
+\vfill
+
+\indexRow{XLVI}{\drawPictureByIndex{85}}%
+{XLVII}{\drawPictureByIndex{86}}%
+{XLVIII}{\drawPictureByIndex{87}}
+
+\vspace*{\fill}
 
 \end{document}	

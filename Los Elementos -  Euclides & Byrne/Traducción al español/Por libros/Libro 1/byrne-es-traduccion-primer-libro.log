@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.20)  25 MAR 2026 01:36
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.20)  25 MAR 2026 19:07
  restricted system commands enabled.
 **byrne-es-traduccion-primer-libro.tex
 (./byrne-es-traduccion-primer-libro.tex
@@ -9490,63 +9490,105 @@ Module luamplib Info: flushing figure 1 on input line 4028
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \@minpageheight=\dimen271
+Module luamplib Info: flushing figure 1 on input line 4054
 LaTeX Font Info:    Font shape `TU/EBGaramond(27)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 4065.
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
-Module luamplib Info: flushing figure 1 on input line 4065
+(Font)              scaled to size 10.0pt on input line 4055.
+Module luamplib Info: flushing figure 1 on input line 4058
+Module luamplib Info: flushing figure 1 on input line 4066
+Module luamplib Info: flushing figure 1 on input line 4070
+Module luamplib Info: flushing figure 1 on input line 4082
  [75
 
 
 ]
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
-Module luamplib Info: flushing figure 1 on input line 4084
- [76]
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
-Module luamplib Info: flushing figure 1 on input line 4103
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 307.28978pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 540.60239pt, 28.45274pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=307.28978pt
+* \textheight=540.60239pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-73.88474pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=153.64487pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\@minpageheight=\dimen272
+Module luamplib Info: flushing figure 1 on input line 4114
+Module luamplib Info: flushing figure 1 on input line 4114
+Module luamplib Info: flushing figure 1 on input line 4114
+Module luamplib Info: flushing figure 1 on input line 4120
+Module luamplib Info: flushing figure 1 on input line 4120
+Module luamplib Info: flushing figure 1 on input line 4120
+Module luamplib Info: flushing figure 1 on input line 4126
+Module luamplib Info: flushing figure 1 on input line 4126
+Module luamplib Info: flushing figure 1 on input line 4126
+Module luamplib Info: flushing figure 1 on input line 4132
+Module luamplib Info: flushing figure 1 on input line 4132
+Module luamplib Info: flushing figure 1 on input line 4132
+ [76
+
+
+]
+Module luamplib Info: flushing figure 1 on input line 4142
+Module luamplib Info: flushing figure 1 on input line 4142
+Module luamplib Info: flushing figure 1 on input line 4142
+Module luamplib Info: flushing figure 1 on input line 4148
+Module luamplib Info: flushing figure 1 on input line 4148
+Module luamplib Info: flushing figure 1 on input line 4148
+Module luamplib Info: flushing figure 1 on input line 4154
+Module luamplib Info: flushing figure 1 on input line 4154
+Module luamplib Info: flushing figure 1 on input line 4154
+Module luamplib Info: flushing figure 1 on input line 4160
+Module luamplib Info: flushing figure 1 on input line 4160
+Module luamplib Info: flushing figure 1 on input line 4160
  [77]
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
-Module luamplib Info: flushing figure 1 on input line 4122
- [78] (./byrne-es-traduccion-primer-libro.aux)
+Module luamplib Info: flushing figure 1 on input line 4170
+Module luamplib Info: flushing figure 1 on input line 4170
+Module luamplib Info: flushing figure 1 on input line 4170
+Module luamplib Info: flushing figure 1 on input line 4176
+Module luamplib Info: flushing figure 1 on input line 4176
+Module luamplib Info: flushing figure 1 on input line 4176
+Module luamplib Info: flushing figure 1 on input line 4182
+Module luamplib Info: flushing figure 1 on input line 4182
+Module luamplib Info: flushing figure 1 on input line 4182
+Module luamplib Info: flushing figure 1 on input line 4188
+Module luamplib Info: flushing figure 1 on input line 4188
+Module luamplib Info: flushing figure 1 on input line 4188
+ [78]
+Module luamplib Info: flushing figure 1 on input line 4198
+Module luamplib Info: flushing figure 1 on input line 4198
+Module luamplib Info: flushing figure 1 on input line 4198
+Module luamplib Info: flushing figure 1 on input line 4204
+Module luamplib Info: flushing figure 1 on input line 4204
+Module luamplib Info: flushing figure 1 on input line 4204
+Module luamplib Info: flushing figure 1 on input line 4210
+Module luamplib Info: flushing figure 1 on input line 4210
+Module luamplib Info: flushing figure 1 on input line 4210
+Module luamplib Info: flushing figure 1 on input line 4216
+Module luamplib Info: flushing figure 1 on input line 4216
+Module luamplib Info: flushing figure 1 on input line 4216
+ [79] (./byrne-es-traduccion-primer-libro.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -9557,17 +9599,17 @@ t changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24354 strings out of 476076
+ 24369 strings out of 476076
  156792,1373583 words of node,token memory allocated
  25602 words of node memory still in use:
    489 hlist, 85 vlist, 2 rule, 6 disc, 31 local_par, 216 glue, 307 kern, 68 pen
 alty, 519 glyph, 1756 attribute, 64 glue_spec, 879 attribute_list, 3 write, 2539
  pdf_literal nodes
-   avail lists: 1:6,2:2405,3:7231,4:50,5:2273,6:240,7:3896,8:43,9:1011,10:21,11:
+   avail lists: 1:6,2:2417,3:7842,4:50,5:2273,6:240,7:3892,8:43,9:1011,10:21,11:
 310
- 46038 multiletter control sequences out of 65536+600000
+ 46052 multiletter control sequences out of 65536+600000
  93 fonts using 21449215 bytes
- 105i,14n,141p,2061b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,13n,141p,2061b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/ebgaramond/EBGaramond-Bold.otf
 >{c:/texlive/2026/texmf-dist/fonts/enc/dvips/ebgaramond-maths/oml-ebgaramond-1.e
 nc}<c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf><c:/
@@ -9584,11 +9626,11 @@ t/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type
 fonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
 pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on byrne-es-traduccion-primer-libro.pdf (80 pages, 394314 bytes).
+Output written on byrne-es-traduccion-primer-libro.pdf (81 pages, 406475 bytes).
 
 
-PDF statistics: 1241 PDF objects out of 1440 (max. 8388607)
- 1119 compressed objects within 12 object streams
- 320 named destinations out of 1000 (max. 1048576)
+PDF statistics: 1414 PDF objects out of 1440 (max. 8388607)
+ 1290 compressed objects within 13 object streams
+ 321 named destinations out of 1000 (max. 1048576)
  809 words of extra memory for PDF output out of 10000 (max. 100000000)
 
