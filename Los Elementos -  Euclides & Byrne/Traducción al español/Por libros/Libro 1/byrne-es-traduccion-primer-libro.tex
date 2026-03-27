@@ -1662,7 +1662,7 @@ draw byNamedLine (AD);
 draw byNamedCircle(A);
 draw byLabelLineEnd(D, A, 0);
 draw byLabelLineEnd(A, D, 0);
-} \byref{post:I.III},\\
+} \byref{post:I.III},\\[0.5em]
 entonces $\drawUnitLine{EF} = \drawUnitLine{AB}$. \newline
 
 Porque $\drawUnitLine{AD} = \drawUnitLine{AB}$ \byref{def:I.XV},\\
@@ -1802,7 +1802,7 @@ Supongamos que los lados no son iguales,\\ entonces \drawUnitLine{CA,CD} es mayo
 Luego para \drawLine[bottom]{BC,AB,CA} y \triangleABD,\\
 se tiene que $\drawUnitLine{CA} = \drawUnitLine{BD}$ \byref{\constref},\\
 $\drawAngle{A} = \drawAngle{B}$ \byref{\hypref} y \drawUnitLine{AB} común,\\
-$\therefore$ los triángulos son iguales \byref{prop:I.IV}\\
+$\therefore$ los triángulos son iguales \byref{prop:I.IV},\\
 es decir una parte es igual al todo, lo cual es una contradicción \byref{ax:I.IX};\\
 $\therefore$ ninguno de los lados \drawUnitLine{CA,CD} o \drawUnitLine{BD} es mayor que el otro, es decir, son iguales.
 \end{center}
@@ -1985,7 +1985,7 @@ draw byLabelsOnPolygon(B, A, C, D)(ALL_LABELS, 0);
 
 \begin{center}
 Construye \drawLine[bottom]{AB,CA,CD,DB} \byref{prop:I.I},\\
-traza \drawUnitLine{AD} tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}. \\
+traza \drawUnitLine{AD} tal que $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{prop:I.IX}. \\[0.5em]
 Entonces $\drawUnitLine{BD} = \drawUnitLine{DC}$ \byref{prop:I.IV}.\newline
 
 Porque $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\constref},\\ $\drawAngle{BAD} = \drawAngle{CAD}$ \byref{\constref}\\
@@ -2289,10 +2289,10 @@ entonces $\drawAngle{ACB} + \drawAngle{BCD} = \drawTwoRightAngles$.
 
 Como $\drawAngle{BCD} > \drawAngle{A}$ \byref{prop:I.XVI}
 
-$\therefore \drawAngle{ACB} + \drawAngle{A} < \drawTwoRightAngles$,
+$\therefore \drawAngle{ACB} + \drawAngle{A} < \drawTwoRightAngles$.
 \end{center}
 
-\noindent y de la misma manera se puede demostrar que la suma de cualquier otro par de ángulos del triángulo es menor que dos ángulos rectos.
+\noindent Con el mismo razonamiento se puede demostrar que la suma de cualquier otro par de ángulos del triángulo es menor que dos ángulos rectos.
 
 \qed
 
@@ -2896,14 +2896,14 @@ draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 
 \begin{center}
 En primer lugar, si $\drawAngle{GEA} = \drawAngle{CFG}$, \\ entonces $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV}, \\ 
-$\therefore \drawAngle{CFG} = \drawAngle{HEB}$ \\
+$\therefore \drawAngle{CFG} = \drawAngle{HEB}$ \\\[0.5em]
 $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}. \\[1em]
 
 En segundo lugar, si $\drawAngle{CFG} + \drawAngle{AEH} = \drawTwoRightAngles$,\\
 entonces $\drawAngle{AEH} + \drawAngle{HEB} = \drawTwoRightAngles$ \byref{prop:I.XIII},\\
 $\therefore \drawAngle{CFG} + \drawAngle{AEH} = \drawAngle{AEH} + \drawAngle{HEB}$ \byref{ax:I.III}
 
-$\therefore \drawAngle{CFG} = \drawAngle{HEB}$
+$\therefore \drawAngle{CFG} = \drawAngle{HEB}$ \\[0.5em]
 
 $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}.
 \end{center}
@@ -2948,14 +2948,15 @@ draw byLabelPoint(J, lineAngle.EJ + 90, 1);
 \begin{center}
 
 Supongamos que \drawAngle{IEA,HEI} \neq \drawAngle{GFD}, \\ 
-traza \drawUnitLine{IE} tal que $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.
+traza \drawUnitLine{IE} tal que $\drawAngle{HEI} = \drawAngle{GFD}$ \byref{prop:I.XXIII}.\\[0.5em]
 
-\therefore \drawUnitLine{IE,EJ} \parallel \drawUnitLine{CD} \byref{prop:I.XXVII}, es decir, dos lineas rectas que se intersectan son paralelas a la misma linea recta, lo cual es una contradicción \byref{ax:I.XII}. \\[1em]
+\therefore \drawUnitLine{IE,EJ} \parallel \drawUnitLine{CD} \byref{prop:I.XXVII},\\[0.5em]
+es decir, dos lineas rectas que se intersectan son paralelas a la misma linea recta, lo cual es una contradicción \byref{ax:I.XII}. \\[0.5em]
 
 Por lo tanto $\drawAngle{IEA,HEI} = \drawAngle{GFD}$, \\ 
  y como $\drawAngle{IEA,HEI} = \drawAngle{GEB}$ \byref{prop:I.XV}; \\
-$\therefore \drawAngle{GEB} = \drawAngle{GFD}$, \\ 
-el ángulo externo es igual al interno y opuesto en el mismo lado. \\ 
+$\therefore \drawAngle{GEB} = \drawAngle{GFD}$, \\[0.5em]
+el ángulo externo es igual al interno y opuesto en el mismo lado. \\[0.5em] 
 Suma \drawAngle{BEH} a la igualdad, \\ 
 entonces $\drawAngle{GFD} + \drawAngle{BEH} = \drawAngle{BEH,GEB} = \drawTwoRightAngles$ \byref{prop:I.XIII}. \\ 
 Es decir, los dos ángulos internos en el mismo lado de la línea que corta son iguales a dos ángulos rectos.
@@ -2996,11 +2997,11 @@ draw byLabelsOnPolygon(J, H, E)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 \problem{L}{ineas}{rectas (\drawUnitLine{AB} y \drawUnitLine{EF}) que son paralelas a la misma linea recta (\drawUnitLine{CD}), son paralelas entre si.}
 
 \begin{center}
-Sea \drawUnitLine{JK} tal que intersecta $\left\{\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}\nointerlineskip\hbox{\drawUnitLine{EF}}}\right\}$;
+Sea \drawUnitLine{JK} tal que intersecta $\left\{\vcenter{\nointerlineskip\hbox{\drawUnitLine{AB}}\nointerlineskip\hbox{\drawUnitLine{CD}}\nointerlineskip\hbox{\drawUnitLine{EF}}}\right\}$; \\[0.5em]
 
-Entonces, $\drawAngle{G} = \drawAngle{I} = \drawAngle{H}$ \byref{prop:I.XXIX},
+Entonces, $\drawAngle{G} = \drawAngle{I} = \drawAngle{H}$ \byref{prop:I.XXIX}, \\[0.5em]
 
-$\therefore \drawAngle{G} = \drawAngle{H}$
+$\therefore \drawAngle{G} = \drawAngle{H}$ \\[0.5em]
 
 $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{EF}$ \byref{prop:I.XXVIII}. % improvement: byrne references I.XXVII here, which is wrong https://github.com/jemmybutton/byrne-euclid/issues/27#issuecomment-507012558
 \end{center}
@@ -4094,10 +4095,10 @@ por lo tanto \drawAngle{BAC} es un ángulo recto.
 \end{minipage}\\[0.75cm]
 \noindent
 \begin{minipage}[t]{0.5\textwidth}
-\centering \hyperref[sec:intro]{\textbf{Introducción} (\pageref{sec:intro})}
+\centering \hyperref[sec:intro]{\textbf{Introducción} ... \pageref{sec:intro}}
 \end{minipage}%
 \begin{minipage}[t]{0.5\textwidth}
-\centering \hyperref[sec:elu]{\textbf{Elucidaciones} (\pageref{sec:elu})}
+\centering \hyperref[sec:elu]{\textbf{Elucidaciones} ... \pageref{sec:elu}}
 \end{minipage}
 
 \vfill
@@ -4117,10 +4118,10 @@ $\vcenter{\hbox{\scalebox{1}{\drawFromCurrentPicture{draw byNamedAngleWithDummyS
 \end{minipage}\\[0.75cm]
 \noindent
 \begin{minipage}[t]{0.5\textwidth}
-\centering \hyperref[sec:simb]{\textbf{Símbolos y abreviaturas} (\pageref{sec:simb})}
+\centering \hyperref[sec:simb]{\textbf{Símbolos y abreviaturas} ... \pageref{sec:simb}}
 \end{minipage}%
 \begin{minipage}[t]{0.5\textwidth}
-\centering \hyperref[sec:def]{\textbf{Definiciones} (\pageref{sec:def})}
+\centering \hyperref[sec:def]{\textbf{Definiciones} ... \pageref{sec:def}}
 \end{minipage}
 
 \vfill
@@ -4152,10 +4153,10 @@ $\vcenter{\hbox{\scalebox{1}{\drawFromCurrentPicture{
 \end{minipage}\\[0.75cm]
 \noindent
 \begin{minipage}[t]{0.5\textwidth}
-\centering \hyperref[sec:post]{\textbf{Postulados} (\pageref{sec:post})}
+\centering \hyperref[sec:post]{\textbf{Postulados} ... \pageref{sec:post}}
 \end{minipage}%
 \begin{minipage}[t]{0.5\textwidth}
-\centering \hyperref[sec:ax]{\textbf{Axiomas} (\pageref{sec:ax})}
+\centering \hyperref[sec:ax]{\textbf{Axiomas} ... \pageref{sec:ax}}
 \end{minipage}
 
 \vspace*{\fill}
@@ -4177,13 +4178,13 @@ $\vcenter{\hbox{\scalebox{1}{\drawFromCurrentPicture{
 \end{minipage}\\[0.5cm]
 \noindent
 \begin{minipage}[t]{0.33\textwidth}
-\centering \hyperref[prop:I.#1]{\textbf{Prop. #1}} (\pageref{prop:I.#1})
+\centering \hyperref[prop:I.#1]{\textbf{Prop. #1} ... \pageref{prop:I.#1}}
 \end{minipage}%
 \begin{minipage}[t]{0.33\textwidth}
-\centering \hyperref[prop:I.#3]{\textbf{Prop. #3}} (\pageref{prop:I.#3})
+\centering \hyperref[prop:I.#3]{\textbf{Prop. #3} ... \pageref{prop:I.#3}}
 \end{minipage}%
 \begin{minipage}[t]{0.33\textwidth}
-\centering \hyperref[prop:I.#5]{\textbf{Prop. #5}} (\pageref{prop:I.#5})
+\centering \hyperref[prop:I.#5]{\textbf{Prop. #5} ... \pageref{prop:I.#5}}
 \end{minipage}%
 }
 
