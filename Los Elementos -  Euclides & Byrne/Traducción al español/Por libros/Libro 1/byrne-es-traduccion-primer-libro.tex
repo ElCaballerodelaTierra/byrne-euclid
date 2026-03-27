@@ -1,4 +1,9 @@
-\documentclass[booklanguage=english]{byrnebook}
+% Edición original, sin letras en las figuras
+\documentclass[booklanguage=english]{byrnebook} 
+
+% Edición con letras en las figuras
+%\documentclass[booklanguage=english, letters]{byrnebook} 
+
 %\usepackage{lua-visual-debug}
 
 \def\bookString{Libro}
@@ -160,6 +165,7 @@ Para comprender mejor este método y las ventajas que ofrece, consideremos un tr
 \pagebreak
 
 \defineNewPicture{
+	textLabels := false;
 	pair A, B, C;
 	B := (0, 0);
 	A := B shifted (dir(-145)*3u);
@@ -326,6 +332,7 @@ Cuando consideramos un cuerpo sólido (PQ), percibimos de inmediato que tiene tr
 La proposición que hemos seleccionado para elucidar la manera en que se aplican los principios, es la quinta del primer libro.
 
 \defineNewPicture[1/4]{
+textLabels := false;
 angleScale := 5/6;
 pair A, B, C, D, E;
 A := (0, 0);
@@ -365,6 +372,7 @@ Prolonga \drawUnitLine{AB} y \drawUnitLine{AC},\\
 tal que $\drawUnitLine{BD} = \drawUnitLine{CE}$, traza \drawUnitLine{BE} y \drawUnitLine{CD}.\\
 Para
 \drawFromCurrentPicture{
+textLabels := false;
 draw byNamedAngle(BAC);
 startAutoLabeling;
 draw byNamedLineSeq(0)(BE,CE,AC,AB);
@@ -372,6 +380,7 @@ stopAutoLabeling;
 }
 y
 \drawFromCurrentPicture{
+textLabels := false;
 draw byNamedAngle(BAC);
 startAutoLabeling;
 draw byNamedLineSeq(0)(BD,CD,AC,AB);
@@ -839,6 +848,7 @@ Un \emph{triángulo} es una figura rectilínea contenida por tres lados.
 \end{center}
 
 \defineNewPicture{
+	textLabels := false;
 	pair A, B, C, D;
 	A := (0, 0);
 	B := (u, 1/2u);
@@ -1762,7 +1772,7 @@ draw byNamedLineSeq(0)(BD,CD,AC,AB);
 stopAutoLabeling;
 }\\
 se tiene $\drawUnitLine{AB,BD} = \drawUnitLine{AC,CE}$ \byref{\constref},\\
-\drawAngle{BAC} comunes a ambos,\\
+\drawAngle{BAC} comunes a ambos,\\[0.5em]
 y $\drawUnitLine{AB} = \drawUnitLine{AC}$ \byref{\hypref}\\
 $\therefore \drawAngle{BCA,DCB} = \drawAngle{ABC,CBE}$, $\drawUnitLine{BE} = \drawUnitLine{CD}$ y $\drawAngle{CEB} = \drawAngle{BDC}$ \byref{prop:I.IV}.
 
@@ -2896,7 +2906,7 @@ draw byLabelsOnPolygon(H, F, C)(OMIT_FIRST_LABEL+OMIT_LAST_LABEL, 0);
 
 \begin{center}
 En primer lugar, si $\drawAngle{GEA} = \drawAngle{CFG}$, \\ entonces $\drawAngle{GEA} = \drawAngle{HEB}$ \byref{prop:I.XV}, \\ 
-$\therefore \drawAngle{CFG} = \drawAngle{HEB}$ \\\[0.5em]
+$\therefore \drawAngle{CFG} = \drawAngle{HEB}$ \\[0.5em]
 $\therefore \drawUnitLine{AB} \parallel \drawUnitLine{CD}$ \byref{prop:I.XXVII}. \\[1em]
 
 En segundo lugar, si $\drawAngle{CFG} + \drawAngle{AEH} = \drawTwoRightAngles$,\\

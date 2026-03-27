@@ -1,4 +1,4 @@
-﻿\documentclass[booklanguage=english]{byrnebook}
+\documentclass[booklanguage=english]{byrnebook}
 %\usepackage{lua-visual-debug}
 
 \begin{document}
@@ -150,6 +150,7 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 \pagebreak
 
 \defineNewPicture{
+	textLabels := false;
 	pair A, B, C;
 	B := (0, 0);
 	A := B shifted (dir(-145)*3u);
@@ -192,12 +193,12 @@ Para dar una mejor idea de este sistema y de las ventajas que se obtienen con su
 \vskip 0.5\baselineskip
 
 \begin{enumerate}
-\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\ Es decir, el ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo, igual a dos ángulos rectos.
-\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\ O en otras palabras, el ángulo rojo sumado al ángulo azul, es igual al ángulo amarillo.
-\item $\drawAngle{B} > \drawAngle{A} \mbox{ or } > \drawAngle{C}$. \\ El ángulo amarillo es mayor que cualquiera de los ángulos rojo o azul.
-\item $\drawAngle{A} \mbox{ or } \drawAngle{C} < \drawAngle{B}$. \\ El ángulo rojo o azul es menor que el ángulo amarillo.
-\item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\ En otros términos, el ángulo amarillo menos el ángulo azul es igual al ángulo rojo.
-\item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\ Es decir, el cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.
+\item $\drawAngle{A} + \drawAngle{B} + \drawAngle{C} = 2 \drawAngle{B} = \drawTwoRightAngles$. \\ El ángulo rojo sumado al ángulo amarillo sumado al ángulo azul, es igual al doble del ángulo amarillo, igual a dos ángulos rectos.\\[0.12em]
+\item $\drawAngle{A} + \drawAngle{C} = \drawAngle{B}$. \\  El ángulo rojo sumado al ángulo azul es igual al ángulo amarillo.\\[0.12em]
+\item $\drawAngle{B} > \drawAngle{A} \mbox{ or } > \drawAngle{C}$. \\ El ángulo amarillo es mayor que el ángulo rojo o que el ángulo azul.\\[0.12em]
+\item $\drawAngle{A} \mbox{ or } \drawAngle{C} < \drawAngle{B}$. \\ El ángulo rojo o el ángulo azul es menor que el ángulo amarillo.\\[0.12em]
+\item $\drawAngle{B} - \drawAngle{C} = \drawAngle{A}$. \\ El ángulo amarillo menos el ángulo azul es igual al ángulo rojo.\\[0.12em]
+\item $\drawUnitLine{CA}^2 = \drawUnitLine{AB}^2 + \drawUnitLine{BC}^2$. \\ El cuadrado de la línea amarilla es igual a la suma de los cuadrados de las líneas azul y roja.
 \end{enumerate}
 
 En las demostraciones orales obtenemos con los colores esta importante ventaja: el ojo y el oído pueden ser atendidos al mismo tiempo, por lo que para enseñar geometría y otras artes y ciencias lineales en clases, el sistema es el mejor que se ha propuesto jamás, esto es evidente por los ejemplos dados.

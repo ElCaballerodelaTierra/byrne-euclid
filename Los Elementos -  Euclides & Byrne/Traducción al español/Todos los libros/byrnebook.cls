@@ -170,13 +170,18 @@
 }		
 
 % This thing removes space between an initial and the letter after it, if no space is needed
+\newdimen\LettrinePadding
+\LettrinePadding=4mm
+
+% ... skipping unchanged lines to formatting.dedent ...
+
 \directlua{
    formatting = formatting or {}
    function formatting.dedent (str)
     if string.sub(str, 0, 1) ==  " " then
       tex.print(str)
     else
-      tex.print("\\,\\hskip -\\LettrinePadding\\hskip 2pt" .. str)
+      tex.print("\\,\\hskip -0.5\\LettrinePadding\\hskip 2pt" .. str)
     end
   end
 }
